@@ -1,0 +1,1776 @@
+11:48:29.887 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:48:29.903 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+11:48:31.787 [pool-3-thread-1] ERROR c.intuit.karate.core.FeatureRuntime - classpath:drivetecTestCases/features/driveteclogin.feature[1:81] dynamic expression evaluation failed: read('classpath:conduitApp/feature/configurations.csv')
+11:48:32.038 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+11:48:32.038 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+11:48:32.483 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:48:32.483 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/user
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+11:48:32.677 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 2 (1 remaining) classpath:drivetecTestCases/features/driveteclogin.feature
+11:48:32.789 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 306
+1 < 200
+1 < Date: Tue, 29 Oct 2024 06:18:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1729747950&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=cpaDRBeDaVVWNp6i8Y7%2FwcFVVjGMCSk43TWcRE1HNX8%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1729747950&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=cpaDRBeDaVVWNp6i8Y7%2FwcFVVjGMCSk43TWcRE1HNX8%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1729747997
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 4175
+1 < Server: cloudflare
+1 < CF-RAY: 8da10c7bea5b2e97-HYD
+1 < alt-svc: h3=":443"; ma=86400
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=2307&sent=5&recv=8&lost=0&retrans=0&sent_bytes=3115&recv_bytes=790&delivery_rate=1473755&cwnd=252&unsent_bytes=0&cid=4d9a652fda3bae07&ts=68&x=0"
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+11:48:32.805 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+2 > Accept-Encoding: gzip,deflate
+
+
+11:48:32.852 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 32
+2 < 200
+2 < Date: Tue, 29 Oct 2024 06:18:31 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1730178978&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=zPlti9cwISbIKRLF1zBm6BKQ05wtcsCu4NaWGs9X3HE%3D"}]}
+2 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1730178978&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=zPlti9cwISbIKRLF1zBm6BKQ05wtcsCu4NaWGs9X3HE%3D
+2 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 998
+2 < X-Ratelimit-Reset: 1730179020
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 3732
+2 < Server: cloudflare
+2 < CF-RAY: 8da10c7c6f3e2e84-HYD
+2 < alt-svc: h3=":443"; ma=86400
+2 < server-timing: cfL4;desc="?proto=TCP&rtt=10062&sent=3&recv=6&lost=0&retrans=0&sent_bytes=219&recv_bytes=1047&delivery_rate=326914&cwnd=250&unsent_bytes=0&cid=4bdf2806fc452e0d&ts=17&x=0"
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+11:48:33.513 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1030
+1 < 404
+1 < Date: Tue, 29 Oct 2024 06:18:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1730182712&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=uPBNf%2FnMihRJLKYRCooxXMT0t1nXUpr9QRinCnaYqXY%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1730182712&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=uPBNf%2FnMihRJLKYRCooxXMT0t1nXUpr9QRinCnaYqXY%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1730182730
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Via: 1.1 vegur
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 8da10c7beee02e8b-HYD
+1 < alt-svc: h3=":443"; ma=86400
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=2338&sent=6&recv=9&lost=0&retrans=0&sent_bytes=3116&recv_bytes=1018&delivery_rate=1558164&cwnd=252&unsent_bytes=0&cid=c197376904ff9273&ts=793&x=0"
+{}
+
+11:48:33.529 [pool-2-thread-3] ERROR com.intuit.karate - classpath:drivetecTestCases/features/users.feature:37
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 1030, url: https://jsonplaceholder.typicode.com/user, response: 
+{}
+classpath:drivetecTestCases/features/users.feature:37
+11:48:33.764 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:drivetecTestCases/features/users.feature
+11:52:01.800 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:52:01.809 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1730182921804
+11:52:01.816 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+11:52:03.009 [pool-3-thread-1] ERROR c.intuit.karate.core.FeatureRuntime - classpath:drivetecTestCases/features/driveteclogin.feature[1:81] dynamic expression evaluation failed: read('classpath:conduitApp/feature/configurations.csv')
+11:52:03.106 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+11:52:03.106 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+11:52:03.596 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:52:03.596 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/user
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+11:52:03.770 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 2 (1 remaining) classpath:drivetecTestCases/features/driveteclogin.feature
+11:52:03.890 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 291
+1 < 200
+1 < Date: Tue, 29 Oct 2024 06:22:02 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1729747950&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=cpaDRBeDaVVWNp6i8Y7%2FwcFVVjGMCSk43TWcRE1HNX8%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1729747950&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=cpaDRBeDaVVWNp6i8Y7%2FwcFVVjGMCSk43TWcRE1HNX8%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1729747997
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 4386
+1 < Server: cloudflare
+1 < CF-RAY: 8da111a329912e91-HYD
+1 < alt-svc: h3=":443"; ma=86400
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=7316&sent=5&recv=8&lost=0&retrans=0&sent_bytes=3115&recv_bytes=790&delivery_rate=331516&cwnd=252&unsent_bytes=0&cid=b78446373d8407dd&ts=86&x=0"
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+11:52:03.904 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+2 > Accept-Encoding: gzip,deflate
+
+
+11:52:03.935 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 31
+2 < 200
+2 < Date: Tue, 29 Oct 2024 06:22:02 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1730178978&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=zPlti9cwISbIKRLF1zBm6BKQ05wtcsCu4NaWGs9X3HE%3D"}]}
+2 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1730178978&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=zPlti9cwISbIKRLF1zBm6BKQ05wtcsCu4NaWGs9X3HE%3D
+2 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 998
+2 < X-Ratelimit-Reset: 1730179020
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 3943
+2 < Server: cloudflare
+2 < CF-RAY: 8da111a3a8432e99-HYD
+2 < alt-svc: h3=":443"; ma=86400
+2 < server-timing: cfL4;desc="?proto=TCP&rtt=2672&sent=3&recv=6&lost=0&retrans=0&sent_bytes=219&recv_bytes=1047&delivery_rate=319964&cwnd=250&unsent_bytes=0&cid=e4ebc2ff4a923584&ts=20&x=0"
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+11:52:04.650 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1053
+1 < 404
+1 < Date: Tue, 29 Oct 2024 06:22:03 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1730182923&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=4erQ8TtqYpQ6Jp25bGgDTWjjx0soPbOFrsyArYwFrrQ%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1730182923&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=4erQ8TtqYpQ6Jp25bGgDTWjjx0soPbOFrsyArYwFrrQ%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1730182970
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Via: 1.1 vegur
+1 < cf-cache-status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 8da111a32cd72e9c-HYD
+1 < alt-svc: h3=":443"; ma=86400
+1 < server-timing: cfL4;desc="?proto=TCP&rtt=4984&sent=6&recv=8&lost=0&retrans=0&sent_bytes=3115&recv_bytes=1018&delivery_rate=494133&cwnd=252&unsent_bytes=0&cid=6cd7a5529205a17f&ts=861&x=0"
+{}
+
+11:52:04.654 [pool-2-thread-3] ERROR com.intuit.karate - classpath:drivetecTestCases/features/users.feature:37
+Then status 201
+status code was: 404, expected: 201, response time in milliseconds: 1053, url: https://jsonplaceholder.typicode.com/user, response: 
+{}
+classpath:drivetecTestCases/features/users.feature:37
+11:52:04.892 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:drivetecTestCases/features/users.feature
+11:52:42.554 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @drivetec
+11:52:43.260 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:52:43.260 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1730182963260
+11:52:43.276 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+11:52:44.565 [pool-3-thread-1] ERROR c.intuit.karate.core.FeatureRuntime - classpath:drivetecTestCases/features/driveteclogin.feature[1:81] dynamic expression evaluation failed: read('classpath:conduitApp/feature/configurations.csv')
+11:52:45.350 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 2 (1 remaining) classpath:drivetecTestCases/features/driveteclogin.feature
+11:53:22.810 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @drivetec
+11:53:23.469 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:53:23.469 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1730183003469
+11:53:23.485 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+11:53:25.102 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+11:53:25.102 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+11:53:25.102 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+11:53:25.102 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+11:53:25.391 [pool-2-thread-4] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:13
+And request
+"""
+{
+"Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+"Name": "asdefgh",
+"Description": "",
+"ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+"CustomTags": "",
+"CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+"ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+"System": "",
+"FacadeInclination": 0,
+"OpeningType": ,
+"OpeningDirection": ,
+"OpeningWidth": ,
+"VentOuterWidth": ,
+"VentOuterHeight": ,
+"VentWeight": ,
+"CalculateWeightWithGlass": #(!CalculateWeightWithGlass),
+"RequiredOpeningStroke": ,
+"WindLoad": ,
+"SnowLoad": ,
+"IsWindowOpeningCalculationByAngle": ,
+"GlassThickness": ,
+"ProfileWeightPerSerialMeter": ,
+"DrivePosition": ,
+"InstallationPosition": ,
+"LockingMechanism": ,
+"Voltage": ,
+"DriveType": ,
+"TypeOfInstallation": ,
+"GeometricArea": ,
+"CalcVentilation": ,
+"SpecificExhaustDimension": ,
+"BuildingDepth": ,
+"CalculationTypeForVentilation": ,
+"HeightOfProfile": ,
+"HeightProfileRectangleAngle1": ,
+"HeightProfileRectangleAngle2": ,
+"RevealDepth": ,
+"RevealDepthRectangleAngle1": ,
+"RevealDepthRectangleAngle2": ,
+"ChainLengthConnectingRodHandle": ,
+"ApplicationName": ,
+"OpeningAngle": ,
+"WeightIncGlassOrThickness": #(!WeightIncGlassOrThickness),
+"AkippOrAtilt": ,
+"AdrehOrAturn": ,
+"Ageo": ,
+"MinPullingForceMax": ,
+"MinPushingForceMax": ,
+"MinPullingForcePermanent": ,
+"MinPushingForcePermanent": ,
+"ForceWithNegativeWind": 
+    }
+"""
+net.minidev.json.parser.ParseException: Unexpected character (}) at position 1353.
+classpath:drivetecTestCases/features/driveteclogin.feature:13
+11:53:25.543 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1269
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":3,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1000,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":501,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":2,"HeightOfProfile":30,"HeightProfileRectangleAngle1":150,"HeightProfileRectangleAngle2":2,"RevealDepth":200,"RevealDepthRectangleAngle1":150,"RevealDepthRectangleAngle2":1000,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":15,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+11:53:25.543 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1268
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":3,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1420,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":500,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":1,"HeightOfProfile":30,"HeightProfileRectangleAngle1":35,"HeightProfileRectangleAngle2":2,"RevealDepth":200,"RevealDepthRectangleAngle1":150,"RevealDepthRectangleAngle2":1000,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":15,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+11:53:25.543 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1268
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":1,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1000,"VentOuterHeight":1500,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":747,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":2,"HeightOfProfile":30,"HeightProfileRectangleAngle1":35,"HeightProfileRectangleAngle2":2,"RevealDepth":200,"RevealDepthRectangleAngle1":150,"RevealDepthRectangleAngle2":1000,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":15,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+11:53:28.395 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 2835
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 29 Oct 2024 06:23:27 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < transfer-encoding: chunked
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 1,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1000,
+  "VentOuterHeight": 1500,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 65,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 747,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 28.83669047331989,
+  "SpecificExhaustDimension": 45,
+  "BuildingDepth": 90,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 30,
+  "Reveal": 0,
+  "RevealDepth": 200,
+  "HeightProfileRectangleAngle1": 35,
+  "HeightProfileRectangleAngle2": 2,
+  "RevealDepthRectangleAngle1": 150,
+  "RevealDepthRectangleAngle2": 1000,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.8675,
+  "AdrehOrAturn": 1.5,
+  "Ageo": 0.5438978083248298,
+  "MinPullingForceMax": -89.74113674675097,
+  "MinPushingForceMax": -232.98788788660553,
+  "MinPullingForcePermanent": -161.6158620731247,
+  "MinPushingForcePermanent": -161.6158620731247,
+  "ForceWithNegativeWind": 90.2587491087276,
+  "ForceWithNoWindMin": 0.2588061809883106,
+  "ForceWithNegativeWindMin": -90.24383625964387,
+  "ForceWithWindMin": -89.74113674675097,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-10-29T06:23:25.8982556+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+11:53:28.395 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 2850
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 29 Oct 2024 06:23:27 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 1983
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 3,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 501,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1000,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 64,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 47.15635695640367,
+  "SpecificExhaustDimension": 45,
+  "BuildingDepth": 90,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 30,
+  "Reveal": 0,
+  "RevealDepth": 200,
+  "HeightProfileRectangleAngle1": 150,
+  "HeightProfileRectangleAngle2": 2,
+  "RevealDepthRectangleAngle1": 150,
+  "RevealDepthRectangleAngle2": 1000,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.984,
+  "AdrehOrAturn": 1.48,
+  "Ageo": 0.7942191702443816,
+  "MinPullingForceMax": -187.36688625482324,
+  "MinPushingForceMax": -370.74003096317693,
+  "MinPullingForcePermanent": 0,
+  "MinPushingForcePermanent": 0,
+  "ForceWithNegativeWind": 370.74003096317693,
+  "ForceWithNoWindMin": 0,
+  "ForceWithNegativeWindMin": 187.36688625482324,
+  "ForceWithWindMin": -187.36688625482324,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-10-29T06:23:26.4370602+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+11:53:28.395 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 2835
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 29 Oct 2024 06:23:27 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < transfer-encoding: chunked
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 3,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 500,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1420,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 74,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 37.955778805488166,
+  "SpecificExhaustDimension": 45,
+  "BuildingDepth": 90,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 30,
+  "Reveal": 0,
+  "RevealDepth": 200,
+  "HeightProfileRectangleAngle1": 35,
+  "HeightProfileRectangleAngle2": 2,
+  "RevealDepthRectangleAngle1": 150,
+  "RevealDepthRectangleAngle2": 1000,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 2.12,
+  "AdrehOrAturn": 1.7466,
+  "Ageo": 1.7466,
+  "MinPullingForceMax": -287.4302397499305,
+  "MinPushingForceMax": -436.65003595573467,
+  "MinPullingForcePermanent": 0,
+  "MinPushingForcePermanent": 0,
+  "ForceWithNegativeWind": 436.65003595573467,
+  "ForceWithNoWindMin": 0,
+  "ForceWithNegativeWindMin": 287.4302397499305,
+  "ForceWithWindMin": -287.4302397499305,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-10-29T06:23:25.8578297+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+11:53:28.499 [pool-2-thread-2] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:74
+And match response.VentWeight == 77
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  64
+  77
+
+classpath:drivetecTestCases/features/driveteclogin.feature:74
+11:53:28.499 [pool-2-thread-1] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:75
+And match response.OpeningAngle == 29
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  28.83669047331989
+  29
+
+classpath:drivetecTestCases/features/driveteclogin.feature:75
+11:53:28.499 [pool-2-thread-3] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:74
+And match response.VentWeight == 77
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  74
+  77
+
+classpath:drivetecTestCases/features/driveteclogin.feature:74
+11:53:29.378 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 2 (1 remaining) classpath:drivetecTestCases/features/driveteclogin.feature
+12:29:57.336 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @drivetec
+12:29:57.933 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:29:57.948 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1730185197933
+12:29:57.948 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+12:29:59.106 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+12:29:59.105 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+12:29:59.105 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+12:29:59.105 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+12:29:59.360 [pool-2-thread-4] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:13
+And request
+"""
+{
+"Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+"Name": "asdefgh",
+"Description": "",
+"ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+"CustomTags": "",
+"CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+"ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+"System": "",
+"FacadeInclination": 0,
+"OpeningType": ,
+"OpeningDirection": ,
+"OpeningWidth": ,
+"VentOuterWidth": ,
+"VentOuterHeight": ,
+"VentWeight": ,
+"CalculateWeightWithGlass": #(!CalculateWeightWithGlass),
+"RequiredOpeningStroke": ,
+"WindLoad": ,
+"SnowLoad": ,
+"IsWindowOpeningCalculationByAngle": ,
+"GlassThickness": ,
+"ProfileWeightPerSerialMeter": ,
+"DrivePosition": ,
+"InstallationPosition": ,
+"LockingMechanism": ,
+"Voltage": ,
+"DriveType": ,
+"TypeOfInstallation": ,
+"GeometricArea": ,
+"CalcVentilation": ,
+"SpecificExhaustDimension": ,
+"BuildingDepth": ,
+"CalculationTypeForVentilation": ,
+"HeightOfProfile": ,
+"HeightProfileRectangleAngle1": ,
+"HeightProfileRectangleAngle2": ,
+"RevealDepth": ,
+"RevealDepthRectangleAngle1": ,
+"RevealDepthRectangleAngle2": ,
+"ChainLengthConnectingRodHandle": ,
+"ApplicationName": ,
+"OpeningAngle": ,
+"WeightIncGlassOrThickness": #(!WeightIncGlassOrThickness),
+"AkippOrAtilt": ,
+"AdrehOrAturn": ,
+"Ageo": ,
+"MinPullingForceMax": ,
+"MinPushingForceMax": ,
+"MinPullingForcePermanent": ,
+"MinPushingForcePermanent": ,
+"ForceWithNegativeWind": 
+    }
+"""
+net.minidev.json.parser.ParseException: Unexpected character (}) at position 1353.
+classpath:drivetecTestCases/features/driveteclogin.feature:13
+12:29:59.490 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1268
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":1,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1000,"VentOuterHeight":1500,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":747,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":2,"HeightOfProfile":30,"HeightProfileRectangleAngle1":35,"HeightProfileRectangleAngle2":2,"RevealDepth":200,"RevealDepthRectangleAngle1":150,"RevealDepthRectangleAngle2":1000,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":15,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+12:29:59.490 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1268
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":3,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1420,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":500,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":1,"HeightOfProfile":30,"HeightProfileRectangleAngle1":35,"HeightProfileRectangleAngle2":2,"RevealDepth":200,"RevealDepthRectangleAngle1":150,"RevealDepthRectangleAngle2":1000,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":15,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+12:29:59.491 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1269
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":3,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1000,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":501,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":2,"HeightOfProfile":30,"HeightProfileRectangleAngle1":150,"HeightProfileRectangleAngle2":2,"RevealDepth":200,"RevealDepthRectangleAngle1":150,"RevealDepthRectangleAngle2":1000,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":15,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+12:30:00.540 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1036
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 29 Oct 2024 06:59:59 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2029
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 1,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1000,
+  "VentOuterHeight": 1500,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 65,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 747,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 28.83669047331989,
+  "SpecificExhaustDimension": 45,
+  "BuildingDepth": 90,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 30,
+  "Reveal": 0,
+  "RevealDepth": 200,
+  "HeightProfileRectangleAngle1": 35,
+  "HeightProfileRectangleAngle2": 2,
+  "RevealDepthRectangleAngle1": 150,
+  "RevealDepthRectangleAngle2": 1000,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.8675,
+  "AdrehOrAturn": 1.5,
+  "Ageo": 0.5438978083248298,
+  "MinPullingForceMax": -89.74113674675097,
+  "MinPushingForceMax": -232.98788788660553,
+  "MinPullingForcePermanent": -161.6158620731247,
+  "MinPushingForcePermanent": -161.6158620731247,
+  "ForceWithNegativeWind": 90.2587491087276,
+  "ForceWithNoWindMin": 0.2588061809883106,
+  "ForceWithNegativeWindMin": -90.24383625964387,
+  "ForceWithWindMin": -89.74113674675097,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-10-29T06:59:59.2848151+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+12:30:00.540 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1035
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 29 Oct 2024 06:59:59 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 1969
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 3,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 500,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1420,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 74,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 37.955778805488166,
+  "SpecificExhaustDimension": 45,
+  "BuildingDepth": 90,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 30,
+  "Reveal": 0,
+  "RevealDepth": 200,
+  "HeightProfileRectangleAngle1": 35,
+  "HeightProfileRectangleAngle2": 2,
+  "RevealDepthRectangleAngle1": 150,
+  "RevealDepthRectangleAngle2": 1000,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 2.12,
+  "AdrehOrAturn": 1.7466,
+  "Ageo": 1.7466,
+  "MinPullingForceMax": -287.4302397499305,
+  "MinPushingForceMax": -436.65003595573467,
+  "MinPullingForcePermanent": 0,
+  "MinPushingForcePermanent": 0,
+  "ForceWithNegativeWind": 436.65003595573467,
+  "ForceWithNoWindMin": 0,
+  "ForceWithNegativeWindMin": 287.4302397499305,
+  "ForceWithWindMin": -287.4302397499305,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-10-29T06:59:59.2964063+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+12:30:00.540 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1035
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 29 Oct 2024 06:59:59 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 1983
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 3,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 501,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1000,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 64,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 47.15635695640367,
+  "SpecificExhaustDimension": 45,
+  "BuildingDepth": 90,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 30,
+  "Reveal": 0,
+  "RevealDepth": 200,
+  "HeightProfileRectangleAngle1": 150,
+  "HeightProfileRectangleAngle2": 2,
+  "RevealDepthRectangleAngle1": 150,
+  "RevealDepthRectangleAngle2": 1000,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.984,
+  "AdrehOrAturn": 1.48,
+  "Ageo": 0.7942191702443816,
+  "MinPullingForceMax": -187.36688625482324,
+  "MinPushingForceMax": -370.74003096317693,
+  "MinPullingForcePermanent": 0,
+  "MinPushingForcePermanent": 0,
+  "ForceWithNegativeWind": 370.74003096317693,
+  "ForceWithNoWindMin": 0,
+  "ForceWithNegativeWindMin": 187.36688625482324,
+  "ForceWithWindMin": -187.36688625482324,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-10-29T06:59:59.2742777+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+12:30:00.595 [pool-2-thread-3] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:74
+And match response.VentWeight == 77
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  74
+  77
+
+classpath:drivetecTestCases/features/driveteclogin.feature:74
+12:30:00.595 [pool-2-thread-2] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:74
+And match response.VentWeight == 77
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  64
+  77
+
+classpath:drivetecTestCases/features/driveteclogin.feature:74
+12:30:00.595 [pool-2-thread-1] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:75
+And match response.OpeningAngle == 29
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  28.83669047331989
+  29
+
+classpath:drivetecTestCases/features/driveteclogin.feature:75
+12:30:01.238 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 2 (1 remaining) classpath:drivetecTestCases/features/driveteclogin.feature
+12:39:37.615 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @drivetec
+12:39:38.262 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:39:38.266 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1730185778263
+12:39:38.270 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+12:39:39.550 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:39:39.885 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1268
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":1,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1000,"VentOuterHeight":1500,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":747,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":2,"HeightOfProfile":30,"HeightProfileRectangleAngle1":35,"HeightProfileRectangleAngle2":2,"RevealDepth":200,"RevealDepthRectangleAngle1":150,"RevealDepthRectangleAngle2":1000,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":15,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+12:39:40.827 [main] DEBUG com.intuit.karate - response time in milliseconds: 937
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 29 Oct 2024 07:09:39 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2029
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 1,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1000,
+  "VentOuterHeight": 1500,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 65,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 747,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 28.83669047331989,
+  "SpecificExhaustDimension": 45,
+  "BuildingDepth": 90,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 30,
+  "Reveal": 0,
+  "RevealDepth": 200,
+  "HeightProfileRectangleAngle1": 35,
+  "HeightProfileRectangleAngle2": 2,
+  "RevealDepthRectangleAngle1": 150,
+  "RevealDepthRectangleAngle2": 1000,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.8675,
+  "AdrehOrAturn": 1.5,
+  "Ageo": 0.5438978083248298,
+  "MinPullingForceMax": -89.74113674675097,
+  "MinPushingForceMax": -232.98788788660553,
+  "MinPullingForcePermanent": -161.6158620731247,
+  "MinPushingForcePermanent": -161.6158620731247,
+  "ForceWithNegativeWind": 90.2587491087276,
+  "ForceWithNoWindMin": 0.2588061809883106,
+  "ForceWithNegativeWindMin": -90.24383625964387,
+  "ForceWithWindMin": -89.74113674675097,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-10-29T07:09:39.6118238+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+12:39:40.875 [main] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:75
+And match response.OpeningAngle == 29
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  28.83669047331989
+  29
+
+classpath:drivetecTestCases/features/driveteclogin.feature:75
+12:39:40.889 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:39:40.893 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1269
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":3,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1000,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":501,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":2,"HeightOfProfile":30,"HeightProfileRectangleAngle1":150,"HeightProfileRectangleAngle2":2,"RevealDepth":200,"RevealDepthRectangleAngle1":150,"RevealDepthRectangleAngle2":1000,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":15,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+12:39:41.575 [main] DEBUG com.intuit.karate - response time in milliseconds: 680
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 29 Oct 2024 07:09:39 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < transfer-encoding: chunked
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 3,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 501,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1000,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 64,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 47.15635695640367,
+  "SpecificExhaustDimension": 45,
+  "BuildingDepth": 90,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 30,
+  "Reveal": 0,
+  "RevealDepth": 200,
+  "HeightProfileRectangleAngle1": 150,
+  "HeightProfileRectangleAngle2": 2,
+  "RevealDepthRectangleAngle1": 150,
+  "RevealDepthRectangleAngle2": 1000,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.984,
+  "AdrehOrAturn": 1.48,
+  "Ageo": 0.7942191702443816,
+  "MinPullingForceMax": -187.36688625482324,
+  "MinPushingForceMax": -370.74003096317693,
+  "MinPullingForcePermanent": 0,
+  "MinPushingForcePermanent": 0,
+  "ForceWithNegativeWind": 370.74003096317693,
+  "ForceWithNoWindMin": 0,
+  "ForceWithNegativeWindMin": 187.36688625482324,
+  "ForceWithWindMin": -187.36688625482324,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-10-29T07:09:40.380365+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+12:39:41.582 [main] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:74
+And match response.VentWeight == 77
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  64
+  77
+
+classpath:drivetecTestCases/features/driveteclogin.feature:74
+12:39:41.593 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:39:41.598 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1268
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":3,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1420,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":500,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":1,"HeightOfProfile":30,"HeightProfileRectangleAngle1":35,"HeightProfileRectangleAngle2":2,"RevealDepth":200,"RevealDepthRectangleAngle1":150,"RevealDepthRectangleAngle2":1000,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":15,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+12:39:42.265 [main] DEBUG com.intuit.karate - response time in milliseconds: 666
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Tue, 29 Oct 2024 07:09:41 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 1969
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 3,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 500,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1420,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 74,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 37.955778805488166,
+  "SpecificExhaustDimension": 45,
+  "BuildingDepth": 90,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 30,
+  "Reveal": 0,
+  "RevealDepth": 200,
+  "HeightProfileRectangleAngle1": 35,
+  "HeightProfileRectangleAngle2": 2,
+  "RevealDepthRectangleAngle1": 150,
+  "RevealDepthRectangleAngle2": 1000,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 2.12,
+  "AdrehOrAturn": 1.7466,
+  "Ageo": 1.7466,
+  "MinPullingForceMax": -287.4302397499305,
+  "MinPushingForceMax": -436.65003595573467,
+  "MinPullingForcePermanent": 0,
+  "MinPushingForcePermanent": 0,
+  "ForceWithNegativeWind": 436.65003595573467,
+  "ForceWithNoWindMin": 0,
+  "ForceWithNegativeWindMin": 287.4302397499305,
+  "ForceWithWindMin": -287.4302397499305,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-10-29T07:09:41.0753177+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+12:39:42.269 [main] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:74
+And match response.VentWeight == 77
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  74
+  77
+
+classpath:drivetecTestCases/features/driveteclogin.feature:74
+12:39:42.283 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:39:42.289 [main] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:13
+And request
+"""
+{
+"Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+"Name": "asdefgh",
+"Description": "",
+"ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+"CustomTags": "",
+"CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+"ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+"System": "",
+"FacadeInclination": 0,
+"OpeningType": ,
+"OpeningDirection": ,
+"OpeningWidth": ,
+"VentOuterWidth": ,
+"VentOuterHeight": ,
+"VentWeight": ,
+"CalculateWeightWithGlass": #(!CalculateWeightWithGlass),
+"RequiredOpeningStroke": ,
+"WindLoad": ,
+"SnowLoad": ,
+"IsWindowOpeningCalculationByAngle": ,
+"GlassThickness": ,
+"ProfileWeightPerSerialMeter": ,
+"DrivePosition": ,
+"InstallationPosition": ,
+"LockingMechanism": ,
+"Voltage": ,
+"DriveType": ,
+"TypeOfInstallation": ,
+"GeometricArea": ,
+"CalcVentilation": ,
+"SpecificExhaustDimension": ,
+"BuildingDepth": ,
+"CalculationTypeForVentilation": ,
+"HeightOfProfile": ,
+"HeightProfileRectangleAngle1": ,
+"HeightProfileRectangleAngle2": ,
+"RevealDepth": ,
+"RevealDepthRectangleAngle1": ,
+"RevealDepthRectangleAngle2": ,
+"ChainLengthConnectingRodHandle": ,
+"ApplicationName": ,
+"OpeningAngle": ,
+"WeightIncGlassOrThickness": #(!WeightIncGlassOrThickness),
+"AkippOrAtilt": ,
+"AdrehOrAturn": ,
+"Ageo": ,
+"MinPullingForceMax": ,
+"MinPushingForceMax": ,
+"MinPullingForcePermanent": ,
+"MinPushingForcePermanent": ,
+"ForceWithNegativeWind": 
+    }
+"""
+net.minidev.json.parser.ParseException: Unexpected character (}) at position 1353.
+classpath:drivetecTestCases/features/driveteclogin.feature:13
+12:39:42.907 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 2 (1 remaining) classpath:drivetecTestCases/features/driveteclogin.feature
+12:39:43.199 [main] INFO  n.m.cucumber.ReportParser - File 'C:\Users\jagan\DrivetecAPIAutomation\drivetec\target\karate-reports\drivetecTestCases.features.driveteclogin.json' contains 1 feature(s)
