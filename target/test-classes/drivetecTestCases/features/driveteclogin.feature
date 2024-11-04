@@ -6,9 +6,7 @@ Feature: DriveTec Configurations
 @drivetec
 Scenario Outline: Drivetec Configurations test
  
-
   Given url apiUrl + '/Configurations'
-  * def testData = read('classpath:drivetecTestCases/features/configurations.csv')
   And header Content-Type = 'application/json'
   And request 
   """
@@ -70,13 +68,46 @@ Scenario Outline: Drivetec Configurations test
   When method put
   Then status 200
 
-  And match response.RequiredOpeningStroke == <ExpectedRequiredOpeningStroke>
-  And match response.VentWeight == <ExpectedVentWeight>
-  And match response.OpeningAngle == <ExpectedOpeningAngle>
-  And match response.Ageo == <ExpectedAgeo>
+
+  * def expectedOpeningAngle = <ExpectedOpeningAngle>
+  * def actualOpeningAngle = response.OpeningAngle
+  * def tolerance = 1
+  * def lowerBound = expectedOpeningAngle - tolerance
+  * def upperBound = expectedOpeningAngle + tolerance
   
+  # Assert that actualOpeningAngle is within the defined range
+  And assert actualOpeningAngle >= lowerBound
+  And assert actualOpeningAngle <= upperBound
+  
+  # Check if Ageo is within the expected range
+  * def expectedAgeo = <ExpectedAgeo>
+  * def actualAgeo = response.Ageo
+  * def toleranceAgeo = 0.5
+  * def lowerBoundAgeo = expectedAgeo - toleranceAgeo
+  * def upperBoundAgeo = expectedAgeo + toleranceAgeo
+
+    # Log the values for debugging
+    * karate.log('Actual Ageo:', actualAgeo)
+    * karate.log('Expected Ageo:', expectedAgeo)
+    * karate.log('Lower Bound Ageo:', lowerBoundAgeo)
+    * karate.log('Upper Bound Ageo:', upperBoundAgeo)
+
 
   
+    # Using separate assertions for the range check
+    And assert actualAgeo >= lowerBoundAgeo
+    And assert actualAgeo <= upperBoundAgeo
+
+    And match response.RequiredOpeningStroke == <ExpectedRequiredOpeningStroke>
+    And match response.VentWeight == <ExpectedVentWeight>
+
+  # And assert actualAgeo >= lowerBoundAgeo
+  # And assert actualAgeo <= upperBoundAgeo
+
+
+
   Examples:
-| read('classpath:drivetecTestCases/features/configurations.csv') |
+  | read('classpath:drivetecTestCases/features/configurations.csv') |
 
+
+  

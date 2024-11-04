@@ -1,36 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: drivetecTestCases.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.465 s <<< FAILURE! - in drivetecTestCases.TestRunner
-drivetecTestCases.TestRunner.testParallel  Time elapsed: 6.439 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.102 s <<< FAILURE! - in drivetecTestCases.TestRunner
+testParallel  Time elapsed: 6.086 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  28.83669047331989
-  29
-
-classpath:drivetecTestCases/features/driveteclogin.feature:75
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  64
-  77
-
-classpath:drivetecTestCases/features/driveteclogin.feature:74
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  74
-  77
-
-classpath:drivetecTestCases/features/driveteclogin.feature:74
-net.minidev.json.parser.ParseException: Unexpected character (}) at position 1353.
-classpath:drivetecTestCases/features/driveteclogin.feature:13 ==> expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+did not evaluate to 'true': actualOpeningAngle <= upperBound
+classpath:drivetecTestCases/features/driveteclogin.feature:80 ==> expected: <true> but was: <false>
 	at drivetecTestCases.TestRunner.testParallel(TestRunner.java:32)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 

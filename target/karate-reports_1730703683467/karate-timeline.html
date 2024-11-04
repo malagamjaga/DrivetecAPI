@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"drivetecTestCases\/features\/driveteclogin[1.1:79]","start":1730702362890,"end":1730702364159,"title":"drivetecTestCases\/features\/driveteclogin[1.1:79] 12:09:22.890-12:09:24.159 Drivetec Configurations test","className":"failed"},{"id":2,"group":1,"content":"drivetecTestCases\/features\/driveteclogin[1.2:79]","start":1730702364176,"end":1730702364870,"title":"drivetecTestCases\/features\/driveteclogin[1.2:79] 12:09:24.176-12:09:24.870 Drivetec Configurations test","className":"failed"},{"id":3,"group":1,"content":"drivetecTestCases\/features\/driveteclogin[1.3:79]","start":1730702364871,"end":1730702365554,"title":"drivetecTestCases\/features\/driveteclogin[1.3:79] 12:09:24.871-12:09:25.554 Drivetec Configurations test","className":"failed"},{"id":4,"group":1,"content":"drivetecTestCases\/features\/driveteclogin[1.4:79]","start":1730702365567,"end":1730702365566,"title":"drivetecTestCases\/features\/driveteclogin[1.4:79] 12:09:25.567-12:09:25.566 Drivetec Configurations test","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

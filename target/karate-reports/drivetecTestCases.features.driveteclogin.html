@@ -38,8 +38,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">0</div>
-      <div id="nav-fail" class="bg-danger">4</div>
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">1</div>
     </div>
   </div>
   <div id="nav-env">
@@ -49,22 +49,19 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2024-10-29 12:39:42 pm</div>
+    <div>2024-11-04 02:31:56 pm</div>
   </div>
 </div>
 
         <div class="nav-container">
-          <div class="nav-item failed">
-            <a href="#[1.1:81]"><span>[1.1:81]</span> <span>Drivetec Configurations test</span></a>
+          <div class="nav-item passed">
+            <a href="#[1.1:110]"><span>[1.1:110]</span> <span>Drivetec Configurations test</span></a>
           </div>
           <div class="nav-item failed">
-            <a href="#[1.2:81]"><span>[1.2:81]</span> <span>Drivetec Configurations test</span></a>
+            <a href="#[1.2:110]"><span>[1.2:110]</span> <span>Drivetec Configurations test</span></a>
           </div>
-          <div class="nav-item failed">
-            <a href="#[1.3:81]"><span>[1.3:81]</span> <span>Drivetec Configurations test</span></a>
-          </div>
-          <div class="nav-item failed">
-            <a href="#[1.4:81]"><span>[1.4:81]</span> <span>Drivetec Configurations test</span></a>
+          <div class="nav-item passed">
+            <a href="#[1.3:110]"><span>[1.3:110]</span> <span>Drivetec Configurations test</span></a>
           </div>
         </div>
       </div>
@@ -78,19 +75,19 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[1.1:81]">
+          <div class="scenario-heading" id="[1.1:110]">
             <div class="heading-container">
               <div class="scenario-tags">
                 <a class="badge badge-primary" href="karate-tags.html">drivetec</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[1.1:81]</span>
+                Scenario: <span>[1.1:110]</span>
                 <span class="scenario-name">Drivetec Configurations test</span>
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>1119</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1019</span>
             </div>
           </div>
           
@@ -100,14 +97,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.10">
-      <div class="step-ref passed">10</div>
+    <div class="step-container" id="1.9">
+      <div class="step-ref passed">9</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>url apiUrl + &#39;/Configurations&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">10</div>
+    <div class="time-cell passed">6</div>
   </div>
 
    
@@ -116,7 +113,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.10">12:39:39.551 karate.env system property was: null 
+  <div class="preformatted" data-parent="1.9">14:31:54.301 karate.env system property was: null 
 </div>   
 
   
@@ -129,11 +126,11 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.11">
-      <div class="step-ref passed">11</div>
+    <div class="step-container" id="1.10">
+      <div class="step-ref passed">10</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def testData = read(&#39;classpath:drivetecTestCases/features/configurations.csv&#39;)</span>
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -157,47 +154,19 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.12">
-      <div class="step-ref passed">12</div>
-      
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="1.13">
-      <div class="step-ref passed">13</div>
+    <div class="step-container" id="1.11">
+      <div class="step-ref passed">11</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>request</span>
       </div>
     </div>
-    <div class="time-cell passed">14</div>
+    <div class="time-cell passed">11</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="1.13">{
+  <div class="preformatted" data-parent="1.11">{
 &quot;Id&quot;: &quot;8b11d2e1-fe65-46bb-82a6-4442277b52f2&quot;,
 &quot;Name&quot;: &quot;asdefgh&quot;,
 &quot;Description&quot;: &quot;&quot;,
@@ -265,14 +234,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.70">
-      <div class="step-ref passed">70</div>
+    <div class="step-container" id="1.68">
+      <div class="step-ref passed">68</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method put</span>
       </div>
     </div>
-    <div class="time-cell passed">1054</div>
+    <div class="time-cell passed">957</div>
   </div>
 
    
@@ -281,7 +250,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.70">12:39:39.885 request:
+  <div class="preformatted" data-parent="1.68">14:31:54.570 request:
 1 &gt; PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 1268
@@ -291,13 +260,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;Id&quot;:&quot;8b11d2e1-fe65-46bb-82a6-4442277b52f2&quot;,&quot;Name&quot;:&quot;asdefgh&quot;,&quot;Description&quot;:&quot;&quot;,&quot;ProjectId&quot;:&quot;d2659447-79dd-4004-bdd8-aebda2f103db&quot;,&quot;CustomTags&quot;:&quot;&quot;,&quot;CreatedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;ModifiedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;System&quot;:&quot;&quot;,&quot;FacadeInclination&quot;:0,&quot;OpeningType&quot;:1,&quot;OpeningDirection&quot;:1,&quot;OpeningWidth&quot;:1000,&quot;VentOuterWidth&quot;:1000,&quot;VentOuterHeight&quot;:1500,&quot;VentWeight&quot;:0,&quot;CalculateWeightWithGlass&quot;:false,&quot;RequiredOpeningStroke&quot;:747,&quot;WindLoad&quot;:120,&quot;SnowLoad&quot;:0,&quot;IsWindowOpeningCalculationByAngle&quot;:1,&quot;GlassThickness&quot;:14,&quot;ProfileWeightPerSerialMeter&quot;:2.5,&quot;DrivePosition&quot;:1,&quot;InstallationPosition&quot;:0,&quot;LockingMechanism&quot;:1,&quot;Voltage&quot;:1,&quot;DriveType&quot;:1,&quot;TypeOfInstallation&quot;:2,&quot;GeometricArea&quot;:0,&quot;CalcVentilation&quot;:2,&quot;SpecificExhaustDimension&quot;:45,&quot;BuildingDepth&quot;:90,&quot;CalculationTypeForVentilation&quot;:2,&quot;HeightOfProfile&quot;:30,&quot;HeightProfileRectangleAngle1&quot;:35,&quot;HeightProfileRectangleAngle2&quot;:2,&quot;RevealDepth&quot;:200,&quot;RevealDepthRectangleAngle1&quot;:150,&quot;RevealDepthRectangleAngle2&quot;:1000,&quot;ChainLengthConnectingRodHandle&quot;:5,&quot;ApplicationName&quot;:1,&quot;OpeningAngle&quot;:15,&quot;WeightIncGlassOrThickness&quot;:false,&quot;AkippOrAtilt&quot;:0,&quot;AdrehOrAturn&quot;:0,&quot;Ageo&quot;:0,&quot;MinPullingForceMax&quot;:0,&quot;MinPushingForceMax&quot;:0,&quot;MinPullingForcePermanent&quot;:0,&quot;MinPushingForcePermanent&quot;:0,&quot;ForceWithNegativeWind&quot;:0}
 
-12:39:40.827 response time in milliseconds: 937
+14:31:55.435 response time in milliseconds: 865
 1 &lt; 200
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Tue, 29 Oct 2024 07:09:39 GMT
+1 &lt; Date: Mon, 04 Nov 2024 09:01:54 GMT
 1 &lt; Server: Microsoft-IIS/10.0
 1 &lt; X-Powered-By: ASP.NET
-1 &lt; Content-Length: 2029
+1 &lt; Content-Length: 2055
 1 &lt; Connection: keep-alive
 {
   &quot;ProjectId&quot;: &quot;d2659447-79dd-4004-bdd8-aebda2f103db&quot;,
@@ -314,6 +283,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   &quot;VentOuterHeight&quot;: 1500,
   &quot;WeightIncGlassOrThickness&quot;: false,
   &quot;VentWeight&quot;: 65,
+  &quot;VentWeightExact&quot;: 65,
   &quot;GlassThickness&quot;: 14,
   &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
   &quot;FacadeInclination&quot;: 0,
@@ -359,7 +329,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   &quot;Id&quot;: &quot;8b11d2e1-fe65-46bb-82a6-4442277b52f2&quot;,
   &quot;CreatedOn&quot;: &quot;0001-01-01T00:00:00&quot;,
   &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
-  &quot;ModifiedOn&quot;: &quot;2024-10-29T07:09:39.6118238+00:00&quot;,
+  &quot;ModifiedOn&quot;: &quot;2024-11-04T09:01:54.1505048+00:00&quot;,
   &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;
 }
 
@@ -375,8 +345,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.71">
-      <div class="step-ref passed">71</div>
+    <div class="step-container" id="1.69">
+      <div class="step-ref passed">69</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
@@ -403,14 +373,42 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
+    <div class="step-container" id="1.72">
+      <div class="step-ref passed">72</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def expectedOpeningAngle = 29</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
     <div class="step-container" id="1.73">
       <div class="step-ref passed">73</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>match response.RequiredOpeningStroke == 747</span>
+        <span>*</span>&nbsp;<span>def actualOpeningAngle = response.OpeningAngle</span>
       </div>
     </div>
-    <div class="time-cell passed">36</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -435,10 +433,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">74</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>match response.VentWeight == 65</span>
+        <span>*</span>&nbsp;<span>def tolerance = 1</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -460,49 +458,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="1.75">
-      <div class="step-ref failed">75</div>
+      <div class="step-ref passed">75</div>
       
-      <div class="step-cell failed">
-        <span>And</span>&nbsp;<span>match response.OpeningAngle == 29</span>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def lowerBound = expectedOpeningAngle - tolerance</span>
       </div>
     </div>
-    <div class="time-cell failed">2</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="1.75">12:39:40.876 classpath:drivetecTestCases/features/driveteclogin.feature:75
-And match response.OpeningAngle == 29
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  28.83669047331989
-  29
-
-classpath:drivetecTestCases/features/driveteclogin.feature:75
-</div>   
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="1.76">
-      <div class="step-ref skipped">76</div>
-      
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>match response.Ageo == 0.65</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">5</div>
   </div>
 
    
@@ -517,38 +479,20 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
 
 </div>
 </div>
-        </div>
-        <div class="scenario">
-          <div class="scenario-heading" id="[1.2:81]">
-            <div class="heading-container">
-              <div class="scenario-tags">
-                <a class="badge badge-primary" href="karate-tags.html">drivetec</a>
-              </div>
-              <div class="scenario-keyword">
-                Scenario: <span>[1.2:81]</span>
-                <span class="scenario-name">Drivetec Configurations test</span>
-                <span></span>
-              </div>
-            </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>690</span>
-            </div>
-          </div>
-          
           <div><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="2.10">
-      <div class="step-ref passed">10</div>
+    <div class="step-container" id="1.76">
+      <div class="step-ref passed">76</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url apiUrl + &#39;/Configurations&#39;</span>
+        <span>*</span>&nbsp;<span>def upperBound = expectedOpeningAngle + tolerance</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -557,8 +501,7 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
 
   
 
-  <div class="preformatted" data-parent="2.10">12:39:40.890 karate.env system property was: null 
-</div>   
+     
 
   
 
@@ -570,11 +513,67 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
   
 
   <div class="step-row">
-    <div class="step-container" id="2.11">
-      <div class="step-ref passed">11</div>
+    <div class="step-container" id="1.79">
+      <div class="step-ref passed">79</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def testData = read(&#39;classpath:drivetecTestCases/features/configurations.csv&#39;)</span>
+        <span>And</span>&nbsp;<span>assert actualOpeningAngle &gt;= lowerBound</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.80">
+      <div class="step-ref passed">80</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert actualOpeningAngle &lt;= upperBound</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def expectedAgeo = 0.65</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -598,8 +597,395 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
   
 
   <div class="step-row">
-    <div class="step-container" id="2.12">
-      <div class="step-ref passed">12</div>
+    <div class="step-container" id="1.84">
+      <div class="step-ref passed">84</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def actualAgeo = response.Ageo</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.85">
+      <div class="step-ref passed">85</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def toleranceAgeo = 0.5</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.86">
+      <div class="step-ref passed">86</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def lowerBoundAgeo = expectedAgeo - toleranceAgeo</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.87">
+      <div class="step-ref passed">87</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def upperBoundAgeo = expectedAgeo + toleranceAgeo</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.90">
+      <div class="step-ref passed">90</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Actual Ageo:&#39;, actualAgeo)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.90">14:31:55.466 Actual Ageo: 0.5438978083248298 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.91">
+      <div class="step-ref passed">91</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Expected Ageo:&#39;, expectedAgeo)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.91">14:31:55.466 Expected Ageo: 0.65 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.92">
+      <div class="step-ref passed">92</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Lower Bound Ageo:&#39;, lowerBoundAgeo)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.92">14:31:55.466 Lower Bound Ageo: 0.15000000000000002 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.93">
+      <div class="step-ref passed">93</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Upper Bound Ageo:&#39;, upperBoundAgeo)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.93">14:31:55.466 Upper Bound Ageo: 1.15 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.98">
+      <div class="step-ref passed">98</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert actualAgeo &gt;= lowerBoundAgeo</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.99">
+      <div class="step-ref passed">99</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert actualAgeo &lt;= upperBoundAgeo</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.101">
+      <div class="step-ref passed">101</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.RequiredOpeningStroke == 747</span>
+      </div>
+    </div>
+    <div class="time-cell passed">13</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.102">
+      <div class="step-ref passed">102</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.VentWeight == 65</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:110]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">drivetec</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:110]</span>
+                <span class="scenario-name">Drivetec Configurations test</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>680</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiUrl + &#39;/Configurations&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.9">14:31:55.496 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.10">
+      <div class="step-ref passed">10</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
@@ -626,19 +1012,19 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
   
 
   <div class="step-row">
-    <div class="step-container" id="2.13">
-      <div class="step-ref passed">13</div>
+    <div class="step-container" id="2.11">
+      <div class="step-ref passed">11</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>request</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="2.13">{
+  <div class="preformatted" data-parent="2.11">{
 &quot;Id&quot;: &quot;8b11d2e1-fe65-46bb-82a6-4442277b52f2&quot;,
 &quot;Name&quot;: &quot;asdefgh&quot;,
 &quot;Description&quot;: &quot;&quot;,
@@ -706,14 +1092,14 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
   
 
   <div class="step-row">
-    <div class="step-container" id="2.70">
-      <div class="step-ref passed">70</div>
+    <div class="step-container" id="2.68">
+      <div class="step-ref passed">68</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method put</span>
       </div>
     </div>
-    <div class="time-cell passed">686</div>
+    <div class="time-cell passed">674</div>
   </div>
 
    
@@ -722,7 +1108,7 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
 
   
 
-  <div class="preformatted" data-parent="2.70">12:39:40.893 request:
+  <div class="preformatted" data-parent="2.68">14:31:55.498 request:
 1 &gt; PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 1269
@@ -732,13 +1118,13 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;Id&quot;:&quot;8b11d2e1-fe65-46bb-82a6-4442277b52f2&quot;,&quot;Name&quot;:&quot;asdefgh&quot;,&quot;Description&quot;:&quot;&quot;,&quot;ProjectId&quot;:&quot;d2659447-79dd-4004-bdd8-aebda2f103db&quot;,&quot;CustomTags&quot;:&quot;&quot;,&quot;CreatedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;ModifiedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;System&quot;:&quot;&quot;,&quot;FacadeInclination&quot;:0,&quot;OpeningType&quot;:3,&quot;OpeningDirection&quot;:1,&quot;OpeningWidth&quot;:1000,&quot;VentOuterWidth&quot;:1000,&quot;VentOuterHeight&quot;:1480,&quot;VentWeight&quot;:0,&quot;CalculateWeightWithGlass&quot;:false,&quot;RequiredOpeningStroke&quot;:800,&quot;WindLoad&quot;:501,&quot;SnowLoad&quot;:0,&quot;IsWindowOpeningCalculationByAngle&quot;:1,&quot;GlassThickness&quot;:14,&quot;ProfileWeightPerSerialMeter&quot;:2.5,&quot;DrivePosition&quot;:1,&quot;InstallationPosition&quot;:0,&quot;LockingMechanism&quot;:1,&quot;Voltage&quot;:1,&quot;DriveType&quot;:1,&quot;TypeOfInstallation&quot;:2,&quot;GeometricArea&quot;:0,&quot;CalcVentilation&quot;:2,&quot;SpecificExhaustDimension&quot;:45,&quot;BuildingDepth&quot;:90,&quot;CalculationTypeForVentilation&quot;:2,&quot;HeightOfProfile&quot;:30,&quot;HeightProfileRectangleAngle1&quot;:150,&quot;HeightProfileRectangleAngle2&quot;:2,&quot;RevealDepth&quot;:200,&quot;RevealDepthRectangleAngle1&quot;:150,&quot;RevealDepthRectangleAngle2&quot;:1000,&quot;ChainLengthConnectingRodHandle&quot;:5,&quot;ApplicationName&quot;:1,&quot;OpeningAngle&quot;:15,&quot;WeightIncGlassOrThickness&quot;:false,&quot;AkippOrAtilt&quot;:0,&quot;AdrehOrAturn&quot;:0,&quot;Ageo&quot;:0,&quot;MinPullingForceMax&quot;:0,&quot;MinPushingForceMax&quot;:0,&quot;MinPullingForcePermanent&quot;:0,&quot;MinPushingForcePermanent&quot;:0,&quot;ForceWithNegativeWind&quot;:0}
 
-12:39:41.576 response time in milliseconds: 680
+14:31:56.158 response time in milliseconds: 660
 1 &lt; 200
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Tue, 29 Oct 2024 07:09:39 GMT
+1 &lt; Date: Mon, 04 Nov 2024 09:01:54 GMT
 1 &lt; Server: Microsoft-IIS/10.0
 1 &lt; X-Powered-By: ASP.NET
-1 &lt; transfer-encoding: chunked
+1 &lt; Content-Length: 2011
 1 &lt; Connection: keep-alive
 {
   &quot;ProjectId&quot;: &quot;d2659447-79dd-4004-bdd8-aebda2f103db&quot;,
@@ -755,6 +1141,7 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
   &quot;VentOuterHeight&quot;: 1480,
   &quot;WeightIncGlassOrThickness&quot;: false,
   &quot;VentWeight&quot;: 64,
+  &quot;VentWeightExact&quot;: 64.2,
   &quot;GlassThickness&quot;: 14,
   &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
   &quot;FacadeInclination&quot;: 0,
@@ -800,7 +1187,7 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
   &quot;Id&quot;: &quot;8b11d2e1-fe65-46bb-82a6-4442277b52f2&quot;,
   &quot;CreatedOn&quot;: &quot;0001-01-01T00:00:00&quot;,
   &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
-  &quot;ModifiedOn&quot;: &quot;2024-10-29T07:09:40.380365+00:00&quot;,
+  &quot;ModifiedOn&quot;: &quot;2024-11-04T09:01:54.8841928+00:00&quot;,
   &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;
 }
 
@@ -816,8 +1203,8 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
   
 
   <div class="step-row">
-    <div class="step-container" id="2.71">
-      <div class="step-ref passed">71</div>
+    <div class="step-container" id="2.69">
+      <div class="step-ref passed">69</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
@@ -844,11 +1231,39 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
   
 
   <div class="step-row">
+    <div class="step-container" id="2.72">
+      <div class="step-ref passed">72</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def expectedOpeningAngle = 38</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
     <div class="step-container" id="2.73">
       <div class="step-ref passed">73</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>match response.RequiredOpeningStroke == 800</span>
+        <span>*</span>&nbsp;<span>def actualOpeningAngle = response.OpeningAngle</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -873,149 +1288,10 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
 
   <div class="step-row">
     <div class="step-container" id="2.74">
-      <div class="step-ref failed">74</div>
-      
-      <div class="step-cell failed">
-        <span>And</span>&nbsp;<span>match response.VentWeight == 77</span>
-      </div>
-    </div>
-    <div class="time-cell failed">1</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="2.74">12:39:41.586 classpath:drivetecTestCases/features/driveteclogin.feature:74
-And match response.VentWeight == 77
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  64
-  77
-
-classpath:drivetecTestCases/features/driveteclogin.feature:74
-</div>   
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="2.75">
-      <div class="step-ref skipped">75</div>
-      
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>match response.OpeningAngle == 38</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="2.76">
-      <div class="step-ref skipped">76</div>
-      
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>match response.Ageo == 1.11</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-        </div>
-        <div class="scenario">
-          <div class="scenario-heading" id="[1.3:81]">
-            <div class="heading-container">
-              <div class="scenario-tags">
-                <a class="badge badge-primary" href="karate-tags.html">drivetec</a>
-              </div>
-              <div class="scenario-keyword">
-                Scenario: <span>[1.3:81]</span>
-                <span class="scenario-name">Drivetec Configurations test</span>
-                <span></span>
-              </div>
-            </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>674</span>
-            </div>
-          </div>
-          
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="3.10">
-      <div class="step-ref passed">10</div>
+      <div class="step-ref passed">74</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url apiUrl + &#39;/Configurations&#39;</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="3.10">12:39:41.593 karate.env system property was: null 
-</div>   
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="3.11">
-      <div class="step-ref passed">11</div>
-      
-      <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def testData = read(&#39;classpath:drivetecTestCases/features/configurations.csv&#39;)</span>
+        <span>*</span>&nbsp;<span>def tolerance = 1</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -1039,8 +1315,535 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
   
 
   <div class="step-row">
-    <div class="step-container" id="3.12">
-      <div class="step-ref passed">12</div>
+    <div class="step-container" id="2.75">
+      <div class="step-ref passed">75</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def lowerBound = expectedOpeningAngle - tolerance</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.76">
+      <div class="step-ref passed">76</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def upperBound = expectedOpeningAngle + tolerance</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.79">
+      <div class="step-ref passed">79</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert actualOpeningAngle &gt;= lowerBound</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.80">
+      <div class="step-ref failed">80</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>assert actualOpeningAngle &lt;= upperBound</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.80">14:31:56.174 classpath:drivetecTestCases/features/driveteclogin.feature:80
+And assert actualOpeningAngle &lt;= upperBound
+did not evaluate to &#39;true&#39;: actualOpeningAngle &lt;= upperBound
+classpath:drivetecTestCases/features/driveteclogin.feature:80
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.83">
+      <div class="step-ref skipped">83</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def expectedAgeo = 1.11</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.84">
+      <div class="step-ref skipped">84</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def actualAgeo = response.Ageo</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.85">
+      <div class="step-ref skipped">85</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def toleranceAgeo = 0.5</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.86">
+      <div class="step-ref skipped">86</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def lowerBoundAgeo = expectedAgeo - toleranceAgeo</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.87">
+      <div class="step-ref skipped">87</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def upperBoundAgeo = expectedAgeo + toleranceAgeo</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.90">
+      <div class="step-ref skipped">90</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Actual Ageo:&#39;, actualAgeo)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.91">
+      <div class="step-ref skipped">91</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Expected Ageo:&#39;, expectedAgeo)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.92">
+      <div class="step-ref skipped">92</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Lower Bound Ageo:&#39;, lowerBoundAgeo)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.93">
+      <div class="step-ref skipped">93</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Upper Bound Ageo:&#39;, upperBoundAgeo)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.98">
+      <div class="step-ref skipped">98</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>assert actualAgeo &gt;= lowerBoundAgeo</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.99">
+      <div class="step-ref skipped">99</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>assert actualAgeo &lt;= upperBoundAgeo</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.101">
+      <div class="step-ref skipped">101</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.RequiredOpeningStroke == 800</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.102">
+      <div class="step-ref skipped">102</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.VentWeight == 74</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.3:110]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">drivetec</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.3:110]</span>
+                <span class="scenario-name">Drivetec Configurations test</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>602</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiUrl + &#39;/Configurations&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.9">14:31:56.197 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.10">
+      <div class="step-ref passed">10</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
@@ -1067,19 +1870,19 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
   
 
   <div class="step-row">
-    <div class="step-container" id="3.13">
-      <div class="step-ref passed">13</div>
+    <div class="step-container" id="3.11">
+      <div class="step-ref passed">11</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>request</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="3.13">{
+  <div class="preformatted" data-parent="3.11">{
 &quot;Id&quot;: &quot;8b11d2e1-fe65-46bb-82a6-4442277b52f2&quot;,
 &quot;Name&quot;: &quot;asdefgh&quot;,
 &quot;Description&quot;: &quot;&quot;,
@@ -1147,14 +1950,14 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
   
 
   <div class="step-row">
-    <div class="step-container" id="3.70">
-      <div class="step-ref passed">70</div>
+    <div class="step-container" id="3.68">
+      <div class="step-ref passed">68</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method put</span>
       </div>
     </div>
-    <div class="time-cell passed">671</div>
+    <div class="time-cell passed">585</div>
   </div>
 
    
@@ -1163,7 +1966,7 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
 
   
 
-  <div class="preformatted" data-parent="3.70">12:39:41.598 request:
+  <div class="preformatted" data-parent="3.68">14:31:56.205 request:
 1 &gt; PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 1268
@@ -1173,13 +1976,13 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;Id&quot;:&quot;8b11d2e1-fe65-46bb-82a6-4442277b52f2&quot;,&quot;Name&quot;:&quot;asdefgh&quot;,&quot;Description&quot;:&quot;&quot;,&quot;ProjectId&quot;:&quot;d2659447-79dd-4004-bdd8-aebda2f103db&quot;,&quot;CustomTags&quot;:&quot;&quot;,&quot;CreatedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;ModifiedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;System&quot;:&quot;&quot;,&quot;FacadeInclination&quot;:0,&quot;OpeningType&quot;:3,&quot;OpeningDirection&quot;:1,&quot;OpeningWidth&quot;:1000,&quot;VentOuterWidth&quot;:1230,&quot;VentOuterHeight&quot;:1420,&quot;VentWeight&quot;:0,&quot;CalculateWeightWithGlass&quot;:false,&quot;RequiredOpeningStroke&quot;:800,&quot;WindLoad&quot;:500,&quot;SnowLoad&quot;:0,&quot;IsWindowOpeningCalculationByAngle&quot;:1,&quot;GlassThickness&quot;:14,&quot;ProfileWeightPerSerialMeter&quot;:2.5,&quot;DrivePosition&quot;:1,&quot;InstallationPosition&quot;:0,&quot;LockingMechanism&quot;:1,&quot;Voltage&quot;:1,&quot;DriveType&quot;:1,&quot;TypeOfInstallation&quot;:2,&quot;GeometricArea&quot;:0,&quot;CalcVentilation&quot;:1,&quot;SpecificExhaustDimension&quot;:45,&quot;BuildingDepth&quot;:90,&quot;CalculationTypeForVentilation&quot;:1,&quot;HeightOfProfile&quot;:30,&quot;HeightProfileRectangleAngle1&quot;:35,&quot;HeightProfileRectangleAngle2&quot;:2,&quot;RevealDepth&quot;:200,&quot;RevealDepthRectangleAngle1&quot;:150,&quot;RevealDepthRectangleAngle2&quot;:1000,&quot;ChainLengthConnectingRodHandle&quot;:5,&quot;ApplicationName&quot;:1,&quot;OpeningAngle&quot;:15,&quot;WeightIncGlassOrThickness&quot;:false,&quot;AkippOrAtilt&quot;:0,&quot;AdrehOrAturn&quot;:0,&quot;Ageo&quot;:0,&quot;MinPullingForceMax&quot;:0,&quot;MinPushingForceMax&quot;:0,&quot;MinPullingForcePermanent&quot;:0,&quot;MinPushingForcePermanent&quot;:0,&quot;ForceWithNegativeWind&quot;:0}
 
-12:39:42.267 response time in milliseconds: 666
+14:31:56.773 response time in milliseconds: 568
 1 &lt; 200
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Tue, 29 Oct 2024 07:09:41 GMT
+1 &lt; Date: Mon, 04 Nov 2024 09:01:55 GMT
 1 &lt; Server: Microsoft-IIS/10.0
 1 &lt; X-Powered-By: ASP.NET
-1 &lt; Content-Length: 1969
+1 &lt; Content-Length: 1999
 1 &lt; Connection: keep-alive
 {
   &quot;ProjectId&quot;: &quot;d2659447-79dd-4004-bdd8-aebda2f103db&quot;,
@@ -1196,6 +1999,7 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
   &quot;VentOuterHeight&quot;: 1420,
   &quot;WeightIncGlassOrThickness&quot;: false,
   &quot;VentWeight&quot;: 74,
+  &quot;VentWeightExact&quot;: 74.381,
   &quot;GlassThickness&quot;: 14,
   &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
   &quot;FacadeInclination&quot;: 0,
@@ -1241,7 +2045,7 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
   &quot;Id&quot;: &quot;8b11d2e1-fe65-46bb-82a6-4442277b52f2&quot;,
   &quot;CreatedOn&quot;: &quot;0001-01-01T00:00:00&quot;,
   &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
-  &quot;ModifiedOn&quot;: &quot;2024-10-29T07:09:41.0753177+00:00&quot;,
+  &quot;ModifiedOn&quot;: &quot;2024-11-04T09:01:55.5200857+00:00&quot;,
   &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;
 }
 
@@ -1257,14 +2061,42 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
   
 
   <div class="step-row">
-    <div class="step-container" id="3.71">
-      <div class="step-ref passed">71</div>
+    <div class="step-container" id="3.69">
+      <div class="step-ref passed">69</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.72">
+      <div class="step-ref passed">72</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def expectedOpeningAngle = 38</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1289,7 +2121,7 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
       <div class="step-ref passed">73</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>match response.RequiredOpeningStroke == 800</span>
+        <span>*</span>&nbsp;<span>def actualOpeningAngle = response.OpeningAngle</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -1314,13 +2146,13 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
 
   <div class="step-row">
     <div class="step-container" id="3.74">
-      <div class="step-ref failed">74</div>
+      <div class="step-ref passed">74</div>
       
-      <div class="step-cell failed">
-        <span>And</span>&nbsp;<span>match response.VentWeight == 77</span>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tolerance = 1</span>
       </div>
     </div>
-    <div class="time-cell failed">1</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1329,15 +2161,7 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
 
   
 
-  <div class="preformatted" data-parent="3.74">12:39:42.269 classpath:drivetecTestCases/features/driveteclogin.feature:74
-And match response.VentWeight == 77
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  74
-  77
-
-classpath:drivetecTestCases/features/driveteclogin.feature:74
-</div>   
+     
 
   
 
@@ -1350,13 +2174,13 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
 
   <div class="step-row">
     <div class="step-container" id="3.75">
-      <div class="step-ref skipped">75</div>
+      <div class="step-ref passed">75</div>
       
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>match response.OpeningAngle == 38</span>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def lowerBound = expectedOpeningAngle - tolerance</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1378,113 +2202,10 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
 
   <div class="step-row">
     <div class="step-container" id="3.76">
-      <div class="step-ref skipped">76</div>
-      
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>match response.Ageo == 1.82</span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-        </div>
-        <div class="scenario">
-          <div class="scenario-heading" id="[1.4:81]">
-            <div class="heading-container">
-              <div class="scenario-tags">
-                <a class="badge badge-primary" href="karate-tags.html">drivetec</a>
-              </div>
-              <div class="scenario-keyword">
-                Scenario: <span>[1.4:81]</span>
-                <span class="scenario-name">Drivetec Configurations test</span>
-                <span></span>
-              </div>
-            </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>3</span>
-            </div>
-          </div>
-          
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="4.10">
-      <div class="step-ref passed">10</div>
+      <div class="step-ref passed">76</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url apiUrl + &#39;/Configurations&#39;</span>
-      </div>
-    </div>
-    <div class="time-cell passed">1</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="4.10">12:39:42.283 karate.env system property was: null 
-</div>   
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="4.11">
-      <div class="step-ref passed">11</div>
-      
-      <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def testData = read(&#39;classpath:drivetecTestCases/features/configurations.csv&#39;)</span>
-      </div>
-    </div>
-    <div class="time-cell passed">1</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="4.12">
-      <div class="step-ref passed">12</div>
-      
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+        <span>*</span>&nbsp;<span>def upperBound = expectedOpeningAngle + tolerance</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -1508,133 +2229,219 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
   
 
   <div class="step-row">
-    <div class="step-container" id="4.13">
-      <div class="step-ref failed">13</div>
+    <div class="step-container" id="3.79">
+      <div class="step-ref passed">79</div>
       
-      <div class="step-cell failed">
-        <span>And</span>&nbsp;<span>request</span>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert actualOpeningAngle &gt;= lowerBound</span>
       </div>
     </div>
-    <div class="time-cell failed">2</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="4.13">{
-&quot;Id&quot;: &quot;8b11d2e1-fe65-46bb-82a6-4442277b52f2&quot;,
-&quot;Name&quot;: &quot;asdefgh&quot;,
-&quot;Description&quot;: &quot;&quot;,
-&quot;ProjectId&quot;: &quot;d2659447-79dd-4004-bdd8-aebda2f103db&quot;,
-&quot;CustomTags&quot;: &quot;&quot;,
-&quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
-&quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
-&quot;System&quot;: &quot;&quot;,
-&quot;FacadeInclination&quot;: 0,
-&quot;OpeningType&quot;: ,
-&quot;OpeningDirection&quot;: ,
-&quot;OpeningWidth&quot;: ,
-&quot;VentOuterWidth&quot;: ,
-&quot;VentOuterHeight&quot;: ,
-&quot;VentWeight&quot;: ,
-&quot;CalculateWeightWithGlass&quot;: #(!CalculateWeightWithGlass),
-&quot;RequiredOpeningStroke&quot;: ,
-&quot;WindLoad&quot;: ,
-&quot;SnowLoad&quot;: ,
-&quot;IsWindowOpeningCalculationByAngle&quot;: ,
-&quot;GlassThickness&quot;: ,
-&quot;ProfileWeightPerSerialMeter&quot;: ,
-&quot;DrivePosition&quot;: ,
-&quot;InstallationPosition&quot;: ,
-&quot;LockingMechanism&quot;: ,
-&quot;Voltage&quot;: ,
-&quot;DriveType&quot;: ,
-&quot;TypeOfInstallation&quot;: ,
-&quot;GeometricArea&quot;: ,
-&quot;CalcVentilation&quot;: ,
-&quot;SpecificExhaustDimension&quot;: ,
-&quot;BuildingDepth&quot;: ,
-&quot;CalculationTypeForVentilation&quot;: ,
-&quot;HeightOfProfile&quot;: ,
-&quot;HeightProfileRectangleAngle1&quot;: ,
-&quot;HeightProfileRectangleAngle2&quot;: ,
-&quot;RevealDepth&quot;: ,
-&quot;RevealDepthRectangleAngle1&quot;: ,
-&quot;RevealDepthRectangleAngle2&quot;: ,
-&quot;ChainLengthConnectingRodHandle&quot;: ,
-&quot;ApplicationName&quot;: ,
-&quot;OpeningAngle&quot;: ,
-&quot;WeightIncGlassOrThickness&quot;: #(!WeightIncGlassOrThickness),
-&quot;AkippOrAtilt&quot;: ,
-&quot;AdrehOrAturn&quot;: ,
-&quot;Ageo&quot;: ,
-&quot;MinPullingForceMax&quot;: ,
-&quot;MinPushingForceMax&quot;: ,
-&quot;MinPullingForcePermanent&quot;: ,
-&quot;MinPushingForcePermanent&quot;: ,
-&quot;ForceWithNegativeWind&quot;: 
-    }</div>
+  
 
   
 
-  <div class="preformatted" data-parent="4.13">12:39:42.289 classpath:drivetecTestCases/features/driveteclogin.feature:13
-And request
-&quot;&quot;&quot;
-{
-&quot;Id&quot;: &quot;8b11d2e1-fe65-46bb-82a6-4442277b52f2&quot;,
-&quot;Name&quot;: &quot;asdefgh&quot;,
-&quot;Description&quot;: &quot;&quot;,
-&quot;ProjectId&quot;: &quot;d2659447-79dd-4004-bdd8-aebda2f103db&quot;,
-&quot;CustomTags&quot;: &quot;&quot;,
-&quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
-&quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
-&quot;System&quot;: &quot;&quot;,
-&quot;FacadeInclination&quot;: 0,
-&quot;OpeningType&quot;: ,
-&quot;OpeningDirection&quot;: ,
-&quot;OpeningWidth&quot;: ,
-&quot;VentOuterWidth&quot;: ,
-&quot;VentOuterHeight&quot;: ,
-&quot;VentWeight&quot;: ,
-&quot;CalculateWeightWithGlass&quot;: #(!CalculateWeightWithGlass),
-&quot;RequiredOpeningStroke&quot;: ,
-&quot;WindLoad&quot;: ,
-&quot;SnowLoad&quot;: ,
-&quot;IsWindowOpeningCalculationByAngle&quot;: ,
-&quot;GlassThickness&quot;: ,
-&quot;ProfileWeightPerSerialMeter&quot;: ,
-&quot;DrivePosition&quot;: ,
-&quot;InstallationPosition&quot;: ,
-&quot;LockingMechanism&quot;: ,
-&quot;Voltage&quot;: ,
-&quot;DriveType&quot;: ,
-&quot;TypeOfInstallation&quot;: ,
-&quot;GeometricArea&quot;: ,
-&quot;CalcVentilation&quot;: ,
-&quot;SpecificExhaustDimension&quot;: ,
-&quot;BuildingDepth&quot;: ,
-&quot;CalculationTypeForVentilation&quot;: ,
-&quot;HeightOfProfile&quot;: ,
-&quot;HeightProfileRectangleAngle1&quot;: ,
-&quot;HeightProfileRectangleAngle2&quot;: ,
-&quot;RevealDepth&quot;: ,
-&quot;RevealDepthRectangleAngle1&quot;: ,
-&quot;RevealDepthRectangleAngle2&quot;: ,
-&quot;ChainLengthConnectingRodHandle&quot;: ,
-&quot;ApplicationName&quot;: ,
-&quot;OpeningAngle&quot;: ,
-&quot;WeightIncGlassOrThickness&quot;: #(!WeightIncGlassOrThickness),
-&quot;AkippOrAtilt&quot;: ,
-&quot;AdrehOrAturn&quot;: ,
-&quot;Ageo&quot;: ,
-&quot;MinPullingForceMax&quot;: ,
-&quot;MinPushingForceMax&quot;: ,
-&quot;MinPullingForcePermanent&quot;: ,
-&quot;MinPushingForcePermanent&quot;: ,
-&quot;ForceWithNegativeWind&quot;: 
-    }
-&quot;&quot;&quot;
-net.minidev.json.parser.ParseException: Unexpected character (}) at position 1353.
-classpath:drivetecTestCases/features/driveteclogin.feature:13
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.80">
+      <div class="step-ref passed">80</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert actualOpeningAngle &lt;= upperBound</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def expectedAgeo = 1.82</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.84">
+      <div class="step-ref passed">84</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def actualAgeo = response.Ageo</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.85">
+      <div class="step-ref passed">85</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def toleranceAgeo = 0.5</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.86">
+      <div class="step-ref passed">86</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def lowerBoundAgeo = expectedAgeo - toleranceAgeo</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.87">
+      <div class="step-ref passed">87</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def upperBoundAgeo = expectedAgeo + toleranceAgeo</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.90">
+      <div class="step-ref passed">90</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Actual Ageo:&#39;, actualAgeo)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.90">14:31:56.797 Actual Ageo: 1.7466 
 </div>   
 
   
@@ -1647,14 +2454,101 @@ classpath:drivetecTestCases/features/driveteclogin.feature:13
   
 
   <div class="step-row">
-    <div class="step-container" id="4.70">
-      <div class="step-ref skipped">70</div>
+    <div class="step-container" id="3.91">
+      <div class="step-ref passed">91</div>
       
-      <div class="step-cell skipped">
-        <span>When</span>&nbsp;<span>method put</span>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Expected Ageo:&#39;, expectedAgeo)</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.91">14:31:56.797 Expected Ageo: 1.82 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.92">
+      <div class="step-ref passed">92</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Lower Bound Ageo:&#39;, lowerBoundAgeo)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.92">14:31:56.797 Lower Bound Ageo: 1.32 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.93">
+      <div class="step-ref passed">93</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Upper Bound Ageo:&#39;, upperBoundAgeo)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.93">14:31:56.797 Upper Bound Ageo: 2.3200000000000003 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.98">
+      <div class="step-ref passed">98</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert actualAgeo &gt;= lowerBoundAgeo</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1675,14 +2569,14 @@ classpath:drivetecTestCases/features/driveteclogin.feature:13
   
 
   <div class="step-row">
-    <div class="step-container" id="4.71">
-      <div class="step-ref skipped">71</div>
+    <div class="step-container" id="3.99">
+      <div class="step-ref passed">99</div>
       
-      <div class="step-cell skipped">
-        <span>Then</span>&nbsp;<span>status 200</span>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert actualAgeo &lt;= upperBoundAgeo</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1703,14 +2597,14 @@ classpath:drivetecTestCases/features/driveteclogin.feature:13
   
 
   <div class="step-row">
-    <div class="step-container" id="4.73">
-      <div class="step-ref skipped">73</div>
+    <div class="step-container" id="3.101">
+      <div class="step-ref passed">101</div>
       
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>match response.RequiredOpeningStroke == </span>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.RequiredOpeningStroke == 800</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -1731,70 +2625,14 @@ classpath:drivetecTestCases/features/driveteclogin.feature:13
   
 
   <div class="step-row">
-    <div class="step-container" id="4.74">
-      <div class="step-ref skipped">74</div>
+    <div class="step-container" id="3.102">
+      <div class="step-ref passed">102</div>
       
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>match response.VentWeight == </span>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.VentWeight == 74</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="4.75">
-      <div class="step-ref skipped">75</div>
-      
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>match response.OpeningAngle == </span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="4.76">
-      <div class="step-ref skipped">76</div>
-      
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>match response.Ageo == </span>
-      </div>
-    </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    

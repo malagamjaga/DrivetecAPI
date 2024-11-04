@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="drivetecTestCases.TestRunner" time="6.465" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="drivetecTestCases.TestRunner" time="6.102" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\jagan\AppData\Local\Temp\surefire16896859943956273439\surefirebooter-20241029123936498_3.jar C:\Users\jagan\AppData\Local\Temp\surefire16896859943956273439 2024-10-29T12-39-36_355-jvmRun1 surefire-20241029123936498_1tmp surefire_0-20241029123936498_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\jagan\AppData\Local\Temp\surefire15438639663407288579\surefirebooter17453799180519800897.jar C:\Users\jagan\AppData\Local\Temp\surefire15438639663407288579 2024-11-04T14-31-51_454-jvmRun1 surefire18280839888367254243tmp surefire_02595689460412227883tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\jagan\DrivetecAPIAutomation\drivetec\target\test-classes;C:\Users\jagan\DrivetecAPIAutomation\drivetec\target\classes;C:\Users\jagan\.m2\repository\net\masterthought\cucumber-reporting\5.8.2\cucumber-reporting-5.8.2.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\jagan\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.0\jackson-datatype-jsr310-2.17.0.jar;C:\Users\jagan\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\jagan\.m2\repository\joda-time\joda-time\2.12.7\joda-time-2.12.7.jar;C:\Users\jagan\.m2\repository\org\apache\commons\commons-configuration2\2.10.1\commons-configuration2-2.10.1.jar;C:\Users\jagan\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\jagan\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\jagan\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\jagan\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\jagan\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\Users\jagan\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\Users\jagan\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\Users\jagan\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\jagan\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.13\jcl-over-slf4j-2.0.13.jar;C:\Users\jagan\.m2\repository\io\karatelabs\karate-junit5\1.5.0\karate-junit5-1.5.0.jar;C:\Users\jagan\.m2\repository\io\karatelabs\karate-core\1.5.0\karate-core-1.5.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\js\js-scriptengine\24.0.0\js-scriptengine-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\polyglot\polyglot\24.0.0\polyglot-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\collections\24.0.0\collections-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\nativeimage\24.0.0\nativeimage-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\word\24.0.0\word-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\js\js-language\24.0.0\js-language-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\regex\regex\24.0.0\regex-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\truffle\truffle-api\24.0.0\truffle-api-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\shadowed\icu4j\24.0.0\icu4j-24.0.0.jar;C:\Users\jagan\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\jagan\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\jagan\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\jagan\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\jagan\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\jagan\.m2\repository\com\linecorp\armeria\armeria\1.29.2\armeria-1.29.2.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-core\1.13.0\micrometer-core-1.13.0.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-commons\1.13.0\micrometer-commons-1.13.0.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-observation\1.13.0\micrometer-observation-1.13.0.jar;C:\Users\jagan\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.1\HdrHistogram-2.2.1.jar;C:\Users\jagan\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport\4.1.110.Final\netty-transport-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver\4.1.110.Final\netty-resolver-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-haproxy\4.1.110.Final\netty-codec-haproxy-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns\4.1.110.Final\netty-resolver-dns-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-dns\4.1.110.Final\netty-codec-dns-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\jagan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\jagan\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.110.Final\netty-transport-classes-epoll-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.110.Final\netty-resolver-dns-classes-macos-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.16.0\brotli4j-1.16.0.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\service\1.16.0\service-1.16.0.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.16.0\native-windows-x86_64-1.16.0.jar;C:\Users\jagan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\jagan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\jagan\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\jagan\.m2\repository\ch\qos\logback\logback-classic\1.5.4\logback-classic-1.5.4.jar;C:\Users\jagan\.m2\repository\ch\qos\logback\logback-core\1.5.4\logback-core-1.5.4.jar;C:\Users\jagan\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\jagan\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\jagan\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\jagan\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\jagan\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\jagan\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\jagan\.m2\repository\de\siegmar\fastcsv\3.1.0\fastcsv-3.1.0.jar;C:\Users\jagan\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\jagan\.m2\repository\io\github\classgraph\classgraph\4.8.170\classgraph-4.8.170.jar;C:\Users\jagan\.m2\repository\io\github\t12y\resemble\1.1.0\resemble-1.1.0.jar;C:\Users\jagan\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\jagan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\jagan\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jagan\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\jagan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jagan\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\jagan\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="karate.options" value="--tags @drivetec"/>
-    <property name="surefire.real.class.path" value="C:\Users\jagan\AppData\Local\Temp\surefire16896859943956273439\surefirebooter-20241029123936498_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\jagan\AppData\Local\Temp\surefire15438639663407288579\surefirebooter17453799180519800897.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -50,51 +50,25 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Users\jagan\maven\apache-maven-3.9.8\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jagan\AppData\Local\Microsoft\WindowsApps;C:\Users\jagan\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Users\jagan\maven\apache-maven-3.9.8\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\GitHub CLI\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jagan\AppData\Local\Microsoft\WindowsApps;C:\Users\jagan\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testParallel" classname="drivetecTestCases.TestRunner" time="6.439">
-    <failure message="match failed: EQUALS&#10;  $ | not equal (NUMBER:NUMBER)&#10;  28.83669047331989&#10;  29&#10;&#10;classpath:drivetecTestCases/features/driveteclogin.feature:75&#10;match failed: EQUALS&#10;  $ | not equal (NUMBER:NUMBER)&#10;  64&#10;  77&#10;&#10;classpath:drivetecTestCases/features/driveteclogin.feature:74&#10;match failed: EQUALS&#10;  $ | not equal (NUMBER:NUMBER)&#10;  74&#10;  77&#10;&#10;classpath:drivetecTestCases/features/driveteclogin.feature:74&#10;net.minidev.json.parser.ParseException: Unexpected character (}) at position 1353.&#10;classpath:drivetecTestCases/features/driveteclogin.feature:13 ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  28.83669047331989
-  29
-
-classpath:drivetecTestCases/features/driveteclogin.feature:75
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  64
-  77
-
-classpath:drivetecTestCases/features/driveteclogin.feature:74
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  74
-  77
-
-classpath:drivetecTestCases/features/driveteclogin.feature:74
-net.minidev.json.parser.ParseException: Unexpected character (}) at position 1353.
-classpath:drivetecTestCases/features/driveteclogin.feature:13 ==> expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+  <testcase name="testParallel" classname="drivetecTestCases.TestRunner" time="6.086">
+    <failure message="did not evaluate to &apos;true&apos;: actualOpeningAngle &lt;= upperBound&#10;classpath:drivetecTestCases/features/driveteclogin.feature:80 ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+did not evaluate to 'true': actualOpeningAngle <= upperBound
+classpath:drivetecTestCases/features/driveteclogin.feature:80 ==> expected: <true> but was: <false>
 	at drivetecTestCases.TestRunner.testParallel(TestRunner.java:32)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></failure>
-    <system-out><![CDATA[12:39:37.615 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @drivetec
-12:39:38.262 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-12:39:38.266 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1730185778263
-12:39:38.270 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
-12:39:39.550 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:39:39.885 [main] DEBUG com.intuit.karate - request:
+    <system-out><![CDATA[14:31:52.619 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @drivetec
+14:31:53.278 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:31:53.294 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1730710913278
+14:31:53.294 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+14:31:54.294 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:31:54.570 [main] DEBUG com.intuit.karate - request:
 1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 1268
@@ -104,13 +78,13 @@ classpath:drivetecTestCases/features/driveteclogin.feature:13 ==> expected: <tru
 1 > Accept-Encoding: gzip,deflate
 {"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":1,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1000,"VentOuterHeight":1500,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":747,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":2,"HeightOfProfile":30,"HeightProfileRectangleAngle1":35,"HeightProfileRectangleAngle2":2,"RevealDepth":200,"RevealDepthRectangleAngle1":150,"RevealDepthRectangleAngle2":1000,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":15,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
 
-12:39:40.827 [main] DEBUG com.intuit.karate - response time in milliseconds: 937
+14:31:55.435 [main] DEBUG com.intuit.karate - response time in milliseconds: 865
 1 < 200
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Tue, 29 Oct 2024 07:09:39 GMT
+1 < Date: Mon, 04 Nov 2024 09:01:54 GMT
 1 < Server: Microsoft-IIS/10.0
 1 < X-Powered-By: ASP.NET
-1 < Content-Length: 2029
+1 < Content-Length: 2055
 1 < Connection: keep-alive
 {
   "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
@@ -127,6 +101,7 @@ classpath:drivetecTestCases/features/driveteclogin.feature:13 ==> expected: <tru
   "VentOuterHeight": 1500,
   "WeightIncGlassOrThickness": false,
   "VentWeight": 65,
+  "VentWeightExact": 65,
   "GlassThickness": 14,
   "ProfileWeightPerSerialMeter": 2.5,
   "FacadeInclination": 0,
@@ -172,20 +147,16 @@ classpath:drivetecTestCases/features/driveteclogin.feature:13 ==> expected: <tru
   "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
   "CreatedOn": "0001-01-01T00:00:00",
   "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
-  "ModifiedOn": "2024-10-29T07:09:39.6118238+00:00",
+  "ModifiedOn": "2024-11-04T09:01:54.1505048+00:00",
   "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
 }
 
-12:39:40.875 [main] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:75
-And match response.OpeningAngle == 29
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  28.83669047331989
-  29
-
-classpath:drivetecTestCases/features/driveteclogin.feature:75
-12:39:40.889 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:39:40.893 [main] DEBUG com.intuit.karate - request:
+14:31:55.466 [main] INFO  com.intuit.karate - Actual Ageo: 0.5438978083248298 
+14:31:55.466 [main] INFO  com.intuit.karate - Expected Ageo: 0.65 
+14:31:55.466 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.15000000000000002 
+14:31:55.466 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.15 
+14:31:55.496 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:31:55.498 [main] DEBUG com.intuit.karate - request:
 1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 1269
@@ -195,13 +166,13 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
 1 > Accept-Encoding: gzip,deflate
 {"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":3,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1000,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":501,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":2,"HeightOfProfile":30,"HeightProfileRectangleAngle1":150,"HeightProfileRectangleAngle2":2,"RevealDepth":200,"RevealDepthRectangleAngle1":150,"RevealDepthRectangleAngle2":1000,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":15,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
 
-12:39:41.575 [main] DEBUG com.intuit.karate - response time in milliseconds: 680
+14:31:56.158 [main] DEBUG com.intuit.karate - response time in milliseconds: 660
 1 < 200
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Tue, 29 Oct 2024 07:09:39 GMT
+1 < Date: Mon, 04 Nov 2024 09:01:54 GMT
 1 < Server: Microsoft-IIS/10.0
 1 < X-Powered-By: ASP.NET
-1 < transfer-encoding: chunked
+1 < Content-Length: 2011
 1 < Connection: keep-alive
 {
   "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
@@ -218,6 +189,7 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
   "VentOuterHeight": 1480,
   "WeightIncGlassOrThickness": false,
   "VentWeight": 64,
+  "VentWeightExact": 64.2,
   "GlassThickness": 14,
   "ProfileWeightPerSerialMeter": 2.5,
   "FacadeInclination": 0,
@@ -263,20 +235,16 @@ classpath:drivetecTestCases/features/driveteclogin.feature:75
   "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
   "CreatedOn": "0001-01-01T00:00:00",
   "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
-  "ModifiedOn": "2024-10-29T07:09:40.380365+00:00",
+  "ModifiedOn": "2024-11-04T09:01:54.8841928+00:00",
   "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
 }
 
-12:39:41.582 [main] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:74
-And match response.VentWeight == 77
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  64
-  77
-
-classpath:drivetecTestCases/features/driveteclogin.feature:74
-12:39:41.593 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:39:41.598 [main] DEBUG com.intuit.karate - request:
+14:31:56.174 [main] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:80
+And assert actualOpeningAngle <= upperBound
+did not evaluate to 'true': actualOpeningAngle <= upperBound
+classpath:drivetecTestCases/features/driveteclogin.feature:80
+14:31:56.197 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:31:56.205 [main] DEBUG com.intuit.karate - request:
 1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 1268
@@ -286,13 +254,13 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
 1 > Accept-Encoding: gzip,deflate
 {"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":3,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1420,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":500,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":1,"HeightOfProfile":30,"HeightProfileRectangleAngle1":35,"HeightProfileRectangleAngle2":2,"RevealDepth":200,"RevealDepthRectangleAngle1":150,"RevealDepthRectangleAngle2":1000,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":15,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
 
-12:39:42.265 [main] DEBUG com.intuit.karate - response time in milliseconds: 666
+14:31:56.773 [main] DEBUG com.intuit.karate - response time in milliseconds: 568
 1 < 200
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Tue, 29 Oct 2024 07:09:41 GMT
+1 < Date: Mon, 04 Nov 2024 09:01:55 GMT
 1 < Server: Microsoft-IIS/10.0
 1 < X-Powered-By: ASP.NET
-1 < Content-Length: 1969
+1 < Content-Length: 1999
 1 < Connection: keep-alive
 {
   "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
@@ -309,6 +277,7 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
   "VentOuterHeight": 1420,
   "WeightIncGlassOrThickness": false,
   "VentWeight": 74,
+  "VentWeightExact": 74.381,
   "GlassThickness": 14,
   "ProfileWeightPerSerialMeter": 2.5,
   "FacadeInclination": 0,
@@ -354,118 +323,36 @@ classpath:drivetecTestCases/features/driveteclogin.feature:74
   "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
   "CreatedOn": "0001-01-01T00:00:00",
   "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
-  "ModifiedOn": "2024-10-29T07:09:41.0753177+00:00",
+  "ModifiedOn": "2024-11-04T09:01:55.5200857+00:00",
   "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
 }
 
-12:39:42.269 [main] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:74
-And match response.VentWeight == 77
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  74
-  77
-
-classpath:drivetecTestCases/features/driveteclogin.feature:74
-12:39:42.283 [main] INFO  com.intuit.karate - karate.env system property was: null 
-12:39:42.289 [main] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:13
-And request
-"""
-{
-"Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
-"Name": "asdefgh",
-"Description": "",
-"ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
-"CustomTags": "",
-"CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
-"ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7",
-"System": "",
-"FacadeInclination": 0,
-"OpeningType": ,
-"OpeningDirection": ,
-"OpeningWidth": ,
-"VentOuterWidth": ,
-"VentOuterHeight": ,
-"VentWeight": ,
-"CalculateWeightWithGlass": #(!CalculateWeightWithGlass),
-"RequiredOpeningStroke": ,
-"WindLoad": ,
-"SnowLoad": ,
-"IsWindowOpeningCalculationByAngle": ,
-"GlassThickness": ,
-"ProfileWeightPerSerialMeter": ,
-"DrivePosition": ,
-"InstallationPosition": ,
-"LockingMechanism": ,
-"Voltage": ,
-"DriveType": ,
-"TypeOfInstallation": ,
-"GeometricArea": ,
-"CalcVentilation": ,
-"SpecificExhaustDimension": ,
-"BuildingDepth": ,
-"CalculationTypeForVentilation": ,
-"HeightOfProfile": ,
-"HeightProfileRectangleAngle1": ,
-"HeightProfileRectangleAngle2": ,
-"RevealDepth": ,
-"RevealDepthRectangleAngle1": ,
-"RevealDepthRectangleAngle2": ,
-"ChainLengthConnectingRodHandle": ,
-"ApplicationName": ,
-"OpeningAngle": ,
-"WeightIncGlassOrThickness": #(!WeightIncGlassOrThickness),
-"AkippOrAtilt": ,
-"AdrehOrAturn": ,
-"Ageo": ,
-"MinPullingForceMax": ,
-"MinPushingForceMax": ,
-"MinPullingForcePermanent": ,
-"MinPushingForcePermanent": ,
-"ForceWithNegativeWind": 
-    }
-"""
-net.minidev.json.parser.ParseException: Unexpected character (}) at position 1353.
-classpath:drivetecTestCases/features/driveteclogin.feature:13
+14:31:56.797 [main] INFO  com.intuit.karate - Actual Ageo: 1.7466 
+14:31:56.797 [main] INFO  com.intuit.karate - Expected Ageo: 1.82 
+14:31:56.797 [main] INFO  com.intuit.karate - Lower Bound Ageo: 1.32 
+14:31:56.797 [main] INFO  com.intuit.karate - Upper Bound Ageo: 2.3200000000000003 
 ---------------------------------------------------------
 feature: classpath:drivetecTestCases/features/driveteclogin.feature
-scenarios:  4 | passed:  0 | failed:  4 | time: 2.4866
+scenarios:  3 | passed:  2 | failed:  1 | time: 2.3018
 ---------------------------------------------------------
 
-12:39:42.907 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 2 (1 remaining) classpath:drivetecTestCases/features/driveteclogin.feature
+14:31:57.574 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 2 (1 remaining) classpath:drivetecTestCases/features/driveteclogin.feature
 Karate version: 1.5.0
 ======================================================
-elapsed:   5.30 | threads:    1 | thread time: 2.49 
-features:     1 | skipped:    1 | efficiency: 0.47
-scenarios:    4 | passed:     0 | failed: 4
+elapsed:   4.96 | threads:    1 | thread time: 2.30 
+features:     1 | skipped:    1 | efficiency: 0.46
+scenarios:    3 | passed:     2 | failed: 1
 ======================================================
 >>> failed features:
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  28.83669047331989
-  29
-
-classpath:drivetecTestCases/features/driveteclogin.feature:75
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  64
-  77
-
-classpath:drivetecTestCases/features/driveteclogin.feature:74
-match failed: EQUALS
-  $ | not equal (NUMBER:NUMBER)
-  74
-  77
-
-classpath:drivetecTestCases/features/driveteclogin.feature:74
-net.minidev.json.parser.ParseException: Unexpected character (}) at position 1353.
-classpath:drivetecTestCases/features/driveteclogin.feature:13
+did not evaluate to 'true': actualOpeningAngle <= upperBound
+classpath:drivetecTestCases/features/driveteclogin.feature:80
 <<<
 
 HTML report: (paste into browser to view) | Karate version: 1.5.0
 file:///C:/Users/jagan/DrivetecAPIAutomation/drivetec/target/karate-reports/karate-summary.html
 ===================================================================
 
-12:39:43.199 [main] INFO  n.m.cucumber.ReportParser - File 'C:\Users\jagan\DrivetecAPIAutomation\drivetec\target\karate-reports\drivetecTestCases.features.driveteclogin.json' contains 1 feature(s)
+14:31:57.841 [main] INFO  n.m.cucumber.ReportParser - File 'C:\Users\jagan\DrivetecAPIAutomation\drivetec\target\karate-reports\drivetecTestCases.features.driveteclogin.json' contains 1 feature(s)
 ]]></system-out>
   </testcase>
 </testsuite>
