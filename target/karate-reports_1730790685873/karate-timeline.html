@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"drivetecTestCases\/features\/driveteclogin[1.1:112]","start":1730790500584,"end":1730790501841,"title":"drivetecTestCases\/features\/driveteclogin[1.1:112] 12:38:20.584-12:38:21.841 Drivetec Configurations test"},{"id":2,"group":1,"content":"drivetecTestCases\/features\/driveteclogin[1.2:112]","start":1730790501857,"end":1730790502537,"title":"drivetecTestCases\/features\/driveteclogin[1.2:112] 12:38:21.857-12:38:22.537 Drivetec Configurations test","className":"failed"},{"id":3,"group":1,"content":"drivetecTestCases\/features\/driveteclogin[1.3:112]","start":1730790502554,"end":1730790503251,"title":"drivetecTestCases\/features\/driveteclogin[1.3:112] 12:38:22.554-12:38:23.251 Drivetec Configurations test","className":"failed"},{"id":4,"group":1,"content":"drivetecTestCases\/features\/driveteclogin[1.4:112]","start":1730790503252,"end":1730790503969,"title":"drivetecTestCases\/features\/driveteclogin[1.4:112] 12:38:23.252-12:38:23.969 Drivetec Configurations test"},{"id":5,"group":1,"content":"drivetecTestCases\/features\/driveteclogin[1.5:112]","start":1730790503980,"end":1730790504670,"title":"drivetecTestCases\/features\/driveteclogin[1.5:112] 12:38:23.980-12:38:24.670 Drivetec Configurations test"},{"id":6,"group":1,"content":"drivetecTestCases\/features\/driveteclogin[1.6:112]","start":1730790504677,"end":1730790505359,"title":"drivetecTestCases\/features\/driveteclogin[1.6:112] 12:38:24.677-12:38:25.359 Drivetec Configurations test"},{"id":7,"group":1,"content":"drivetecTestCases\/features\/driveteclogin[1.7:112]","start":1730790505366,"end":1730790506082,"title":"drivetecTestCases\/features\/driveteclogin[1.7:112] 12:38:25.366-12:38:26.082 Drivetec Configurations test"},{"id":8,"group":1,"content":"drivetecTestCases\/features\/driveteclogin[1.8:112]","start":1730790506083,"end":1730790506774,"title":"drivetecTestCases\/features\/driveteclogin[1.8:112] 12:38:26.083-12:38:26.774 Drivetec Configurations test"},{"id":9,"group":1,"content":"drivetecTestCases\/features\/driveteclogin[1.9:112]","start":1730790506778,"end":1730790506793,"title":"drivetecTestCases\/features\/driveteclogin[1.9:112] 12:38:26.778-12:38:26.793 Drivetec Configurations test","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

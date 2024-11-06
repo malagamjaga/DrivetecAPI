@@ -2,9 +2,9 @@ package drivetecTestCases;
 
 public class ResuableMethods {
 
-    public static String checkAgeoInRange(double actualAgeo, double expectedAgeo, double tolerance) {
-        double lowerBound = expectedAgeo - tolerance;
-        double upperBound = expectedAgeo + tolerance;
+    public static String checkAgeoInRange(double actualAgeo, double expectedAgeo, double toleranceAgeo) {
+        double lowerBound = expectedAgeo - toleranceAgeo;
+        double upperBound = expectedAgeo + toleranceAgeo;
 
         if (actualAgeo < lowerBound || actualAgeo > upperBound) {
             return "Actual Ageo is NOT in the range: " + lowerBound + " to " + upperBound;

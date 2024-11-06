@@ -1,0 +1,3886 @@
+# Created at 2024-11-06T13:24:31.241
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+
+# Created at 2024-11-06T13:24:32.033
+Unexpected IOException with stream: 13:24:32.030 [main] DEBUG com.intuit.karate - response time in milliseconds: 657
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:31 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2000
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 2,
+  "OpeningType": 4,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1341,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 84,
+  "VentWeightExact": 83.5688,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 400,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 15.532868337024489,
+  "SpecificExhaustDimension": 45,
+  "BuildingDepth": 90,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 2,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 3,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.1284,
+  "AdrehOrAturn": 1.98468,
+  "Ageo": 1.1284,
+  "MinPullingForceMax": 414.92867973794705,
+  "MinPushingForceMax": 417.844,
+  "MinPullingForcePermanent": 417.844,
+  "MinPushingForcePermanent": 417.844,
+  "ForceWithNegativeWind": 417.844,
+  "ForceWithNoWindMin": 406.3100900423176,
+  "ForceWithNegativeWindMin": 402.00079519450287,
+  "ForceWithWindMin": 414.92867973794705,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:31.9176631+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:32.042
+Unexpected IOException with stream: 13:24:32.041 [main] INFO  com.intuit.karate - Actual Ageo: 1.1284 
+
+
+# Created at 2024-11-06T13:24:32.046
+Unexpected IOException with stream: 13:24:32.045 [main] INFO  com.intuit.karate - Expected Ageo: 1.13 
+
+
+# Created at 2024-11-06T13:24:32.048
+Unexpected IOException with stream: 13:24:32.047 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.6299999999999999 
+
+
+# Created at 2024-11-06T13:24:32.051
+Unexpected IOException with stream: 13:24:32.049 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.63 
+
+
+# Created at 2024-11-06T13:24:32.053
+Unexpected IOException with stream: 13:24:32.052 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:32.056
+Unexpected IOException with stream: 13:24:32.055 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:32.058
+Unexpected IOException with stream: 13:24:32.057 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:32.067
+Unexpected IOException with stream: 13:24:32.066 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:32.070
+Unexpected IOException with stream: 13:24:32.069 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset6 
+
+
+# Created at 2024-11-06T13:24:32.076
+Unexpected IOException with stream: 13:24:32.074 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1258
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":1,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":2500,"VentOuterHeight":800,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":400,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":2,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":30,"BuildingDepth":75,"CalculationTypeForVentilation":1,"HeightOfProfile":0,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":0,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:32.737
+Unexpected IOException with stream: 13:24:32.736 [main] DEBUG com.intuit.karate - response time in milliseconds: 658
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:31 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2057
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 1,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 2,
+  "VentOuterWidth": 2500,
+  "VentOuterHeight": 800,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 87,
+  "VentWeightExact": 86.5,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 139.44918839625308,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 10,
+  "SpecificExhaustDimension": 30,
+  "BuildingDepth": 75,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 0.4601823217076351,
+  "AdrehOrAturn": 2,
+  "Ageo": 0.4601823217076351,
+  "MinPullingForceMax": -119.65551260126024,
+  "MinPushingForceMax": -192.18101971296795,
+  "MinPullingForcePermanent": -75.3470327340791,
+  "MinPushingForcePermanent": -75.3470327340791,
+  "ForceWithNegativeWind": 120.3443352060445,
+  "ForceWithNoWindMin": 0.3444113023921364,
+  "ForceWithNegativeWindMin": 41.48695424480975,
+  "ForceWithWindMin": -119.65551260126024,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:32.6412814+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:32.755
+Unexpected IOException with stream: 13:24:32.753 [main] INFO  com.intuit.karate - Actual Ageo: 0.4601823217076351 
+
+
+# Created at 2024-11-06T13:24:32.758
+Unexpected IOException with stream: 13:24:32.757 [main] INFO  com.intuit.karate - Expected Ageo: 0.46 
+
+
+# Created at 2024-11-06T13:24:32.762
+Unexpected IOException with stream: 13:24:32.761 [main] INFO  com.intuit.karate - Lower Bound Ageo: -0.03999999999999998 
+
+
+# Created at 2024-11-06T13:24:32.764
+Unexpected IOException with stream: 13:24:32.763 [main] INFO  com.intuit.karate - Upper Bound Ageo: 0.96 
+
+
+# Created at 2024-11-06T13:24:32.769
+Unexpected IOException with stream: 13:24:32.768 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:32.770
+Unexpected IOException with stream: 13:24:32.769 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:32.772
+Unexpected IOException with stream: 13:24:32.771 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:32.784
+Unexpected IOException with stream: 13:24:32.783 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:32.790
+Unexpected IOException with stream: 13:24:32.789 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset7 
+
+
+# Created at 2024-11-06T13:24:32.798
+Unexpected IOException with stream: 13:24:32.797 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1258
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":10,"OpeningType":1,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1650,"VentOuterHeight":1500,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":1,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":30,"BuildingDepth":75,"CalculationTypeForVentilation":1,"HeightOfProfile":0,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":0,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:33.447
+Unexpected IOException with stream: 13:24:33.446 [main] DEBUG com.intuit.karate - response time in milliseconds: 646
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:33 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2042
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 1,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1650,
+  "VentOuterHeight": 1500,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 102,
+  "VentWeightExact": 102.375,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 10,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 1,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 0.03819718704941021,
+  "SpecificExhaustDimension": 30,
+  "BuildingDepth": 75,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 0.00315,
+  "AdrehOrAturn": 2.475,
+  "Ageo": 0.00315,
+  "MinPullingForceMax": -54.74319294289617,
+  "MinPushingForceMax": -55.113169098532424,
+  "MinPullingForcePermanent": 89.2429627501381,
+  "MinPushingForcePermanent": 89.2429627501381,
+  "ForceWithNegativeWind": 233.22911844317238,
+  "ForceWithNoWindMin": 88.90692425992826,
+  "ForceWithNegativeWindMin": 232.92701761838896,
+  "ForceWithWindMin": -54.74319294289617,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:33.3554049+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:33.461
+Unexpected IOException with stream: 13:24:33.458 [main] INFO  com.intuit.karate - Actual Ageo: 0.00315 
+
+
+# Created at 2024-11-06T13:24:33.465
+Unexpected IOException with stream: 13:24:33.462 [main] INFO  com.intuit.karate - Expected Ageo: 0 
+
+
+# Created at 2024-11-06T13:24:33.468
+Unexpected IOException with stream: 13:24:33.467 [main] INFO  com.intuit.karate - Lower Bound Ageo: -0.5 
+
+
+# Created at 2024-11-06T13:24:33.472
+Unexpected IOException with stream: 13:24:33.469 [main] INFO  com.intuit.karate - Upper Bound Ageo: 0.5 
+
+
+# Created at 2024-11-06T13:24:33.474
+Unexpected IOException with stream: 13:24:33.474 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:33.477
+Unexpected IOException with stream: 13:24:33.476 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:33.480
+Unexpected IOException with stream: 13:24:33.479 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:33.488
+Unexpected IOException with stream: 13:24:33.486 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:33.492
+Unexpected IOException with stream: 13:24:33.491 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset8 
+
+
+# Created at 2024-11-06T13:24:33.495
+Unexpected IOException with stream: 13:24:33.494 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1264
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":1,"OpeningType":2,"OpeningDirection":2,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":35,"BuildingDepth":65,"CalculationTypeForVentilation":2,"HeightOfProfile":200,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":1000,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:34.151
+Unexpected IOException with stream: 13:24:34.149 [main] DEBUG com.intuit.karate - response time in milliseconds: 652
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:33 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2066
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 2,
+  "OpeningDirection": 2,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 1,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 31.36070026967848,
+  "SpecificExhaustDimension": 35,
+  "BuildingDepth": 65,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 200,
+  "Reveal": 0,
+  "RevealDepth": 1000,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 2.168,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 1.0198356046171009,
+  "MinPullingForceMax": 102.76252657013067,
+  "MinPushingForceMax": 287.4727665962924,
+  "MinPullingForcePermanent": 203.0887530734928,
+  "MinPushingForcePermanent": 203.0887530734928,
+  "ForceWithNegativeWind": 118.7047395506932,
+  "ForceWithNoWindMin": -6.431203722221201,
+  "ForceWithNegativeWindMin": -115.62493401457307,
+  "ForceWithWindMin": 102.76252657013067,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:34.0533317+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:34.157
+Unexpected IOException with stream: 13:24:34.155 [main] INFO  com.intuit.karate - Actual Ageo: 1.0198356046171009 
+
+
+# Created at 2024-11-06T13:24:34.157
+Unexpected IOException with stream: 13:24:34.157 [main] INFO  com.intuit.karate - Expected Ageo: 1.02 
+
+
+# Created at 2024-11-06T13:24:34.160
+Unexpected IOException with stream: 13:24:34.159 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.52 
+
+
+# Created at 2024-11-06T13:24:34.163
+Unexpected IOException with stream: 13:24:34.162 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.52 
+
+
+# Created at 2024-11-06T13:24:34.167
+Unexpected IOException with stream: 13:24:34.165 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:34.168
+Unexpected IOException with stream: 13:24:34.168 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:34.171
+Unexpected IOException with stream: 13:24:34.170 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:34.179
+Unexpected IOException with stream: 13:24:34.178 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:34.183
+Unexpected IOException with stream: 13:24:34.182 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset9 
+
+
+# Created at 2024-11-06T13:24:34.185
+Unexpected IOException with stream: 13:24:34.185 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1264
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":2,"OpeningType":2,"OpeningDirection":2,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":35,"BuildingDepth":65,"CalculationTypeForVentilation":2,"HeightOfProfile":200,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":1000,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:34.845
+Unexpected IOException with stream: 13:24:34.843 [main] DEBUG com.intuit.karate - response time in milliseconds: 655
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:34 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2068
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 2,
+  "OpeningDirection": 2,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 2,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 31.36070026967848,
+  "SpecificExhaustDimension": 35,
+  "BuildingDepth": 65,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 200,
+  "Reveal": 0,
+  "RevealDepth": 1000,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 2.168,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 1.0198356046171009,
+  "MinPullingForceMax": 95.92901045964452,
+  "MinPushingForceMax": 283.1158769823155,
+  "MinPullingForcePermanent": 197.02130284355349,
+  "MinPushingForcePermanent": 197.02130284355349,
+  "ForceWithNegativeWind": -122.26518517582623,
+  "ForceWithNoWindMin": -13.168087358090862,
+  "ForceWithNegativeWindMin": 110.92672870479146,
+  "ForceWithWindMin": 95.92901045964452,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:34.7443104+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:34.852
+Unexpected IOException with stream: 13:24:34.851 [main] INFO  com.intuit.karate - Actual Ageo: 1.0198356046171009 
+
+
+# Created at 2024-11-06T13:24:34.854
+Unexpected IOException with stream: 13:24:34.853 [main] INFO  com.intuit.karate - Expected Ageo: 1.02 
+
+
+# Created at 2024-11-06T13:24:34.856
+Unexpected IOException with stream: 13:24:34.855 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.52 
+
+
+# Created at 2024-11-06T13:24:34.857
+Unexpected IOException with stream: 13:24:34.857 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.52 
+
+
+# Created at 2024-11-06T13:24:34.859
+Unexpected IOException with stream: 13:24:34.858 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:34.860
+Unexpected IOException with stream: 13:24:34.860 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:34.862
+Unexpected IOException with stream: 13:24:34.861 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:34.867
+Unexpected IOException with stream: 13:24:34.866 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:34.869
+Unexpected IOException with stream: 13:24:34.869 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset10 
+
+
+# Created at 2024-11-06T13:24:34.872
+Unexpected IOException with stream: 13:24:34.871 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1265
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":40,"OpeningType":2,"OpeningDirection":2,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":35,"BuildingDepth":65,"CalculationTypeForVentilation":2,"HeightOfProfile":200,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":1000,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:35.520
+Unexpected IOException with stream: 13:24:35.518 [main] DEBUG com.intuit.karate - response time in milliseconds: 645
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:34 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2075
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 2,
+  "OpeningDirection": 2,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 40,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 31.36070026967848,
+  "SpecificExhaustDimension": 35,
+  "BuildingDepth": 65,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 200,
+  "Reveal": 0,
+  "RevealDepth": 1000,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 2.168,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 1.0198356046171009,
+  "MinPullingForceMax": 51.107507951589845,
+  "MinPushingForceMax": -183.76216692764464,
+  "MinPullingForcePermanent": -247.98114221267235,
+  "MinPushingForcePermanent": -247.98114221267235,
+  "ForceWithNegativeWind": -312.20011749770003,
+  "ForceWithNoWindMin": -59.81724995636224,
+  "ForceWithNegativeWindMin": -170.74200786431433,
+  "ForceWithWindMin": 51.107507951589845,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:35.4180526+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:35.526
+Unexpected IOException with stream: 13:24:35.525 [main] INFO  com.intuit.karate - Actual Ageo: 1.0198356046171009 
+
+
+# Created at 2024-11-06T13:24:35.528
+Unexpected IOException with stream: 13:24:35.527 [main] INFO  com.intuit.karate - Expected Ageo: 1.02 
+
+
+# Created at 2024-11-06T13:24:35.529
+Unexpected IOException with stream: 13:24:35.529 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.52 
+
+
+# Created at 2024-11-06T13:24:35.531
+Unexpected IOException with stream: 13:24:35.530 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.52 
+
+
+# Created at 2024-11-06T13:24:35.534
+Unexpected IOException with stream: 13:24:35.533 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:35.536
+Unexpected IOException with stream: 13:24:35.535 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:35.537
+Unexpected IOException with stream: 13:24:35.537 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:35.542
+Unexpected IOException with stream: 13:24:35.541 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:35.544
+Unexpected IOException with stream: 13:24:35.544 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset11 
+
+
+# Created at 2024-11-06T13:24:35.547
+Unexpected IOException with stream: 13:24:35.546 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1265
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":41,"OpeningType":2,"OpeningDirection":2,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":35,"BuildingDepth":65,"CalculationTypeForVentilation":2,"HeightOfProfile":200,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":1000,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:36.170
+Unexpected IOException with stream: 13:24:36.168 [main] DEBUG com.intuit.karate - response time in milliseconds: 617
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:36 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2072
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 2,
+  "OpeningDirection": 2,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 41,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 31.36070026967848,
+  "SpecificExhaustDimension": 35,
+  "BuildingDepth": 65,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 200,
+  "Reveal": 0,
+  "RevealDepth": 1000,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 2.168,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 1.0198356046171009,
+  "MinPullingForceMax": 43.57922627926514,
+  "MinPushingForceMax": -190.77273792145812,
+  "MinPullingForcePermanent": -253.11060800883638,
+  "MinPushingForcePermanent": -253.11060800883638,
+  "ForceWithNegativeWind": -315.44847809621467,
+  "ForceWithNoWindMin": -66.72921442305929,
+  "ForceWithNegativeWindMin": -177.0376551253837,
+  "ForceWithWindMin": 43.57922627926514,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:36.0743868+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:36.178
+Unexpected IOException with stream: 13:24:36.177 [main] INFO  com.intuit.karate - Actual Ageo: 1.0198356046171009 
+
+
+# Created at 2024-11-06T13:24:36.180
+Unexpected IOException with stream: 13:24:36.179 [main] INFO  com.intuit.karate - Expected Ageo: 1.02 
+
+
+# Created at 2024-11-06T13:24:36.181
+Unexpected IOException with stream: 13:24:36.180 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.52 
+
+
+# Created at 2024-11-06T13:24:36.183
+Unexpected IOException with stream: 13:24:36.182 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.52 
+
+
+# Created at 2024-11-06T13:24:36.184
+Unexpected IOException with stream: 13:24:36.184 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:36.185
+Unexpected IOException with stream: 13:24:36.185 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:36.186
+Unexpected IOException with stream: 13:24:36.186 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:36.190
+Unexpected IOException with stream: 13:24:36.190 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:36.193
+Unexpected IOException with stream: 13:24:36.192 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset12 
+
+
+# Created at 2024-11-06T13:24:36.197
+Unexpected IOException with stream: 13:24:36.196 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1265
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":32,"OpeningType":2,"OpeningDirection":2,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":701,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":35,"BuildingDepth":65,"CalculationTypeForVentilation":2,"HeightOfProfile":200,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":1000,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:36.854
+Unexpected IOException with stream: 13:24:36.852 [main] DEBUG com.intuit.karate - response time in milliseconds: 654
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:36 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2073
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 2,
+  "OpeningDirection": 2,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 32,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 701,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 27.398369766279032,
+  "SpecificExhaustDimension": 35,
+  "BuildingDepth": 65,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 200,
+  "Reveal": 0,
+  "RevealDepth": 1000,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.89971,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 0.910940891275205,
+  "MinPullingForceMax": 80.24477207911812,
+  "MinPushingForceMax": -125.70639861981769,
+  "MinPullingForcePermanent": -204.3646387844679,
+  "MinPushingForcePermanent": -204.3646387844679,
+  "ForceWithNegativeWind": -283.0228789491181,
+  "ForceWithNoWindMin": -31.473041911005968,
+  "ForceWithNegativeWindMin": -143.19085590113005,
+  "ForceWithWindMin": 80.24477207911812,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:36.7505758+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:36.860
+Unexpected IOException with stream: 13:24:36.859 [main] INFO  com.intuit.karate - Actual Ageo: 0.910940891275205 
+
+
+# Created at 2024-11-06T13:24:36.862
+Unexpected IOException with stream: 13:24:36.861 [main] INFO  com.intuit.karate - Expected Ageo: 0.91 
+
+
+# Created at 2024-11-06T13:24:36.863
+Unexpected IOException with stream: 13:24:36.863 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.41000000000000003 
+
+
+# Created at 2024-11-06T13:24:36.865
+Unexpected IOException with stream: 13:24:36.865 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.4100000000000001 
+
+
+# Created at 2024-11-06T13:24:36.867
+Unexpected IOException with stream: 13:24:36.867 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:36.869
+Unexpected IOException with stream: 13:24:36.868 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:36.869
+Unexpected IOException with stream: 13:24:36.869 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:36.873
+Unexpected IOException with stream: 13:24:36.873 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:36.876
+Unexpected IOException with stream: 13:24:36.875 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset13 
+
+
+# Created at 2024-11-06T13:24:36.880
+Unexpected IOException with stream: 13:24:36.878 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1265
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":33,"OpeningType":2,"OpeningDirection":2,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":701,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":35,"BuildingDepth":65,"CalculationTypeForVentilation":2,"HeightOfProfile":200,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":1000,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:37.541
+Unexpected IOException with stream: 13:24:37.540 [main] DEBUG com.intuit.karate - response time in milliseconds: 659
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:37 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2073
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 2,
+  "OpeningDirection": 2,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 33,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 701,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 27.398369766279032,
+  "SpecificExhaustDimension": 35,
+  "BuildingDepth": 65,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 200,
+  "Reveal": 0,
+  "RevealDepth": 1000,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.89971,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 0.910940891275205,
+  "MinPullingForceMax": 72.99201508777318,
+  "MinPushingForceMax": -133.1189772438988,
+  "MinPullingForcePermanent": -210.05221917619158,
+  "MinPushingForcePermanent": -210.05221917619158,
+  "ForceWithNegativeWind": -286.9854611084844,
+  "ForceWithNoWindMin": -38.382603123850195,
+  "ForceWithNegativeWindMin": -149.7572213354736,
+  "ForceWithWindMin": 72.99201508777318,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:37.4371729+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:37.545
+Unexpected IOException with stream: 13:24:37.544 [main] INFO  com.intuit.karate - Actual Ageo: 0.910940891275205 
+
+
+# Created at 2024-11-06T13:24:37.546
+Unexpected IOException with stream: 13:24:37.546 [main] INFO  com.intuit.karate - Expected Ageo: 0.91 
+
+
+# Created at 2024-11-06T13:24:37.548
+Unexpected IOException with stream: 13:24:37.547 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.41000000000000003 
+
+
+# Created at 2024-11-06T13:24:37.549
+Unexpected IOException with stream: 13:24:37.549 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.4100000000000001 
+
+
+# Created at 2024-11-06T13:24:37.552
+Unexpected IOException with stream: 13:24:37.551 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:37.554
+Unexpected IOException with stream: 13:24:37.553 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:37.555
+Unexpected IOException with stream: 13:24:37.554 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:37.561
+Unexpected IOException with stream: 13:24:37.560 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:37.564
+Unexpected IOException with stream: 13:24:37.563 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset14 
+
+
+# Created at 2024-11-06T13:24:37.568
+Unexpected IOException with stream: 13:24:37.567 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1265
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":24,"OpeningType":2,"OpeningDirection":2,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":501,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":35,"BuildingDepth":65,"CalculationTypeForVentilation":2,"HeightOfProfile":200,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":1000,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:38.208
+Unexpected IOException with stream: 13:24:38.207 [main] DEBUG com.intuit.karate - response time in milliseconds: 637
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:37 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2070
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 2,
+  "OpeningDirection": 2,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 24,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 501,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 19.48921629278459,
+  "SpecificExhaustDimension": 35,
+  "BuildingDepth": 65,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 200,
+  "Reveal": 0,
+  "RevealDepth": 1000,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.35771,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 0.6749039376946829,
+  "MinPullingForceMax": -65.53807552137839,
+  "MinPushingForceMax": 79.72148309148307,
+  "MinPullingForcePermanent": -156.774435629635,
+  "MinPushingForcePermanent": -156.774435629635,
+  "ForceWithNegativeWind": -248.0107957378916,
+  "ForceWithNoWindMin": -30.433414612682817,
+  "ForceWithNegativeWindMin": -140.5883123168487,
+  "ForceWithWindMin": -65.53807552137839,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:38.1107081+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:38.212
+Unexpected IOException with stream: 13:24:38.211 [main] INFO  com.intuit.karate - Actual Ageo: 0.6749039376946829 
+
+
+# Created at 2024-11-06T13:24:38.214
+Unexpected IOException with stream: 13:24:38.213 [main] INFO  com.intuit.karate - Expected Ageo: 0.67 
+
+
+# Created at 2024-11-06T13:24:38.217
+Unexpected IOException with stream: 13:24:38.216 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.17000000000000004 
+
+
+# Created at 2024-11-06T13:24:38.218
+Unexpected IOException with stream: 13:24:38.218 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.17 
+
+
+# Created at 2024-11-06T13:24:38.222
+Unexpected IOException with stream: 13:24:38.220 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:38.223
+Unexpected IOException with stream: 13:24:38.222 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:38.225
+Unexpected IOException with stream: 13:24:38.224 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:38.232
+Unexpected IOException with stream: 13:24:38.231 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:38.237
+Unexpected IOException with stream: 13:24:38.236 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset15 
+
+
+# Created at 2024-11-06T13:24:38.240
+Unexpected IOException with stream: 13:24:38.239 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1265
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":25,"OpeningType":2,"OpeningDirection":2,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":501,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":35,"BuildingDepth":65,"CalculationTypeForVentilation":2,"HeightOfProfile":200,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":1000,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:38.896
+Unexpected IOException with stream: 13:24:38.895 [main] DEBUG com.intuit.karate - response time in milliseconds: 653
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:38 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2069
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 2,
+  "OpeningDirection": 2,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 25,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 501,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 19.48921629278459,
+  "SpecificExhaustDimension": 35,
+  "BuildingDepth": 65,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 200,
+  "Reveal": 0,
+  "RevealDepth": 1000,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.35771,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 0.6749039376946829,
+  "MinPullingForceMax": 72.5767603948726,
+  "MinPushingForceMax": -73.1085591046228,
+  "MinPullingForcePermanent": -162.9095403661677,
+  "MinPushingForcePermanent": -162.9095403661677,
+  "ForceWithNegativeWind": -252.7105216277126,
+  "ForceWithNoWindMin": -37.245591169420564,
+  "ForceWithNegativeWindMin": -147.06794273371372,
+  "ForceWithWindMin": 72.5767603948726,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:38.7988482+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:38.903
+Unexpected IOException with stream: 13:24:38.901 [main] INFO  com.intuit.karate - Actual Ageo: 0.6749039376946829 
+
+
+# Created at 2024-11-06T13:24:38.905
+Unexpected IOException with stream: 13:24:38.904 [main] INFO  com.intuit.karate - Expected Ageo: 0.67 
+
+
+# Created at 2024-11-06T13:24:38.908
+Unexpected IOException with stream: 13:24:38.907 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.17000000000000004 
+
+
+# Created at 2024-11-06T13:24:38.910
+Unexpected IOException with stream: 13:24:38.909 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.17 
+
+
+# Created at 2024-11-06T13:24:38.913
+Unexpected IOException with stream: 13:24:38.912 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:38.915
+Unexpected IOException with stream: 13:24:38.914 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:38.916
+Unexpected IOException with stream: 13:24:38.915 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:38.924
+Unexpected IOException with stream: 13:24:38.923 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:38.929
+Unexpected IOException with stream: 13:24:38.928 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset16 
+
+
+# Created at 2024-11-06T13:24:38.935
+Unexpected IOException with stream: 13:24:38.934 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1265
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":13,"OpeningType":2,"OpeningDirection":2,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":501,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":35,"BuildingDepth":65,"CalculationTypeForVentilation":2,"HeightOfProfile":200,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":1000,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:39.589
+Unexpected IOException with stream: 13:24:39.588 [main] DEBUG com.intuit.karate - response time in milliseconds: 652
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:38 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2072
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 2,
+  "OpeningDirection": 2,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 13,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 501,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 19.48921629278459,
+  "SpecificExhaustDimension": 35,
+  "BuildingDepth": 65,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 200,
+  "Reveal": 0,
+  "RevealDepth": 1000,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.35771,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 0.6749039376946829,
+  "MinPullingForceMax": 17.180489538673655,
+  "MinPushingForceMax": 154.03917523147481,
+  "MinPullingForcePermanent": -86.56000547305538,
+  "MinPushingForcePermanent": -86.56000547305538,
+  "ForceWithNegativeWind": -190.30050048478444,
+  "ForceWithNoWindMin": 44.65449743451489,
+  "ForceWithNegativeWindMin": -64.73018036244505,
+  "ForceWithWindMin": 17.180489538673655,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:39.4938234+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:39.595
+Unexpected IOException with stream: 13:24:39.594 [main] INFO  com.intuit.karate - Actual Ageo: 0.6749039376946829 
+
+
+# Created at 2024-11-06T13:24:39.598
+Unexpected IOException with stream: 13:24:39.597 [main] INFO  com.intuit.karate - Expected Ageo: 0.67 
+
+
+# Created at 2024-11-06T13:24:39.600
+Unexpected IOException with stream: 13:24:39.599 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.17000000000000004 
+
+
+# Created at 2024-11-06T13:24:39.604
+Unexpected IOException with stream: 13:24:39.602 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.17 
+
+
+# Created at 2024-11-06T13:24:39.607
+Unexpected IOException with stream: 13:24:39.606 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:39.609
+Unexpected IOException with stream: 13:24:39.608 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:39.612
+Unexpected IOException with stream: 13:24:39.611 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:39.620
+Unexpected IOException with stream: 13:24:39.619 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:39.625
+Unexpected IOException with stream: 13:24:39.623 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset17 
+
+
+# Created at 2024-11-06T13:24:39.629
+Unexpected IOException with stream: 13:24:39.628 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1265
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":14,"OpeningType":2,"OpeningDirection":2,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":501,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":35,"BuildingDepth":65,"CalculationTypeForVentilation":2,"HeightOfProfile":200,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":1000,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:40.264
+Unexpected IOException with stream: 13:24:40.262 [main] DEBUG com.intuit.karate - response time in milliseconds: 632
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:40 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2067
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 2,
+  "OpeningDirection": 2,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 14,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 501,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 19.48921629278459,
+  "SpecificExhaustDimension": 35,
+  "BuildingDepth": 65,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 200,
+  "Reveal": 0,
+  "RevealDepth": 1000,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.35771,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 0.6749039376946829,
+  "MinPullingForceMax": 9.764342657222258,
+  "MinPushingForceMax": 147.64412280547947,
+  "MinPullingForcePermanent": -93.11429520081451,
+  "MinPushingForcePermanent": -93.11429520081451,
+  "ForceWithNegativeWind": -195.9929330588513,
+  "ForceWithNoWindMin": 37.854770101979,
+  "ForceWithNegativeWindMin": -71.93458260152148,
+  "ForceWithWindMin": 9.764342657222258,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:40.1696715+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:40.268
+Unexpected IOException with stream: 13:24:40.267 [main] INFO  com.intuit.karate - Actual Ageo: 0.6749039376946829 
+
+
+# Created at 2024-11-06T13:24:40.271
+Unexpected IOException with stream: 13:24:40.270 [main] INFO  com.intuit.karate - Expected Ageo: 0.67 
+
+
+# Created at 2024-11-06T13:24:40.273
+Unexpected IOException with stream: 13:24:40.272 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.17000000000000004 
+
+
+# Created at 2024-11-06T13:24:40.277
+Unexpected IOException with stream: 13:24:40.275 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.17 
+
+
+# Created at 2024-11-06T13:24:40.279
+Unexpected IOException with stream: 13:24:40.278 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:40.281
+Unexpected IOException with stream: 13:24:40.280 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:40.283
+Unexpected IOException with stream: 13:24:40.282 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:40.289
+Unexpected IOException with stream: 13:24:40.288 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:40.294
+Unexpected IOException with stream: 13:24:40.292 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset18 
+
+
+# Created at 2024-11-06T13:24:40.298
+Unexpected IOException with stream: 13:24:40.297 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1267
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":10,"OpeningType":2,"OpeningDirection":2,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":400,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":30,"BuildingDepth":60,"CalculationTypeForVentilation":2,"HeightOfProfile":0,"HeightProfileRectangleAngle1":75,"HeightProfileRectangleAngle2":200,"RevealDepth":0,"RevealDepthRectangleAngle1":50,"RevealDepthRectangleAngle2":1000,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:40.947
+Unexpected IOException with stream: 13:24:40.946 [main] DEBUG com.intuit.karate - response time in milliseconds: 647
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:40 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2071
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 2,
+  "OpeningDirection": 2,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 10,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 400,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 15.532868337024489,
+  "SpecificExhaustDimension": 30,
+  "BuildingDepth": 60,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 75,
+  "HeightProfileRectangleAngle2": 200,
+  "RevealDepthRectangleAngle1": 50,
+  "RevealDepthRectangleAngle2": 1000,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.084,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 0.6165637649944986,
+  "MinPullingForceMax": 39.21635469755029,
+  "MinPushingForceMax": 147.12750748388888,
+  "MinPullingForcePermanent": -66.74711192456053,
+  "MinPushingForcePermanent": -66.74711192456053,
+  "ForceWithNegativeWind": -172.71057854667134,
+  "ForceWithNoWindMin": 37.93591244281374,
+  "ForceWithNegativeWindMin": -71.25568259826139,
+  "ForceWithWindMin": 39.21635469755029,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:40.8495445+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:40.952
+Unexpected IOException with stream: 13:24:40.951 [main] INFO  com.intuit.karate - Actual Ageo: 0.6165637649944986 
+
+
+# Created at 2024-11-06T13:24:40.954
+Unexpected IOException with stream: 13:24:40.953 [main] INFO  com.intuit.karate - Expected Ageo: 0.62 
+
+
+# Created at 2024-11-06T13:24:40.956
+Unexpected IOException with stream: 13:24:40.955 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.12 
+
+
+# Created at 2024-11-06T13:24:40.958
+Unexpected IOException with stream: 13:24:40.957 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.12 
+
+
+# Created at 2024-11-06T13:24:40.960
+Unexpected IOException with stream: 13:24:40.959 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:40.962
+Unexpected IOException with stream: 13:24:40.961 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:40.963
+Unexpected IOException with stream: 13:24:40.963 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:40.970
+Unexpected IOException with stream: 13:24:40.968 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:40.973
+Unexpected IOException with stream: 13:24:40.972 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset19 
+
+
+# Created at 2024-11-06T13:24:40.976
+Unexpected IOException with stream: 13:24:40.975 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1265
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":14,"OpeningType":3,"OpeningDirection":2,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":275,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":35,"BuildingDepth":65,"CalculationTypeForVentilation":1,"HeightOfProfile":200,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":1000,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:41.612
+Unexpected IOException with stream: 13:24:41.611 [main] DEBUG com.intuit.karate - response time in milliseconds: 634
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:41 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2008
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 3,
+  "OpeningDirection": 2,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 275,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 14,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 37.955778805488166,
+  "SpecificExhaustDimension": 35,
+  "BuildingDepth": 65,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 200,
+  "Reveal": 0,
+  "RevealDepth": 1000,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 2.168,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 1.8204,
+  "MinPullingForceMax": 221.18697699968584,
+  "MinPushingForceMax": 252.4689762220639,
+  "MinPullingForcePermanent": 0,
+  "MinPushingForcePermanent": 0,
+  "ForceWithNegativeWind": -252.4689762220639,
+  "ForceWithNoWindMin": 0,
+  "ForceWithNegativeWindMin": -221.18697699968584,
+  "ForceWithWindMin": 221.18697699968584,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:41.5179855+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:41.617
+Unexpected IOException with stream: 13:24:41.616 [main] INFO  com.intuit.karate - Actual Ageo: 1.8204 
+
+
+# Created at 2024-11-06T13:24:41.619
+Unexpected IOException with stream: 13:24:41.619 [main] INFO  com.intuit.karate - Expected Ageo: 1.82 
+
+
+# Created at 2024-11-06T13:24:41.621
+Unexpected IOException with stream: 13:24:41.620 [main] INFO  com.intuit.karate - Lower Bound Ageo: 1.32 
+
+
+# Created at 2024-11-06T13:24:41.623
+Unexpected IOException with stream: 13:24:41.622 [main] INFO  com.intuit.karate - Upper Bound Ageo: 2.3200000000000003 
+
+
+# Created at 2024-11-06T13:24:41.625
+Unexpected IOException with stream: 13:24:41.624 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:41.627
+Unexpected IOException with stream: 13:24:41.626 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:41.628
+Unexpected IOException with stream: 13:24:41.628 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:41.636
+Unexpected IOException with stream: 13:24:41.634 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:41.638
+Unexpected IOException with stream: 13:24:41.637 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset20 
+
+
+# Created at 2024-11-06T13:24:41.641
+Unexpected IOException with stream: 13:24:41.640 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1265
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":14,"OpeningType":3,"OpeningDirection":2,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":400,"WindLoad":275,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":30,"BuildingDepth":75,"CalculationTypeForVentilation":2,"HeightOfProfile":10,"HeightProfileRectangleAngle1":10,"HeightProfileRectangleAngle2":0,"RevealDepth":50,"RevealDepthRectangleAngle1":300,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:42.283
+Unexpected IOException with stream: 13:24:42.282 [main] DEBUG com.intuit.karate - response time in milliseconds: 640
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:41 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < transfer-encoding: chunked
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 3,
+  "OpeningDirection": 2,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 275,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 14,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 400,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 18.71587256936153,
+  "SpecificExhaustDimension": 30,
+  "BuildingDepth": 75,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 10,
+  "Reveal": 0,
+  "RevealDepth": 50,
+  "HeightProfileRectangleAngle1": 10,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 300,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.084,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 0.4862868992152732,
+  "MinPullingForceMax": 235.57647793675937,
+  "MinPushingForceMax": 252.4689762220639,
+  "MinPullingForcePermanent": 0,
+  "MinPushingForcePermanent": 0,
+  "ForceWithNegativeWind": -252.4689762220639,
+  "ForceWithNoWindMin": 0,
+  "ForceWithNegativeWindMin": -235.57647793675937,
+  "ForceWithWindMin": 235.57647793675937,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:42.185288+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:42.287
+Unexpected IOException with stream: 13:24:42.286 [main] INFO  com.intuit.karate - Actual Ageo: 0.4862868992152732 
+
+
+# Created at 2024-11-06T13:24:42.289
+Unexpected IOException with stream: 13:24:42.288 [main] INFO  com.intuit.karate - Expected Ageo: 0.49 
+
+
+# Created at 2024-11-06T13:24:42.291
+Unexpected IOException with stream: 13:24:42.290 [main] INFO  com.intuit.karate - Lower Bound Ageo: -0.010000000000000009 
+
+
+# Created at 2024-11-06T13:24:42.292
+Unexpected IOException with stream: 13:24:42.291 [main] INFO  com.intuit.karate - Upper Bound Ageo: 0.99 
+
+
+# Created at 2024-11-06T13:24:42.293
+Unexpected IOException with stream: 13:24:42.293 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:42.295
+Unexpected IOException with stream: 13:24:42.294 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:42.296
+Unexpected IOException with stream: 13:24:42.295 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:42.300
+Unexpected IOException with stream: 13:24:42.300 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:42.304
+Unexpected IOException with stream: 13:24:42.304 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset21 
+
+
+# Created at 2024-11-06T13:24:42.307
+Unexpected IOException with stream: 13:24:42.307 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1267
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":7,"OpeningType":4,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":800,"VentOuterHeight":1600,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":120,"SnowLoad":1035,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":13,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":3,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":50,"BuildingDepth":100,"CalculationTypeForVentilation":2,"HeightOfProfile":10,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":10,"RevealDepth":300,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":50,"ChainLengthConnectingRodHandle":1,"ApplicationName":2,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:42.971
+Unexpected IOException with stream: 13:24:42.970 [main] DEBUG com.intuit.karate - response time in milliseconds: 661
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:42 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2051
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 2,
+  "OpeningType": 4,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 800,
+  "VentOuterHeight": 1600,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 54,
+  "VentWeightExact": 53.6,
+  "GlassThickness": 13,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 7,
+  "ChainLengthConnectingRodHandle": 1,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 60.00000000000001,
+  "SpecificExhaustDimension": 50,
+  "BuildingDepth": 100,
+  "SnowLoad": 1035,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 3,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 10,
+  "Reveal": 0,
+  "RevealDepth": 300,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 10,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 50,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 3.84,
+  "AdrehOrAturn": 1.28,
+  "Ageo": 0.9619784315200841,
+  "MinPullingForceMax": 1165.4514860302625,
+  "MinPushingForceMax": 1599.9634410520912,
+  "MinPullingForcePermanent": 537.3355554483862,
+  "MinPushingForcePermanent": 537.3355554483862,
+  "ForceWithNegativeWind": 1599.702583112022,
+  "ForceWithNoWindMin": 372.444430955717,
+  "ForceWithNegativeWindMin": 1052.3161285084368,
+  "ForceWithWindMin": 1165.4514860302625,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:42.8661799+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:42.976
+Unexpected IOException with stream: 13:24:42.975 [main] INFO  com.intuit.karate - Actual Ageo: 0.9619784315200841 
+
+
+# Created at 2024-11-06T13:24:42.979
+Unexpected IOException with stream: 13:24:42.978 [main] INFO  com.intuit.karate - Expected Ageo: 0.96 
+
+
+# Created at 2024-11-06T13:24:42.981
+Unexpected IOException with stream: 13:24:42.980 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.45999999999999996 
+
+
+# Created at 2024-11-06T13:24:42.983
+Unexpected IOException with stream: 13:24:42.982 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.46 
+
+
+# Created at 2024-11-06T13:24:42.985
+Unexpected IOException with stream: 13:24:42.985 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:42.987
+Unexpected IOException with stream: 13:24:42.986 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:42.989
+Unexpected IOException with stream: 13:24:42.988 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:42.996
+Unexpected IOException with stream: 13:24:42.994 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:43.000
+Unexpected IOException with stream: 13:24:42.999 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset22 
+
+
+# Created at 2024-11-06T13:24:43.003
+Unexpected IOException with stream: 13:24:43.002 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1267
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":7,"OpeningType":4,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":800,"VentOuterHeight":1600,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":120,"SnowLoad":1036,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":13,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":3,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":50,"BuildingDepth":100,"CalculationTypeForVentilation":2,"HeightOfProfile":10,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":10,"RevealDepth":300,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":50,"ChainLengthConnectingRodHandle":1,"ApplicationName":2,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:43.655
+Unexpected IOException with stream: 13:24:43.653 [main] DEBUG com.intuit.karate - response time in milliseconds: 648
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:42 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2049
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 2,
+  "OpeningType": 4,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 800,
+  "VentOuterHeight": 1600,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 54,
+  "VentWeightExact": 53.6,
+  "GlassThickness": 13,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 7,
+  "ChainLengthConnectingRodHandle": 1,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 60.00000000000001,
+  "SpecificExhaustDimension": 50,
+  "BuildingDepth": 100,
+  "SnowLoad": 1036,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 3,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 10,
+  "Reveal": 0,
+  "RevealDepth": 300,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 10,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 50,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 3.84,
+  "AdrehOrAturn": 1.28,
+  "Ageo": 0.9619784315200841,
+  "MinPullingForceMax": 1166.163021659551,
+  "MinPushingForceMax": 1600.9899785072835,
+  "MinPullingForcePermanent": 537.3355554483862,
+  "MinPushingForcePermanent": 537.3355554483862,
+  "ForceWithNegativeWind": 1600.729124064864,
+  "ForceWithNoWindMin": 372.444430955717,
+  "ForceWithNegativeWindMin": 1053.0276641377254,
+  "ForceWithWindMin": 1166.163021659551,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:43.5500668+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:43.659
+Unexpected IOException with stream: 13:24:43.658 [main] INFO  com.intuit.karate - Actual Ageo: 0.9619784315200841 
+
+
+# Created at 2024-11-06T13:24:43.661
+Unexpected IOException with stream: 13:24:43.660 [main] INFO  com.intuit.karate - Expected Ageo: 0.96 
+
+
+# Created at 2024-11-06T13:24:43.664
+Unexpected IOException with stream: 13:24:43.662 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.45999999999999996 
+
+
+# Created at 2024-11-06T13:24:43.667
+Unexpected IOException with stream: 13:24:43.666 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.46 
+
+
+# Created at 2024-11-06T13:24:43.670
+Unexpected IOException with stream: 13:24:43.669 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:43.672
+Unexpected IOException with stream: 13:24:43.671 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:43.674
+Unexpected IOException with stream: 13:24:43.673 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:43.684
+Unexpected IOException with stream: 13:24:43.682 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:43.686
+Unexpected IOException with stream: 13:24:43.686 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset23 
+
+
+# Created at 2024-11-06T13:24:43.691
+Unexpected IOException with stream: 13:24:43.690 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1262
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":7,"OpeningType":4,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":750,"VentOuterHeight":1500,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":13,"ProfileWeightPerSerialMeter":0,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":3,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":50,"BuildingDepth":100,"CalculationTypeForVentilation":2,"HeightOfProfile":10,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":10,"RevealDepth":300,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":50,"ChainLengthConnectingRodHandle":1,"ApplicationName":2,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:44.354
+Unexpected IOException with stream: 13:24:44.354 [main] DEBUG com.intuit.karate - response time in milliseconds: 660
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:44 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2054
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 2,
+  "OpeningType": 4,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 750,
+  "VentOuterHeight": 1500,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 37,
+  "VentWeightExact": 36.5625,
+  "GlassThickness": 13,
+  "ProfileWeightPerSerialMeter": 0,
+  "FacadeInclination": 7,
+  "ChainLengthConnectingRodHandle": 1,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 64.46190527100423,
+  "SpecificExhaustDimension": 50,
+  "BuildingDepth": 100,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 3,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 10,
+  "Reveal": 0,
+  "RevealDepth": 300,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 10,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 50,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 3.6,
+  "AdrehOrAturn": 1.125,
+  "Ageo": 0.8477391771213147,
+  "MinPullingForceMax": 345.88865445842475,
+  "MinPushingForceMax": 369.80316099429183,
+  "MinPullingForcePermanent": 366.53603724242447,
+  "MinPushingForcePermanent": 366.53603724242447,
+  "ForceWithNegativeWind": 366.46058360746116,
+  "ForceWithNoWindMin": 232.45638741458947,
+  "ForceWithNegativeWindMin": 175.74025389267183,
+  "ForceWithWindMin": 345.88865445842475,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:44.2451644+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:44.360
+Unexpected IOException with stream: 13:24:44.359 [main] INFO  com.intuit.karate - Actual Ageo: 0.8477391771213147 
+
+
+# Created at 2024-11-06T13:24:44.361
+Unexpected IOException with stream: 13:24:44.360 [main] INFO  com.intuit.karate - Expected Ageo: 0.85 
+
+
+# Created at 2024-11-06T13:24:44.363
+Unexpected IOException with stream: 13:24:44.362 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.35 
+
+
+# Created at 2024-11-06T13:24:44.365
+Unexpected IOException with stream: 13:24:44.364 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.35 
+
+
+# Created at 2024-11-06T13:24:44.366
+Unexpected IOException with stream: 13:24:44.366 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:44.368
+Unexpected IOException with stream: 13:24:44.367 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:44.370
+Unexpected IOException with stream: 13:24:44.369 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:44.375
+Unexpected IOException with stream: 13:24:44.374 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:44.377
+Unexpected IOException with stream: 13:24:44.376 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset24 
+
+
+# Created at 2024-11-06T13:24:44.379
+Unexpected IOException with stream: 13:24:44.379 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1263
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":1,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":4000,"VentOuterHeight":4000,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":1200,"WindLoad":1,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":1,"ProfileWeightPerSerialMeter":1,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":30,"BuildingDepth":75,"CalculationTypeForVentilation":2,"HeightOfProfile":40,"HeightProfileRectangleAngle1":25,"HeightProfileRectangleAngle2":200,"RevealDepth":30,"RevealDepthRectangleAngle1":75,"RevealDepthRectangleAngle2":300,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:45.041
+Unexpected IOException with stream: 13:24:45.040 [main] DEBUG com.intuit.karate - response time in milliseconds: 660
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:44 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2046
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 1,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 1,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 4000,
+  "VentOuterHeight": 4000,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 56,
+  "VentWeightExact": 56,
+  "GlassThickness": 1,
+  "ProfileWeightPerSerialMeter": 1,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 1200,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 17.253853117357277,
+  "SpecificExhaustDimension": 30,
+  "BuildingDepth": 75,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 40,
+  "Reveal": 0,
+  "RevealDepth": 30,
+  "HeightProfileRectangleAngle1": 25,
+  "HeightProfileRectangleAngle2": 200,
+  "RevealDepthRectangleAngle1": 75,
+  "RevealDepthRectangleAngle2": 300,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 9.6,
+  "AdrehOrAturn": 16,
+  "Ageo": 5.98485012230652,
+  "MinPullingForceMax": -7.777023447904845,
+  "MinPushingForceMax": -91.16793886924938,
+  "MinPullingForcePermanent": -83.78459885589518,
+  "MinPushingForcePermanent": -83.78459885589518,
+  "ForceWithNegativeWind": -76.40125884254098,
+  "ForceWithNoWindMin": 0.22297147900531375,
+  "ForceWithNegativeWindMin": 8.222966405915471,
+  "ForceWithWindMin": -7.777023447904845,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:44.9407514+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:45.046
+Unexpected IOException with stream: 13:24:45.045 [main] INFO  com.intuit.karate - Actual Ageo: 5.98485012230652 
+
+
+# Created at 2024-11-06T13:24:45.048
+Unexpected IOException with stream: 13:24:45.047 [main] INFO  com.intuit.karate - Expected Ageo: 5.98 
+
+
+# Created at 2024-11-06T13:24:45.049
+Unexpected IOException with stream: 13:24:45.048 [main] INFO  com.intuit.karate - Lower Bound Ageo: 5.48 
+
+
+# Created at 2024-11-06T13:24:45.050
+Unexpected IOException with stream: 13:24:45.049 [main] INFO  com.intuit.karate - Upper Bound Ageo: 6.48 
+
+
+# Created at 2024-11-06T13:24:45.051
+Unexpected IOException with stream: 13:24:45.050 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:45.051
+Unexpected IOException with stream: 13:24:45.051 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:45.052
+Unexpected IOException with stream: 13:24:45.052 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:45.064
+Unexpected IOException with stream: 13:24:45.064 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:45.067
+Unexpected IOException with stream: 13:24:45.066 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset25 
+
+
+# Created at 2024-11-06T13:24:45.072
+Unexpected IOException with stream: 13:24:45.072 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1262
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":1,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":4000,"VentOuterHeight":4000,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":1,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":1,"ProfileWeightPerSerialMeter":1,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":30,"BuildingDepth":75,"CalculationTypeForVentilation":2,"HeightOfProfile":40,"HeightProfileRectangleAngle1":25,"HeightProfileRectangleAngle2":200,"RevealDepth":30,"RevealDepthRectangleAngle1":75,"RevealDepthRectangleAngle2":300,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:45.739
+Unexpected IOException with stream: 13:24:45.737 [main] DEBUG com.intuit.karate - response time in milliseconds: 662
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:45 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2046
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 1,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 1,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 4000,
+  "VentOuterHeight": 4000,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 56,
+  "VentWeightExact": 56,
+  "GlassThickness": 1,
+  "ProfileWeightPerSerialMeter": 1,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 11.478340954533573,
+  "SpecificExhaustDimension": 30,
+  "BuildingDepth": 75,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 40,
+  "Reveal": 0,
+  "RevealDepth": 30,
+  "HeightProfileRectangleAngle1": 25,
+  "HeightProfileRectangleAngle2": 200,
+  "RevealDepthRectangleAngle1": 75,
+  "RevealDepthRectangleAngle2": 300,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 6.4,
+  "AdrehOrAturn": 16,
+  "Ageo": 4.054990850725535,
+  "MinPullingForceMax": -7.777023447904845,
+  "MinPushingForceMax": -63.504768498558995,
+  "MinPullingForcePermanent": -55.78036937142065,
+  "MinPushingForcePermanent": -55.78036937142065,
+  "ForceWithNegativeWind": -48.0559702442823,
+  "ForceWithNoWindMin": 0.22297147900531375,
+  "ForceWithNegativeWindMin": 8.222966405915471,
+  "ForceWithWindMin": -7.777023447904845,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:45.6408494+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:45.744
+Unexpected IOException with stream: 13:24:45.743 [main] INFO  com.intuit.karate - Actual Ageo: 4.054990850725535 
+
+
+# Created at 2024-11-06T13:24:45.746
+Unexpected IOException with stream: 13:24:45.745 [main] INFO  com.intuit.karate - Expected Ageo: 4.05 
+
+
+# Created at 2024-11-06T13:24:45.748
+Unexpected IOException with stream: 13:24:45.747 [main] INFO  com.intuit.karate - Lower Bound Ageo: 3.55 
+
+
+# Created at 2024-11-06T13:24:45.749
+Unexpected IOException with stream: 13:24:45.749 [main] INFO  com.intuit.karate - Upper Bound Ageo: 4.55 
+
+
+# Created at 2024-11-06T13:24:45.753
+Unexpected IOException with stream: 13:24:45.752 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:45.755
+Unexpected IOException with stream: 13:24:45.754 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:45.759
+Unexpected IOException with stream: 13:24:45.757 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:45.768
+Unexpected IOException with stream: 13:24:45.767 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:45.772
+Unexpected IOException with stream: 13:24:45.771 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset26 
+
+
+# Created at 2024-11-06T13:24:45.776
+Unexpected IOException with stream: 13:24:45.775 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1258
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":3,"OpeningDirection":2,"OpeningWidth":1000,"VentOuterWidth":622,"VentOuterHeight":1422,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":609,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":2,"HeightOfProfile":0,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":0,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:46.426
+Unexpected IOException with stream: 13:24:46.425 [main] DEBUG com.intuit.karate - response time in milliseconds: 648
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:45 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2003
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 3,
+  "OpeningDirection": 2,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 622,
+  "VentOuterHeight": 1422,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 41,
+  "VentWeightExact": 41.17694,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 609,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 58.621996217619376,
+  "SpecificExhaustDimension": 45,
+  "BuildingDepth": 90,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.244796,
+  "AdrehOrAturn": 0.884484,
+  "Ageo": 0.5968148354716,
+  "MinPullingForceMax": 16.54303301718357,
+  "MinPushingForceMax": 53.06902220807022,
+  "MinPullingForcePermanent": 0,
+  "MinPushingForcePermanent": 0,
+  "ForceWithNegativeWind": -53.06902220807022,
+  "ForceWithNoWindMin": 0,
+  "ForceWithNegativeWindMin": -16.54303301718357,
+  "ForceWithWindMin": 16.54303301718357,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:46.3297426+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:46.432
+Unexpected IOException with stream: 13:24:46.431 [main] INFO  com.intuit.karate - Actual Ageo: 0.5968148354716 
+
+
+# Created at 2024-11-06T13:24:46.436
+Unexpected IOException with stream: 13:24:46.435 [main] INFO  com.intuit.karate - Expected Ageo: 0.6 
+
+
+# Created at 2024-11-06T13:24:46.438
+Unexpected IOException with stream: 13:24:46.438 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.09999999999999998 
+
+
+# Created at 2024-11-06T13:24:46.441
+Unexpected IOException with stream: 13:24:46.440 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.1 
+
+
+# Created at 2024-11-06T13:24:46.444
+Unexpected IOException with stream: 13:24:46.444 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:46.445
+Unexpected IOException with stream: 13:24:46.444 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:46.445
+Unexpected IOException with stream: 13:24:46.445 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:46.449
+Unexpected IOException with stream: 13:24:46.449 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:46.451
+Unexpected IOException with stream: 13:24:46.451 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset27 
+
+
+# Created at 2024-11-06T13:24:46.453
+Unexpected IOException with stream: 13:24:46.453 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1260
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":45,"OpeningType":1,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":400,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":46,"BuildingDepth":75,"CalculationTypeForVentilation":2,"HeightOfProfile":0,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":0,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:47.121
+Unexpected IOException with stream: 13:24:47.120 [main] DEBUG com.intuit.karate - response time in milliseconds: 661
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:47 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2064
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 1,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 45,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 400,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 15.532868337024489,
+  "SpecificExhaustDimension": 46,
+  "BuildingDepth": 75,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.084,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 0.5802288894779978,
+  "MinPullingForceMax": 108.41282168422717,
+  "MinPushingForceMax": 218.7097251389992,
+  "MinPullingForcePermanent": 273.27823614467263,
+  "MinPushingForcePermanent": 273.27823614467263,
+  "ForceWithNegativeWind": 327.84674715034606,
+  "ForceWithNoWindMin": 191.9346407636625,
+  "ForceWithNegativeWindMin": 275.45645984309783,
+  "ForceWithWindMin": 108.41282168422717,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:47.0235938+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:47.124
+Unexpected IOException with stream: 13:24:47.123 [main] INFO  com.intuit.karate - Actual Ageo: 0.5802288894779978 
+
+
+# Created at 2024-11-06T13:24:47.127
+Unexpected IOException with stream: 13:24:47.126 [main] INFO  com.intuit.karate - Expected Ageo: 0.58 
+
+
+# Created at 2024-11-06T13:24:47.128
+Unexpected IOException with stream: 13:24:47.128 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.07999999999999996 
+
+
+# Created at 2024-11-06T13:24:47.129
+Unexpected IOException with stream: 13:24:47.129 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.08 
+
+
+# Created at 2024-11-06T13:24:47.131
+Unexpected IOException with stream: 13:24:47.130 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:47.133
+Unexpected IOException with stream: 13:24:47.132 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:47.135
+Unexpected IOException with stream: 13:24:47.134 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:47.140
+Unexpected IOException with stream: 13:24:47.139 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:47.146
+Unexpected IOException with stream: 13:24:47.145 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset28 
+
+
+# Created at 2024-11-06T13:24:47.149
+Unexpected IOException with stream: 13:24:47.148 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1261
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":-45,"OpeningType":1,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":400,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":46,"BuildingDepth":75,"CalculationTypeForVentilation":1,"HeightOfProfile":0,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":0,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:47.807
+Unexpected IOException with stream: 13:24:47.806 [main] DEBUG com.intuit.karate - response time in milliseconds: 657
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:47 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2060
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 1,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": -45,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 400,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 15.532868337024489,
+  "SpecificExhaustDimension": 46,
+  "BuildingDepth": 75,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.084,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 1.084,
+  "MinPullingForceMax": -327.5854654995324,
+  "MinPushingForceMax": -366.01794951544485,
+  "MinPullingForcePermanent": -339.22933592277116,
+  "MinPushingForcePermanent": -339.22933592277116,
+  "ForceWithNegativeWind": -312.44072233009746,
+  "ForceWithNoWindMin": -272.84299862686447,
+  "ForceWithNegativeWindMin": -218.10053175419654,
+  "ForceWithWindMin": -327.5854654995324,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:47.7039774+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:47.811
+Unexpected IOException with stream: 13:24:47.810 [main] INFO  com.intuit.karate - Actual Ageo: 1.084 
+
+
+# Created at 2024-11-06T13:24:47.812
+Unexpected IOException with stream: 13:24:47.811 [main] INFO  com.intuit.karate - Expected Ageo: 1.08 
+
+
+# Created at 2024-11-06T13:24:47.813
+Unexpected IOException with stream: 13:24:47.812 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.5800000000000001 
+
+
+# Created at 2024-11-06T13:24:47.816
+Unexpected IOException with stream: 13:24:47.814 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.58 
+
+
+# Created at 2024-11-06T13:24:47.817
+Unexpected IOException with stream: 13:24:47.816 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:47.818
+Unexpected IOException with stream: 13:24:47.817 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:47.820
+Unexpected IOException with stream: 13:24:47.819 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:47.824
+Unexpected IOException with stream: 13:24:47.824 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:47.827
+Unexpected IOException with stream: 13:24:47.826 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset29 
+
+
+# Created at 2024-11-06T13:24:47.831
+Unexpected IOException with stream: 13:24:47.830 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1256
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":-45,"OpeningType":1,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1000,"VentOuterHeight":2500,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":200,"WindLoad":1,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":1,"ProfileWeightPerSerialMeter":1,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":2,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":2,"SpecificExhaustDimension":30,"BuildingDepth":75,"CalculationTypeForVentilation":2,"HeightOfProfile":0,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":0,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":10,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:48.458
+Unexpected IOException with stream: 13:24:48.456 [main] DEBUG com.intuit.karate - response time in milliseconds: 624
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:48 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2051
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 1,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 1,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1000,
+  "VentOuterHeight": 2500,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 13,
+  "VentWeightExact": 13.25,
+  "GlassThickness": 1,
+  "ProfileWeightPerSerialMeter": 1,
+  "FacadeInclination": -45,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 200,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 4.584885551911774,
+  "SpecificExhaustDimension": 30,
+  "BuildingDepth": 75,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 2,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 2,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 0.7,
+  "AdrehOrAturn": 2.5,
+  "Ageo": 0.28292381865952587,
+  "MinPullingForceMax": -47.416327080645516,
+  "MinPushingForceMax": -50.956899331910385,
+  "MinPullingForcePermanent": -50.429603235945976,
+  "MinPushingForcePermanent": -50.429603235945976,
+  "ForceWithNegativeWind": -49.902307139981566,
+  "ForceWithNoWindMin": -46.78983396932534,
+  "ForceWithNegativeWindMin": -46.16334085800517,
+  "ForceWithWindMin": -47.416327080645516,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:48.3672769+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:48.464
+Unexpected IOException with stream: 13:24:48.463 [main] INFO  com.intuit.karate - Actual Ageo: 0.28292381865952587 
+
+
+# Created at 2024-11-06T13:24:48.466
+Unexpected IOException with stream: 13:24:48.465 [main] INFO  com.intuit.karate - Expected Ageo: 0.28 
+
+
+# Created at 2024-11-06T13:24:48.468
+Unexpected IOException with stream: 13:24:48.467 [main] INFO  com.intuit.karate - Lower Bound Ageo: -0.21999999999999997 
+
+
+# Created at 2024-11-06T13:24:48.470
+Unexpected IOException with stream: 13:24:48.469 [main] INFO  com.intuit.karate - Upper Bound Ageo: 0.78 
+
+
+# Created at 2024-11-06T13:24:48.472
+Unexpected IOException with stream: 13:24:48.471 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:48.473
+Unexpected IOException with stream: 13:24:48.472 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:48.473
+Unexpected IOException with stream: 13:24:48.473 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:48.480
+Unexpected IOException with stream: 13:24:48.479 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:48.482
+Unexpected IOException with stream: 13:24:48.481 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset30 
+
+
+# Created at 2024-11-06T13:24:48.485
+Unexpected IOException with stream: 13:24:48.484 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1263
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":30,"OpeningType":4,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1085,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":750,"WindLoad":120,"SnowLoad":880,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":3,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":30,"BuildingDepth":75,"CalculationTypeForVentilation":1,"HeightOfProfile":0,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":0,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":1,"ApplicationName":2,"OpeningAngle":4.5,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:49.154
+Unexpected IOException with stream: 13:24:49.152 [main] DEBUG com.intuit.karate - response time in milliseconds: 665
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:48 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2045
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 2,
+  "OpeningType": 4,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1085,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 58,
+  "VentWeightExact": 58.28425,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 30,
+  "ChainLengthConnectingRodHandle": 1,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 750,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 87.4573641830469,
+  "SpecificExhaustDimension": 30,
+  "BuildingDepth": 75,
+  "SnowLoad": 880,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 3,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 3.4725,
+  "AdrehOrAturn": 1.33455,
+  "Ageo": 1.33455,
+  "MinPullingForceMax": 1211.5655143092772,
+  "MinPushingForceMax": 1598.6696092061018,
+  "MinPullingForcePermanent": 610.8082336693205,
+  "MinPushingForcePermanent": 610.8082336693205,
+  "ForceWithNegativeWind": 1592.966065607161,
+  "ForceWithNoWindMin": 433.69377874440676,
+  "ForceWithNegativeWindMin": 1054.0226439457365,
+  "ForceWithWindMin": 1211.5655143092772,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:49.0375697+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:49.161
+Unexpected IOException with stream: 13:24:49.159 [main] INFO  com.intuit.karate - Actual Ageo: 1.33455 
+
+
+# Created at 2024-11-06T13:24:49.163
+Unexpected IOException with stream: 13:24:49.162 [main] INFO  com.intuit.karate - Expected Ageo: 1.33 
+
+
+# Created at 2024-11-06T13:24:49.165
+Unexpected IOException with stream: 13:24:49.164 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.8300000000000001 
+
+
+# Created at 2024-11-06T13:24:49.169
+Unexpected IOException with stream: 13:24:49.167 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.83 
+
+
+# Created at 2024-11-06T13:24:49.172
+Unexpected IOException with stream: 13:24:49.171 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:49.173
+Unexpected IOException with stream: 13:24:49.173 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:49.176
+Unexpected IOException with stream: 13:24:49.175 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:49.180
+Unexpected IOException with stream: 13:24:49.180 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:49.182
+Unexpected IOException with stream: 13:24:49.182 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset31 
+
+
+# Created at 2024-11-06T13:24:49.185
+Unexpected IOException with stream: 13:24:49.184 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1262
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":10,"OpeningType":5,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1200,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":1200,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":3,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":30,"BuildingDepth":75,"CalculationTypeForVentilation":1,"HeightOfProfile":0,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":0,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":1,"ApplicationName":2,"OpeningAngle":4.5,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:49.794
+Unexpected IOException with stream: 13:24:49.793 [main] DEBUG com.intuit.karate - response time in milliseconds: 607
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:49 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 1988
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 2,
+  "OpeningType": 5,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1200,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 64,
+  "VentWeightExact": 63.81,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 10,
+  "ChainLengthConnectingRodHandle": 1,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 1200,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 180,
+  "SpecificExhaustDimension": 30,
+  "BuildingDepth": 75,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 3,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 5.832,
+  "AdrehOrAturn": 1.476,
+  "Ageo": 1.476,
+  "MinPullingForceMax": 0,
+  "MinPushingForceMax": 633.7510916039267,
+  "MinPullingForcePermanent": 628.415628838632,
+  "MinPushingForcePermanent": 628.415628838632,
+  "ForceWithNegativeWind": 625.7478974559846,
+  "ForceWithNoWindMin": -155.42040963748997,
+  "ForceWithNegativeWindMin": -276.86797516497245,
+  "ForceWithWindMin": 0,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:49.6874093+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:49.829
+Unexpected IOException with stream: 13:24:49.827 [main] INFO  com.intuit.karate - Actual Ageo: 1.476 
+
+
+# Created at 2024-11-06T13:24:49.846
+Unexpected IOException with stream: 13:24:49.844 [main] INFO  com.intuit.karate - Expected Ageo: 1.48 
+
+
+# Created at 2024-11-06T13:24:49.856
+Unexpected IOException with stream: 13:24:49.855 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.98 
+
+
+# Created at 2024-11-06T13:24:49.858
+Unexpected IOException with stream: 13:24:49.857 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.98 
+
+
+# Created at 2024-11-06T13:24:49.862
+Unexpected IOException with stream: 13:24:49.861 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:49.874
+Unexpected IOException with stream: 13:24:49.873 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:49.876
+Unexpected IOException with stream: 13:24:49.875 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:49.897
+Unexpected IOException with stream: 13:24:49.895 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:49.902
+Unexpected IOException with stream: 13:24:49.902 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset32 
+
+
+# Created at 2024-11-06T13:24:49.908
+Unexpected IOException with stream: 13:24:49.907 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1259
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":10,"OpeningType":5,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":230,"VentOuterHeight":500,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":1200,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":2,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":3,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":30,"BuildingDepth":75,"CalculationTypeForVentilation":1,"HeightOfProfile":0,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":0,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":1,"ApplicationName":2,"OpeningAngle":96,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:50.543
+Unexpected IOException with stream: 13:24:50.543 [main] DEBUG com.intuit.karate - response time in milliseconds: 632
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:49 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2023
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 2,
+  "OpeningType": 5,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 2,
+  "VentOuterWidth": 230,
+  "VentOuterHeight": 500,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 8,
+  "VentWeightExact": 7.675000000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 10,
+  "ChainLengthConnectingRodHandle": 1,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 371.5724127386971,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 96,
+  "SpecificExhaustDimension": 30,
+  "BuildingDepth": 75,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 3,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 0.5424957225984978,
+  "AdrehOrAturn": 0.115,
+  "Ageo": 0.115,
+  "MinPullingForceMax": 0,
+  "MinPushingForceMax": 76.00087737460574,
+  "MinPullingForcePermanent": 75.58517397487071,
+  "MinPushingForcePermanent": 75.58517397487071,
+  "ForceWithNegativeWind": 75.3773222750032,
+  "ForceWithNoWindMin": -18.475142122838204,
+  "ForceWithNegativeWindMin": -27.934830325833744,
+  "ForceWithWindMin": 0,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:50.4502325+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:50.547
+Unexpected IOException with stream: 13:24:50.547 [main] INFO  com.intuit.karate - Actual Ageo: 0.115 
+
+
+# Created at 2024-11-06T13:24:50.549
+Unexpected IOException with stream: 13:24:50.548 [main] INFO  com.intuit.karate - Expected Ageo: 0.12 
+
+
+# Created at 2024-11-06T13:24:50.550
+Unexpected IOException with stream: 13:24:50.550 [main] INFO  com.intuit.karate - Lower Bound Ageo: -0.38 
+
+
+# Created at 2024-11-06T13:24:50.552
+Unexpected IOException with stream: 13:24:50.551 [main] INFO  com.intuit.karate - Upper Bound Ageo: 0.62 
+
+
+# Created at 2024-11-06T13:24:50.554
+Unexpected IOException with stream: 13:24:50.553 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:50.555
+Unexpected IOException with stream: 13:24:50.555 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:50.556
+Unexpected IOException with stream: 13:24:50.556 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:50.562
+Unexpected IOException with stream: 13:24:50.562 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:50.565
+Unexpected IOException with stream: 13:24:50.564 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset33 
+
+
+# Created at 2024-11-06T13:24:50.568
+Unexpected IOException with stream: 13:24:50.567 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1259
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":10,"OpeningType":5,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":230,"VentOuterHeight":650,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":1200,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":2,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":3,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":30,"BuildingDepth":75,"CalculationTypeForVentilation":1,"HeightOfProfile":0,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":0,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":1,"ApplicationName":2,"OpeningAngle":75,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:51.209
+Unexpected IOException with stream: 13:24:51.209 [main] DEBUG com.intuit.karate - response time in milliseconds: 640
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:51 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2045
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 2,
+  "OpeningType": 5,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 2,
+  "VentOuterWidth": 230,
+  "VentOuterHeight": 650,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 10,
+  "VentWeightExact": 9.6325,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 10,
+  "ChainLengthConnectingRodHandle": 1,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 395.6949288556684,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 75,
+  "SpecificExhaustDimension": 30,
+  "BuildingDepth": 75,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 3,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 0.6964230747859764,
+  "AdrehOrAturn": 0.1495,
+  "Ageo": 0.1495,
+  "MinPullingForceMax": 32.90989509424829,
+  "MinPushingForceMax": 95.40350084479458,
+  "MinPullingForcePermanent": 94.86308642513904,
+  "MinPushingForcePermanent": 94.86308642513904,
+  "ForceWithNegativeWind": 94.59287921531127,
+  "ForceWithNoWindMin": 10.45431748055561,
+  "ForceWithNegativeWindMin": -0.773471326290732,
+  "ForceWithWindMin": 32.90989509424829,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:51.1142703+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:51.217
+Unexpected IOException with stream: 13:24:51.216 [main] INFO  com.intuit.karate - Actual Ageo: 0.1495 
+
+
+# Created at 2024-11-06T13:24:51.222
+Unexpected IOException with stream: 13:24:51.222 [main] INFO  com.intuit.karate - Expected Ageo: 0.15 
+
+
+# Created at 2024-11-06T13:24:51.226
+Unexpected IOException with stream: 13:24:51.225 [main] INFO  com.intuit.karate - Lower Bound Ageo: -0.35 
+
+
+# Created at 2024-11-06T13:24:51.229
+Unexpected IOException with stream: 13:24:51.227 [main] INFO  com.intuit.karate - Upper Bound Ageo: 0.65 
+
+
+# Created at 2024-11-06T13:24:51.231
+Unexpected IOException with stream: 13:24:51.231 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:51.231
+Unexpected IOException with stream: 13:24:51.231 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:51.233
+Unexpected IOException with stream: 13:24:51.233 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:51.236
+Unexpected IOException with stream: 13:24:51.235 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:51.239
+Unexpected IOException with stream: 13:24:51.239 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset34 
+
+
+# Created at 2024-11-06T13:24:51.241
+Unexpected IOException with stream: 13:24:51.241 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1260
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"8b11d2e1-fe65-46bb-82a6-4442277b52f2","Name":"asdefgh","Description":"","ProjectId":"d2659447-79dd-4004-bdd8-aebda2f103db","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":45,"OpeningType":5,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1500,"VentOuterHeight":2100,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":400,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":22,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":2,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":3,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":30,"BuildingDepth":75,"CalculationTypeForVentilation":1,"HeightOfProfile":0,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":0,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":2,"OpeningAngle":96,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-06T13:24:51.890
+Unexpected IOException with stream: 13:24:51.888 [main] DEBUG com.intuit.karate - response time in milliseconds: 644
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 Nov 2024 07:54:51 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2030
+1 < Connection: keep-alive
+{
+  "ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+  "Name": "asdefgh",
+  "Description": "",
+  "CustomTags": "",
+  "ApplicationName": 2,
+  "OpeningType": 5,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1500,
+  "VentOuterHeight": 2100,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 191,
+  "VentWeightExact": 191.25,
+  "GlassThickness": 22,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 45,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 400,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 10.93004759981176,
+  "SpecificExhaustDimension": 30,
+  "BuildingDepth": 75,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 2,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 3,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.44,
+  "AdrehOrAturn": 3.15,
+  "Ageo": 1.44,
+  "MinPullingForceMax": 668.6668802632023,
+  "MinPushingForceMax": 770.8647795169704,
+  "MinPullingForcePermanent": 676.4400323911348,
+  "MinPushingForcePermanent": 676.4400323911348,
+  "ForceWithNegativeWind": 629.2276588282169,
+  "ForceWithNoWindMin": 538.4586043926736,
+  "ForceWithNegativeWindMin": 473.3544664574092,
+  "ForceWithWindMin": 668.6668802632023,
+  "Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-06T07:54:51.7852893+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-06T13:24:51.898
+Unexpected IOException with stream: 13:24:51.897 [main] INFO  com.intuit.karate - Actual Ageo: 1.44 
+
+
+# Created at 2024-11-06T13:24:51.901
+Unexpected IOException with stream: 13:24:51.899 [main] INFO  com.intuit.karate - Expected Ageo: 1.44 
+
+
+# Created at 2024-11-06T13:24:51.903
+Unexpected IOException with stream: 13:24:51.902 [main] INFO  com.intuit.karate - Lower Bound Ageo: 0.94 
+
+
+# Created at 2024-11-06T13:24:51.905
+Unexpected IOException with stream: 13:24:51.904 [main] INFO  com.intuit.karate - Upper Bound Ageo: 1.94 
+
+
+# Created at 2024-11-06T13:24:51.907
+Unexpected IOException with stream: 13:24:51.905 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'tolerance' with new value: 0.5
+
+
+# Created at 2024-11-06T13:24:51.908
+Unexpected IOException with stream: 13:24:51.908 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'lowerBound' with new value: expectedRequiredOpeningStroke - tolerance
+
+
+# Created at 2024-11-06T13:24:51.909
+Unexpected IOException with stream: 13:24:51.909 [main] DEBUG c.intuit.karate.core.ScenarioEngine - over-writing existing variable 'upperBound' with new value: expectedRequiredOpeningStroke + tolerance
+
+
+# Created at 2024-11-06T13:24:51.913
+Unexpected IOException with stream: 13:24:51.913 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-06T13:24:51.916
+Unexpected IOException with stream: 13:24:51.915 [main] INFO  com.intuit.karate - Running test for dataset:   
+
+
+# Created at 2024-11-06T13:24:51.918
+Unexpected IOException with stream: 13:24:51.918 [main] ERROR com.intuit.karate - classpath:drivetecTestCases/features/driveteclogin.feature:11
+And request
+"""
+{
+"Id": "8b11d2e1-fe65-46bb-82a6-4442277b52f2",
+"Name": "asdefgh",
+"Description": "",
+"ProjectId": "d2659447-79dd-4004-bdd8-aebda2f103db",
+"CustomTags": "",
+"CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+"ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+"System": "",
+"FacadeInclination": ,
+"OpeningType": ,
+"OpeningDirection": ,
+"OpeningWidth": ,
+"VentOuterWidth": ,
+"VentOuterHeight": ,
+"VentWeight": ,
+"CalculateWeightWithGlass": #(!CalculateWeightWithGlass),
+"RequiredOpeningStroke": ,
+"WindLoad": ,
+"SnowLoad": ,
+"IsWindowOpeningCalculationByAngle": ,
+"GlassThickness": ,
+"ProfileWeightPerSerialMeter": ,
+"DrivePosition": ,
+"InstallationPosition": ,
+"LockingMechanism": ,
+"Voltage": ,
+"DriveType": ,
+"TypeOfInstallation": ,
+"GeometricArea": ,
+"CalcVentilation": ,
+"SpecificExhaustDimension": ,
+"BuildingDepth": ,
+"CalculationTypeForVentilation": ,
+"HeightOfProfile": ,
+"HeightProfileRectangleAngle1": ,
+"HeightProfileRectangleAngle2": ,
+"RevealDepth": ,
+"RevealDepthRectangleAngle1": ,
+"RevealDepthRectangleAngle2": ,
+"ChainLengthConnectingRodHandle": ,
+"ApplicationName": ,
+"OpeningAngle": ,
+"WeightIncGlassOrThickness": #(!WeightIncGlassOrThickness),
+"AkippOrAtilt": ,
+"AdrehOrAturn": ,
+"Ageo": ,
+"MinPullingForceMax": ,
+"MinPushingForceMax": ,
+"MinPullingForcePermanent": ,
+"MinPushingForcePermanent": ,
+"ForceWithNegativeWind": 
+    }
+"""
+net.minidev.json.parser.ParseException: Unexpected character (}) at position 1352.
+classpath:drivetecTestCases/features/driveteclogin.feature:11
+
+
+# Created at 2024-11-06T13:24:54.031
+Unexpected IOException with stream: ---------------------------------------------------------
+feature: classpath:drivetecTestCases/features/driveteclogin.feature
+scenarios: 35 | passed: 33 | failed:  2 | time: 23.3706
+---------------------------------------------------------
+
+
+# Created at 2024-11-06T13:24:54.033
+Unexpected IOException with stream: 
+
+
+# Created at 2024-11-06T13:24:54.035
+Unexpected IOException with stream: 13:24:54.034 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:drivetecTestCases/features/driveteclogin.feature
+
+
+# Created at 2024-11-06T13:24:54.113
+Unexpected IOException with stream: Karate version: 1.5.0
+
+
+# Created at 2024-11-06T13:24:54.113
+Unexpected IOException with stream: ======================================================
+
+
+# Created at 2024-11-06T13:24:54.114
+Unexpected IOException with stream: elapsed:  27.74 | threads:    1 | thread time: 23.37 
+
+
+# Created at 2024-11-06T13:24:54.115
+Unexpected IOException with stream: features:     1 | skipped:    0 | efficiency: 0.84
+
+
+# Created at 2024-11-06T13:24:54.116
+Unexpected IOException with stream: scenarios:   35 | passed:    33 | failed: 2
+
+
+# Created at 2024-11-06T13:24:54.117
+Unexpected IOException with stream: ======================================================
+
+
+# Created at 2024-11-06T13:24:54.117
+Unexpected IOException with stream: >>> failed features:
+
+
+# Created at 2024-11-06T13:24:54.118
+Unexpected IOException with stream: match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  74
+  77
+
+classpath:drivetecTestCases/features/driveteclogin.feature:110
+net.minidev.json.parser.ParseException: Unexpected character (}) at position 1352.
+classpath:drivetecTestCases/features/driveteclogin.feature:11
+
+
+# Created at 2024-11-06T13:24:54.119
+Unexpected IOException with stream: <<<
+
+
+# Created at 2024-11-06T13:24:54.194
+Unexpected IOException with stream: 
+HTML report: (paste into browser to view) | Karate version: 1.5.0
+file:///C:/Users/jagan/DrivetecAPIAutomation/drivetec/target/karate-reports/karate-summary.html
+===================================================================
+
+
+
+# Created at 2024-11-06T13:24:54.427
+Unexpected IOException with stream: 13:24:54.426 [main] INFO  n.m.cucumber.ReportParser - File 'C:\Users\jagan\DrivetecAPIAutomation\drivetec\target\karate-reports\drivetecTestCases.features.driveteclogin.json' contains 1 feature(s)
+
+
+# Created at 2024-11-06T13:24:55.337
+Unexpected IOException: 8,1,drivetecTestCases.TestRunner,testParallel,null,match failed: EQUALS\000A  $ | not equal (NUMBER:NUMBER)\000A  74\000A  77\000A\000Aclasspath:drivetecTestCases/features/driveteclogin.feature:110\000Anet.minidev.json.parser.ParseException: Unexpected character (}) at position 1352.\000Aclasspath:drivetecTestCases/features/driveteclogin.feature:11 ==> expected: <true> but was: <false>,null,match failed: EQUALS\000A  $ | not equal (NUMBER:NUMBER)\000A  74\000A  77\000A\000Aclasspath:drivetecTestCases/features/driveteclogin.feature:110\000Anet.minidev.json.parser.ParseException: Unexpected character (}) at position 1352.\000Aclasspath:drivetecTestCases/features/driveteclogin.feature:11 ==> expected: <true> but was: <false>,TestRunner.testParallel:32 match failed: EQUALS\000A  $ | not equal (NUMBER:NUMBER)\000A  74\000A  77\000A\000Aclasspath:drivetecTestCases/features/driveteclogin.feature:110\000Anet.minidev.json.parser.ParseException: Unexpected character (}) at position 1352.\000Aclasspath:drivetecTestCases/features/driveteclogin.feature:11 ==> expected: <true> but was: <false>,org.opentest4j.AssertionFailedError: \000Amatch failed: EQUALS\000A  $ | not equal (NUMBER:NUMBER)\000A  74\000A  77\000A\000Aclasspath:drivetecTestCases/features/driveteclogin.feature:110\000Anet.minidev.json.parser.ParseException: Unexpected character (}) at position 1352.\000Aclasspath:drivetecTestCases/features/driveteclogin.feature:11 ==> expected: <true> but was: <false>\000A\0009at drivetecTestCases.TestRunner.testParallel(TestRunner.java:32)\000A
+
+
+# Created at 2024-11-06T13:24:55.340
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,drivetecTestCases.TestRunner,null,null,null
+
+

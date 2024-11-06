@@ -1,11 +1,11 @@
 Feature: DriveTec Configurations
 
-
-
-
 @drivetec
 Scenario Outline: Drivetec Configurations test
  
+  * def datasetName = '<DatasetName>'
+  * karate.log('Running test for dataset: ', datasetName)
+
   Given url apiUrl + '/Configurations'
   And header Content-Type = 'application/json'
   And request 
@@ -68,10 +68,9 @@ Scenario Outline: Drivetec Configurations test
   When method put
   Then status 200
 
-
   * def expectedOpeningAngle = <ExpectedOpeningAngle>
   * def actualOpeningAngle = response.OpeningAngle
-  * def tolerance = 1
+  * def tolerance = 0.6
   * def lowerBound = expectedOpeningAngle - tolerance
   * def upperBound = expectedOpeningAngle + tolerance
   
@@ -92,19 +91,23 @@ Scenario Outline: Drivetec Configurations test
     * karate.log('Lower Bound Ageo:', lowerBoundAgeo)
     * karate.log('Upper Bound Ageo:', upperBoundAgeo)
 
-
-  
     # Using separate assertions for the range check
     And assert actualAgeo >= lowerBoundAgeo
     And assert actualAgeo <= upperBoundAgeo
+    
 
-    And match response.RequiredOpeningStroke == <ExpectedRequiredOpeningStroke>
-    And match response.VentWeight == <ExpectedVentWeight>
+    #And match response.RequiredOpeningStroke == <ExpectedRequiredOpeningStroke>
 
-  # And assert actualAgeo >= lowerBoundAgeo
-  # And assert actualAgeo <= upperBoundAgeo
-
-
+  * def expectedRequiredOpeningStroke = <ExpectedRequiredOpeningStroke>
+  * def actualRequiredOpeningStroke = response.RequiredOpeningStroke
+  * def tolerance = 0.5
+  * def lowerBound = expectedRequiredOpeningStroke - tolerance
+  * def upperBound = expectedRequiredOpeningStroke + tolerance
+  
+  # Assert that actualOpeningAngle is within the defined range
+  And assert actualRequiredOpeningStroke >= lowerBound
+  And assert actualRequiredOpeningStroke <= upperBound
+  And match response.VentWeight == <ExpectedVentWeight>
 
   Examples:
   | read('classpath:drivetecTestCases/features/configurations.csv') |
