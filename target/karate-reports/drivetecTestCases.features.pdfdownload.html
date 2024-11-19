@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"dc681b2f-612e-4fcc-913c-4d2e59439cfb",karate_version:"1.5.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>drivetecTestCases.features.pdfdownload</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-11-19 12:17:50 pm</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>Validate PDF download URL</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">drivetecTestCases/features/pdfdownload.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">DriveTec API - Download PDF Test</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">pdfdownload</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">Validate PDF download URL</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2221</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiUrl + &#39;/api/Drives/DownloadPDFNew/Schuco&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">12:17:48.310 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.12">[
+  {&quot;Id&quot;:&quot;configId&quot;,&quot;Header&quot;:&quot;configId&quot;,&quot;Value&quot;:&quot;0413f204-c057-427c-9439-44091f1470d0&quot;},
+  {&quot;Id&quot;:&quot;driveId&quot;,&quot;Header&quot;:&quot;driveId&quot;,&quot;Value&quot;:&quot;07c798cb-2b88-4e23-aaec-fbdba670ac23&quot;},
+  {&quot;Id&quot;:&quot;culture&quot;,&quot;Header&quot;:&quot;culture&quot;,&quot;Value&quot;:&quot;EN-US&quot;},
+  {&quot;Id&quot;:&quot;projectId&quot;,&quot;Header&quot;:&quot;projectId&quot;,&quot;Value&quot;:&quot;9103b22a-d525-4b79-938c-4e0260bce013&quot;},
+  {&quot;Id&quot;:&quot;range-of-app&quot;,&quot;Header&quot;:&quot;Range of application&quot;,&quot;Value&quot;:&quot;Façade&quot;},
+  {&quot;Id&quot;:&quot;opening-type&quot;,&quot;Header&quot;:&quot;Opening type&quot;,&quot;Value&quot;:&quot;Bottom-hung vent&quot;},
+  {&quot;Id&quot;:&quot;opening-direction&quot;,&quot;Header&quot;:&quot;Opening direction&quot;,&quot;Value&quot;:&quot;Inward&quot;},
+  {&quot;Id&quot;:&quot;how-calc-weight&quot;,&quot;Header&quot;:&quot;Vent weight&quot;,&quot;Value&quot;:&quot;Weight including glass&quot;},
+  {&quot;Id&quot;:&quot;Chain-Length&quot;,&quot;Header&quot;:&quot;Chain- / connecting rod handle&quot;,&quot;Value&quot;:&quot;100%&quot;},
+  {&quot;Id&quot;:&quot;drive-position&quot;,&quot;Header&quot;:&quot;Drive position&quot;,&quot;Value&quot;:&quot;Side installation&quot;},
+  {&quot;Id&quot;:&quot;locking-mechanism&quot;,&quot;Header&quot;:&quot;Locking mechanism&quot;,&quot;Value&quot;:&quot;With&quot;},
+  {&quot;Id&quot;:&quot;voltage&quot;,&quot;Header&quot;:&quot;Voltage&quot;,&quot;Value&quot;:&quot;24 V&quot;},
+  {&quot;Id&quot;:&quot;drive-type&quot;,&quot;Header&quot;:&quot;Drive type&quot;,&quot;Value&quot;:&quot;Chain drive&quot;},
+  {&quot;Id&quot;:&quot;type-installation&quot;,&quot;Header&quot;:&quot;Type of installation&quot;,&quot;Value&quot;:&quot;Pivoting Outer Frame Installation&quot;},
+  {&quot;Id&quot;:&quot;calculation-type-for-ventilation-area&quot;,&quot;Header&quot;:&quot;Calculation type for ventilation area&quot;,&quot;Value&quot;:&quot;Method in accordance with ASR 3.6&quot;}
+]</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2216</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.32">12:17:48.323 request:
+1 &gt; POST https://dev-drivetec-apis.schuecodigitalsolutions.com/api/Drives/DownloadPDFNew/Schuco
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1194
+1 &gt; Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+[{&quot;Id&quot;:&quot;configId&quot;,&quot;Header&quot;:&quot;configId&quot;,&quot;Value&quot;:&quot;0413f204-c057-427c-9439-44091f1470d0&quot;},{&quot;Id&quot;:&quot;driveId&quot;,&quot;Header&quot;:&quot;driveId&quot;,&quot;Value&quot;:&quot;07c798cb-2b88-4e23-aaec-fbdba670ac23&quot;},{&quot;Id&quot;:&quot;culture&quot;,&quot;Header&quot;:&quot;culture&quot;,&quot;Value&quot;:&quot;EN-US&quot;},{&quot;Id&quot;:&quot;projectId&quot;,&quot;Header&quot;:&quot;projectId&quot;,&quot;Value&quot;:&quot;9103b22a-d525-4b79-938c-4e0260bce013&quot;},{&quot;Id&quot;:&quot;range-of-app&quot;,&quot;Header&quot;:&quot;Range of application&quot;,&quot;Value&quot;:&quot;Façade&quot;},{&quot;Id&quot;:&quot;opening-type&quot;,&quot;Header&quot;:&quot;Opening type&quot;,&quot;Value&quot;:&quot;Bottom-hung vent&quot;},{&quot;Id&quot;:&quot;opening-direction&quot;,&quot;Header&quot;:&quot;Opening direction&quot;,&quot;Value&quot;:&quot;Inward&quot;},{&quot;Id&quot;:&quot;how-calc-weight&quot;,&quot;Header&quot;:&quot;Vent weight&quot;,&quot;Value&quot;:&quot;Weight including glass&quot;},{&quot;Id&quot;:&quot;Chain-Length&quot;,&quot;Header&quot;:&quot;Chain- \/ connecting rod handle&quot;,&quot;Value&quot;:&quot;100%&quot;},{&quot;Id&quot;:&quot;drive-position&quot;,&quot;Header&quot;:&quot;Drive position&quot;,&quot;Value&quot;:&quot;Side installation&quot;},{&quot;Id&quot;:&quot;locking-mechanism&quot;,&quot;Header&quot;:&quot;Locking mechanism&quot;,&quot;Value&quot;:&quot;With&quot;},{&quot;Id&quot;:&quot;voltage&quot;,&quot;Header&quot;:&quot;Voltage&quot;,&quot;Value&quot;:&quot;24 V&quot;},{&quot;Id&quot;:&quot;drive-type&quot;,&quot;Header&quot;:&quot;Drive type&quot;,&quot;Value&quot;:&quot;Chain drive&quot;},{&quot;Id&quot;:&quot;type-installation&quot;,&quot;Header&quot;:&quot;Type of installation&quot;,&quot;Value&quot;:&quot;Pivoting Outer Frame Installation&quot;},{&quot;Id&quot;:&quot;calculation-type-for-ventilation-area&quot;,&quot;Header&quot;:&quot;Calculation type for ventilation area&quot;,&quot;Value&quot;:&quot;Method in accordance with ASR 3.6&quot;}]
+
+12:17:50.533 response time in milliseconds: 2210
+1 &lt; 200
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 19 Nov 2024 06:47:50 GMT
+1 &lt; Server: Microsoft-IIS/10.0
+1 &lt; X-Powered-By: ASP.NET
+1 &lt; Content-Length: 197
+1 &lt; Connection: keep-alive
+{
+  &quot;result&quot;: &quot;https://drive-tec-dev.s3.amazonaws.com/new_project-Chain_actuator_D2_L200.pdf?AWSAccessKeyId=AKIAZAWIART4ZFAXXPHK&amp;Expires=1732002470&amp;Signature=saeh7%2FpMZtCpalxkig4t%2FAq2J0Q%3D&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Extract the result URL</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def pdfUrl = response.result</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;PDF Download URL:&#39;, pdfUrl)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.37">12:17:50.533 PDF Download URL: https://drive-tec-dev.s3.amazonaws.com/new_project-Chain_actuator_D2_L200.pdf?AWSAccessKeyId=AKIAZAWIART4ZFAXXPHK&amp;Expires=1732002470&amp;Signature=saeh7%2FpMZtCpalxkig4t%2FAq2J0Q%3D 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Validate that the URL is a valid S3 link</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match pdfUrl contains &#39;https://drive-tec-dev.s3.amazonaws.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match pdfUrl contains &#39;.pdf&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

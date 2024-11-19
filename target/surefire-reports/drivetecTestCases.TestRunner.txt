@@ -1,20 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: drivetecTestCases.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 56.832 s <<< FAILURE! - in drivetecTestCases.TestRunner
-testParallel  Time elapsed: 56.814 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 66.514 s <<< FAILURE! - in drivetecTestCases.TestRunner
+testParallel  Time elapsed: 66.485 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
 match failed: EQUALS
   $ | not equal (NUMBER:NUMBER)
   4.58
   5
 
-classpath:drivetecTestCases/features/driveteclogin.feature:197
+classpath:drivetecTestCases/features/driveteclogin.feature:184
 match failed: EQUALS
   $ | not equal (NUMBER:NUMBER)
   7.75
   8
 
-classpath:drivetecTestCases/features/driveteclogin.feature:197 ==> expected: <true> but was: <false>
+classpath:drivetecTestCases/features/driveteclogin.feature:184 ==> expected: <true> but was: <false>
 	at drivetecTestCases.TestRunner.testParallel(TestRunner.java:32)
 

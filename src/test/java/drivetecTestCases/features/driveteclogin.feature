@@ -1,5 +1,3 @@
-feature file 
-
 Feature: DriveTec Configurations
 
 @drivetec
@@ -26,7 +24,7 @@ Scenario Outline: Drivetec Configurations test
 #   }
 # }
 #   """
-
+# this one
 * def roundAwayFromZero =
 """
 function(num) {
@@ -47,6 +45,28 @@ function(num) {
   }
 }
 """
+
+
+# * def roundAwayFromZero =
+# """
+# function(num) {
+#   if (Math.abs(num) < 0.05) {
+#     return 0; // Near zero rounding
+#   }
+  
+#   // For values between 0 and 10, round to nearest whole number if close to integer, else two decimals
+#   if (num < 10) {
+#     if (num % 1 >= 0.5 || num % 1 <= -0.5) {
+#       return Math.round(num); // Round to nearest integer if halfway or more
+#     }
+#     return Math.round(num * 100) / 100; // Else, round to two decimal places
+#   }
+
+#   // For numbers 10 and above, round to nearest integer
+#   return Math.round(num);
+# }
+# """
+
 
     # Custom rounding function to round values away from zero
     # * def roundAwayFromZero = 
