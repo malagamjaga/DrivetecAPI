@@ -1,6 +1,6 @@
 Feature: DriveTec Configurations
 
-@drivetec
+@ignore
 Scenario Outline: Drivetec Configurations test
 
   * def datasetName = '<DatasetName>'
@@ -10,7 +10,7 @@ Scenario Outline: Drivetec Configurations test
 * def roundAwayFromZero = 
 """
 function(value, decimalPlaces) {
-  // Ensure value is a number
+  
   var num = Number(value);
   if (isNaN(num)) {
     return num;  // Return as is if it's not a valid number

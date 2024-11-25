@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"dc681b2f-612e-4fcc-913c-4d2e59439cfb",karate_version:"1.5.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>drivetecTestCases.features.postconfiguration</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-11-25 12:18:56 pm</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>Generate Config ID with Unique Name and Description</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">drivetecTestCases/features/postconfiguration.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Test Configurations API</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">postconfig</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">Generate Config ID with Unique Name and Description</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1150</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def uniqueName = &#39;Test&#39; + java.lang.System.currentTimeMillis()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">15</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">12:18:54.707 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def projectId = karate.get(&#39;projectId&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dynamicPayload =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">26</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.6">{
+    &quot;Id&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;ProjectId&quot;: &quot;47912bdf-5bb7-4ddd-b313-49527cf76d02&quot;,
+    &quot;Name&quot;: &quot;#(uniqueName)&quot;,
+    &quot;Description&quot;: &quot;#(uniqueName)&quot;,
+    &quot;CustomTags&quot;: &quot;&quot;,
+    &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ApplicationName&quot;: 1,
+    &quot;System&quot;: &quot;&quot;,
+    &quot;FacadeInclination&quot;: 0,
+    &quot;OpeningType&quot;: 1,
+    &quot;OpeningDirection&quot;: 1,
+    &quot;OpeningWidth&quot;: 1000,
+    &quot;VentOuterWidth&quot;: 1230,
+    &quot;VentOuterHeight&quot;: 1480,
+    &quot;VentWeight&quot;: 70,
+    &quot;CalculateWeightWithGlass&quot;: false,
+    &quot;WeightIncGlassOrThickness&quot;: false,
+    &quot;GlassThickness&quot;: 14,
+    &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
+    &quot;IsWindowOpeningCalculationByAngle&quot;: 1,
+    &quot;RequiredOpeningStroke&quot;: 400,
+    &quot;OpeningAngle&quot;: 15,
+    &quot;WindLoad&quot;: 120,
+    &quot;SnowLoad&quot;: 0,
+    &quot;DrivePosition&quot;: 2,
+    &quot;InstallationPosition&quot;: 1,
+    &quot;ChainLengthConnectingRodHandle&quot;: 5,
+    &quot;LockingMechanism&quot;: 1,
+    &quot;Voltage&quot;: 1,
+    &quot;DriveType&quot;: 1,
+    &quot;TypeOfInstallation&quot;: 2,
+    &quot;CalculationTypeForVentilation&quot;: 1,
+    &quot;CalcVentilation&quot;: 1,
+    &quot;GeometricArea&quot;: 1,
+    &quot;SpecificExhaustDimension&quot;: 30,
+    &quot;BuildingDepth&quot;: 75,
+    &quot;RevealDepth&quot;: 0,
+    &quot;RevealDepthRectangleAngle1&quot;: 0,
+    &quot;RevealDepthRectangleAngle2&quot;: 0,
+    &quot;HeightOfProfile&quot;: 0,
+    &quot;HeightProfileRectangleAngle1&quot;: 0,
+    &quot;HeightProfileRectangleAngle2&quot;: 0,
+    &quot;AkippOrAtilt&quot;: 0,
+    &quot;AdrehOrAturn&quot;: 0,
+    &quot;Ageo&quot;: 0,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;ForceWithNegativeWind&quot;: 0
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.62">
+      <div class="step-ref passed">62</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiUrl + &#39;/Configurations&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.63">
+      <div class="step-ref passed">63</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request dynamicPayload</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.64">
+      <div class="step-ref passed">64</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1057</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.64">12:18:55.022 request:
+1 &gt; POST https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1287
+1 &gt; Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;Id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;ProjectId&quot;:&quot;47912bdf-5bb7-4ddd-b313-49527cf76d02&quot;,&quot;Name&quot;:&quot;Test1732517334880&quot;,&quot;Description&quot;:&quot;Test1732517334880&quot;,&quot;CustomTags&quot;:&quot;&quot;,&quot;CreatedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;ModifiedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;ApplicationName&quot;:1,&quot;System&quot;:&quot;&quot;,&quot;FacadeInclination&quot;:0,&quot;OpeningType&quot;:1,&quot;OpeningDirection&quot;:1,&quot;OpeningWidth&quot;:1000,&quot;VentOuterWidth&quot;:1230,&quot;VentOuterHeight&quot;:1480,&quot;VentWeight&quot;:70,&quot;CalculateWeightWithGlass&quot;:false,&quot;WeightIncGlassOrThickness&quot;:false,&quot;GlassThickness&quot;:14,&quot;ProfileWeightPerSerialMeter&quot;:2.5,&quot;IsWindowOpeningCalculationByAngle&quot;:1,&quot;RequiredOpeningStroke&quot;:400,&quot;OpeningAngle&quot;:15,&quot;WindLoad&quot;:120,&quot;SnowLoad&quot;:0,&quot;DrivePosition&quot;:2,&quot;InstallationPosition&quot;:1,&quot;ChainLengthConnectingRodHandle&quot;:5,&quot;LockingMechanism&quot;:1,&quot;Voltage&quot;:1,&quot;DriveType&quot;:1,&quot;TypeOfInstallation&quot;:2,&quot;CalculationTypeForVentilation&quot;:1,&quot;CalcVentilation&quot;:1,&quot;GeometricArea&quot;:1,&quot;SpecificExhaustDimension&quot;:30,&quot;BuildingDepth&quot;:75,&quot;RevealDepth&quot;:0,&quot;RevealDepthRectangleAngle1&quot;:0,&quot;RevealDepthRectangleAngle2&quot;:0,&quot;HeightOfProfile&quot;:0,&quot;HeightProfileRectangleAngle1&quot;:0,&quot;HeightProfileRectangleAngle2&quot;:0,&quot;AkippOrAtilt&quot;:0,&quot;AdrehOrAturn&quot;:0,&quot;Ageo&quot;:0,&quot;MinPullingForceMax&quot;:0,&quot;MinPushingForceMax&quot;:0,&quot;MinPullingForcePermanent&quot;:0,&quot;MinPushingForcePermanent&quot;:0,&quot;ForceWithNegativeWind&quot;:0}
+
+12:18:55.984 response time in milliseconds: 956
+1 &lt; 200
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Mon, 25 Nov 2024 06:48:52 GMT
+1 &lt; Server: Microsoft-IIS/10.0
+1 &lt; X-Powered-By: ASP.NET
+1 &lt; Content-Length: 2044
+1 &lt; Connection: keep-alive
+{
+  &quot;ProjectId&quot;: &quot;47912bdf-5bb7-4ddd-b313-49527cf76d02&quot;,
+  &quot;Name&quot;: &quot;Test1732517334880&quot;,
+  &quot;Description&quot;: &quot;Test1732517334880&quot;,
+  &quot;CustomTags&quot;: &quot;&quot;,
+  &quot;ApplicationName&quot;: 1,
+  &quot;OpeningType&quot;: 1,
+  &quot;OpeningDirection&quot;: 1,
+  &quot;CalculateWeightWithGlass&quot;: false,
+  &quot;WindLoad&quot;: 120,
+  &quot;IsWindowOpeningCalculationByAngle&quot;: 1,
+  &quot;VentOuterWidth&quot;: 1230,
+  &quot;VentOuterHeight&quot;: 1480,
+  &quot;WeightIncGlassOrThickness&quot;: false,
+  &quot;VentWeight&quot;: 77,
+  &quot;VentWeightExact&quot;: 77.26400000000001,
+  &quot;GlassThickness&quot;: 14,
+  &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
+  &quot;FacadeInclination&quot;: 0,
+  &quot;ChainLengthConnectingRodHandle&quot;: 5,
+  &quot;ChainLenghtConnectingRodHandle&quot;: 0,
+  &quot;RequiredOpeningStroke&quot;: 400,
+  &quot;OpeningWidth&quot;: 1000,
+  &quot;OpeningAngle&quot;: 15.532868337024489,
+  &quot;SpecificExhaustDimension&quot;: 30,
+  &quot;BuildingDepth&quot;: 75,
+  &quot;SnowLoad&quot;: 0,
+  &quot;DistanceHinge&quot;: 0,
+  &quot;RatedCurrent&quot;: 0,
+  &quot;DrivePosition&quot;: 2,
+  &quot;LockingMechanism&quot;: 1,
+  &quot;Voltage&quot;: 1,
+  &quot;DriveType&quot;: 1,
+  &quot;TypeOfInstallation&quot;: 2,
+  &quot;GeometricArea&quot;: 0,
+  &quot;CalculationTypeForVentilation&quot;: 1,
+  &quot;HeightOfProfile&quot;: 0,
+  &quot;Reveal&quot;: 0,
+  &quot;RevealDepth&quot;: 0,
+  &quot;HeightProfileRectangleAngle1&quot;: 0,
+  &quot;HeightProfileRectangleAngle2&quot;: 0,
+  &quot;RevealDepthRectangleAngle1&quot;: 0,
+  &quot;RevealDepthRectangleAngle2&quot;: 0,
+  &quot;RevealDepthRectangleAngle12&quot;: 0,
+  &quot;InstallationPosition&quot;: 0,
+  &quot;RecommendedDriveArticleNo&quot;: 0,
+  &quot;System&quot;: &quot;&quot;,
+  &quot;AkippOrAtilt&quot;: 1.084,
+  &quot;AdrehOrAturn&quot;: 1.8204,
+  &quot;Ageo&quot;: 1.084,
+  &quot;MinPullingForceMax&quot;: -206.4868442161654,
+  &quot;MinPushingForceMax&quot;: -206.4868442161654,
+  &quot;MinPullingForcePermanent&quot;: -104.11163259218097,
+  &quot;MinPushingForcePermanent&quot;: -104.11163259218097,
+  &quot;ForceWithNegativeWind&quot;: 109.53156767199486,
+  &quot;ForceWithNoWindMin&quot;: 0.30763693489047433,
+  &quot;ForceWithNegativeWindMin&quot;: 0,
+  &quot;ForceWithWindMin&quot;: -108.91629380221393,
+  &quot;Id&quot;: &quot;732437f9-330d-4e38-b829-118f58b33dee&quot;,
+  &quot;CreatedOn&quot;: &quot;2024-11-25T06:48:52.1057916+00:00&quot;,
+  &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+  &quot;ModifiedOn&quot;: &quot;2024-11-25T06:48:52.1057924+00:00&quot;,
+  &quot;ModifiedBy&quot;: &quot;&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.65">
+      <div class="step-ref passed">65</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.66">
+      <div class="step-ref passed">66</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.Id != null</span>
+      </div>
+    </div>
+    <div class="time-cell passed">24</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.68">
+      <div class="step-ref passed">68</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def configId = response.Id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.69">
+      <div class="step-ref passed">69</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Generated Config ID:&#39;, configId)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.69">12:18:56.015 Generated Config ID: 732437f9-330d-4e38-b829-118f58b33dee 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.70">
+      <div class="step-ref passed">70</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Generated Name:&#39;, dynamicPayload.Name)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.70">12:18:56.015 Generated Name: Test1732517334880 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.71">
+      <div class="step-ref passed">71</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;Generated Description:&#39;, dynamicPayload.Description)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.71">12:18:56.015 Generated Description: Test1732517334880 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.72">
+      <div class="step-ref passed">72</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.set(&#39;generatedData&#39;, { configId: configId, name: dynamicPayload.Name, description: dynamicPayload.Description })</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
