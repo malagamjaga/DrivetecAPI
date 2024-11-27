@@ -1,6 +1,7 @@
+@drivetec
 Feature: DriveTec Configurations
 
-@drivetec
+
 Scenario Outline: Drivetec Configurations Test
   
   * def datasetName = '<DatasetName>'
@@ -90,6 +91,8 @@ function(value, decimalPlaces) {
   When method put
   Then status 200
 
+  * def updatedConfigId = karate.jsonPath(response, '$.Id')
+
   # Round the response values using the custom roundAwayFromZero function
 * def roundedOpeningAngle = roundAwayFromZero(response.OpeningAngle, 0)  // Round to nearest integer
 * def roundedAgeo = roundAwayFromZero(response.Ageo, 2)  // Round to two decimal places
@@ -113,5 +116,37 @@ And match roundedAgeo == expectedAgeo
 And match roundedRequiredOpeningStroke == expectedRequiredOpeningStroke
 And match roundedVentWeight == expectedVentWeight
 
+# GET request 
+Given url apiUrl + '/Config/' + updatedConfigId + '/Drive'
+When method GET
+Then status 200
+
+# Extract `RecommDrive` values from the API response
+* def actualRecommDrive = response.map(function(x) { return x.Name }).join(', ') 
+
+# Extract expected RecommDrive from the CSV for this iteration
+  * def expectedRecommDrive = '<RecommDrive>'
+
+* def normalize = 
+"""
+function(value) {
+  return value.replace(/\s*,\s*/g, ',').trim(); // Remove spaces around commas
+}
+"""
+* def normalizedActualRecommDrive = normalize(actualRecommDrive)
+* def normalizedExpectedRecommDrive = normalize(expectedRecommDrive)
+
+# Assert API `RecommDrive` values match expected values from CSV
+* karate.log('Expected RecommDrive:', expectedRecommDrive)
+* karate.log('Actual RecommDrive:', actualRecommDrive)
+* karate.log('Normalized Actual RecommDrive:', normalizedActualRecommDrive)
+* karate.log('Normalized Expected RecommDrive:', normalizedExpectedRecommDrive)
+* assert normalizedActualRecommDrive == normalizedExpectedRecommDrive
+
+
 Examples:
-  | read('classpath:drivetecTestCases/features/configurations.csv') |
+  | read('classpath:drivetecTestCases/features/sampleconfigurations.csv') |
+
+
+ 
+

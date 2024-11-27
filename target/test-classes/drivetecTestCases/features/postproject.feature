@@ -3,7 +3,7 @@
     Scenario: Create Project and Use ProjectId
 
     # unique project name with "TPJ" prefix and a 5-digit number
-    * def uniqueName = 'TPJ' + (java.lang.System.currentTimeMillis() % 100000)  
+    * def uniqueName = 'AUT_TPJ' + (java.lang.System.currentTimeMillis() % 100000)  
 
     # Request Payload for creating a Project with dynamic Name
     * def projectPayload = 

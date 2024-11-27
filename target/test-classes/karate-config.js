@@ -20,3 +20,4 @@ function fn() {
 
   return config;
 }
+
