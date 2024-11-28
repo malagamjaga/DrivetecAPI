@@ -1,0 +1,1812 @@
+# Created at 2024-11-28T15:29:30.282
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+
+# Created at 2024-11-28T15:29:31.263
+Unexpected IOException with stream: 15:29:31.248 [main] DEBUG com.intuit.karate - response time in milliseconds: 682
+2 < 200
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Thu, 28 Nov 2024 09:59:30 GMT
+2 < Server: Microsoft-IIS/10.0
+2 < X-Powered-By: ASP.NET
+2 < Content-Length: 7512
+2 < Connection: keep-alive
+[
+  {
+    "Name": "Locking actuator EasyConnect",
+    "Bezeichnung": "Verriegelungsantrieb EasyConnect",
+    "ConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "Description": "",
+    "Application": "",
+    "ApplicationFacade": true,
+    "ApplicationSkylight": false,
+    "Type": 5,
+    "OpeningType": 0,
+    "BottomHungInward": true,
+    "BottomHungOutward": false,
+    "SideHungInward": true,
+    "SideHungOutward": false,
+    "TopHungInward": false,
+    "TopHungOutward": false,
+    "ProjectedTopHungInward": false,
+    "ProjectedTopHungOutward": false,
+    "InstallationType": "",
+    "ITMainOutFrmMountWBracket": true,
+    "ITMainFixOutFrmMount": true,
+    "ITMainVentFrmMount": false,
+    "ITSideMount50": false,
+    "ITSideMount60": false,
+    "ITSideMount70": false,
+    "ITSideMount80": false,
+    "ITSideMount67": false,
+    "Feature": "",
+    "FeatureOpenClose": true,
+    "FeatureLock": false,
+    "ArticleNumber": 291787,
+    "Stroke": 0,
+    "Angle": 0,
+    "Voltage": null,
+    "Voltage24": true,
+    "Voltage230": true,
+    "RatedCurrent": 0,
+    "BreakingCurrent": 0,
+    "PullingForceMax": 0,
+    "PushingForceMax": 0,
+    "PullingForceMaxWithNegativeWind": 0,
+    "PushingForceMaxWithNegativeWind": 0,
+    "PushingForcePermanent": 0,
+    "PullingForcePermanent": 0,
+    "MinPullingForceMax": 0,
+    "MinPushingForceMax": 0,
+    "MinPullingForcePermanent": 0,
+    "MinPushingForcePermanent": 0,
+    "Price": 0,
+    "DriveLength": 0,
+    "ChainDrive": 0,
+    "ChainDrive2": 0,
+    "MaxLengthMainClosingEdge1Drive": 0,
+    "MaxGeometricArea": 0,
+    "GeometricalSmokeExhaustion": 0,
+    "TotalGlassThickness": 0,
+    "Dimensions": 0,
+    "DimensionsWxHxD": "375 x 24 x 35",
+    "TensileForce": 0,
+    "LockingForce": 0,
+    "Details_DE": "<ul> <li>Bemessungsspannung: 24 V DC (19 V … 28 V)</li> <li>Abschaltstrom: ~1,0 A</li> <li>Bemessungsstrom: 0,6 A</li> <li>Bemessungsaufnahme: 15 W</li> <li>Schutzart: IP 32</li><li>Zug-/Schubkraft: max. 600 N</li> <li>Umgebungstemperatur: -5°C bis + 60°C</li> <li>Anschlussleitung: Halogenfrei, grau 5 x 0,5mm² , ~5m</li> <li>Laufzeit: ~ 5s</li><li>Hub: ~ 18mm</li> </ul>",
+    "Details_EN": "<ul> <li>Rated voltage : 24 V DC (19 V … 28 V</li> <li>Breaking current : ~1,0 A</li> <li>Rated current : 0,6 A</li> <li>Rated consumption : 15 W</li> <li>Protection rating : IP 32</li><li>Traction/ thrust : max. 600 N</li> <li>Ambient temperature: -5°C bis + 60°C</li> <li>Connecting cable: halogen-free, grey 5 x 0,5mm² , ~5m</li> <li>Running time: ~ 5s</li><li>Stroke: ~ 18mm</li> </ul>",
+    "Einsatz": "<ul> <li>Anwendung: Lüftung, NRA</li><li>Integrierte intelligente Regelelektronik</li></ul>",
+    "Use": "<ul> <li>Application: ventilation, natural smoke ventilation</li> <li>Integrated intelligent control electronics</li></ul>",
+    "Ausstattung": "<ul><li>Laufrichtung einstellbar</li><li>Zusätzlicher Universal-Steckersatz</li></ul>",
+    "Equipment": "<ul><li>Running direction adjustable</li><li>Additional universal plug socket</li></ul>",
+    "Optionen": "<ul> <li>Mitnehmer objekt-/profilspezifisch anpassbar</li></ul>",
+    "Options": "<ul> <li>Coupling adapter customizable for project-/profile-specific demands</li></ul>",
+    "IsTwoPce": false,
+    "ResultVentWeight": 0,
+    "IsLsRsDrive": false,
+    "ArticleNumberRs": 0,
+    "TwoDrivesSideInstallation50": 0,
+    "TwoDrivesSideInstallation60": 0,
+    "TwoDrivesSideInstallation70": 0,
+    "TwoDrivesSideInstallation80": 0,
+    "OpeningSpeedmms": 0,
+    "Traction": 0,
+    "Thrust": 0,
+    "Id": "f894c384-bd5f-4f1b-a446-f4a3afc8426e",
+    "CreatedOn": "2024-09-26T13:55:26.817Z",
+    "CreatedBy": "",
+    "ModifiedOn": "2024-09-26T13:55:26.817Z",
+    "ModifiedBy": ""
+  },
+  {
+    "Name": "Locking actuator 600",
+    "Bezeichnung": "Verriegelungsantrieb 600",
+    "ConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "Description": "",
+    "Application": "",
+    "ApplicationFacade": true,
+    "ApplicationSkylight": false,
+    "Type": 5,
+    "OpeningType": 0,
+    "BottomHungInward": true,
+    "BottomHungOutward": false,
+    "SideHungInward": true,
+    "SideHungOutward": false,
+    "TopHungInward": false,
+    "TopHungOutward": false,
+    "ProjectedTopHungInward": false,
+    "ProjectedTopHungOutward": false,
+    "InstallationType": "",
+    "ITMainOutFrmMountWBracket": true,
+    "ITMainFixOutFrmMount": true,
+    "ITMainVentFrmMount": false,
+    "ITSideMount50": false,
+    "ITSideMount60": false,
+    "ITSideMount70": false,
+    "ITSideMount80": false,
+    "ITSideMount67": false,
+    "Feature": "",
+    "FeatureOpenClose": true,
+    "FeatureLock": false,
+    "ArticleNumber": 291736,
+    "Stroke": 0,
+    "Angle": 0,
+    "Voltage": null,
+    "Voltage24": true,
+    "Voltage230": true,
+    "RatedCurrent": 0,
+    "BreakingCurrent": 0,
+    "PullingForceMax": 0,
+    "PushingForceMax": 0,
+    "PullingForceMaxWithNegativeWind": 0,
+    "PushingForceMaxWithNegativeWind": 0,
+    "PushingForcePermanent": 0,
+    "PullingForcePermanent": 0,
+    "MinPullingForceMax": 0,
+    "MinPushingForceMax": 0,
+    "MinPullingForcePermanent": 0,
+    "MinPushingForcePermanent": 0,
+    "Price": 218.27,
+    "DriveLength": 0,
+    "ChainDrive": 0,
+    "ChainDrive2": 0,
+    "MaxLengthMainClosingEdge1Drive": 0,
+    "MaxGeometricArea": 0,
+    "GeometricalSmokeExhaustion": 0,
+    "TotalGlassThickness": 0,
+    "Dimensions": 0,
+    "DimensionsWxHxD": "415 x 26 x 26",
+    "TensileForce": 0,
+    "LockingForce": 0,
+    "Details_DE": "<ul> <li>Bemessungsspannung: 24 V DC (19 V … 28 V)</li> <li>Abschaltstrom: ~1,0 A</li> <li>Bemessungsstrom: 0,6 A</li> <li>Bemessungsaufnahme: 15 W</li> <li>Schutzart: IP 32</li><li>Zug-/Schubkraft: max. 600 N</li> <li>Umgebungstemperatur: -5°C bis + 60°C</li> <li>Anschlussleitung: Halogenfrei, grau 3x 0,5mm², ~3m</li> <li>Laufzeit: ~ 5s</li><li>Hub: ~ 18mm</li> </ul>",
+    "Details_EN": "<ul> <li>Rated voltage : 24 V DC (19 V … 28 V</li> <li>Breaking current : ~1,0 A</li> <li>Rated current : 0,6 A</li> <li>Rated consumption : 15 W</li> <li>Protection rating : IP 32</li><li>Traction/ thrust : max. 600 N</li> <li>Ambient temperature: -5°C bis + 60°C</li> <li>Connecting cable: halogen-free, grey 3 x 0,5mm², ~3m</li> <li>Running time: ~ 5s</li><li>Stroke: ~ 18mm</li> </ul>",
+    "Einsatz": "<ul> <li>Anwendung: Lüftung, NRA</li><li>Integrierte intelligente Regelelektronik</li></ul>",
+    "Use": "<ul> <li>Application: ventilation, natural smoke ventilation</li> <li>Integrated intelligent control electronics</li></ul>",
+    "Ausstattung": "<ul><li>Laufrichtung einstellbar</li></ul>",
+    "Equipment": "<ul><li>Running direction adjustable</li></ul>",
+    "Optionen": "<ul> <li>Mitnehmer objekt-/profilspezifisch anpassbar</li></ul>",
+    "Options": "<ul> <li>Coupling adapter customizable for project-/profile-specific demands</li></ul>",
+    "IsTwoPce": false,
+    "ResultVentWeight": 0,
+    "IsLsRsDrive": true,
+    "ArticleNumberRs": 291735,
+    "TwoDrivesSideInstallation50": 0,
+    "TwoDrivesSideInstallation60": 0,
+    "TwoDrivesSideInstallation70": 0,
+    "TwoDrivesSideInstallation80": 0,
+    "OpeningSpeedmms": 0,
+    "Traction": 0,
+    "Thrust": 0,
+    "Id": "69d8317e-493b-4010-8d9e-54168822bacf",
+    "CreatedOn": "2024-09-26T13:55:26.817Z",
+    "CreatedBy": "",
+    "ModifiedOn": "2024-09-26T13:55:26.817Z",
+    "ModifiedBy": ""
+  }
+]
+
+
+
+# Created at 2024-11-28T15:29:31.437
+Unexpected IOException with stream: 15:29:31.437 [main] INFO  com.intuit.karate - Expected RecommDrive: Locking actuator EasyConnect,Locking actuator 600 
+
+
+# Created at 2024-11-28T15:29:31.452
+Unexpected IOException with stream: 15:29:31.452 [main] INFO  com.intuit.karate - Actual RecommDrive: Locking actuator EasyConnect, Locking actuator 600 
+
+
+# Created at 2024-11-28T15:29:31.452
+Unexpected IOException with stream: 15:29:31.452 [main] INFO  com.intuit.karate - Normalized Actual RecommDrive: Locking actuator EasyConnect,Locking actuator 600 
+
+
+# Created at 2024-11-28T15:29:31.452
+Unexpected IOException with stream: 15:29:31.452 [main] INFO  com.intuit.karate - Normalized Expected RecommDrive: Locking actuator EasyConnect,Locking actuator 600 
+
+
+# Created at 2024-11-28T15:29:31.468
+Unexpected IOException with stream: 15:29:31.452 [main] INFO  com.intuit.karate - Drive IDs: [
+  "f894c384-bd5f-4f1b-a446-f4a3afc8426e",
+  "69d8317e-493b-4010-8d9e-54168822bacf"
+]
+ 
+
+
+# Created at 2024-11-28T15:29:31.468
+Unexpected IOException with stream: 15:29:31.468 [main] INFO  com.intuit.karate - First Drive ID: f894c384-bd5f-4f1b-a446-f4a3afc8426e 
+
+
+# Created at 2024-11-28T15:29:31.468
+Unexpected IOException with stream: 15:29:31.468 [main] ERROR com.intuit.karate - classpath:drivetecTestCases/features/putconfiguration.feature:158
+* while (index < driveIds.length)
+no step-definition method match found for: while (index < driveIds.length)
+classpath:drivetecTestCases/features/putconfiguration.feature:158
+
+
+# Created at 2024-11-28T15:29:31.500
+Unexpected IOException with stream: 15:29:31.500 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-28T15:29:31.515
+Unexpected IOException with stream: 15:29:31.515 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset3 
+
+
+# Created at 2024-11-28T15:29:31.562
+Unexpected IOException with stream: 15:29:31.562 [main] INFO  com.intuit.karate - Using ProjectId:  {
+  "projectPayload": {
+    "Id": "579816e4-6653-4794-b435-a885f32e28d7",
+    "Name": "AUT_TPJ65289",
+    "Address": "Hyderabad, Telangana, India",
+    "Description": "",
+    "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+    "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+  },
+  "uniqueName": "AUT_TPJ65289",
+  "responseHeaders": {
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Date": [
+      "Thu, 28 Nov 2024 09:59:25 GMT"
+    ],
+    "Server": [
+      "Microsoft-IIS/10.0"
+    ],
+    "X-Powered-By": [
+      "ASP.NET"
+    ],
+    "transfer-encoding": [
+      "chunked"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Set-Cookie": [
+    ]
+  },
+  "responseTime": 860,
+  "response": {
+    "Name": "AUT_TPJ65289",
+    "Description": "",
+    "Address": "Hyderabad, Telangana, India",
+    "Id": "7a84bc42-545f-4e8e-9a5e-327ae711d16c",
+    "CreatedOn": "2024-11-28T09:59:25.5873376+00:00",
+    "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+    "ModifiedOn": "2024-11-28T09:59:25.5873385+00:00",
+    "ModifiedBy": ""
+  },
+  "responseStatus": 200,
+  "prjId": "7a84bc42-545f-4e8e-9a5e-327ae711d16c",
+  "projectId": "7a84bc42-545f-4e8e-9a5e-327ae711d16c"
+}
+ 
+
+
+# Created at 2024-11-28T15:29:31.578
+Unexpected IOException with stream: 15:29:31.578 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1275
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"00000000-0000-0000-0000-000000000000","ProjectId":"7a84bc42-545f-4e8e-9a5e-327ae711d16c","Name":"Dataset1563","Description":"Dataset1563","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","ApplicationName":1,"System":"","FacadeInclination":0,"OpeningType":1,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":70,"CalculateWeightWithGlass":false,"WeightIncGlassOrThickness":false,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"IsWindowOpeningCalculationByAngle":1,"RequiredOpeningStroke":400,"OpeningAngle":15,"WindLoad":120,"SnowLoad":0,"DrivePosition":2,"InstallationPosition":1,"ChainLengthConnectingRodHandle":5,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"CalculationTypeForVentilation":1,"CalcVentilation":1,"GeometricArea":1,"SpecificExhaustDimension":30,"BuildingDepth":75,"RevealDepth":0,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"HeightOfProfile":0,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-28T15:29:32.293
+Unexpected IOException with stream: 15:29:32.293 [main] DEBUG com.intuit.karate - response time in milliseconds: 715
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 28 Nov 2024 09:59:31 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2032
+1 < Connection: keep-alive
+{
+  "ProjectId": "7a84bc42-545f-4e8e-9a5e-327ae711d16c",
+  "Name": "Dataset1563",
+  "Description": "Dataset1563",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 1,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 400,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 15.532868337024489,
+  "SpecificExhaustDimension": 30,
+  "BuildingDepth": 75,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 2,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.084,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 1.084,
+  "MinPullingForceMax": -206.4868442161654,
+  "MinPushingForceMax": -206.4868442161654,
+  "MinPullingForcePermanent": -104.11163259218097,
+  "MinPushingForcePermanent": -104.11163259218097,
+  "ForceWithNegativeWind": 109.53156767199486,
+  "ForceWithNoWindMin": 0.30763693489047433,
+  "ForceWithNegativeWindMin": 0,
+  "ForceWithWindMin": -108.91629380221393,
+  "Id": "69537863-9287-4a9e-9755-b69020172674",
+  "CreatedOn": "2024-11-28T09:59:31.5789805+00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-28T09:59:31.5789821+00:00",
+  "ModifiedBy": ""
+}
+
+
+
+# Created at 2024-11-28T15:29:32.298
+Unexpected IOException with stream: 15:29:32.298 [main] INFO  com.intuit.karate - Generated Config ID: 69537863-9287-4a9e-9755-b69020172674 
+
+
+# Created at 2024-11-28T15:29:32.298
+Unexpected IOException with stream: 15:29:32.298 [main] INFO  com.intuit.karate - Generated Name: Dataset1563 
+
+
+# Created at 2024-11-28T15:29:32.298
+Unexpected IOException with stream: 15:29:32.298 [main] INFO  com.intuit.karate - Generated Description: Dataset1563 
+
+
+# Created at 2024-11-28T15:29:32.313
+Unexpected IOException with stream: 15:29:32.313 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1280
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"69537863-9287-4a9e-9755-b69020172674","Name":"Dataset3","Description":"Dataset1563","ProjectId":"7a84bc42-545f-4e8e-9a5e-327ae711d16c","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":3,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":800,"WindLoad":500,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":1,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":1,"HeightOfProfile":30,"HeightProfileRectangleAngle1":35,"HeightProfileRectangleAngle2":2,"RevealDepth":200,"RevealDepthRectangleAngle1":150,"RevealDepthRectangleAngle2":1000,"ChainLengthConnectingRodHandle":5,"ApplicationName":1,"OpeningAngle":15,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-28T15:29:33.057
+Unexpected IOException with stream: 15:29:33.057 [main] DEBUG com.intuit.karate - response time in milliseconds: 744
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 28 Nov 2024 09:59:31 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2018
+1 < Connection: keep-alive
+{
+  "ProjectId": "7a84bc42-545f-4e8e-9a5e-327ae711d16c",
+  "Name": "Dataset3",
+  "Description": "Dataset1563",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 3,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 500,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 800,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 37.955778805488166,
+  "SpecificExhaustDimension": 45,
+  "BuildingDepth": 90,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 1,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 30,
+  "Reveal": 0,
+  "RevealDepth": 200,
+  "HeightProfileRectangleAngle1": 35,
+  "HeightProfileRectangleAngle2": 2,
+  "RevealDepthRectangleAngle1": 150,
+  "RevealDepthRectangleAngle2": 1000,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 2.168,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 1.8204,
+  "MinPullingForceMax": -299.575179457674,
+  "MinPushingForceMax": -455.1000374749911,
+  "MinPullingForcePermanent": 0,
+  "MinPushingForcePermanent": 0,
+  "ForceWithNegativeWind": 455.1000374749911,
+  "ForceWithNoWindMin": 0,
+  "ForceWithNegativeWindMin": 299.575179457674,
+  "ForceWithWindMin": -299.575179457674,
+  "Id": "69537863-9287-4a9e-9755-b69020172674",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-28T09:59:32.3480931+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-28T15:29:33.071
+Unexpected IOException with stream: 15:29:33.069 [main] INFO  com.intuit.karate - Rounded Opening Angle: 38.0 
+
+
+# Created at 2024-11-28T15:29:33.071
+Unexpected IOException with stream: 15:29:33.071 [main] INFO  com.intuit.karate - Rounded Ageo: 1.82 
+
+
+# Created at 2024-11-28T15:29:33.071
+Unexpected IOException with stream: 15:29:33.071 [main] INFO  com.intuit.karate - Rounded Required Opening Stroke: 800.0 
+
+
+# Created at 2024-11-28T15:29:33.071
+Unexpected IOException with stream: 15:29:33.071 [main] INFO  com.intuit.karate - Rounded Vent Weight: 77.0 
+
+
+# Created at 2024-11-28T15:29:33.093
+Unexpected IOException with stream: 15:29:33.085 [main] DEBUG com.intuit.karate - request:
+2 > GET https://dev-drivetec-apis.schuecodigitalsolutions.com/Config/69537863-9287-4a9e-9755-b69020172674/Drive
+2 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+2 > Accept-Encoding: gzip,deflate
+
+
+
+
+# Created at 2024-11-28T15:29:33.795
+Unexpected IOException with stream: 15:29:33.793 [main] DEBUG com.intuit.karate - response time in milliseconds: 693
+2 < 200
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Thu, 28 Nov 2024 09:59:33 GMT
+2 < Server: Microsoft-IIS/10.0
+2 < X-Powered-By: ASP.NET
+2 < Content-Length: 11779
+2 < Connection: keep-alive
+[
+  {
+    "Name": "Chain actuator D6 800",
+    "Bezeichnung": "Kettenantrieb D6 800",
+    "ConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "Description": "",
+    "Application": "Facade",
+    "ApplicationFacade": true,
+    "ApplicationSkylight": true,
+    "Type": 1,
+    "OpeningType": 0,
+    "BottomHungInward": true,
+    "BottomHungOutward": true,
+    "SideHungInward": true,
+    "SideHungOutward": true,
+    "TopHungInward": false,
+    "TopHungOutward": true,
+    "ProjectedTopHungInward": false,
+    "ProjectedTopHungOutward": false,
+    "InstallationType": "",
+    "ITMainOutFrmMountWBracket": true,
+    "ITMainFixOutFrmMount": false,
+    "ITMainVentFrmMount": true,
+    "ITSideMount50": false,
+    "ITSideMount60": false,
+    "ITSideMount70": false,
+    "ITSideMount80": false,
+    "ITSideMount67": true,
+    "Feature": "",
+    "FeatureOpenClose": true,
+    "FeatureLock": true,
+    "ArticleNumber": 291717,
+    "Stroke": 800,
+    "Angle": 0,
+    "Voltage": "24 V DC",
+    "Voltage24": true,
+    "Voltage230": false,
+    "RatedCurrent": 1,
+    "BreakingCurrent": 1,
+    "PullingForceMax": 600,
+    "PushingForceMax": 300,
+    "PullingForceMaxWithNegativeWind": 0,
+    "PushingForceMaxWithNegativeWind": 0,
+    "PushingForcePermanent": 200,
+    "PullingForcePermanent": 600,
+    "MinPullingForceMax": -455.1,
+    "MinPushingForceMax": 0,
+    "MinPullingForcePermanent": 0,
+    "MinPushingForcePermanent": 0,
+    "Price": 387.92,
+    "DriveLength": 794,
+    "ChainDrive": 894,
+    "ChainDrive2": 1748,
+    "MaxLengthMainClosingEdge1Drive": 1920,
+    "MaxGeometricArea": 2,
+    "GeometricalSmokeExhaustion": 0,
+    "TotalGlassThickness": 14,
+    "Dimensions": 0,
+    "DimensionsWxHxD": "794 x 40 x 56",
+    "TensileForce": 0,
+    "LockingForce": 0,
+    "Details_DE": "<ul> <li>Bemessungsspannung: 24 V DC (19 V … 28 V)</li> <li>Abschaltstrom: 1,2 A</li> <li>Bemessungsstrom: 0,9 A</li> <li>Bemessungsaufnahme: 22 W</li> <li>Schutzart: IP 32</li> <li>Zug-/Schubkraft: max. 600 N</li> <li>Umgebungstemperatur: -5°C bis + 60°C</li> <li>Anschlussleitung: Halogenfrei, grau 5 x 0,5mm², ~3m</li> <li>Max. Geschwindigkeit: 13,5 mm/s</li> </ul>",
+    "Details_EN": "<ul> <li>Rated voltage: 24 V DC (19 V … 28 V)</li><li>Breaking current: 1.2 A</li><li>Rated current: 0.9 A</li><li>Rated consumption: 22W</li><li>Protection rating: IP 32</li><li>Traction/ thrust: max. 600 N</li><li>Ambient temperature: -5° C to +60° C</li><li>Connecting cable: halogen-free, grey 3 x 0,5mm², ~3m</li><li>Max. speed: 13,5 mm/s</li></ul>",
+    "Einsatz": "<ul><li>Anwendung: Lüftung, NRA</li> <li>Integrierte intelligente Regelelektronik</li></ul>",
+    "Use": "<ul><li>Application: ventilation, natural smoke ventilation</li> <li>Integrated intelligent control electronics</li> </ul>",
+    "Ausstattung": "<ul><li>Zusätzlicher Universal-Steckersatz für Mehrfachbetrieb bis zu 4 Antrieben und 2 Verriegelungsantrieben</li></ul>",
+    "Equipment": "<ul><li>Additional universal plug socket for multiplex operation  of up to 4 drives and 2 interlocking drives</li></ul>",
+    "Optionen": "<ul><li>Programmierung von Sonderfunktionen</li> <li>Programmierbare Rückmeldung Endlage „AUF“ (max. 24 V, 500 mA)</li> <li>Schüco Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieben in Antriebs-Verbundsystemen</li> </ul>",
+    "Options": "<ul><li>Programming of special functions</li> <li>Programmable response for “OPEN” end position (max. 24 V, 500 mA)</li> <li>Schüco controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems</li> </ul>",
+    "IsTwoPce": false,
+    "ResultVentWeight": 77.26,
+    "IsLsRsDrive": false,
+    "ArticleNumberRs": 0,
+    "TwoDrivesSideInstallation50": 0,
+    "TwoDrivesSideInstallation60": 0,
+    "TwoDrivesSideInstallation70": 0,
+    "TwoDrivesSideInstallation80": 0,
+    "OpeningSpeedmms": 0,
+    "Traction": 600,
+    "Thrust": 300,
+    "Id": "e9fa5654-1773-4646-9949-a237ab4f4797",
+    "CreatedOn": "2024-09-26T13:55:26.817Z",
+    "CreatedBy": "",
+    "ModifiedOn": "2024-09-26T13:55:26.817Z",
+    "ModifiedBy": ""
+  },
+  {
+    "Name": "Locking actuator EasyConnect",
+    "Bezeichnung": "Verriegelungsantrieb EasyConnect",
+    "ConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "Description": "",
+    "Application": "",
+    "ApplicationFacade": true,
+    "ApplicationSkylight": false,
+    "Type": 5,
+    "OpeningType": 0,
+    "BottomHungInward": true,
+    "BottomHungOutward": false,
+    "SideHungInward": true,
+    "SideHungOutward": false,
+    "TopHungInward": false,
+    "TopHungOutward": false,
+    "ProjectedTopHungInward": false,
+    "ProjectedTopHungOutward": false,
+    "InstallationType": "",
+    "ITMainOutFrmMountWBracket": true,
+    "ITMainFixOutFrmMount": true,
+    "ITMainVentFrmMount": false,
+    "ITSideMount50": false,
+    "ITSideMount60": false,
+    "ITSideMount70": false,
+    "ITSideMount80": false,
+    "ITSideMount67": false,
+    "Feature": "",
+    "FeatureOpenClose": true,
+    "FeatureLock": false,
+    "ArticleNumber": 291787,
+    "Stroke": 0,
+    "Angle": 0,
+    "Voltage": null,
+    "Voltage24": true,
+    "Voltage230": true,
+    "RatedCurrent": 0,
+    "BreakingCurrent": 0,
+    "PullingForceMax": 0,
+    "PushingForceMax": 0,
+    "PullingForceMaxWithNegativeWind": 0,
+    "PushingForceMaxWithNegativeWind": 0,
+    "PushingForcePermanent": 0,
+    "PullingForcePermanent": 0,
+    "MinPullingForceMax": 0,
+    "MinPushingForceMax": 0,
+    "MinPullingForcePermanent": 0,
+    "MinPushingForcePermanent": 0,
+    "Price": 0,
+    "DriveLength": 0,
+    "ChainDrive": 0,
+    "ChainDrive2": 0,
+    "MaxLengthMainClosingEdge1Drive": 0,
+    "MaxGeometricArea": 0,
+    "GeometricalSmokeExhaustion": 0,
+    "TotalGlassThickness": 0,
+    "Dimensions": 0,
+    "DimensionsWxHxD": "375 x 24 x 35",
+    "TensileForce": 0,
+    "LockingForce": 0,
+    "Details_DE": "<ul> <li>Bemessungsspannung: 24 V DC (19 V … 28 V)</li> <li>Abschaltstrom: ~1,0 A</li> <li>Bemessungsstrom: 0,6 A</li> <li>Bemessungsaufnahme: 15 W</li> <li>Schutzart: IP 32</li><li>Zug-/Schubkraft: max. 600 N</li> <li>Umgebungstemperatur: -5°C bis + 60°C</li> <li>Anschlussleitung: Halogenfrei, grau 5 x 0,5mm² , ~5m</li> <li>Laufzeit: ~ 5s</li><li>Hub: ~ 18mm</li> </ul>",
+    "Details_EN": "<ul> <li>Rated voltage : 24 V DC (19 V … 28 V</li> <li>Breaking current : ~1,0 A</li> <li>Rated current : 0,6 A</li> <li>Rated consumption : 15 W</li> <li>Protection rating : IP 32</li><li>Traction/ thrust : max. 600 N</li> <li>Ambient temperature: -5°C bis + 60°C</li> <li>Connecting cable: halogen-free, grey 5 x 0,5mm² , ~5m</li> <li>Running time: ~ 5s</li><li>Stroke: ~ 18mm</li> </ul>",
+    "Einsatz": "<ul> <li>Anwendung: Lüftung, NRA</li><li>Integrierte intelligente Regelelektronik</li></ul>",
+    "Use": "<ul> <li>Application: ventilation, natural smoke ventilation</li> <li>Integrated intelligent control electronics</li></ul>",
+    "Ausstattung": "<ul><li>Laufrichtung einstellbar</li><li>Zusätzlicher Universal-Steckersatz</li></ul>",
+    "Equipment": "<ul><li>Running direction adjustable</li><li>Additional universal plug socket</li></ul>",
+    "Optionen": "<ul> <li>Mitnehmer objekt-/profilspezifisch anpassbar</li></ul>",
+    "Options": "<ul> <li>Coupling adapter customizable for project-/profile-specific demands</li></ul>",
+    "IsTwoPce": false,
+    "ResultVentWeight": 0,
+    "IsLsRsDrive": false,
+    "ArticleNumberRs": 0,
+    "TwoDrivesSideInstallation50": 0,
+    "TwoDrivesSideInstallation60": 0,
+    "TwoDrivesSideInstallation70": 0,
+    "TwoDrivesSideInstallation80": 0,
+    "OpeningSpeedmms": 0,
+    "Traction": 0,
+    "Thrust": 0,
+    "Id": "f894c384-bd5f-4f1b-a446-f4a3afc8426e",
+    "CreatedOn": "2024-09-26T13:55:26.817Z",
+    "CreatedBy": "",
+    "ModifiedOn": "2024-09-26T13:55:26.817Z",
+    "ModifiedBy": ""
+  },
+  {
+    "Name": "Locking actuator 600",
+    "Bezeichnung": "Verriegelungsantrieb 600",
+    "ConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "Description": "",
+    "Application": "",
+    "ApplicationFacade": true,
+    "ApplicationSkylight": false,
+    "Type": 5,
+    "OpeningType": 0,
+    "BottomHungInward": true,
+    "BottomHungOutward": false,
+    "SideHungInward": true,
+    "SideHungOutward": false,
+    "TopHungInward": false,
+    "TopHungOutward": false,
+    "ProjectedTopHungInward": false,
+    "ProjectedTopHungOutward": false,
+    "InstallationType": "",
+    "ITMainOutFrmMountWBracket": true,
+    "ITMainFixOutFrmMount": true,
+    "ITMainVentFrmMount": false,
+    "ITSideMount50": false,
+    "ITSideMount60": false,
+    "ITSideMount70": false,
+    "ITSideMount80": false,
+    "ITSideMount67": false,
+    "Feature": "",
+    "FeatureOpenClose": true,
+    "FeatureLock": false,
+    "ArticleNumber": 291736,
+    "Stroke": 0,
+    "Angle": 0,
+    "Voltage": null,
+    "Voltage24": true,
+    "Voltage230": true,
+    "RatedCurrent": 0,
+    "BreakingCurrent": 0,
+    "PullingForceMax": 0,
+    "PushingForceMax": 0,
+    "PullingForceMaxWithNegativeWind": 0,
+    "PushingForceMaxWithNegativeWind": 0,
+    "PushingForcePermanent": 0,
+    "PullingForcePermanent": 0,
+    "MinPullingForceMax": 0,
+    "MinPushingForceMax": 0,
+    "MinPullingForcePermanent": 0,
+    "MinPushingForcePermanent": 0,
+    "Price": 218.27,
+    "DriveLength": 0,
+    "ChainDrive": 0,
+    "ChainDrive2": 0,
+    "MaxLengthMainClosingEdge1Drive": 0,
+    "MaxGeometricArea": 0,
+    "GeometricalSmokeExhaustion": 0,
+    "TotalGlassThickness": 0,
+    "Dimensions": 0,
+    "DimensionsWxHxD": "415 x 26 x 26",
+    "TensileForce": 0,
+    "LockingForce": 0,
+    "Details_DE": "<ul> <li>Bemessungsspannung: 24 V DC (19 V … 28 V)</li> <li>Abschaltstrom: ~1,0 A</li> <li>Bemessungsstrom: 0,6 A</li> <li>Bemessungsaufnahme: 15 W</li> <li>Schutzart: IP 32</li><li>Zug-/Schubkraft: max. 600 N</li> <li>Umgebungstemperatur: -5°C bis + 60°C</li> <li>Anschlussleitung: Halogenfrei, grau 3x 0,5mm², ~3m</li> <li>Laufzeit: ~ 5s</li><li>Hub: ~ 18mm</li> </ul>",
+    "Details_EN": "<ul> <li>Rated voltage : 24 V DC (19 V … 28 V</li> <li>Breaking current : ~1,0 A</li> <li>Rated current : 0,6 A</li> <li>Rated consumption : 15 W</li> <li>Protection rating : IP 32</li><li>Traction/ thrust : max. 600 N</li> <li>Ambient temperature: -5°C bis + 60°C</li> <li>Connecting cable: halogen-free, grey 3 x 0,5mm², ~3m</li> <li>Running time: ~ 5s</li><li>Stroke: ~ 18mm</li> </ul>",
+    "Einsatz": "<ul> <li>Anwendung: Lüftung, NRA</li><li>Integrierte intelligente Regelelektronik</li></ul>",
+    "Use": "<ul> <li>Application: ventilation, natural smoke ventilation</li> <li>Integrated intelligent control electronics</li></ul>",
+    "Ausstattung": "<ul><li>Laufrichtung einstellbar</li></ul>",
+    "Equipment": "<ul><li>Running direction adjustable</li></ul>",
+    "Optionen": "<ul> <li>Mitnehmer objekt-/profilspezifisch anpassbar</li></ul>",
+    "Options": "<ul> <li>Coupling adapter customizable for project-/profile-specific demands</li></ul>",
+    "IsTwoPce": false,
+    "ResultVentWeight": 0,
+    "IsLsRsDrive": true,
+    "ArticleNumberRs": 291735,
+    "TwoDrivesSideInstallation50": 0,
+    "TwoDrivesSideInstallation60": 0,
+    "TwoDrivesSideInstallation70": 0,
+    "TwoDrivesSideInstallation80": 0,
+    "OpeningSpeedmms": 0,
+    "Traction": 0,
+    "Thrust": 0,
+    "Id": "69d8317e-493b-4010-8d9e-54168822bacf",
+    "CreatedOn": "2024-09-26T13:55:26.817Z",
+    "CreatedBy": "",
+    "ModifiedOn": "2024-09-26T13:55:26.817Z",
+    "ModifiedBy": ""
+  }
+]
+
+
+
+# Created at 2024-11-28T15:29:33.819
+Unexpected IOException with stream: 15:29:33.817 [main] INFO  com.intuit.karate - Expected RecommDrive: Chain actuator D6 800,Locking actuator EasyConnect,Locking actuator 600 
+
+
+# Created at 2024-11-28T15:29:33.823
+Unexpected IOException with stream: 15:29:33.821 [main] INFO  com.intuit.karate - Actual RecommDrive: Chain actuator D6 800, Locking actuator EasyConnect, Locking actuator 600 
+
+
+# Created at 2024-11-28T15:29:33.823
+Unexpected IOException with stream: 15:29:33.823 [main] INFO  com.intuit.karate - Normalized Actual RecommDrive: Chain actuator D6 800,Locking actuator EasyConnect,Locking actuator 600 
+
+
+# Created at 2024-11-28T15:29:33.823
+Unexpected IOException with stream: 15:29:33.823 [main] INFO  com.intuit.karate - Normalized Expected RecommDrive: Chain actuator D6 800,Locking actuator EasyConnect,Locking actuator 600 
+
+
+# Created at 2024-11-28T15:29:33.838
+Unexpected IOException with stream: 15:29:33.835 [main] INFO  com.intuit.karate - Drive IDs: [
+  "e9fa5654-1773-4646-9949-a237ab4f4797",
+  "f894c384-bd5f-4f1b-a446-f4a3afc8426e",
+  "69d8317e-493b-4010-8d9e-54168822bacf"
+]
+ 
+
+
+# Created at 2024-11-28T15:29:33.842
+Unexpected IOException with stream: 15:29:33.838 [main] INFO  com.intuit.karate - First Drive ID: e9fa5654-1773-4646-9949-a237ab4f4797 
+
+
+# Created at 2024-11-28T15:29:33.842
+Unexpected IOException with stream: 15:29:33.842 [main] ERROR com.intuit.karate - classpath:drivetecTestCases/features/putconfiguration.feature:158
+* while (index < driveIds.length)
+no step-definition method match found for: while (index < driveIds.length)
+classpath:drivetecTestCases/features/putconfiguration.feature:158
+
+
+# Created at 2024-11-28T15:29:33.859
+Unexpected IOException with stream: 15:29:33.856 [main] INFO  com.intuit.karate - karate.env system property was: null 
+
+
+# Created at 2024-11-28T15:29:33.865
+Unexpected IOException with stream: 15:29:33.864 [main] INFO  com.intuit.karate - Running test for dataset:  Dataset4 
+
+
+# Created at 2024-11-28T15:29:33.878
+Unexpected IOException with stream: 15:29:33.878 [main] INFO  com.intuit.karate - Using ProjectId:  {
+  "projectPayload": {
+    "Id": "579816e4-6653-4794-b435-a885f32e28d7",
+    "Name": "AUT_TPJ65289",
+    "Address": "Hyderabad, Telangana, India",
+    "Description": "",
+    "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+    "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+  },
+  "uniqueName": "AUT_TPJ65289",
+  "responseHeaders": {
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Date": [
+      "Thu, 28 Nov 2024 09:59:25 GMT"
+    ],
+    "Server": [
+      "Microsoft-IIS/10.0"
+    ],
+    "X-Powered-By": [
+      "ASP.NET"
+    ],
+    "transfer-encoding": [
+      "chunked"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Set-Cookie": [
+    ]
+  },
+  "responseTime": 860,
+  "response": {
+    "Name": "AUT_TPJ65289",
+    "Description": "",
+    "Address": "Hyderabad, Telangana, India",
+    "Id": "7a84bc42-545f-4e8e-9a5e-327ae711d16c",
+    "CreatedOn": "2024-11-28T09:59:25.5873376+00:00",
+    "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+    "ModifiedOn": "2024-11-28T09:59:25.5873385+00:00",
+    "ModifiedBy": ""
+  },
+  "responseStatus": 200,
+  "prjId": "7a84bc42-545f-4e8e-9a5e-327ae711d16c",
+  "projectId": "7a84bc42-545f-4e8e-9a5e-327ae711d16c"
+}
+ 
+
+
+# Created at 2024-11-28T15:29:33.890
+Unexpected IOException with stream: 15:29:33.884 [main] DEBUG com.intuit.karate - request:
+1 > POST https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1275
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"00000000-0000-0000-0000-000000000000","ProjectId":"7a84bc42-545f-4e8e-9a5e-327ae711d16c","Name":"Dataset3879","Description":"Dataset3879","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","ApplicationName":1,"System":"","FacadeInclination":0,"OpeningType":1,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1230,"VentOuterHeight":1480,"VentWeight":70,"CalculateWeightWithGlass":false,"WeightIncGlassOrThickness":false,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"IsWindowOpeningCalculationByAngle":1,"RequiredOpeningStroke":400,"OpeningAngle":15,"WindLoad":120,"SnowLoad":0,"DrivePosition":2,"InstallationPosition":1,"ChainLengthConnectingRodHandle":5,"LockingMechanism":1,"Voltage":1,"DriveType":1,"TypeOfInstallation":2,"CalculationTypeForVentilation":1,"CalcVentilation":1,"GeometricArea":1,"SpecificExhaustDimension":30,"BuildingDepth":75,"RevealDepth":0,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"HeightOfProfile":0,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-28T15:29:34.597
+Unexpected IOException with stream: 15:29:34.594 [main] DEBUG com.intuit.karate - response time in milliseconds: 703
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 28 Nov 2024 09:59:33 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2032
+1 < Connection: keep-alive
+{
+  "ProjectId": "7a84bc42-545f-4e8e-9a5e-327ae711d16c",
+  "Name": "Dataset3879",
+  "Description": "Dataset3879",
+  "CustomTags": "",
+  "ApplicationName": 1,
+  "OpeningType": 1,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1230,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 77,
+  "VentWeightExact": 77.26400000000001,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 400,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 15.532868337024489,
+  "SpecificExhaustDimension": 30,
+  "BuildingDepth": 75,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 2,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 1,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.084,
+  "AdrehOrAturn": 1.8204,
+  "Ageo": 1.084,
+  "MinPullingForceMax": -206.4868442161654,
+  "MinPushingForceMax": -206.4868442161654,
+  "MinPullingForcePermanent": -104.11163259218097,
+  "MinPushingForcePermanent": -104.11163259218097,
+  "ForceWithNegativeWind": 109.53156767199486,
+  "ForceWithNoWindMin": 0.30763693489047433,
+  "ForceWithNegativeWindMin": 0,
+  "ForceWithWindMin": -108.91629380221393,
+  "Id": "63d10dfc-f40b-4bf0-adf5-411cced2cce9",
+  "CreatedOn": "2024-11-28T09:59:33.8852037+00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-28T09:59:33.8852044+00:00",
+  "ModifiedBy": ""
+}
+
+
+
+# Created at 2024-11-28T15:29:34.602
+Unexpected IOException with stream: 15:29:34.597 [main] INFO  com.intuit.karate - Generated Config ID: 63d10dfc-f40b-4bf0-adf5-411cced2cce9 
+
+
+# Created at 2024-11-28T15:29:34.602
+Unexpected IOException with stream: 15:29:34.602 [main] INFO  com.intuit.karate - Generated Name: Dataset3879 
+
+
+# Created at 2024-11-28T15:29:34.602
+Unexpected IOException with stream: 15:29:34.602 [main] INFO  com.intuit.karate - Generated Description: Dataset3879 
+
+
+# Created at 2024-11-28T15:29:34.618
+Unexpected IOException with stream: 15:29:34.618 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 1271
+1 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"Id":"63d10dfc-f40b-4bf0-adf5-411cced2cce9","Name":"Dataset4","Description":"Dataset3879","ProjectId":"7a84bc42-545f-4e8e-9a5e-327ae711d16c","CustomTags":"","CreatedBy":"579816e4-6653-4794-b435-a885f32e28d7","ModifiedBy":"579816e4-6653-4794-b435-a885f32e28d7","System":"","FacadeInclination":0,"OpeningType":4,"OpeningDirection":1,"OpeningWidth":1000,"VentOuterWidth":1342,"VentOuterHeight":1480,"VentWeight":0,"CalculateWeightWithGlass":false,"RequiredOpeningStroke":400,"WindLoad":120,"SnowLoad":0,"IsWindowOpeningCalculationByAngle":1,"GlassThickness":14,"ProfileWeightPerSerialMeter":2.5,"DrivePosition":2,"InstallationPosition":0,"LockingMechanism":1,"Voltage":1,"DriveType":3,"TypeOfInstallation":2,"GeometricArea":0,"CalcVentilation":1,"SpecificExhaustDimension":45,"BuildingDepth":90,"CalculationTypeForVentilation":1,"HeightOfProfile":0,"HeightProfileRectangleAngle1":0,"HeightProfileRectangleAngle2":0,"RevealDepth":0,"RevealDepthRectangleAngle1":0,"RevealDepthRectangleAngle2":0,"ChainLengthConnectingRodHandle":5,"ApplicationName":2,"OpeningAngle":29,"WeightIncGlassOrThickness":false,"AkippOrAtilt":0,"AdrehOrAturn":0,"Ageo":0,"MinPullingForceMax":0,"MinPushingForceMax":0,"MinPullingForcePermanent":0,"MinPushingForcePermanent":0,"ForceWithNegativeWind":0}
+
+
+
+# Created at 2024-11-28T15:29:35.277
+Unexpected IOException with stream: 15:29:35.277 [main] DEBUG com.intuit.karate - response time in milliseconds: 659
+1 < 200
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 28 Nov 2024 09:59:34 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Content-Length: 2065
+1 < Connection: keep-alive
+{
+  "ProjectId": "7a84bc42-545f-4e8e-9a5e-327ae711d16c",
+  "Name": "Dataset4",
+  "Description": "Dataset3879",
+  "CustomTags": "",
+  "ApplicationName": 2,
+  "OpeningType": 4,
+  "OpeningDirection": 1,
+  "CalculateWeightWithGlass": false,
+  "WindLoad": 120,
+  "IsWindowOpeningCalculationByAngle": 1,
+  "VentOuterWidth": 1342,
+  "VentOuterHeight": 1480,
+  "WeightIncGlassOrThickness": false,
+  "VentWeight": 84,
+  "VentWeightExact": 83.62559999999999,
+  "GlassThickness": 14,
+  "ProfileWeightPerSerialMeter": 2.5,
+  "FacadeInclination": 0,
+  "ChainLengthConnectingRodHandle": 5,
+  "ChainLenghtConnectingRodHandle": 0,
+  "RequiredOpeningStroke": 400,
+  "OpeningWidth": 1000,
+  "OpeningAngle": 15.532868337024489,
+  "SpecificExhaustDimension": 45,
+  "BuildingDepth": 90,
+  "SnowLoad": 0,
+  "DistanceHinge": 0,
+  "RatedCurrent": 0,
+  "DrivePosition": 2,
+  "LockingMechanism": 1,
+  "Voltage": 1,
+  "DriveType": 3,
+  "TypeOfInstallation": 2,
+  "GeometricArea": 0,
+  "CalculationTypeForVentilation": 1,
+  "HeightOfProfile": 0,
+  "Reveal": 0,
+  "RevealDepth": 0,
+  "HeightProfileRectangleAngle1": 0,
+  "HeightProfileRectangleAngle2": 0,
+  "RevealDepthRectangleAngle1": 0,
+  "RevealDepthRectangleAngle2": 0,
+  "RevealDepthRectangleAngle12": 0,
+  "InstallationPosition": 0,
+  "RecommendedDriveArticleNo": 0,
+  "System": "",
+  "AkippOrAtilt": 1.1288,
+  "AdrehOrAturn": 1.98616,
+  "Ageo": 1.1288,
+  "MinPullingForceMax": 415.2112673629173,
+  "MinPushingForceMax": 418.12799999999993,
+  "MinPullingForcePermanent": 418.12799999999993,
+  "MinPushingForcePermanent": 418.12799999999993,
+  "ForceWithNegativeWind": 418.12799999999993,
+  "ForceWithNoWindMin": 406.58625068019194,
+  "ForceWithNegativeWindMin": 402.27374233882927,
+  "ForceWithWindMin": 415.2112673629173,
+  "Id": "63d10dfc-f40b-4bf0-adf5-411cced2cce9",
+  "CreatedOn": "0001-01-01T00:00:00",
+  "CreatedBy": "579816e4-6653-4794-b435-a885f32e28d7",
+  "ModifiedOn": "2024-11-28T09:59:34.5659305+00:00",
+  "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
+}
+
+
+
+# Created at 2024-11-28T15:29:35.293
+Unexpected IOException with stream: 15:29:35.277 [main] INFO  com.intuit.karate - Rounded Opening Angle: 16.0 
+
+
+# Created at 2024-11-28T15:29:35.299
+Unexpected IOException with stream: 15:29:35.293 [main] INFO  com.intuit.karate - Rounded Ageo: 1.13 
+
+
+# Created at 2024-11-28T15:29:35.299
+Unexpected IOException with stream: 15:29:35.299 [main] INFO  com.intuit.karate - Rounded Required Opening Stroke: 400.0 
+
+
+# Created at 2024-11-28T15:29:35.299
+Unexpected IOException with stream: 15:29:35.299 [main] INFO  com.intuit.karate - Rounded Vent Weight: 84.0 
+
+
+# Created at 2024-11-28T15:29:35.309
+Unexpected IOException with stream: 15:29:35.309 [main] DEBUG com.intuit.karate - request:
+2 > GET https://dev-drivetec-apis.schuecodigitalsolutions.com/Config/63d10dfc-f40b-4bf0-adf5-411cced2cce9/Drive
+2 > Host: dev-drivetec-apis.schuecodigitalsolutions.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+2 > Accept-Encoding: gzip,deflate
+
+
+
+
+# Created at 2024-11-28T15:29:36.189
+Unexpected IOException with stream: 15:29:36.174 [main] DEBUG com.intuit.karate - response time in milliseconds: 865
+2 < 200
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Thu, 28 Nov 2024 09:59:34 GMT
+2 < Server: Microsoft-IIS/10.0
+2 < X-Powered-By: ASP.NET
+2 < transfer-encoding: chunked
+2 < Connection: keep-alive
+[
+  {
+    "Name": "Chain actuator D15 800",
+    "Bezeichnung": "Kettenantrieb D15 800",
+    "ConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "Description": "",
+    "Application": "Roof",
+    "ApplicationFacade": false,
+    "ApplicationSkylight": true,
+    "Type": 1,
+    "OpeningType": 0,
+    "BottomHungInward": false,
+    "BottomHungOutward": true,
+    "SideHungInward": false,
+    "SideHungOutward": false,
+    "TopHungInward": false,
+    "TopHungOutward": true,
+    "ProjectedTopHungInward": false,
+    "ProjectedTopHungOutward": false,
+    "InstallationType": "",
+    "ITMainOutFrmMountWBracket": true,
+    "ITMainFixOutFrmMount": false,
+    "ITMainVentFrmMount": false,
+    "ITSideMount50": false,
+    "ITSideMount60": false,
+    "ITSideMount70": false,
+    "ITSideMount80": false,
+    "ITSideMount67": false,
+    "Feature": "",
+    "FeatureOpenClose": true,
+    "FeatureLock": true,
+    "ArticleNumber": 291731,
+    "Stroke": 800,
+    "Angle": 0,
+    "Voltage": "24 V DC",
+    "Voltage24": true,
+    "Voltage230": false,
+    "RatedCurrent": 4,
+    "BreakingCurrent": 5,
+    "PullingForceMax": 1500,
+    "PushingForceMax": 1500,
+    "PullingForceMaxWithNegativeWind": 0,
+    "PushingForceMaxWithNegativeWind": 0,
+    "PushingForcePermanent": 1000,
+    "PullingForcePermanent": 1000,
+    "MinPullingForceMax": 0,
+    "MinPushingForceMax": 418.13,
+    "MinPullingForcePermanent": 0,
+    "MinPushingForcePermanent": 418.13,
+    "Price": 821.56,
+    "DriveLength": 800,
+    "ChainDrive": 900,
+    "ChainDrive2": 1760,
+    "MaxLengthMainClosingEdge1Drive": 0,
+    "MaxGeometricArea": 1,
+    "GeometricalSmokeExhaustion": 0,
+    "TotalGlassThickness": 14,
+    "Dimensions": 0,
+    "DimensionsWxHxD": "800 x 120 x 60",
+    "TensileForce": 0,
+    "LockingForce": 0,
+    "Details_DE": "<ul> <li>Bemessungsspannung: 24 V DC (19 V … 28 V)</li> <li>Abschaltstrom: 5 A</li> <li>Bemessungsstrom: 3,75 A</li> <li>Bemessungsaufnahme: 90 W</li> <li>Schutzart: IP 20</li><li>Zug-/Schubkraft: max. 1500 N</li> <li>Umgebungstemperatur: -5°C bis + 60°C</li> <li>Anschlussleitung: Halogenfrei, grau 5 x 1mm², ~3m</li> <li>Max. Geschwindigkeit: 17 mm/s</li> </ul>",
+    "Details_EN": "<ul> <li>Rated voltage: 24 V DC (19 V … 28 V)</li><li>Breaking current: 5 A</li><li>Rated current: 3.75 A</li><li>Rated consumption: 90 W</li><li>Protection rating: IP 20</li> <li>Traction/ thrust: max. 1500 N</li><li>Ambient temperature: -5° C to +60° C</li><li>Connecting cable: halogen-free, grey 5 x 1mm², ~3m</li><li>Max. speed: 17 mm/s</li></ul>",
+    "Einsatz": "<ul> <li>Anwendung: Lüftung, NRA</li><li>Integrierte intelligente Regelelektronik</li> <li>Rückmeldung Endlage „ZU“ (max. 24 V, 500 mA)</li></ul>",
+    "Use": "<ul> <li>Application: ventilation, natural smoke ventilation</li> <li>Integrated intelligent control electronics</li> <li>Response for “CLOSED” end position (max. 24 V, 500 mA)</li></ul>",
+    "Ausstattung": "<ul><li>Symmetrischer Kettenaustritt</li><li>Integrierte Steckerlösung</li></ul>",
+    "Equipment": "<ul><li>Symmetrical chain output</li><li>Integrated plug solution</li></ul>",
+    "Optionen": "<ul> <li>Programmierung von Sonderfunktionen</li> <li>Programmierbare Rückmeldung Endlage „AUF“ (max. 24 V, 500 mA)</li> <li>Schüco Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieben in Antriebs-Verbundsystemen</li></ul>",
+    "Options": "<ul> <li>Programming of special functions</li> <li>Programmable response for “OPEN” end position (max. 24 V, 500 mA)</li> <li>Schüco controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems</li> </ul>",
+    "IsTwoPce": false,
+    "ResultVentWeight": 83.63,
+    "IsLsRsDrive": false,
+    "ArticleNumberRs": 0,
+    "TwoDrivesSideInstallation50": 0,
+    "TwoDrivesSideInstallation60": 0,
+    "TwoDrivesSideInstallation70": 0,
+    "TwoDrivesSideInstallation80": 0,
+    "OpeningSpeedmms": 0,
+    "Traction": 1500,
+    "Thrust": 1500,
+    "Id": "6e554a6b-0764-4e7a-ac2f-8ca9ada34e08",
+    "CreatedOn": "2024-09-26T13:55:26.818Z",
+    "CreatedBy": "",
+    "ModifiedOn": "2024-09-26T13:55:26.818Z",
+    "ModifiedBy": ""
+  },
+  {
+    "Name": "Chain actuator D6 400",
+    "Bezeichnung": "Kettenantrieb D6 400",
+    "ConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "Description": "",
+    "Application": "Roof",
+    "ApplicationFacade": true,
+    "ApplicationSkylight": true,
+    "Type": 1,
+    "OpeningType": 0,
+    "BottomHungInward": true,
+    "BottomHungOutward": true,
+    "SideHungInward": true,
+    "SideHungOutward": true,
+    "TopHungInward": false,
+    "TopHungOutward": true,
+    "ProjectedTopHungInward": false,
+    "ProjectedTopHungOutward": true,
+    "InstallationType": "",
+    "ITMainOutFrmMountWBracket": true,
+    "ITMainFixOutFrmMount": false,
+    "ITMainVentFrmMount": true,
+    "ITSideMount50": false,
+    "ITSideMount60": false,
+    "ITSideMount70": false,
+    "ITSideMount80": false,
+    "ITSideMount67": true,
+    "Feature": "",
+    "FeatureOpenClose": true,
+    "FeatureLock": true,
+    "ArticleNumber": 291715,
+    "Stroke": 400,
+    "Angle": 0,
+    "Voltage": "24 V DC",
+    "Voltage24": true,
+    "Voltage230": false,
+    "RatedCurrent": 1,
+    "BreakingCurrent": 1,
+    "PullingForceMax": 600,
+    "PushingForceMax": 600,
+    "PullingForceMaxWithNegativeWind": 0,
+    "PushingForceMaxWithNegativeWind": 0,
+    "PushingForcePermanent": 400,
+    "PullingForcePermanent": 600,
+    "MinPullingForceMax": 0,
+    "MinPushingForceMax": 418.13,
+    "MinPullingForcePermanent": 0,
+    "MinPushingForcePermanent": 418.13,
+    "Price": 720.7,
+    "DriveLength": 591,
+    "ChainDrive": 691,
+    "ChainDrive2": 1342,
+    "MaxLengthMainClosingEdge1Drive": 1920,
+    "MaxGeometricArea": 1,
+    "GeometricalSmokeExhaustion": 0,
+    "TotalGlassThickness": 14,
+    "Dimensions": 0,
+    "DimensionsWxHxD": "591 x 40 x 56",
+    "TensileForce": 0,
+    "LockingForce": 0,
+    "Details_DE": "<ul> <li>Bemessungsspannung: 24 V DC (19 V … 28 V)</li> <li>Abschaltstrom: 1,2 A</li> <li>Bemessungsstrom: 0,9 A</li> <li>Bemessungsaufnahme: 22 W</li> <li>Schutzart: IP 32</li> <li>Zug-/Schubkraft: max. 600 N</li> <li>Umgebungstemperatur: -5°C bis + 60°C</li> <li>Anschlussleitung: Halogenfrei, grau 5 x 0,5mm², ~3m</li> <li>Max. Geschwindigkeit: 13,5 mm/s</li> </ul>",
+    "Details_EN": "<ul> <li>Rated voltage: 24 V DC (19 V … 28 V)</li><li>Breaking current: 1.2 A</li><li>Rated current: 0.9 A</li><li>Rated consumption: 22W</li><li>Protection rating: IP 32</li><li>Traction/ thrust: max. 600 N</li><li>Ambient temperature: -5° C to +60° C</li><li>Connecting cable: halogen-free, grey 3 x 0,5mm², ~3m</li><li>Max. speed: 13,5 mm/s</li></ul>",
+    "Einsatz": "<ul><li>Anwendung: Lüftung, NRA</li> <li>Integrierte intelligente Regelelektronik</li></ul>",
+    "Use": "<ul><li>Application: ventilation, natural smoke ventilation</li> <li>Integrated intelligent control electronics</li> </ul>",
+    "Ausstattung": "<ul><li>Zusätzlicher Universal-Steckersatz für Mehrfachbetrieb bis zu 4 Antrieben und 2 Verriegelungsantrieben</li></ul>",
+    "Equipment": "<ul><li>Additional universal plug socket for multiplex operation  of up to 4 drives and 2 interlocking drives</li></ul>",
+    "Optionen": "<ul><li>Programmierung von Sonderfunktionen</li> <li>Programmierbare Rückmeldung Endlage „AUF“ (max. 24 V, 500 mA)</li> <li>Schüco Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieben in Antriebs-Verbundsystemen</li> </ul>",
+    "Options": "<ul><li>Programming of special functions</li> <li>Programmable response for “OPEN” end position (max. 24 V, 500 mA)</li> <li>Schüco controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems</li> </ul>",
+    "IsTwoPce": true,
+    "ResultVentWeight": 83.63,
+    "IsLsRsDrive": false,
+    "ArticleNumberRs": 0,
+    "TwoDrivesSideInstallation50": 0,
+    "TwoDrivesSideInstallation60": 0,
+    "TwoDrivesSideInstallation70": 0,
+    "TwoDrivesSideInstallation80": 0,
+    "OpeningSpeedmms": 0,
+    "Traction": 600,
+    "Thrust": 600,
+    "Id": "6cfaf03b-807c-4298-8635-4bf804653a9e",
+    "CreatedOn": "2024-09-26T13:55:26.817Z",
+    "CreatedBy": "",
+    "ModifiedOn": "2024-09-26T13:55:26.817Z",
+    "ModifiedBy": ""
+  },
+  {
+    "Name": "Linear drive LDB16 L400",
+    "Bezeichnung": "Linearantrieb LDB16 L400",
+    "ConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "Description": "",
+    "Application": "Roof",
+    "ApplicationFacade": false,
+    "ApplicationSkylight": true,
+    "Type": 2,
+    "OpeningType": 0,
+    "BottomHungInward": false,
+    "BottomHungOutward": true,
+    "SideHungInward": false,
+    "SideHungOutward": false,
+    "TopHungInward": false,
+    "TopHungOutward": true,
+    "ProjectedTopHungInward": false,
+    "ProjectedTopHungOutward": false,
+    "InstallationType": "",
+    "ITMainOutFrmMountWBracket": true,
+    "ITMainFixOutFrmMount": false,
+    "ITMainVentFrmMount": false,
+    "ITSideMount50": true,
+    "ITSideMount60": true,
+    "ITSideMount70": true,
+    "ITSideMount80": true,
+    "ITSideMount67": false,
+    "Feature": "",
+    "FeatureOpenClose": true,
+    "FeatureLock": true,
+    "ArticleNumber": 291924,
+    "Stroke": 400,
+    "Angle": 0,
+    "Voltage": "24 V DC",
+    "Voltage24": true,
+    "Voltage230": false,
+    "RatedCurrent": 1,
+    "BreakingCurrent": 1,
+    "PullingForceMax": 1600,
+    "PushingForceMax": 1600,
+    "PullingForceMaxWithNegativeWind": 0,
+    "PushingForceMaxWithNegativeWind": 0,
+    "PushingForcePermanent": 1066.67,
+    "PullingForcePermanent": 1066.67,
+    "MinPullingForceMax": 0,
+    "MinPushingForceMax": 418.13,
+    "MinPullingForcePermanent": 0,
+    "MinPushingForcePermanent": 418.13,
+    "Price": 443.15,
+    "DriveLength": 0,
+    "ChainDrive": 450,
+    "ChainDrive2": 450,
+    "MaxLengthMainClosingEdge1Drive": 2100,
+    "MaxGeometricArea": 1,
+    "GeometricalSmokeExhaustion": 0,
+    "TotalGlassThickness": 14,
+    "Dimensions": 0,
+    "DimensionsWxHxD": "723 x Ø36",
+    "TensileForce": 0,
+    "LockingForce": 0,
+    "Details_DE": "<ul> <li>Bemessungsspannung: 24 V DC (19 V … 28 V)</li><li>Abschaltstrom: 1,2 A</li><li>Bemessungsstrom: 1,0 A</li><li>Bemessungsaufnahme: 24 W</li><li>Schutzart: IP 65</li> <li>Zug-/Schubkraft: max. 1600 N</li><li>Umgebungstemperatur: -5°C bis + 60°C</li><li>Anschlussleitung: Halogenfrei, grau 3 x 1mm², ~3m</li><li>Max. Geschwindigkeit: 4 mm/s</li></ul>",
+    "Details_EN": "<ul> <li>Rated voltage: 24 V DC (19 V … 28 V)</li> <li>Breaking current: 1.2 A</li> <li>Rated current: 1.0 A</li> <li>Rated consumption: 24 W</li> <li>Protection rating: IP 65</li><li>Traction/ thrust: max. 1600N</li> <li>Ambient temperature: -5°C to + 60°C</li> <li>Connecting cable: halogen-free, grey 3 x 1mm², ~3m</li> <li>Max. speed: 4 mm/s</li> </ul>",
+    "Einsatz": "<ul> <li>Anwendung: Lüftung, NRA</li><li>Integrierte intelligente Regelelektronik</li></ul>",
+    "Use": "<ul> <li>Application: ventilation, natural smoke ventilation</li><li>Integrated intelligent control electronics</li></ul>",
+    "Ausstattung": "<ul> <li>Robuste korrosionsbeständige Ausführung in eloxierten Aluminiumgehäuse</li><li>Montagefreundlich durch verstellbaren Klemmring</li><li>Spindel aus Edelstahl, kugelgelagert mit Endlagendämpfung</li><li>Mit Goretex Membrane</li></ul>",
+    "Equipment": "<ul> <li>Robust, corrosion-resistant design in anodized casing</li><li>Easy installation thanks to adjustable clamping ring</li><li>Stainless steel spindle on ball bearings with end position cushioning</li><li>with Goretex membrane</li></ul>",
+    "Optionen": "<ul> <li>Programmierung von Sonderfunktionen</li><li>Programmierbare Parameter der Regelelektronik</li><li>Schüco Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieb in Antriebs-Verbundsystem</li></ul>",
+    "Options": "<ul> <li>Programming of special functions</li><li>Programmable parameters of intelligent control electronics</li><li>Schüco controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems</li></ul>",
+    "IsTwoPce": false,
+    "ResultVentWeight": 83.63,
+    "IsLsRsDrive": false,
+    "ArticleNumberRs": 0,
+    "TwoDrivesSideInstallation50": 650,
+    "TwoDrivesSideInstallation60": 650,
+    "TwoDrivesSideInstallation70": 650,
+    "TwoDrivesSideInstallation80": 650,
+    "OpeningSpeedmms": 4,
+    "Traction": 1067,
+    "Thrust": 1600,
+    "Id": "9f91500a-3224-410c-b4df-c240b49d5a6d",
+    "CreatedOn": "2024-09-26T13:55:26.817Z",
+    "CreatedBy": "",
+    "ModifiedOn": "2024-09-26T13:55:26.817Z",
+    "ModifiedBy": ""
+  },
+  {
+    "Name": "Linear drive LDN8 L400",
+    "Bezeichnung": "Linearantrieb LDN8 L400",
+    "ConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "Description": "",
+    "Application": "Roof",
+    "ApplicationFacade": false,
+    "ApplicationSkylight": true,
+    "Type": 2,
+    "OpeningType": 0,
+    "BottomHungInward": false,
+    "BottomHungOutward": true,
+    "SideHungInward": false,
+    "SideHungOutward": false,
+    "TopHungInward": false,
+    "TopHungOutward": true,
+    "ProjectedTopHungInward": false,
+    "ProjectedTopHungOutward": false,
+    "InstallationType": "",
+    "ITMainOutFrmMountWBracket": true,
+    "ITMainFixOutFrmMount": false,
+    "ITMainVentFrmMount": false,
+    "ITSideMount50": true,
+    "ITSideMount60": true,
+    "ITSideMount70": true,
+    "ITSideMount80": true,
+    "ITSideMount67": false,
+    "Feature": "",
+    "FeatureOpenClose": true,
+    "FeatureLock": true,
+    "ArticleNumber": 291920,
+    "Stroke": 400,
+    "Angle": 0,
+    "Voltage": "24 V DC",
+    "Voltage24": true,
+    "Voltage230": false,
+    "RatedCurrent": 1,
+    "BreakingCurrent": 1,
+    "PullingForceMax": 800,
+    "PushingForceMax": 800,
+    "PullingForceMaxWithNegativeWind": 0,
+    "PushingForceMaxWithNegativeWind": 0,
+    "PushingForcePermanent": 533.33,
+    "PullingForcePermanent": 533.33,
+    "MinPullingForceMax": 0,
+    "MinPushingForceMax": 418.13,
+    "MinPullingForcePermanent": 0,
+    "MinPushingForcePermanent": 418.13,
+    "Price": 456.43,
+    "DriveLength": 0,
+    "ChainDrive": 450,
+    "ChainDrive2": 450,
+    "MaxLengthMainClosingEdge1Drive": 2100,
+    "MaxGeometricArea": 1,
+    "GeometricalSmokeExhaustion": 0,
+    "TotalGlassThickness": 14,
+    "Dimensions": 0,
+    "DimensionsWxHxD": "723 x Ø36",
+    "TensileForce": 0,
+    "LockingForce": 0,
+    "Details_DE": "<ul> <li>Bemessungsspannung: 24 V DC (19 V … 28 V)</li><li>Abschaltstrom: 1,4 A</li><li>Bemessungsstrom: 1,0 A</li><li>Bemessungsaufnahme: 24 W</li><li>Schutzart: IP 65</li> <li>Zug-/Schubkraft: max. 800 N</li><li>Umgebungstemperatur: -5°C bis + 60°C</li><li>Anschlussleitung: Halogenfrei, grau 3 x 1mm², ~3m</li><li>Max. Geschwindigkeit: 10 mm/s</li></ul>",
+    "Details_EN": "<ul> <li>Rated voltage: 24 V DC (19 V … 28 V)</li> <li>Breaking current: 1.4 A</li> <li>Rated current: 1.0 A</li> <li>Rated consumption: 24 W</li> <li>Protection rating: IP 65</li><li>Traction/ thrust: max. 800 N</li> <li>Ambient temperature: -5°C to + 60°C</li> <li>Connecting cable: halogen-free, grey 3 x 1mm², ~3m</li> <li>Max. speed: 10 mm/s</li> </ul>",
+    "Einsatz": "<ul> <li>Anwendung: Lüftung, NRA</li><li>Integrierte intelligente Regelelektronik</li></ul>",
+    "Use": "<ul> <li>Application: ventilation, natural smoke ventilation</li><li>Integrated intelligent control electronics</li></ul>",
+    "Ausstattung": "<ul> <li>Robuste korrosionsbeständige Ausführung in eloxierten Aluminiumgehäuse</li><li>Montagefreundlich durch verstellbaren Klemmring</li><li>Spindel aus Edelstahl, kugelgelagert mit Endlagendämpfung</li><li>Mit Goretex Membrane</li></ul>",
+    "Equipment": "<ul> <li>Robust, corrosion-resistant design in anodized casing</li><li>Easy installation thanks to adjustable clamping ring</li><li>Stainless steel spindle on ball bearings with end position cushioning</li><li>with Goretex membrane</li></ul>",
+    "Optionen": "<ul> <li>Programmierung von Sonderfunktionen</li><li>Programmierbare Parameter der Regelelektronik</li><li>Schüco Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieb in Antriebs-Verbundsystem</li></ul>",
+    "Options": "<ul> <li>Programming of special functions</li><li>Programmable parameters of intelligent control electronics</li><li>Schüco controller for automatic configuration of synchronous running and sequence control with locking actuators in composite drive systems</li></ul>",
+    "IsTwoPce": false,
+    "ResultVentWeight": 83.63,
+    "IsLsRsDrive": false,
+    "ArticleNumberRs": 0,
+    "TwoDrivesSideInstallation50": 650,
+    "TwoDrivesSideInstallation60": 650,
+    "TwoDrivesSideInstallation70": 650,
+    "TwoDrivesSideInstallation80": 650,
+    "OpeningSpeedmms": 10,
+    "Traction": 533,
+    "Thrust": 800,
+    "Id": "a5df0ac4-840a-4686-ab17-68a05d8c4d52",
+    "CreatedOn": "2024-09-26T13:55:26.817Z",
+    "CreatedBy": "",
+    "ModifiedOn": "2024-09-26T13:55:26.817Z",
+    "ModifiedBy": ""
+  },
+  {
+    "Name": "Linear drive LDN10 L400",
+    "Bezeichnung": "Linearantrieb LDN10 L400",
+    "ConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "Description": "",
+    "Application": "Roof",
+    "ApplicationFacade": false,
+    "ApplicationSkylight": true,
+    "Type": 2,
+    "OpeningType": 0,
+    "BottomHungInward": false,
+    "BottomHungOutward": true,
+    "SideHungInward": false,
+    "SideHungOutward": false,
+    "TopHungInward": false,
+    "TopHungOutward": true,
+    "ProjectedTopHungInward": false,
+    "ProjectedTopHungOutward": false,
+    "InstallationType": "",
+    "ITMainOutFrmMountWBracket": true,
+    "ITMainFixOutFrmMount": false,
+    "ITMainVentFrmMount": false,
+    "ITSideMount50": true,
+    "ITSideMount60": true,
+    "ITSideMount70": true,
+    "ITSideMount80": true,
+    "ITSideMount67": false,
+    "Feature": "",
+    "FeatureOpenClose": true,
+    "FeatureLock": true,
+    "ArticleNumber": 291928,
+    "Stroke": 400,
+    "Angle": 0,
+    "Voltage": "24 V DC",
+    "Voltage24": true,
+    "Voltage230": false,
+    "RatedCurrent": 2,
+    "BreakingCurrent": 2,
+    "PullingForceMax": 1000,
+    "PushingForceMax": 1000,
+    "PullingForceMaxWithNegativeWind": 0,
+    "PushingForceMaxWithNegativeWind": 0,
+    "PushingForcePermanent": 666.67,
+    "PullingForcePermanent": 666.67,
+    "MinPullingForceMax": 0,
+    "MinPushingForceMax": 418.13,
+    "MinPullingForcePermanent": 0,
+    "MinPushingForcePermanent": 418.13,
+    "Price": 585.51,
+    "DriveLength": 0,
+    "ChainDrive": 450,
+    "ChainDrive2": 450,
+    "MaxLengthMainClosingEdge1Drive": 2100,
+    "MaxGeometricArea": 1,
+    "GeometricalSmokeExhaustion": 0,
+    "TotalGlassThickness": 14,
+    "Dimensions": 0,
+    "DimensionsWxHxD": "723 x Ø36",
+    "TensileForce": 0,
+    "LockingForce": 0,
+    "Details_DE": "<ul> <li>Bemessungsspannung: 24 V DC (19 V … 28 V)</li><li>Abschaltstrom: 2,5 A</li><li>Bemessungsstrom: 1,9 A</li><li>Bemessungsaufnahme: 45 W</li><li>Schutzart: IP 65</li> <li>Zug-/Schubkraft: max. 1000 N</li><li>Umgebungstemperatur: -5°C bis + 60°C</li><li>Anschlussleitung: Halogenfrei, grau 3 x 1mm², ~3m</li><li>Max. Geschwindigkeit: 12,6 mm/s</li></ul>",
+    "Details_EN": "<ul> <li>Rated voltage: 24 V DC (19 V … 28 V)</li> <li>Breaking current: 2.5 A</li> <li>Rated current: 1.9 A</li> <li>Rated consumption: 45 W</li> <li>Protection rating: IP 65</li><li>Traction/ thrust: max. 1000N</li> <li>Ambient temperature: -5°C to + 60°C</li> <li>Connecting cable: halogen-free, grey 3 x 1mm², ~3m</li> <li>Max. speed: 12.6 mm/s</li> </ul>",
+    "Einsatz": "<ul> <li>Anwendung: Lüftung, NRA</li><li>Integrierte intelligente Regelelektronik</li></ul>",
+    "Use": "<ul> <li>Application: ventilation, natural smoke ventilation</li><li>Integrated intelligent control electronics</li></ul>",
+    "Ausstattung": "<ul> <li>Robuste korrosionsbeständige Ausführung in eloxierten Aluminiumgehäuse</li><li>Montagefreundlich durch verstellbaren Klemmring</li><li>Spindel aus Edelstahl, kugelgelagert mit Endlagendämpfung</li><li>Mit Goretex Membrane</li></ul>",
+    "Equipment": "<ul> <li>Robust, corrosion-resistant design in anodized casing</li><li>Easy installation thanks to adjustable clamping ring</li><li>Stainless steel spindle on ball bearings with end position cushioning</li><li>with Goretex membrane</li></ul>",
+    "Optionen": "<ul> <li>Programmierung von Sonderfunktionen</li><li>Programmierbare Parameter der Regelelektronik</li><li>Schüco Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieb in Antriebs-Verbundsystem</li></ul>",
+    "Options": "<ul> <li>Programming of special functions</li><li>Programmable parameters of intelligent control electronics</li><li>Schüco controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems</li></ul>",
+    "IsTwoPce": false,
+    "ResultVentWeight": 83.63,
+    "IsLsRsDrive": false,
+    "ArticleNumberRs": 0,
+    "TwoDrivesSideInstallation50": 650,
+    "TwoDrivesSideInstallation60": 650,
+    "TwoDrivesSideInstallation70": 650,
+    "TwoDrivesSideInstallation80": 650,
+    "OpeningSpeedmms": 13,
+    "Traction": 667,
+    "Thrust": 1000,
+    "Id": "9cac4106-1486-488f-8b76-e842cb91da3a",
+    "CreatedOn": "2024-09-26T13:55:26.817Z",
+    "CreatedBy": "",
+    "ModifiedOn": "2024-09-26T13:55:26.817Z",
+    "ModifiedBy": ""
+  },
+  {
+    "Name": "Linear drive LDH15 L400",
+    "Bezeichnung": "Linearantrieb LDH15 L400",
+    "ConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "Description": "",
+    "Application": "Roof",
+    "ApplicationFacade": false,
+    "ApplicationSkylight": true,
+    "Type": 2,
+    "OpeningType": 0,
+    "BottomHungInward": false,
+    "BottomHungOutward": true,
+    "SideHungInward": false,
+    "SideHungOutward": false,
+    "TopHungInward": false,
+    "TopHungOutward": true,
+    "ProjectedTopHungInward": false,
+    "ProjectedTopHungOutward": false,
+    "InstallationType": "",
+    "ITMainOutFrmMountWBracket": true,
+    "ITMainFixOutFrmMount": false,
+    "ITMainVentFrmMount": false,
+    "ITSideMount50": true,
+    "ITSideMount60": true,
+    "ITSideMount70": true,
+    "ITSideMount80": true,
+    "ITSideMount67": false,
+    "Feature": "",
+    "FeatureOpenClose": true,
+    "FeatureLock": true,
+    "ArticleNumber": 291939,
+    "Stroke": 400,
+    "Angle": 0,
+    "Voltage": "24 V DC",
+    "Voltage24": true,
+    "Voltage230": false,
+    "RatedCurrent": 3,
+    "BreakingCurrent": 4,
+    "PullingForceMax": 1500,
+    "PushingForceMax": 1500,
+    "PullingForceMaxWithNegativeWind": 0,
+    "PushingForceMaxWithNegativeWind": 0,
+    "PushingForcePermanent": 1000,
+    "PullingForcePermanent": 1000,
+    "MinPullingForceMax": 0,
+    "MinPushingForceMax": 418.13,
+    "MinPullingForcePermanent": 0,
+    "MinPushingForcePermanent": 418.13,
+    "Price": 776.85,
+    "DriveLength": 0,
+    "ChainDrive": 450,
+    "ChainDrive2": 450,
+    "MaxLengthMainClosingEdge1Drive": 2100,
+    "MaxGeometricArea": 1,
+    "GeometricalSmokeExhaustion": 0,
+    "TotalGlassThickness": 14,
+    "Dimensions": 0,
+    "DimensionsWxHxD": "841 x Ø50",
+    "TensileForce": 0,
+    "LockingForce": 0,
+    "Details_DE": "<ul> <li>Bemessungsspannung: 24 V DC (19 V … 28 V)</li><li>Abschaltstrom: 4,0 A</li><li>Bemessungsstrom: 3,0 A</li><li>Bemessungsaufnahme: 72 W</li><li>Schutzart: IP 54</li> <li>Zug-/Schubkraft: max. 1500 N</li><li>Umgebungstemperatur: -5°C bis + 60°C</li><li>Anschlussleitung: Halogenfrei, grau 3 x 1mm², ~3m</li><li>Max. Geschwindigkeit: 16 mm/s</li></ul>",
+    "Details_EN": "<ul> <li>Rated voltage: 24 V DC (19 V … 28 V)</li> <li>Breaking current: 4.0 A</li> <li>Rated current: 3.0 A</li> <li>Rated consumption: 72 W</li> <li>Protection rating: IP 54</li><li>Traction/ thrust: max. 1500N</li> <li>Ambient temperature: -5°C to + 60°C</li> <li>Connecting cable: halogen-free, grey 3 x 1mm², ~3m</li> <li>Max. speed: 16 mm/s</li> </ul>",
+    "Einsatz": "<ul> <li>Anwendung: Lüftung, NRA</li><li>Integrierte intelligente Regelelektronik</li></ul>",
+    "Use": "<ul> <li>Application: ventilation, natural smoke ventilation</li><li>Integrated intelligent control electronics</li></ul>",
+    "Ausstattung": "<ul> <li>Robuste korrosionsbeständige Ausführung in eloxierten Aluminiumgehäuse</li><li>Montagefreundlich durch verstellbaren Klemmring</li><li>Spindel aus Edelstahl, kugelgelagert mit Endlagendämpfung</li><li>Mit Goretex Membrane</li></ul>",
+    "Equipment": "<ul> <li>Robust, corrosion-resistant design in anodized casing</li><li>Easy installation thanks to adjustable clamping ring</li><li>Stainless steel spindle on ball bearings with end position cushioning</li><li>with Goretex membrane</li></ul>",
+    "Optionen": "<ul> <li>Programmierung von Sonderfunktionen</li><li>Programmierbare Parameter der Regelelektronik</li><li>Schüco Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieb in Antriebs-Verbundsystem</li></ul>",
+    "Options": "<ul> <li>Programming of special functions</li><li>Programmable parameters of intelligent control electronics</li><li>Schüco controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems</li></ul>",
+    "IsTwoPce": false,
+    "ResultVentWeight": 83.63,
+    "IsLsRsDrive": true,
+    "ArticleNumberRs": 291939,
+    "TwoDrivesSideInstallation50": 650,
+    "TwoDrivesSideInstallation60": 650,
+    "TwoDrivesSideInstallation70": 650,
+    "TwoDrivesSideInstallation80": 650,
+    "OpeningSpeedmms": 16,
+    "Traction": 1000,
+    "Thrust": 1500,
+    "Id": "f88c2ba9-694a-4b49-b0c1-20efbe762b90",
+    "CreatedOn": "2024-09-26T13:55:26.817Z",
+    "CreatedBy": "",
+    "ModifiedOn": "2024-09-26T13:55:26.817Z",
+    "ModifiedBy": ""
+  },
+  {
+    "Name": "Locking actuator roof",
+    "Bezeichnung": "Verr.antrieb Dachf 600N",
+    "ConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "Description": "",
+    "Application": "",
+    "ApplicationFacade": false,
+    "ApplicationSkylight": true,
+    "Type": 5,
+    "OpeningType": 0,
+    "BottomHungInward": false,
+    "BottomHungOutward": true,
+    "SideHungInward": false,
+    "SideHungOutward": false,
+    "TopHungInward": false,
+    "TopHungOutward": true,
+    "ProjectedTopHungInward": false,
+    "ProjectedTopHungOutward": false,
+    "InstallationType": "",
+    "ITMainOutFrmMountWBracket": true,
+    "ITMainFixOutFrmMount": false,
+    "ITMainVentFrmMount": false,
+    "ITSideMount50": true,
+    "ITSideMount60": true,
+    "ITSideMount70": true,
+    "ITSideMount80": true,
+    "ITSideMount67": false,
+    "Feature": "",
+    "FeatureOpenClose": true,
+    "FeatureLock": false,
+    "ArticleNumber": 291954,
+    "Stroke": 0,
+    "Angle": 0,
+    "Voltage": null,
+    "Voltage24": true,
+    "Voltage230": false,
+    "RatedCurrent": 0,
+    "BreakingCurrent": 0,
+    "PullingForceMax": 0,
+    "PushingForceMax": 0,
+    "PullingForceMaxWithNegativeWind": 0,
+    "PushingForceMaxWithNegativeWind": 0,
+    "PushingForcePermanent": 0,
+    "PullingForcePermanent": 0,
+    "MinPullingForceMax": 0,
+    "MinPushingForceMax": 0,
+    "MinPullingForcePermanent": 0,
+    "MinPushingForcePermanent": 0,
+    "Price": 225.16,
+    "DriveLength": 0,
+    "ChainDrive": 0,
+    "ChainDrive2": 0,
+    "MaxLengthMainClosingEdge1Drive": 0,
+    "MaxGeometricArea": 0,
+    "GeometricalSmokeExhaustion": 0,
+    "TotalGlassThickness": 0,
+    "Dimensions": 0,
+    "DimensionsWxHxD": "415 x 26 x 26",
+    "TensileForce": 0,
+    "LockingForce": 0,
+    "Details_DE": "<ul> <li>Bemessungsspannung: 24 V DC (19 V … 28 V)</li> <li>Abschaltstrom: ~1,0 A</li> <li>Bemessungsstrom: 0,6 A</li> <li>Bemessungsaufnahme: 15 W</li> <li>Schutzart: IP 32</li><li>Zug-/Schubkraft: max. 600 N</li> <li>Umgebungstemperatur: -5°C bis + 60°C</li> <li>Anschlussleitung: Halogenfrei, grau 3x 0,5mm², ~3m</li> <li>Laufzeit: ~ 5s</li><li>Hub: ~ 18mm</li> </ul>",
+    "Details_EN": "<ul> <li>Rated voltage : 24 V DC (19 V … 28 V</li> <li>Breaking current : ~1,0 A</li> <li>Rated current : 0,6 A</li> <li>Rated consumption : 15 W</li> <li>Protection rating : IP 32</li><li>Traction/ thrust : max. 600 N</li> <li>Ambient temperature: -5°C bis + 60°C</li> <li>Connecting cable: halogen-free, grey 3 x 0,5mm², ~3m</li> <li>Running time: ~ 5s</li><li>Stroke: ~ 18mm</li> </ul>",
+    "Einsatz": "<ul> <li>Anwendung: Lüftung, NRA</li><li>Integrierte intelligente Regelelektronik</li></ul>",
+    "Use": "<ul> <li>Application: ventilation, natural smoke ventilation</li> <li>Integrated intelligent control electronics</li></ul>",
+    "Ausstattung": "<ul><li>Laufrichtung einstellbar</li></ul>",
+    "Equipment": "<ul><li>Running direction adjustable</li></ul>",
+    "Optionen": "<ul> <li>Mitnehmer objekt-/profilspezifisch anpassbar</li></ul>",
+    "Options": "<ul> <li>Coupling adapter customizable for project-/profile-specific demands</li></ul>",
+    "IsTwoPce": false,
+    "ResultVentWeight": 0,
+    "IsLsRsDrive": false,
+    "ArticleNumberRs": 0,
+    "TwoDrivesSideInstallation50": 0,
+    "TwoDrivesSideInstallation60": 0,
+    "TwoDrivesSideInstallation70": 0,
+    "TwoDrivesSideInstallation80": 0,
+    "OpeningSpeedmms": 0,
+    "Traction": 0,
+    "Thrust": 0,
+    "Id": "2b6ffe33-0cb6-494e-a561-679dc2adeb63",
+    "CreatedOn": "2024-09-26T13:55:26.817Z",
+    "CreatedBy": "",
+    "ModifiedOn": "2024-09-26T13:55:26.817Z",
+    "ModifiedBy": ""
+  }
+]
+
+
+
+# Created at 2024-11-28T15:29:36.206
+Unexpected IOException with stream: 15:29:36.206 [main] INFO  com.intuit.karate - Expected RecommDrive: Chain actuator D15 800,Chain actuator D6 400,Linear drive LDB16 L400,Linear drive LDN8 L400,Linear drive LDN10 L400,Linear drive LDH15 L400,Locking actuator roof 
+
+
+# Created at 2024-11-28T15:29:36.206
+Unexpected IOException with stream: 15:29:36.206 [main] INFO  com.intuit.karate - Actual RecommDrive: Chain actuator D15 800, Chain actuator D6 400, Linear drive LDB16 L400, Linear drive LDN8 L400, Linear drive LDN10 L400, Linear drive LDH15 L400, Locking actuator roof 
+
+
+# Created at 2024-11-28T15:29:36.206
+Unexpected IOException with stream: 15:29:36.206 [main] INFO  com.intuit.karate - Normalized Actual RecommDrive: Chain actuator D15 800,Chain actuator D6 400,Linear drive LDB16 L400,Linear drive LDN8 L400,Linear drive LDN10 L400,Linear drive LDH15 L400,Locking actuator roof 
+
+
+# Created at 2024-11-28T15:29:36.206
+Unexpected IOException with stream: 15:29:36.206 [main] INFO  com.intuit.karate - Normalized Expected RecommDrive: Chain actuator D15 800,Chain actuator D6 400,Linear drive LDB16 L400,Linear drive LDN8 L400,Linear drive LDN10 L400,Linear drive LDH15 L400,Locking actuator roof 
+
+
+# Created at 2024-11-28T15:29:36.206
+Unexpected IOException with stream: 15:29:36.206 [main] INFO  com.intuit.karate - Drive IDs: [
+  "6e554a6b-0764-4e7a-ac2f-8ca9ada34e08",
+  "6cfaf03b-807c-4298-8635-4bf804653a9e",
+  "9f91500a-3224-410c-b4df-c240b49d5a6d",
+  "a5df0ac4-840a-4686-ab17-68a05d8c4d52",
+  "9cac4106-1486-488f-8b76-e842cb91da3a",
+  "f88c2ba9-694a-4b49-b0c1-20efbe762b90",
+  "2b6ffe33-0cb6-494e-a561-679dc2adeb63"
+]
+ 
+
+
+# Created at 2024-11-28T15:29:36.206
+Unexpected IOException with stream: 15:29:36.206 [main] INFO  com.intuit.karate - First Drive ID: 6e554a6b-0764-4e7a-ac2f-8ca9ada34e08 
+
+
+# Created at 2024-11-28T15:29:36.221
+Unexpected IOException with stream: 15:29:36.221 [main] ERROR com.intuit.karate - classpath:drivetecTestCases/features/putconfiguration.feature:158
+* while (index < driveIds.length)
+no step-definition method match found for: while (index < driveIds.length)
+classpath:drivetecTestCases/features/putconfiguration.feature:158
+
+
+# Created at 2024-11-28T15:29:37.592
+Unexpected IOException with stream: ---------------------------------------------------------
+feature: classpath:drivetecTestCases/features/putconfiguration.feature
+scenarios:  4 | passed:  0 | failed:  4 | time: 10.8822
+---------------------------------------------------------
+
+
+# Created at 2024-11-28T15:29:37.592
+Unexpected IOException with stream: 
+
+
+# Created at 2024-11-28T15:29:37.599
+Unexpected IOException with stream: 15:29:37.599 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 4 (0 remaining) classpath:drivetecTestCases/features/putconfiguration.feature
+
+
+# Created at 2024-11-28T15:29:37.662
+Unexpected IOException with stream: Karate version: 1.5.0
+
+
+# Created at 2024-11-28T15:29:37.662
+Unexpected IOException with stream: ======================================================
+
+
+# Created at 2024-11-28T15:29:37.662
+Unexpected IOException with stream: elapsed:  14.72 | threads:    1 | thread time: 10.88 
+
+
+# Created at 2024-11-28T15:29:37.662
+Unexpected IOException with stream: features:     1 | skipped:    3 | efficiency: 0.74
+
+
+# Created at 2024-11-28T15:29:37.662
+Unexpected IOException with stream: scenarios:    4 | passed:     0 | failed: 4
+
+
+# Created at 2024-11-28T15:29:37.662
+Unexpected IOException with stream: ======================================================
+
+
+# Created at 2024-11-28T15:29:37.669
+Unexpected IOException with stream: >>> failed features:
+
+
+# Created at 2024-11-28T15:29:37.669
+Unexpected IOException with stream: no step-definition method match found for: while (index < driveIds.length)
+classpath:drivetecTestCases/features/putconfiguration.feature:158
+no step-definition method match found for: while (index < driveIds.length)
+classpath:drivetecTestCases/features/putconfiguration.feature:158
+no step-definition method match found for: while (index < driveIds.length)
+classpath:drivetecTestCases/features/putconfiguration.feature:158
+no step-definition method match found for: while (index < driveIds.length)
+classpath:drivetecTestCases/features/putconfiguration.feature:158
+
+
+# Created at 2024-11-28T15:29:37.669
+Unexpected IOException with stream: <<<
+
+
+# Created at 2024-11-28T15:29:37.731
+Unexpected IOException with stream: 
+HTML report: (paste into browser to view) | Karate version: 1.5.0
+file:///C:/Users/jagan/DrivetecAPIAutomation/drivetec/target/karate-reports/karate-summary.html
+===================================================================
+
+
+
+# Created at 2024-11-28T15:29:37.954
+Unexpected IOException with stream: 15:29:37.953 [main] INFO  n.m.cucumber.ReportParser - File 'C:\Users\jagan\DrivetecAPIAutomation\drivetec\target\karate-reports\drivetecTestCases.features.putconfiguration.json' contains 1 feature(s)
+
+
+# Created at 2024-11-28T15:29:38.710
+Unexpected IOException: 8,1,drivetecTestCases.TestRunner,testParallel,null,no step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158\000Ano step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158\000Ano step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158\000Ano step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158 ==> expected: <true> but was: <false>,null,no step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158\000Ano step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158\000Ano step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158\000Ano step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158 ==> expected: <true> but was: <false>,TestRunner.testParallel:28 no step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158\000Ano step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158\000Ano step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158\000Ano step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158 ==> expected: <true> but was: <false>,org.opentest4j.AssertionFailedError: \000Ano step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158\000Ano step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158\000Ano step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158\000Ano step-definition method match found for: while (index < driveIds.length)\000Aclasspath:drivetecTestCases/features/putconfiguration.feature:158 ==> expected: <true> but was: <false>\000A\0009at drivetecTestCases.TestRunner.testParallel(TestRunner.java:28)\000A
+
+
+# Created at 2024-11-28T15:29:38.710
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,drivetecTestCases.TestRunner,null,null,null
+
+

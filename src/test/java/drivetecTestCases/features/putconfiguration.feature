@@ -143,6 +143,42 @@ function(value) {
 * karate.log('Normalized Expected RecommDrive:', normalizedExpectedRecommDrive)
 * assert normalizedActualRecommDrive == normalizedExpectedRecommDrive
 
+* def driveIds = response.map(function(y) { return y.Id })
+* karate.log('All Drive IDs:', driveIds)
+* def firstDriveId = driveIds[0]
+* karate.log('First Drive ID:', firstDriveId)
+
+* def payload = 
+"""
+[
+    {"Id":"configId","Header":"configId","Value":"#(updatedConfigId)"},
+    {"Id":"driveId","Header":"driveId","Value":"#(firstDriveId)"},
+    {"Id":"culture","Header":"culture","Value":"EN-US"},
+    {"Id":"projectId","Header":"projectId","Value":"#(postResponse.projId)"},
+    {"Id":"range-of-app","Header":"Range of application","Value":"Façade"},
+    {"Id":"opening-type","Header":"Opening type","Value":"Bottom-hung vent"},
+    {"Id":"opening-direction","Header":"Opening direction","Value":"Inward"},
+    {"Id":"how-calc-weight","Header":"Vent weight","Value":"Weight including glass"},
+    {"Id":"Chain-Length","Header":"Chain- / connecting rod handle","Value":"100%"},
+    {"Id":"drive-position","Header":"Drive position","Value":"Side installation"},
+    {"Id":"locking-mechanism","Header":"Locking mechanism","Value":"With"},
+    {"Id":"voltage","Header":"Voltage","Value":"24 V"},
+    {"Id":"drive-type","Header":"Drive type","Value":"Chain drive"},
+    {"Id":"type-installation","Header":"Type of installation","Value":"Pivoting Outer Frame Installation"},
+    {"Id":"calculation-type-for-ventilation-area","Header":"Calculation type for ventilation area","Value":"Method in accordance with ASR 3.6"}
+]
+"""
+    
+    # Call the download API
+    Given url apiUrl + '/api/Drives/DownloadPDFNew/Schuco'
+    And request payload
+    When method POST
+    Then status 200
+    
+
+# Log all download results
+* karate.log('Download URL for first driveId:', response.result)
+
 
 Examples:
   | read('classpath:drivetecTestCases/features/sampleconfigurations.csv') |
