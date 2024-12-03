@@ -181,4 +181,4 @@ function(value) {
 
 
 Examples:
-  | read('classpath:drivetecTestCases/features/sampleconfigurations.csv') |
+  | read('classpath:drivetecTestCases/features/Configurations.csv') |
