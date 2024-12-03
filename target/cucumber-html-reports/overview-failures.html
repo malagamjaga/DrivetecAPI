@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>drivetecTestCases</td>
-      <td>02 Dec 2024, 15:27</td>
+      <td>03 Dec 2024, 13:06</td>
     </tr>
   </tbody>
 </table>
@@ -94,12 +94,6380 @@ $(document).ready(function() {
 </div>
 
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
 <div class="container-fluid" id="report">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
 
-        <p>You have no failed scenarios in your Cucumber report</p>
+        <div class="elements">
 
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_4015535260.html">drivetecTestCases/features/UpdatePositions.feature</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_1836253831.html">@drivetec</a>
+</div>
+
+
+  <span class="lead-duration duration">2.915</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Drivetec Configurations Test</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details  in ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def datasetName = 'Dataset7'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>13:05:54.836 karate.env system property was: null 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Running test for dataset: ', datasetName)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>13:05:54.836 Running test for dataset:  Dataset7 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundAwayFromZero =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-5">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details">
+        <pre>function(value, decimalPlaces) {
+  
+  var num = Number(value);
+  if (isNaN(num)) {
+    return num;  // Return as is if it's not a valid number
+  }
+  
+  var factor = Math.pow(10, decimalPlaces);
+  var valueToRound = num * factor;
+  var roundedValue = (valueToRound % 1 == 0.5 || valueToRound % 1 == -0.5) ? 
+    (valueToRound &gt; 0 ? Math.floor(valueToRound) + 1 : Math.ceil(valueToRound) - 1) : 
+    Math.round(valueToRound);
+  
+  return roundedValue / factor;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def postResponse = karate.call('classpath:drivetecTestCases/features/CreatePositions.feature')</span>
+
+  <span class="lead-duration duration">0.698</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">drivetecTestCases/features/CreatePositions.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># This runs before each scenario and generates the ProjectId once</div>
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def projectId = karate.callSingle('classpath:drivetecTestCases/features/CreateProject.feature')</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.log('Using ProjectId: ', projectId)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-6">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-6" class="collapse collapsable-details">
+        <pre>13:05:54.836 Using ProjectId:  {
+  &quot;result&quot;: {
+    &quot;projectId&quot;: &quot;prjId&quot;
+  },
+  &quot;projectPayload&quot;: {
+    &quot;Id&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;Name&quot;: &quot;AUT_TPJ26668&quot;,
+    &quot;Address&quot;: &quot;Hyderabad, Telangana, India&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;
+  },
+  &quot;uniqueName&quot;: &quot;AUT_TPJ26668&quot;,
+  &quot;responseHeaders&quot;: {
+    &quot;Content-Type&quot;: [
+      &quot;application/json; charset=utf-8&quot;
+    ],
+    &quot;Date&quot;: [
+      &quot;Tue, 03 Dec 2024 07:35:27 GMT&quot;
+    ],
+    &quot;Server&quot;: [
+      &quot;Microsoft-IIS/10.0&quot;
+    ],
+    &quot;X-Powered-By&quot;: [
+      &quot;ASP.NET&quot;
+    ],
+    &quot;transfer-encoding&quot;: [
+      &quot;chunked&quot;
+    ],
+    &quot;Connection&quot;: [
+      &quot;keep-alive&quot;
+    ],
+    &quot;Set-Cookie&quot;: [
+    ]
+  },
+  &quot;responseTime&quot;: 1242,
+  &quot;response&quot;: {
+    &quot;Name&quot;: &quot;AUT_TPJ26668&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Address&quot;: &quot;Hyderabad, Telangana, India&quot;,
+    &quot;Id&quot;: &quot;4bf1dfc8-fd6d-4d3a-9337-7ee7425ebbdf&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-12-03T07:35:27.7758566+00:00&quot;,
+    &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-12-03T07:35:27.7759029+00:00&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  &quot;responseStatus&quot;: 200,
+  &quot;prjId&quot;: &quot;4bf1dfc8-fd6d-4d3a-9337-7ee7425ebbdf&quot;,
+  &quot;projectId&quot;: &quot;4bf1dfc8-fd6d-4d3a-9337-7ee7425ebbdf&quot;
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Generate a unique name with &quot;Dataset&quot; prefix and a 4-digit number (0001, 0002, ...)</div>
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def counter = (java.lang.System.currentTimeMillis() % 10000) + 1  //Generate a number between 1 and 10000</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def formattedCounter = (counter.toString().length() &lt; 4) ? ('0000' + counter).substring(counter.toString().length()) : counter.toString()</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def positionName = 'Dataset' + formattedCounter  // Combine the prefix with the formatted counter</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># # Call the project feature to set projectId</div>
+          <div class="comment indention"># * callonce read('postproject.feature')</div>
+          <div class="comment indention"># # Retrieve the projectId</div>
+          <div class="comment indention"># * def projectId = karate.get('projectId')</div>
+          <div class="comment indention"># Request Payload for creating a Configuration with dynamic Name and ProjectId</div>
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def dynamicPayload =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-7" class="collapse collapsable-details">
+        <pre>{
+    &quot;Id&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;ProjectId&quot;: &quot;#(projectId.prjId)&quot;,
+    &quot;Name&quot;: &quot;#(positionName)&quot;,
+    &quot;Description&quot;: &quot;#(positionName)&quot;,
+    &quot;CustomTags&quot;: &quot;&quot;,
+    &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ApplicationName&quot;: 1,
+    &quot;System&quot;: &quot;&quot;,
+    &quot;FacadeInclination&quot;: 0,
+    &quot;OpeningType&quot;: 1,
+    &quot;OpeningDirection&quot;: 1,
+    &quot;OpeningWidth&quot;: 1000,
+    &quot;VentOuterWidth&quot;: 1230,
+    &quot;VentOuterHeight&quot;: 1480,
+    &quot;VentWeight&quot;: 70,
+    &quot;CalculateWeightWithGlass&quot;: false,
+    &quot;WeightIncGlassOrThickness&quot;: false,
+    &quot;GlassThickness&quot;: 14,
+    &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
+    &quot;IsWindowOpeningCalculationByAngle&quot;: 1,
+    &quot;RequiredOpeningStroke&quot;: 400,
+    &quot;OpeningAngle&quot;: 15,
+    &quot;WindLoad&quot;: 120,
+    &quot;SnowLoad&quot;: 0,
+    &quot;DrivePosition&quot;: 2,
+    &quot;InstallationPosition&quot;: 1,
+    &quot;ChainLengthConnectingRodHandle&quot;: 5,
+    &quot;LockingMechanism&quot;: 1,
+    &quot;Voltage&quot;: 1,
+    &quot;DriveType&quot;: 1,
+    &quot;TypeOfInstallation&quot;: 2,
+    &quot;CalculationTypeForVentilation&quot;: 1,
+    &quot;CalcVentilation&quot;: 1,
+    &quot;GeometricArea&quot;: 1,
+    &quot;SpecificExhaustDimension&quot;: 30,
+    &quot;BuildingDepth&quot;: 75,
+    &quot;RevealDepth&quot;: 0,
+    &quot;RevealDepthRectangleAngle1&quot;: 0,
+    &quot;RevealDepthRectangleAngle2&quot;: 0,
+    &quot;HeightOfProfile&quot;: 0,
+    &quot;HeightProfileRectangleAngle1&quot;: 0,
+    &quot;HeightProfileRectangleAngle2&quot;: 0,
+    &quot;AkippOrAtilt&quot;: 0,
+    &quot;AdrehOrAturn&quot;: 0,
+    &quot;Ageo&quot;: 0,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;ForceWithNegativeWind&quot;: 0
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url apiUrl + '/Configurations'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request dynamicPayload</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">0.688</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-8">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-8" class="collapse collapsable-details">
+        <pre>13:05:54.836 request:
+1 &gt; POST https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1275
+1 &gt; Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;Id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;ProjectId&quot;:&quot;4bf1dfc8-fd6d-4d3a-9337-7ee7425ebbdf&quot;,&quot;Name&quot;:&quot;Dataset4837&quot;,&quot;Description&quot;:&quot;Dataset4837&quot;,&quot;CustomTags&quot;:&quot;&quot;,&quot;CreatedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;ModifiedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;ApplicationName&quot;:1,&quot;System&quot;:&quot;&quot;,&quot;FacadeInclination&quot;:0,&quot;OpeningType&quot;:1,&quot;OpeningDirection&quot;:1,&quot;OpeningWidth&quot;:1000,&quot;VentOuterWidth&quot;:1230,&quot;VentOuterHeight&quot;:1480,&quot;VentWeight&quot;:70,&quot;CalculateWeightWithGlass&quot;:false,&quot;WeightIncGlassOrThickness&quot;:false,&quot;GlassThickness&quot;:14,&quot;ProfileWeightPerSerialMeter&quot;:2.5,&quot;IsWindowOpeningCalculationByAngle&quot;:1,&quot;RequiredOpeningStroke&quot;:400,&quot;OpeningAngle&quot;:15,&quot;WindLoad&quot;:120,&quot;SnowLoad&quot;:0,&quot;DrivePosition&quot;:2,&quot;InstallationPosition&quot;:1,&quot;ChainLengthConnectingRodHandle&quot;:5,&quot;LockingMechanism&quot;:1,&quot;Voltage&quot;:1,&quot;DriveType&quot;:1,&quot;TypeOfInstallation&quot;:2,&quot;CalculationTypeForVentilation&quot;:1,&quot;CalcVentilation&quot;:1,&quot;GeometricArea&quot;:1,&quot;SpecificExhaustDimension&quot;:30,&quot;BuildingDepth&quot;:75,&quot;RevealDepth&quot;:0,&quot;RevealDepthRectangleAngle1&quot;:0,&quot;RevealDepthRectangleAngle2&quot;:0,&quot;HeightOfProfile&quot;:0,&quot;HeightProfileRectangleAngle1&quot;:0,&quot;HeightProfileRectangleAngle2&quot;:0,&quot;AkippOrAtilt&quot;:0,&quot;AdrehOrAturn&quot;:0,&quot;Ageo&quot;:0,&quot;MinPullingForceMax&quot;:0,&quot;MinPushingForceMax&quot;:0,&quot;MinPullingForcePermanent&quot;:0,&quot;MinPushingForcePermanent&quot;:0,&quot;ForceWithNegativeWind&quot;:0}
+
+13:05:55.528 response time in milliseconds: 692
+1 &lt; 200
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 03 Dec 2024 07:35:54 GMT
+1 &lt; Server: Microsoft-IIS/10.0
+1 &lt; X-Powered-By: ASP.NET
+1 &lt; Content-Length: 2032
+1 &lt; Connection: keep-alive
+{
+  &quot;ProjectId&quot;: &quot;4bf1dfc8-fd6d-4d3a-9337-7ee7425ebbdf&quot;,
+  &quot;Name&quot;: &quot;Dataset4837&quot;,
+  &quot;Description&quot;: &quot;Dataset4837&quot;,
+  &quot;CustomTags&quot;: &quot;&quot;,
+  &quot;ApplicationName&quot;: 1,
+  &quot;OpeningType&quot;: 1,
+  &quot;OpeningDirection&quot;: 1,
+  &quot;CalculateWeightWithGlass&quot;: false,
+  &quot;WindLoad&quot;: 120,
+  &quot;IsWindowOpeningCalculationByAngle&quot;: 1,
+  &quot;VentOuterWidth&quot;: 1230,
+  &quot;VentOuterHeight&quot;: 1480,
+  &quot;WeightIncGlassOrThickness&quot;: false,
+  &quot;VentWeight&quot;: 77,
+  &quot;VentWeightExact&quot;: 77.26400000000001,
+  &quot;GlassThickness&quot;: 14,
+  &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
+  &quot;FacadeInclination&quot;: 0,
+  &quot;ChainLengthConnectingRodHandle&quot;: 5,
+  &quot;ChainLenghtConnectingRodHandle&quot;: 0,
+  &quot;RequiredOpeningStroke&quot;: 400,
+  &quot;OpeningWidth&quot;: 1000,
+  &quot;OpeningAngle&quot;: 15.532868337024489,
+  &quot;SpecificExhaustDimension&quot;: 30,
+  &quot;BuildingDepth&quot;: 75,
+  &quot;SnowLoad&quot;: 0,
+  &quot;DistanceHinge&quot;: 0,
+  &quot;RatedCurrent&quot;: 0,
+  &quot;DrivePosition&quot;: 2,
+  &quot;LockingMechanism&quot;: 1,
+  &quot;Voltage&quot;: 1,
+  &quot;DriveType&quot;: 1,
+  &quot;TypeOfInstallation&quot;: 2,
+  &quot;GeometricArea&quot;: 0,
+  &quot;CalculationTypeForVentilation&quot;: 1,
+  &quot;HeightOfProfile&quot;: 0,
+  &quot;Reveal&quot;: 0,
+  &quot;RevealDepth&quot;: 0,
+  &quot;HeightProfileRectangleAngle1&quot;: 0,
+  &quot;HeightProfileRectangleAngle2&quot;: 0,
+  &quot;RevealDepthRectangleAngle1&quot;: 0,
+  &quot;RevealDepthRectangleAngle2&quot;: 0,
+  &quot;RevealDepthRectangleAngle12&quot;: 0,
+  &quot;InstallationPosition&quot;: 0,
+  &quot;RecommendedDriveArticleNo&quot;: 0,
+  &quot;System&quot;: &quot;&quot;,
+  &quot;AkippOrAtilt&quot;: 1.084,
+  &quot;AdrehOrAturn&quot;: 1.8204,
+  &quot;Ageo&quot;: 1.084,
+  &quot;MinPullingForceMax&quot;: -206.4868442161654,
+  &quot;MinPushingForceMax&quot;: -206.4868442161654,
+  &quot;MinPullingForcePermanent&quot;: -104.11163259218097,
+  &quot;MinPushingForcePermanent&quot;: -104.11163259218097,
+  &quot;ForceWithNegativeWind&quot;: 109.53156767199486,
+  &quot;ForceWithNoWindMin&quot;: 0.30763693489047433,
+  &quot;ForceWithNegativeWindMin&quot;: 0,
+  &quot;ForceWithWindMin&quot;: -108.91629380221393,
+  &quot;Id&quot;: &quot;a6281fad-d0ab-4613-88ad-e202bedb1ab2&quot;,
+  &quot;CreatedOn&quot;: &quot;2024-12-03T07:35:55.4404445+00:00&quot;,
+  &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+  &quot;ModifiedOn&quot;: &quot;2024-12-03T07:35:55.4404454+00:00&quot;,
+  &quot;ModifiedBy&quot;: &quot;&quot;
+}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Then passed">
+  <span class="keyword indention">&gt; Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">match response.Id != null</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def configId = response.Id</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def projId = response.ProjectId</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.log('Generated Config ID:', configId)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-9">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-9" class="collapse collapsable-details">
+        <pre>13:05:55.528 Generated Config ID: a6281fad-d0ab-4613-88ad-e202bedb1ab2 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.log('Generated Name:', dynamicPayload.Name)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-10">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-10" class="collapse collapsable-details">
+        <pre>13:05:55.528 Generated Name: Dataset4837 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.log('Generated Description:', dynamicPayload.Description)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-11">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-11" class="collapse collapsable-details">
+        <pre>13:05:55.528 Generated Description: Dataset4837 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.set('generatedData', { configId: configId, name: dynamicPayload.Name, description: dynamicPayload.Description })</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def configId = karate.get('configId')</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url apiUrl + '/Configurations'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-12">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-12" class="collapse collapsable-details">
+        <pre>{
+    &quot;Id&quot;: &quot;#(postResponse.configId)&quot;,
+    &quot;Name&quot;: &quot;Dataset7&quot;,
+    &quot;Description&quot;: &quot;#(postResponse.positionName)&quot;,
+    &quot;ProjectId&quot;: &quot;#(postResponse.projId)&quot;,
+    &quot;CustomTags&quot;: &quot;&quot;,
+    &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;System&quot;: &quot;&quot;,
+    &quot;FacadeInclination&quot;: 10,
+    &quot;OpeningType&quot;: 1,
+    &quot;OpeningDirection&quot;: 1,
+    &quot;OpeningWidth&quot;: 1000,
+    &quot;VentOuterWidth&quot;: 1650,
+    &quot;VentOuterHeight&quot;: 1500,
+    &quot;VentWeight&quot;: 0,
+    &quot;CalculateWeightWithGlass&quot;: #(!CalculateWeightWithGlass),
+    &quot;RequiredOpeningStroke&quot;: 1,
+    &quot;WindLoad&quot;: 120,
+    &quot;SnowLoad&quot;: 0,
+    &quot;IsWindowOpeningCalculationByAngle&quot;: 1,
+    &quot;GlassThickness&quot;: 14,
+    &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
+    &quot;DrivePosition&quot;: 1,
+    &quot;InstallationPosition&quot;: 0,
+    &quot;LockingMechanism&quot;: 1,
+    &quot;Voltage&quot;: 1,
+    &quot;DriveType&quot;: 1,
+    &quot;TypeOfInstallation&quot;: 2,
+    &quot;GeometricArea&quot;: 0,
+    &quot;CalcVentilation&quot;: 1,
+    &quot;SpecificExhaustDimension&quot;: 30,
+    &quot;BuildingDepth&quot;: 75,
+    &quot;CalculationTypeForVentilation&quot;: 1,
+    &quot;HeightOfProfile&quot;: 0,
+    &quot;HeightProfileRectangleAngle1&quot;: 0,
+    &quot;HeightProfileRectangleAngle2&quot;: 0,
+    &quot;RevealDepth&quot;: 0,
+    &quot;RevealDepthRectangleAngle1&quot;: 0,
+    &quot;RevealDepthRectangleAngle2&quot;: 0,
+    &quot;ChainLengthConnectingRodHandle&quot;: 5,
+    &quot;ApplicationName&quot;: 1,
+    &quot;OpeningAngle&quot;: 10,
+    &quot;WeightIncGlassOrThickness&quot;: #(!WeightIncGlassOrThickness),
+    &quot;AkippOrAtilt&quot;: 0,
+    &quot;AdrehOrAturn&quot;: 0,
+    &quot;Ageo&quot;: 0,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;ForceWithNegativeWind&quot;: 0
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method put</span>
+
+  <span class="lead-duration duration">0.681</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-13">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-13" class="collapse collapsable-details">
+        <pre>13:05:55.543 request:
+1 &gt; PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1270
+1 &gt; Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;Id&quot;:&quot;a6281fad-d0ab-4613-88ad-e202bedb1ab2&quot;,&quot;Name&quot;:&quot;Dataset7&quot;,&quot;Description&quot;:&quot;Dataset4837&quot;,&quot;ProjectId&quot;:&quot;4bf1dfc8-fd6d-4d3a-9337-7ee7425ebbdf&quot;,&quot;CustomTags&quot;:&quot;&quot;,&quot;CreatedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;ModifiedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;System&quot;:&quot;&quot;,&quot;FacadeInclination&quot;:10,&quot;OpeningType&quot;:1,&quot;OpeningDirection&quot;:1,&quot;OpeningWidth&quot;:1000,&quot;VentOuterWidth&quot;:1650,&quot;VentOuterHeight&quot;:1500,&quot;VentWeight&quot;:0,&quot;CalculateWeightWithGlass&quot;:false,&quot;RequiredOpeningStroke&quot;:1,&quot;WindLoad&quot;:120,&quot;SnowLoad&quot;:0,&quot;IsWindowOpeningCalculationByAngle&quot;:1,&quot;GlassThickness&quot;:14,&quot;ProfileWeightPerSerialMeter&quot;:2.5,&quot;DrivePosition&quot;:1,&quot;InstallationPosition&quot;:0,&quot;LockingMechanism&quot;:1,&quot;Voltage&quot;:1,&quot;DriveType&quot;:1,&quot;TypeOfInstallation&quot;:2,&quot;GeometricArea&quot;:0,&quot;CalcVentilation&quot;:1,&quot;SpecificExhaustDimension&quot;:30,&quot;BuildingDepth&quot;:75,&quot;CalculationTypeForVentilation&quot;:1,&quot;HeightOfProfile&quot;:0,&quot;HeightProfileRectangleAngle1&quot;:0,&quot;HeightProfileRectangleAngle2&quot;:0,&quot;RevealDepth&quot;:0,&quot;RevealDepthRectangleAngle1&quot;:0,&quot;RevealDepthRectangleAngle2&quot;:0,&quot;ChainLengthConnectingRodHandle&quot;:5,&quot;ApplicationName&quot;:1,&quot;OpeningAngle&quot;:10,&quot;WeightIncGlassOrThickness&quot;:false,&quot;AkippOrAtilt&quot;:0,&quot;AdrehOrAturn&quot;:0,&quot;Ageo&quot;:0,&quot;MinPullingForceMax&quot;:0,&quot;MinPushingForceMax&quot;:0,&quot;MinPullingForcePermanent&quot;:0,&quot;MinPushingForcePermanent&quot;:0,&quot;ForceWithNegativeWind&quot;:0}
+
+13:05:56.219 response time in milliseconds: 676
+1 &lt; 200
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 03 Dec 2024 07:35:56 GMT
+1 &lt; Server: Microsoft-IIS/10.0
+1 &lt; X-Powered-By: ASP.NET
+1 &lt; Content-Length: 2054
+1 &lt; Connection: keep-alive
+{
+  &quot;ProjectId&quot;: &quot;4bf1dfc8-fd6d-4d3a-9337-7ee7425ebbdf&quot;,
+  &quot;Name&quot;: &quot;Dataset7&quot;,
+  &quot;Description&quot;: &quot;Dataset4837&quot;,
+  &quot;CustomTags&quot;: &quot;&quot;,
+  &quot;ApplicationName&quot;: 1,
+  &quot;OpeningType&quot;: 1,
+  &quot;OpeningDirection&quot;: 1,
+  &quot;CalculateWeightWithGlass&quot;: false,
+  &quot;WindLoad&quot;: 120,
+  &quot;IsWindowOpeningCalculationByAngle&quot;: 1,
+  &quot;VentOuterWidth&quot;: 1650,
+  &quot;VentOuterHeight&quot;: 1500,
+  &quot;WeightIncGlassOrThickness&quot;: false,
+  &quot;VentWeight&quot;: 102,
+  &quot;VentWeightExact&quot;: 102.375,
+  &quot;GlassThickness&quot;: 14,
+  &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
+  &quot;FacadeInclination&quot;: 10,
+  &quot;ChainLengthConnectingRodHandle&quot;: 5,
+  &quot;ChainLenghtConnectingRodHandle&quot;: 0,
+  &quot;RequiredOpeningStroke&quot;: 1,
+  &quot;OpeningWidth&quot;: 1000,
+  &quot;OpeningAngle&quot;: 0.03819718704941021,
+  &quot;SpecificExhaustDimension&quot;: 30,
+  &quot;BuildingDepth&quot;: 75,
+  &quot;SnowLoad&quot;: 0,
+  &quot;DistanceHinge&quot;: 0,
+  &quot;RatedCurrent&quot;: 0,
+  &quot;DrivePosition&quot;: 1,
+  &quot;LockingMechanism&quot;: 1,
+  &quot;Voltage&quot;: 1,
+  &quot;DriveType&quot;: 1,
+  &quot;TypeOfInstallation&quot;: 2,
+  &quot;GeometricArea&quot;: 0,
+  &quot;CalculationTypeForVentilation&quot;: 1,
+  &quot;HeightOfProfile&quot;: 0,
+  &quot;Reveal&quot;: 0,
+  &quot;RevealDepth&quot;: 0,
+  &quot;HeightProfileRectangleAngle1&quot;: 0,
+  &quot;HeightProfileRectangleAngle2&quot;: 0,
+  &quot;RevealDepthRectangleAngle1&quot;: 0,
+  &quot;RevealDepthRectangleAngle2&quot;: 0,
+  &quot;RevealDepthRectangleAngle12&quot;: 0,
+  &quot;InstallationPosition&quot;: 0,
+  &quot;RecommendedDriveArticleNo&quot;: 0,
+  &quot;System&quot;: &quot;&quot;,
+  &quot;AkippOrAtilt&quot;: 0.00315,
+  &quot;AdrehOrAturn&quot;: 2.475,
+  &quot;Ageo&quot;: 0.00315,
+  &quot;MinPullingForceMax&quot;: -54.74319294289617,
+  &quot;MinPushingForceMax&quot;: -55.113169098532424,
+  &quot;MinPullingForcePermanent&quot;: 89.2429627501381,
+  &quot;MinPushingForcePermanent&quot;: 89.2429627501381,
+  &quot;ForceWithNegativeWind&quot;: 233.22911844317238,
+  &quot;ForceWithNoWindMin&quot;: 88.90692425992826,
+  &quot;ForceWithNegativeWindMin&quot;: 232.92701761838896,
+  &quot;ForceWithWindMin&quot;: -54.74319294289617,
+  &quot;Id&quot;: &quot;a6281fad-d0ab-4613-88ad-e202bedb1ab2&quot;,
+  &quot;CreatedOn&quot;: &quot;0001-01-01T00:00:00&quot;,
+  &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+  &quot;ModifiedOn&quot;: &quot;2024-12-03T07:35:56.1378381+00:00&quot;,
+  &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;
+}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def updatedConfigId = karate.jsonPath(response, '$.Id')</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundedOpeningAngle = roundAwayFromZero(response.OpeningAngle, 0)  // Round to nearest integer</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundedAgeo = roundAwayFromZero(response.Ageo, 2)  // Round to two decimal places</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundedRequiredOpeningStroke = roundAwayFromZero(response.RequiredOpeningStroke, 0)  // Round to nearest integer</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundedVentWeight = roundAwayFromZero(response.VentWeight, 0)  // Round to nearest integer</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Rounded Opening Angle:', roundedOpeningAngle)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-14">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-14" class="collapse collapsable-details">
+        <pre>13:05:56.219 Rounded Opening Angle: 0.0 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Rounded Ageo:', roundedAgeo)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-15">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-15" class="collapse collapsable-details">
+        <pre>13:05:56.219 Rounded Ageo: 0.0 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Rounded Required Opening Stroke:', roundedRequiredOpeningStroke)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-16">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-16" class="collapse collapsable-details">
+        <pre>13:05:56.219 Rounded Required Opening Stroke: 1.0 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Rounded Vent Weight:', roundedVentWeight)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-17">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-17" class="collapse collapsable-details">
+        <pre>13:05:56.219 Rounded Vent Weight: 102.0 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedOpeningAngle = 0</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedAgeo = 0</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedRequiredOpeningStroke = 1</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedVentWeight = 102</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match roundedOpeningAngle == expectedOpeningAngle</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match roundedAgeo == expectedAgeo</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match roundedRequiredOpeningStroke == expectedRequiredOpeningStroke</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match roundedVentWeight == expectedVentWeight</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url apiUrl + '/Config/' + updatedConfigId + '/Drive'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method GET</span>
+
+  <span class="lead-duration duration">0.830</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-18">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-18" class="collapse collapsable-details">
+        <pre>13:05:56.219 request:
+2 &gt; GET https://dev-drivetec-apis.schuecodigitalsolutions.com/Config/a6281fad-d0ab-4613-88ad-e202bedb1ab2/Drive
+2 &gt; Host: dev-drivetec-apis.schuecodigitalsolutions.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+13:05:57.053 response time in milliseconds: 818
+2 &lt; 200
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Date: Tue, 03 Dec 2024 07:35:56 GMT
+2 &lt; Server: Microsoft-IIS/10.0
+2 &lt; X-Powered-By: ASP.NET
+2 &lt; transfer-encoding: chunked
+2 &lt; Connection: keep-alive
+[
+  {
+    &quot;Name&quot;: &quot;Chain actuator D2 L200&quot;,
+    &quot;Bezeichnung&quot;: &quot;Kettenantrieb D2 L200&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;Facade&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: false,
+    &quot;Type&quot;: 1,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: true,
+    &quot;BottomHungOutward&quot;: false,
+    &quot;SideHungInward&quot;: true,
+    &quot;SideHungOutward&quot;: false,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: true,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: false,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: true,
+    &quot;ITMainVentFrmMount&quot;: true,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: true,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: true,
+    &quot;ArticleNumber&quot;: 291752,
+    &quot;Stroke&quot;: 200,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: &quot;24 V DC&quot;,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: false,
+    &quot;RatedCurrent&quot;: 1,
+    &quot;BreakingCurrent&quot;: 1,
+    &quot;PullingForceMax&quot;: 250,
+    &quot;PushingForceMax&quot;: 250,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 166.67,
+    &quot;PullingForcePermanent&quot;: 250,
+    &quot;MinPullingForceMax&quot;: -55.11,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 89.24,
+    &quot;Price&quot;: 245.49,
+    &quot;DriveLength&quot;: 335,
+    &quot;ChainDrive&quot;: 435,
+    &quot;ChainDrive2&quot;: 830,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 1650,
+    &quot;MaxGeometricArea&quot;: 0,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 14,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;335 x 26 x 41&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt;&lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt;&lt;li&gt;Abschaltstrom: 1,0 A&lt;/li&gt;&lt;li&gt;Bemessungsstrom: 0,7 A&lt;/li&gt;&lt;li&gt;Bemessungsaufnahme: 17 W&lt;/li&gt;&lt;li&gt;Schutzart: IP 32&lt;/li&gt;&lt;li&gt;Zug-/Schubkraft: max. 250 N&lt;/li&gt;&lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt;&lt;li&gt;Anschlussleitung: Halogenfrei, grau 3 x 0,5 mm&sup2;, ~3 m&lt;/li&gt;&lt;li&gt;Max. Geschwindigkeit: 13,5 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt;&lt;li&gt;Rated voltage: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt;&lt;li&gt;Breaking current: 1.0 A&lt;/li&gt;&lt;li&gt;Rated current: 0.7 A&lt;/li&gt;&lt;li&gt;Rated consumption: 17 W&lt;/li&gt;&lt;li&gt;Protection rating: IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust: max. 250 N&lt;/li&gt;&lt;li&gt;Ambient temperature: -5&deg;C bis + 60&deg;C&lt;/li&gt;&lt;li&gt;Connecting cable: halogen-free, grey 3 x 0.5 mm&sup2;, ~3 m&lt;/li&gt;&lt;li&gt;Max. speed: 13.5 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt; &lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt; &lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt; &lt;li&gt;R&uuml;ckmeldung Endlage &bdquo;ZU&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt; &lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated, intelligent control electronics&lt;/li&gt; &lt;li&gt;Response for &ldquo;CLOSED&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: null,
+    &quot;Equipment&quot;: null,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt; &lt;li&gt;Programmierung von Sonderfunktionen&lt;/li&gt; &lt;li&gt;Programmierbare R&uuml;ckmeldung Endlage &bdquo;AUF&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieben in Antriebs-Verbundsystemen&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt; &lt;li&gt;Programming of special functions&lt;/li&gt; &lt;li&gt;Programmable response for &ldquo;OPEN&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: false,
+    &quot;ResultVentWeight&quot;: 102.38,
+    &quot;IsLsRsDrive&quot;: true,
+    &quot;ArticleNumberRs&quot;: 291753,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 250,
+    &quot;Thrust&quot;: 250,
+    &quot;Id&quot;: &quot;07c798cb-2b88-4e23-aaec-fbdba670ac23&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  {
+    &quot;Name&quot;: &quot;Chain actuator D4 400&quot;,
+    &quot;Bezeichnung&quot;: &quot;Kettenantrieb D4 400&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;Facade&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: false,
+    &quot;Type&quot;: 1,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: true,
+    &quot;BottomHungOutward&quot;: false,
+    &quot;SideHungInward&quot;: true,
+    &quot;SideHungOutward&quot;: true,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: true,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: true,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: true,
+    &quot;ITMainVentFrmMount&quot;: true,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: true,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: true,
+    &quot;ArticleNumber&quot;: 291706,
+    &quot;Stroke&quot;: 400,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: &quot;24 V DC&quot;,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: false,
+    &quot;RatedCurrent&quot;: 1,
+    &quot;BreakingCurrent&quot;: 1,
+    &quot;PullingForceMax&quot;: 400,
+    &quot;PushingForceMax&quot;: 300,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 200,
+    &quot;PullingForcePermanent&quot;: 400,
+    &quot;MinPullingForceMax&quot;: -55.11,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 89.24,
+    &quot;Price&quot;: 273.74,
+    &quot;DriveLength&quot;: 551,
+    &quot;ChainDrive&quot;: 651,
+    &quot;ChainDrive2&quot;: 1262,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 1850,
+    &quot;MaxGeometricArea&quot;: 0,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 14,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;551 x 24 x 35&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt;&lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt; &lt;li&gt;Abschaltstrom: 1,2 A&lt;/li&gt; &lt;li&gt;Bemessungsstrom: 0,9 A&lt;/li&gt; &lt;li&gt;Bemessungsaufnahme: 22 W&lt;/li&gt; &lt;li&gt;Schutzart: IP 32&lt;/li&gt; &lt;li&gt;Zug-/Schubkraft: max. 400 N&lt;/li&gt; &lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt; &lt;li&gt;Anschlussleitung: Halogenfrei, grau 5 x 0,5mm&sup2;, ~3m&lt;/li&gt; &lt;li&gt;Max. Geschwindigkeit: 13,5 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt;&lt;li&gt;Rated voltage: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt; &lt;li&gt;Breaking current: 1.2 A&lt;/li&gt;&lt;li&gt;Rated current: 0.9 A&lt;/li&gt;&lt;li&gt;Rated consumption: 22 W&lt;/li&gt;&lt;li&gt;Protection rating: IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust: max. 400 N&lt;/li&gt;&lt;li&gt;Ambient temperature: -5&deg; C to +60&deg; C&lt;/li&gt;&lt;li&gt;Connecting cable: halogen-free, grey, 5 x 0.5 mm&sup2;, ~ 3 m&lt;/li&gt;&lt;li&gt;Max. speed: 13,5 mm/s &lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt;&lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt; &lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt; &lt;li&gt;R&uuml;ckmeldung Endlage &bdquo;ZU&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt;&lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated intelligent control electronics&lt;/li&gt; &lt;li&gt;Response for &ldquo;CLOSED&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: &quot;&lt;ul&gt;&lt;li&gt;Zus&auml;tzlicher Universal-Steckersatz f&uuml;r Mehrfachbetrieb bis zu 4 Antrieben und 2 Verriegelungsantrieben&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Equipment&quot;: &quot;&lt;ul&gt;&lt;li&gt;Additional universal plug socket for multiplex operation of up to 4 drives and 2 interlocking drives&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programmierung von Sonderfunktionen&lt;/li&gt; &lt;li&gt;Programmierbare R&uuml;ckmeldung Endlage &bdquo;AUF&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieben in Antriebs-Verbundsystemen&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programming of special functions&lt;/li&gt; &lt;li&gt;Programmable response for &ldquo;OPEN&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: false,
+    &quot;ResultVentWeight&quot;: 102.38,
+    &quot;IsLsRsDrive&quot;: true,
+    &quot;ArticleNumberRs&quot;: 291705,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 400,
+    &quot;Thrust&quot;: 300,
+    &quot;Id&quot;: &quot;3d1279a9-fd09-4a49-8d1b-c747973b2872&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  {
+    &quot;Name&quot;: &quot;Chain actuator D6 400&quot;,
+    &quot;Bezeichnung&quot;: &quot;Kettenantrieb D6 400&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;Facade&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: true,
+    &quot;Type&quot;: 1,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: true,
+    &quot;BottomHungOutward&quot;: true,
+    &quot;SideHungInward&quot;: true,
+    &quot;SideHungOutward&quot;: true,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: true,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: true,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: false,
+    &quot;ITMainVentFrmMount&quot;: true,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: true,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: true,
+    &quot;ArticleNumber&quot;: 291715,
+    &quot;Stroke&quot;: 400,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: &quot;24 V DC&quot;,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: false,
+    &quot;RatedCurrent&quot;: 1,
+    &quot;BreakingCurrent&quot;: 1,
+    &quot;PullingForceMax&quot;: 600,
+    &quot;PushingForceMax&quot;: 600,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 400,
+    &quot;PullingForcePermanent&quot;: 600,
+    &quot;MinPullingForceMax&quot;: -55.11,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 89.24,
+    &quot;Price&quot;: 360.35,
+    &quot;DriveLength&quot;: 591,
+    &quot;ChainDrive&quot;: 691,
+    &quot;ChainDrive2&quot;: 1342,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 1920,
+    &quot;MaxGeometricArea&quot;: 0,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 14,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;591 x 40 x 56&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt; &lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt; &lt;li&gt;Abschaltstrom: 1,2 A&lt;/li&gt; &lt;li&gt;Bemessungsstrom: 0,9 A&lt;/li&gt; &lt;li&gt;Bemessungsaufnahme: 22 W&lt;/li&gt; &lt;li&gt;Schutzart: IP 32&lt;/li&gt; &lt;li&gt;Zug-/Schubkraft: max. 600 N&lt;/li&gt; &lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt; &lt;li&gt;Anschlussleitung: Halogenfrei, grau 5 x 0,5mm&sup2;, ~3m&lt;/li&gt; &lt;li&gt;Max. Geschwindigkeit: 13,5 mm/s&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt; &lt;li&gt;Rated voltage: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt;&lt;li&gt;Breaking current: 1.2 A&lt;/li&gt;&lt;li&gt;Rated current: 0.9 A&lt;/li&gt;&lt;li&gt;Rated consumption: 22W&lt;/li&gt;&lt;li&gt;Protection rating: IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust: max. 600 N&lt;/li&gt;&lt;li&gt;Ambient temperature: -5&deg; C to +60&deg; C&lt;/li&gt;&lt;li&gt;Connecting cable: halogen-free, grey 3 x 0,5mm&sup2;, ~3m&lt;/li&gt;&lt;li&gt;Max. speed: 13,5 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt;&lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt; &lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt;&lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated intelligent control electronics&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: &quot;&lt;ul&gt;&lt;li&gt;Zus&auml;tzlicher Universal-Steckersatz f&uuml;r Mehrfachbetrieb bis zu 4 Antrieben und 2 Verriegelungsantrieben&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Equipment&quot;: &quot;&lt;ul&gt;&lt;li&gt;Additional universal plug socket for multiplex operation  of up to 4 drives and 2 interlocking drives&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programmierung von Sonderfunktionen&lt;/li&gt; &lt;li&gt;Programmierbare R&uuml;ckmeldung Endlage &bdquo;AUF&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieben in Antriebs-Verbundsystemen&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programming of special functions&lt;/li&gt; &lt;li&gt;Programmable response for &ldquo;OPEN&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: false,
+    &quot;ResultVentWeight&quot;: 102.38,
+    &quot;IsLsRsDrive&quot;: true,
+    &quot;ArticleNumberRs&quot;: 291715,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 600,
+    &quot;Thrust&quot;: 600,
+    &quot;Id&quot;: &quot;6cfaf03b-807c-4298-8635-4bf804653a9e&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  {
+    &quot;Name&quot;: &quot;Chain actuator TWIN D2 L200&quot;,
+    &quot;Bezeichnung&quot;: &quot;Kettenantrieb TWIN D2 L200&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;Facade&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: false,
+    &quot;Type&quot;: 1,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: true,
+    &quot;BottomHungOutward&quot;: false,
+    &quot;SideHungInward&quot;: false,
+    &quot;SideHungOutward&quot;: false,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: true,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: false,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: true,
+    &quot;ITMainVentFrmMount&quot;: true,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: false,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: true,
+    &quot;ArticleNumber&quot;: 291772,
+    &quot;Stroke&quot;: 200,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: &quot;24 V DC&quot;,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: false,
+    &quot;RatedCurrent&quot;: 1,
+    &quot;BreakingCurrent&quot;: 2,
+    &quot;PullingForceMax&quot;: 500,
+    &quot;PushingForceMax&quot;: 500,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 333.33,
+    &quot;PullingForcePermanent&quot;: 500,
+    &quot;MinPullingForceMax&quot;: -55.11,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 89.24,
+    &quot;Price&quot;: 475.07,
+    &quot;DriveLength&quot;: 640,
+    &quot;ChainDrive&quot;: 740,
+    &quot;ChainDrive2&quot;: 0,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 1650,
+    &quot;MaxGeometricArea&quot;: 0,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 14,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;640 x 26 x 41&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt;&lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt; &lt;li&gt;Abschaltstrom: 2,0 A&lt;/li&gt; &lt;li&gt;Bemessungsstrom: 1,4 A&lt;/li&gt; &lt;li&gt;Bemessungsaufnahme: 34 W&lt;/li&gt; &lt;li&gt;Schutzart: IP 32&lt;/li&gt; &lt;li&gt;Zug-/Schubkraft: max. 500 N&lt;/li&gt; &lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt; &lt;li&gt;Anschlussleitung: Halogenfrei, grau 3 x 0,5mm&sup2;, ~3m&lt;/li&gt; &lt;li&gt;Max. Geschwindigkeit: 12 mm/s&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt;&lt;li&gt;Rated voltage: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt;&lt;li&gt;Breaking current: 2.0 A&lt;/li&gt;&lt;li&gt;Rated current: 1.4 A&lt;/li&gt;&lt;li&gt;Rated consumption: 34 W&lt;/li&gt;&lt;li&gt;Protection rating: IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust: max. 500 N&lt;/li&gt;&lt;li&gt;Ambient temperature: -5&deg;C bis + 60&deg;C&lt;/li&gt;&lt;li&gt;Connecting cable: halogen-free, grey 3 x 0,5mm&sup2;, ~3m&lt;/li&gt;&lt;li&gt;Max. speed: 12 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt;&lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt; &lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt; &lt;li&gt;R&uuml;ckmeldung Endlage &bdquo;ZU&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt;&lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated intelligent control electronics&lt;/li&gt; &lt;li&gt;Response for \&quot;CLOSED\&quot; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: null,
+    &quot;Equipment&quot;: null,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programmierung von Sonderfunktionen&lt;/li&gt; &lt;li&gt;Programmierbare R&uuml;ckmeldung Endlage &bdquo;AUF&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieb in Antriebs-Verbundsystem&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programming of special functions&lt;/li&gt; &lt;li&gt;Programmable response for \&quot;OPEN\&quot; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: false,
+    &quot;ResultVentWeight&quot;: 102.38,
+    &quot;IsLsRsDrive&quot;: false,
+    &quot;ArticleNumberRs&quot;: 0,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 500,
+    &quot;Thrust&quot;: 500,
+    &quot;Id&quot;: &quot;927f2f17-13fd-4dc9-88f5-a6c2f139f905&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  {
+    &quot;Name&quot;: &quot;Chain actuator D2 L200&quot;,
+    &quot;Bezeichnung&quot;: &quot;Kettenantrieb D2 L200&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;Facade&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: false,
+    &quot;Type&quot;: 1,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: true,
+    &quot;BottomHungOutward&quot;: false,
+    &quot;SideHungInward&quot;: true,
+    &quot;SideHungOutward&quot;: false,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: true,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: false,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: true,
+    &quot;ITMainVentFrmMount&quot;: true,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: true,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: true,
+    &quot;ArticleNumber&quot;: 291752,
+    &quot;Stroke&quot;: 200,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: &quot;24 V DC&quot;,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: false,
+    &quot;RatedCurrent&quot;: 1,
+    &quot;BreakingCurrent&quot;: 1,
+    &quot;PullingForceMax&quot;: 250,
+    &quot;PushingForceMax&quot;: 250,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 166.67,
+    &quot;PullingForcePermanent&quot;: 250,
+    &quot;MinPullingForceMax&quot;: -55.11,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 89.24,
+    &quot;Price&quot;: 490.98,
+    &quot;DriveLength&quot;: 335,
+    &quot;ChainDrive&quot;: 435,
+    &quot;ChainDrive2&quot;: 830,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 1650,
+    &quot;MaxGeometricArea&quot;: 0,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 14,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;335 x 26 x 41&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt;&lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt;&lt;li&gt;Abschaltstrom: 1,0 A&lt;/li&gt;&lt;li&gt;Bemessungsstrom: 0,7 A&lt;/li&gt;&lt;li&gt;Bemessungsaufnahme: 17 W&lt;/li&gt;&lt;li&gt;Schutzart: IP 32&lt;/li&gt;&lt;li&gt;Zug-/Schubkraft: max. 250 N&lt;/li&gt;&lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt;&lt;li&gt;Anschlussleitung: Halogenfrei, grau 3 x 0,5 mm&sup2;, ~3 m&lt;/li&gt;&lt;li&gt;Max. Geschwindigkeit: 13,5 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt;&lt;li&gt;Rated voltage: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt;&lt;li&gt;Breaking current: 1.0 A&lt;/li&gt;&lt;li&gt;Rated current: 0.7 A&lt;/li&gt;&lt;li&gt;Rated consumption: 17 W&lt;/li&gt;&lt;li&gt;Protection rating: IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust: max. 250 N&lt;/li&gt;&lt;li&gt;Ambient temperature: -5&deg;C bis + 60&deg;C&lt;/li&gt;&lt;li&gt;Connecting cable: halogen-free, grey 3 x 0.5 mm&sup2;, ~3 m&lt;/li&gt;&lt;li&gt;Max. speed: 13.5 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt; &lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt; &lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt; &lt;li&gt;R&uuml;ckmeldung Endlage &bdquo;ZU&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt; &lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated, intelligent control electronics&lt;/li&gt; &lt;li&gt;Response for &ldquo;CLOSED&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: null,
+    &quot;Equipment&quot;: null,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt; &lt;li&gt;Programmierung von Sonderfunktionen&lt;/li&gt; &lt;li&gt;Programmierbare R&uuml;ckmeldung Endlage &bdquo;AUF&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieben in Antriebs-Verbundsystemen&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt; &lt;li&gt;Programming of special functions&lt;/li&gt; &lt;li&gt;Programmable response for &ldquo;OPEN&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: true,
+    &quot;ResultVentWeight&quot;: 102.38,
+    &quot;IsLsRsDrive&quot;: true,
+    &quot;ArticleNumberRs&quot;: 291753,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 250,
+    &quot;Thrust&quot;: 250,
+    &quot;Id&quot;: &quot;07c798cb-2b88-4e23-aaec-fbdba670ac23&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  {
+    &quot;Name&quot;: &quot;Chain actuator D4 400&quot;,
+    &quot;Bezeichnung&quot;: &quot;Kettenantrieb D4 400&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;Facade&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: false,
+    &quot;Type&quot;: 1,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: true,
+    &quot;BottomHungOutward&quot;: false,
+    &quot;SideHungInward&quot;: true,
+    &quot;SideHungOutward&quot;: true,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: true,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: true,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: true,
+    &quot;ITMainVentFrmMount&quot;: true,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: true,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: true,
+    &quot;ArticleNumber&quot;: 291706,
+    &quot;Stroke&quot;: 400,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: &quot;24 V DC&quot;,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: false,
+    &quot;RatedCurrent&quot;: 1,
+    &quot;BreakingCurrent&quot;: 1,
+    &quot;PullingForceMax&quot;: 400,
+    &quot;PushingForceMax&quot;: 300,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 200,
+    &quot;PullingForcePermanent&quot;: 400,
+    &quot;MinPullingForceMax&quot;: -55.11,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 89.24,
+    &quot;Price&quot;: 547.48,
+    &quot;DriveLength&quot;: 551,
+    &quot;ChainDrive&quot;: 651,
+    &quot;ChainDrive2&quot;: 1262,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 1850,
+    &quot;MaxGeometricArea&quot;: 0,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 14,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;551 x 24 x 35&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt;&lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt; &lt;li&gt;Abschaltstrom: 1,2 A&lt;/li&gt; &lt;li&gt;Bemessungsstrom: 0,9 A&lt;/li&gt; &lt;li&gt;Bemessungsaufnahme: 22 W&lt;/li&gt; &lt;li&gt;Schutzart: IP 32&lt;/li&gt; &lt;li&gt;Zug-/Schubkraft: max. 400 N&lt;/li&gt; &lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt; &lt;li&gt;Anschlussleitung: Halogenfrei, grau 5 x 0,5mm&sup2;, ~3m&lt;/li&gt; &lt;li&gt;Max. Geschwindigkeit: 13,5 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt;&lt;li&gt;Rated voltage: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt; &lt;li&gt;Breaking current: 1.2 A&lt;/li&gt;&lt;li&gt;Rated current: 0.9 A&lt;/li&gt;&lt;li&gt;Rated consumption: 22 W&lt;/li&gt;&lt;li&gt;Protection rating: IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust: max. 400 N&lt;/li&gt;&lt;li&gt;Ambient temperature: -5&deg; C to +60&deg; C&lt;/li&gt;&lt;li&gt;Connecting cable: halogen-free, grey, 5 x 0.5 mm&sup2;, ~ 3 m&lt;/li&gt;&lt;li&gt;Max. speed: 13,5 mm/s &lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt;&lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt; &lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt; &lt;li&gt;R&uuml;ckmeldung Endlage &bdquo;ZU&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt;&lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated intelligent control electronics&lt;/li&gt; &lt;li&gt;Response for &ldquo;CLOSED&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: &quot;&lt;ul&gt;&lt;li&gt;Zus&auml;tzlicher Universal-Steckersatz f&uuml;r Mehrfachbetrieb bis zu 4 Antrieben und 2 Verriegelungsantrieben&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Equipment&quot;: &quot;&lt;ul&gt;&lt;li&gt;Additional universal plug socket for multiplex operation of up to 4 drives and 2 interlocking drives&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programmierung von Sonderfunktionen&lt;/li&gt; &lt;li&gt;Programmierbare R&uuml;ckmeldung Endlage &bdquo;AUF&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieben in Antriebs-Verbundsystemen&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programming of special functions&lt;/li&gt; &lt;li&gt;Programmable response for &ldquo;OPEN&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: true,
+    &quot;ResultVentWeight&quot;: 102.38,
+    &quot;IsLsRsDrive&quot;: true,
+    &quot;ArticleNumberRs&quot;: 291705,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 400,
+    &quot;Thrust&quot;: 300,
+    &quot;Id&quot;: &quot;3d1279a9-fd09-4a49-8d1b-c747973b2872&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  {
+    &quot;Name&quot;: &quot;Chain actuator D6 400&quot;,
+    &quot;Bezeichnung&quot;: &quot;Kettenantrieb D6 400&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;Facade&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: true,
+    &quot;Type&quot;: 1,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: true,
+    &quot;BottomHungOutward&quot;: true,
+    &quot;SideHungInward&quot;: true,
+    &quot;SideHungOutward&quot;: true,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: true,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: true,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: false,
+    &quot;ITMainVentFrmMount&quot;: true,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: true,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: true,
+    &quot;ArticleNumber&quot;: 291715,
+    &quot;Stroke&quot;: 400,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: &quot;24 V DC&quot;,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: false,
+    &quot;RatedCurrent&quot;: 1,
+    &quot;BreakingCurrent&quot;: 1,
+    &quot;PullingForceMax&quot;: 600,
+    &quot;PushingForceMax&quot;: 600,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 400,
+    &quot;PullingForcePermanent&quot;: 600,
+    &quot;MinPullingForceMax&quot;: -55.11,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 89.24,
+    &quot;Price&quot;: 720.7,
+    &quot;DriveLength&quot;: 591,
+    &quot;ChainDrive&quot;: 691,
+    &quot;ChainDrive2&quot;: 1342,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 1920,
+    &quot;MaxGeometricArea&quot;: 0,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 14,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;591 x 40 x 56&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt; &lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt; &lt;li&gt;Abschaltstrom: 1,2 A&lt;/li&gt; &lt;li&gt;Bemessungsstrom: 0,9 A&lt;/li&gt; &lt;li&gt;Bemessungsaufnahme: 22 W&lt;/li&gt; &lt;li&gt;Schutzart: IP 32&lt;/li&gt; &lt;li&gt;Zug-/Schubkraft: max. 600 N&lt;/li&gt; &lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt; &lt;li&gt;Anschlussleitung: Halogenfrei, grau 5 x 0,5mm&sup2;, ~3m&lt;/li&gt; &lt;li&gt;Max. Geschwindigkeit: 13,5 mm/s&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt; &lt;li&gt;Rated voltage: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt;&lt;li&gt;Breaking current: 1.2 A&lt;/li&gt;&lt;li&gt;Rated current: 0.9 A&lt;/li&gt;&lt;li&gt;Rated consumption: 22W&lt;/li&gt;&lt;li&gt;Protection rating: IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust: max. 600 N&lt;/li&gt;&lt;li&gt;Ambient temperature: -5&deg; C to +60&deg; C&lt;/li&gt;&lt;li&gt;Connecting cable: halogen-free, grey 3 x 0,5mm&sup2;, ~3m&lt;/li&gt;&lt;li&gt;Max. speed: 13,5 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt;&lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt; &lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt;&lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated intelligent control electronics&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: &quot;&lt;ul&gt;&lt;li&gt;Zus&auml;tzlicher Universal-Steckersatz f&uuml;r Mehrfachbetrieb bis zu 4 Antrieben und 2 Verriegelungsantrieben&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Equipment&quot;: &quot;&lt;ul&gt;&lt;li&gt;Additional universal plug socket for multiplex operation  of up to 4 drives and 2 interlocking drives&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programmierung von Sonderfunktionen&lt;/li&gt; &lt;li&gt;Programmierbare R&uuml;ckmeldung Endlage &bdquo;AUF&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieben in Antriebs-Verbundsystemen&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programming of special functions&lt;/li&gt; &lt;li&gt;Programmable response for &ldquo;OPEN&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: true,
+    &quot;ResultVentWeight&quot;: 102.38,
+    &quot;IsLsRsDrive&quot;: false,
+    &quot;ArticleNumberRs&quot;: 0,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 600,
+    &quot;Thrust&quot;: 600,
+    &quot;Id&quot;: &quot;6cfaf03b-807c-4298-8635-4bf804653a9e&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  {
+    &quot;Name&quot;: &quot;Locking actuator EasyConnect&quot;,
+    &quot;Bezeichnung&quot;: &quot;Verriegelungsantrieb EasyConnect&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: false,
+    &quot;Type&quot;: 5,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: true,
+    &quot;BottomHungOutward&quot;: false,
+    &quot;SideHungInward&quot;: true,
+    &quot;SideHungOutward&quot;: false,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: false,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: false,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: true,
+    &quot;ITMainVentFrmMount&quot;: false,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: false,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: false,
+    &quot;ArticleNumber&quot;: 291787,
+    &quot;Stroke&quot;: 0,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: null,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: true,
+    &quot;RatedCurrent&quot;: 0,
+    &quot;BreakingCurrent&quot;: 0,
+    &quot;PullingForceMax&quot;: 0,
+    &quot;PushingForceMax&quot;: 0,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 0,
+    &quot;PullingForcePermanent&quot;: 0,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;Price&quot;: 0,
+    &quot;DriveLength&quot;: 0,
+    &quot;ChainDrive&quot;: 0,
+    &quot;ChainDrive2&quot;: 0,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 0,
+    &quot;MaxGeometricArea&quot;: 0,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 0,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;375 x 24 x 35&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt; &lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt; &lt;li&gt;Abschaltstrom: ~1,0 A&lt;/li&gt; &lt;li&gt;Bemessungsstrom: 0,6 A&lt;/li&gt; &lt;li&gt;Bemessungsaufnahme: 15 W&lt;/li&gt; &lt;li&gt;Schutzart: IP 32&lt;/li&gt;&lt;li&gt;Zug-/Schubkraft: max. 600 N&lt;/li&gt; &lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt; &lt;li&gt;Anschlussleitung: Halogenfrei, grau 5 x 0,5mm&sup2; , ~5m&lt;/li&gt; &lt;li&gt;Laufzeit: ~ 5s&lt;/li&gt;&lt;li&gt;Hub: ~ 18mm&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt; &lt;li&gt;Rated voltage : 24 V DC (19 V &hellip; 28 V&lt;/li&gt; &lt;li&gt;Breaking current : ~1,0 A&lt;/li&gt; &lt;li&gt;Rated current : 0,6 A&lt;/li&gt; &lt;li&gt;Rated consumption : 15 W&lt;/li&gt; &lt;li&gt;Protection rating : IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust : max. 600 N&lt;/li&gt; &lt;li&gt;Ambient temperature: -5&deg;C bis + 60&deg;C&lt;/li&gt; &lt;li&gt;Connecting cable: halogen-free, grey 5 x 0,5mm&sup2; , ~5m&lt;/li&gt; &lt;li&gt;Running time: ~ 5s&lt;/li&gt;&lt;li&gt;Stroke: ~ 18mm&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt; &lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt;&lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt; &lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated intelligent control electronics&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: &quot;&lt;ul&gt;&lt;li&gt;Laufrichtung einstellbar&lt;/li&gt;&lt;li&gt;Zus&auml;tzlicher Universal-Steckersatz&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Equipment&quot;: &quot;&lt;ul&gt;&lt;li&gt;Running direction adjustable&lt;/li&gt;&lt;li&gt;Additional universal plug socket&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt; &lt;li&gt;Mitnehmer objekt-/profilspezifisch anpassbar&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt; &lt;li&gt;Coupling adapter customizable for project-/profile-specific demands&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: false,
+    &quot;ResultVentWeight&quot;: 0,
+    &quot;IsLsRsDrive&quot;: false,
+    &quot;ArticleNumberRs&quot;: 0,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 0,
+    &quot;Thrust&quot;: 0,
+    &quot;Id&quot;: &quot;f894c384-bd5f-4f1b-a446-f4a3afc8426e&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  {
+    &quot;Name&quot;: &quot;Locking actuator 600&quot;,
+    &quot;Bezeichnung&quot;: &quot;Verriegelungsantrieb 600&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: false,
+    &quot;Type&quot;: 5,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: true,
+    &quot;BottomHungOutward&quot;: false,
+    &quot;SideHungInward&quot;: true,
+    &quot;SideHungOutward&quot;: false,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: false,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: false,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: true,
+    &quot;ITMainVentFrmMount&quot;: false,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: false,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: false,
+    &quot;ArticleNumber&quot;: 291736,
+    &quot;Stroke&quot;: 0,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: null,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: true,
+    &quot;RatedCurrent&quot;: 0,
+    &quot;BreakingCurrent&quot;: 0,
+    &quot;PullingForceMax&quot;: 0,
+    &quot;PushingForceMax&quot;: 0,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 0,
+    &quot;PullingForcePermanent&quot;: 0,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;Price&quot;: 218.27,
+    &quot;DriveLength&quot;: 0,
+    &quot;ChainDrive&quot;: 0,
+    &quot;ChainDrive2&quot;: 0,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 0,
+    &quot;MaxGeometricArea&quot;: 0,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 0,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;415 x 26 x 26&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt; &lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt; &lt;li&gt;Abschaltstrom: ~1,0 A&lt;/li&gt; &lt;li&gt;Bemessungsstrom: 0,6 A&lt;/li&gt; &lt;li&gt;Bemessungsaufnahme: 15 W&lt;/li&gt; &lt;li&gt;Schutzart: IP 32&lt;/li&gt;&lt;li&gt;Zug-/Schubkraft: max. 600 N&lt;/li&gt; &lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt; &lt;li&gt;Anschlussleitung: Halogenfrei, grau 3x 0,5mm&sup2;, ~3m&lt;/li&gt; &lt;li&gt;Laufzeit: ~ 5s&lt;/li&gt;&lt;li&gt;Hub: ~ 18mm&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt; &lt;li&gt;Rated voltage : 24 V DC (19 V &hellip; 28 V&lt;/li&gt; &lt;li&gt;Breaking current : ~1,0 A&lt;/li&gt; &lt;li&gt;Rated current : 0,6 A&lt;/li&gt; &lt;li&gt;Rated consumption : 15 W&lt;/li&gt; &lt;li&gt;Protection rating : IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust : max. 600 N&lt;/li&gt; &lt;li&gt;Ambient temperature: -5&deg;C bis + 60&deg;C&lt;/li&gt; &lt;li&gt;Connecting cable: halogen-free, grey 3 x 0,5mm&sup2;, ~3m&lt;/li&gt; &lt;li&gt;Running time: ~ 5s&lt;/li&gt;&lt;li&gt;Stroke: ~ 18mm&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt; &lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt;&lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt; &lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated intelligent control electronics&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: &quot;&lt;ul&gt;&lt;li&gt;Laufrichtung einstellbar&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Equipment&quot;: &quot;&lt;ul&gt;&lt;li&gt;Running direction adjustable&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt; &lt;li&gt;Mitnehmer objekt-/profilspezifisch anpassbar&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt; &lt;li&gt;Coupling adapter customizable for project-/profile-specific demands&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: false,
+    &quot;ResultVentWeight&quot;: 0,
+    &quot;IsLsRsDrive&quot;: true,
+    &quot;ArticleNumberRs&quot;: 291735,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 0,
+    &quot;Thrust&quot;: 0,
+    &quot;Id&quot;: &quot;69d8317e-493b-4010-8d9e-54168822bacf&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  }
+]
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def actualRecommDrive = response.map(function(x) { return x.Name }).join(', ')</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedRecommDrive = 'Chain actuator D2 L200,Chain actuator D4 400,Chain actuator D6 400,Chain actuator TWIN D2 L200,Locking actuator EasyConnect,Locking actuator 600'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def normalize =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-19">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-19" class="collapse collapsable-details">
+        <pre>function(value) {
+  return value.replace(/\s*,\s*/g, ',').trim(); // Remove spaces around commas
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def normalizedActualRecommDrive = normalize(actualRecommDrive)</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def normalizedExpectedRecommDrive = normalize(expectedRecommDrive)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Expected RecommDrive:', expectedRecommDrive)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-20">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-20" class="collapse collapsable-details">
+        <pre>13:05:57.059 Expected RecommDrive: Chain actuator D2 L200,Chain actuator D4 400,Chain actuator D6 400,Chain actuator TWIN D2 L200,Locking actuator EasyConnect,Locking actuator 600 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Actual RecommDrive:', actualRecommDrive)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-21">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-21" class="collapse collapsable-details">
+        <pre>13:05:57.059 Actual RecommDrive: Chain actuator D2 L200, Chain actuator D4 400, Chain actuator D6 400, Chain actuator TWIN D2 L200, Chain actuator D2 L200, Chain actuator D4 400, Chain actuator D6 400, Locking actuator EasyConnect, Locking actuator 600 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Normalized Actual RecommDrive:', normalizedActualRecommDrive)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-22">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-22" class="collapse collapsable-details">
+        <pre>13:05:57.059 Normalized Actual RecommDrive: Chain actuator D2 L200,Chain actuator D4 400,Chain actuator D6 400,Chain actuator TWIN D2 L200,Chain actuator D2 L200,Chain actuator D4 400,Chain actuator D6 400,Locking actuator EasyConnect,Locking actuator 600 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Normalized Expected RecommDrive:', normalizedExpectedRecommDrive)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-23">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-23" class="collapse collapsable-details">
+        <pre>13:05:57.059 Normalized Expected RecommDrive: Chain actuator D2 L200,Chain actuator D4 400,Chain actuator D6 400,Chain actuator TWIN D2 L200,Locking actuator EasyConnect,Locking actuator 600 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* failed">
+  <span class="keyword indention">*</span>
+  <span class="name">assert normalizedActualRecommDrive == normalizedExpectedRecommDrive</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-24">
+          <a>did</a>
+      </div>
+      <div id="msg-24" class="collapse collapsable-details  in ">
+        <pre>did not evaluate to 'true': normalizedActualRecommDrive == normalizedExpectedRecommDrive
+classpath:drivetecTestCases/features/UpdatePositions.feature:144</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-25">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-25" class="collapse collapsable-details">
+        <pre>13:05:57.059 classpath:drivetecTestCases/features/UpdatePositions.feature:144
+* assert normalizedActualRecommDrive == normalizedExpectedRecommDrive
+did not evaluate to 'true': normalizedActualRecommDrive == normalizedExpectedRecommDrive
+classpath:drivetecTestCases/features/UpdatePositions.feature:144
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def driveIds = response.map(function(y) { return y.Id })</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('All Drive IDs:', driveIds)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def firstDriveId = driveIds[0]</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('First Drive ID:', firstDriveId)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def payload =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-26">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-26" class="collapse collapsable-details">
+        <pre>[
+    {&quot;Id&quot;:&quot;configId&quot;,&quot;Header&quot;:&quot;configId&quot;,&quot;Value&quot;:&quot;#(updatedConfigId)&quot;},
+    {&quot;Id&quot;:&quot;driveId&quot;,&quot;Header&quot;:&quot;driveId&quot;,&quot;Value&quot;:&quot;#(firstDriveId)&quot;},
+    {&quot;Id&quot;:&quot;culture&quot;,&quot;Header&quot;:&quot;culture&quot;,&quot;Value&quot;:&quot;EN-US&quot;},
+    {&quot;Id&quot;:&quot;projectId&quot;,&quot;Header&quot;:&quot;projectId&quot;,&quot;Value&quot;:&quot;#(postResponse.projId)&quot;},
+    {&quot;Id&quot;:&quot;range-of-app&quot;,&quot;Header&quot;:&quot;Range of application&quot;,&quot;Value&quot;:&quot;Fa&ccedil;ade&quot;},
+    {&quot;Id&quot;:&quot;opening-type&quot;,&quot;Header&quot;:&quot;Opening type&quot;,&quot;Value&quot;:&quot;Bottom-hung vent&quot;},
+    {&quot;Id&quot;:&quot;opening-direction&quot;,&quot;Header&quot;:&quot;Opening direction&quot;,&quot;Value&quot;:&quot;Inward&quot;},
+    {&quot;Id&quot;:&quot;how-calc-weight&quot;,&quot;Header&quot;:&quot;Vent weight&quot;,&quot;Value&quot;:&quot;Weight including glass&quot;},
+    {&quot;Id&quot;:&quot;Chain-Length&quot;,&quot;Header&quot;:&quot;Chain- / connecting rod handle&quot;,&quot;Value&quot;:&quot;100%&quot;},
+    {&quot;Id&quot;:&quot;drive-position&quot;,&quot;Header&quot;:&quot;Drive position&quot;,&quot;Value&quot;:&quot;Side installation&quot;},
+    {&quot;Id&quot;:&quot;locking-mechanism&quot;,&quot;Header&quot;:&quot;Locking mechanism&quot;,&quot;Value&quot;:&quot;With&quot;},
+    {&quot;Id&quot;:&quot;voltage&quot;,&quot;Header&quot;:&quot;Voltage&quot;,&quot;Value&quot;:&quot;24 V&quot;},
+    {&quot;Id&quot;:&quot;drive-type&quot;,&quot;Header&quot;:&quot;Drive type&quot;,&quot;Value&quot;:&quot;Chain drive&quot;},
+    {&quot;Id&quot;:&quot;type-installation&quot;,&quot;Header&quot;:&quot;Type of installation&quot;,&quot;Value&quot;:&quot;Pivoting Outer Frame Installation&quot;},
+    {&quot;Id&quot;:&quot;calculation-type-for-ventilation-area&quot;,&quot;Header&quot;:&quot;Calculation type for ventilation area&quot;,&quot;Value&quot;:&quot;Method in accordance with ASR 3.6&quot;}
+]</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given skipped">
+  <span class="keyword indention">Given</span>
+  <span class="name">url apiUrl + '/api/Drives/DownloadPDFNew/Schuco'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">request payload</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">method POST</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Download URL for first driveId:', response.result)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_4015535260.html">drivetecTestCases/features/UpdatePositions.feature</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_1836253831.html">@drivetec</a>
+</div>
+
+
+  <span class="lead-duration duration">2.913</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-27">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Drivetec Configurations Test</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-27" class="collapse collapsable-details  in ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-28">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-28" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def datasetName = 'Dataset18'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-29">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-29" class="collapse collapsable-details">
+        <pre>13:06:35.927 karate.env system property was: null 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Running test for dataset: ', datasetName)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-30">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-30" class="collapse collapsable-details">
+        <pre>13:06:35.927 Running test for dataset:  Dataset18 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundAwayFromZero =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-31">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-31" class="collapse collapsable-details">
+        <pre>function(value, decimalPlaces) {
+  
+  var num = Number(value);
+  if (isNaN(num)) {
+    return num;  // Return as is if it's not a valid number
+  }
+  
+  var factor = Math.pow(10, decimalPlaces);
+  var valueToRound = num * factor;
+  var roundedValue = (valueToRound % 1 == 0.5 || valueToRound % 1 == -0.5) ? 
+    (valueToRound &gt; 0 ? Math.floor(valueToRound) + 1 : Math.ceil(valueToRound) - 1) : 
+    Math.round(valueToRound);
+  
+  return roundedValue / factor;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def postResponse = karate.call('classpath:drivetecTestCases/features/CreatePositions.feature')</span>
+
+  <span class="lead-duration duration">0.692</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">drivetecTestCases/features/CreatePositions.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># This runs before each scenario and generates the ProjectId once</div>
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def projectId = karate.callSingle('classpath:drivetecTestCases/features/CreateProject.feature')</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.log('Using ProjectId: ', projectId)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-32">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-32" class="collapse collapsable-details">
+        <pre>13:06:35.927 Using ProjectId:  {
+  &quot;result&quot;: {
+    &quot;projectId&quot;: &quot;prjId&quot;
+  },
+  &quot;projectPayload&quot;: {
+    &quot;Id&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;Name&quot;: &quot;AUT_TPJ26668&quot;,
+    &quot;Address&quot;: &quot;Hyderabad, Telangana, India&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;
+  },
+  &quot;uniqueName&quot;: &quot;AUT_TPJ26668&quot;,
+  &quot;responseHeaders&quot;: {
+    &quot;Content-Type&quot;: [
+      &quot;application/json; charset=utf-8&quot;
+    ],
+    &quot;Date&quot;: [
+      &quot;Tue, 03 Dec 2024 07:35:27 GMT&quot;
+    ],
+    &quot;Server&quot;: [
+      &quot;Microsoft-IIS/10.0&quot;
+    ],
+    &quot;X-Powered-By&quot;: [
+      &quot;ASP.NET&quot;
+    ],
+    &quot;transfer-encoding&quot;: [
+      &quot;chunked&quot;
+    ],
+    &quot;Connection&quot;: [
+      &quot;keep-alive&quot;
+    ],
+    &quot;Set-Cookie&quot;: [
+    ]
+  },
+  &quot;responseTime&quot;: 1242,
+  &quot;response&quot;: {
+    &quot;Name&quot;: &quot;AUT_TPJ26668&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Address&quot;: &quot;Hyderabad, Telangana, India&quot;,
+    &quot;Id&quot;: &quot;4bf1dfc8-fd6d-4d3a-9337-7ee7425ebbdf&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-12-03T07:35:27.7758566+00:00&quot;,
+    &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-12-03T07:35:27.7759029+00:00&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  &quot;responseStatus&quot;: 200,
+  &quot;prjId&quot;: &quot;4bf1dfc8-fd6d-4d3a-9337-7ee7425ebbdf&quot;,
+  &quot;projectId&quot;: &quot;4bf1dfc8-fd6d-4d3a-9337-7ee7425ebbdf&quot;
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Generate a unique name with &quot;Dataset&quot; prefix and a 4-digit number (0001, 0002, ...)</div>
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def counter = (java.lang.System.currentTimeMillis() % 10000) + 1  //Generate a number between 1 and 10000</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def formattedCounter = (counter.toString().length() &lt; 4) ? ('0000' + counter).substring(counter.toString().length()) : counter.toString()</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def positionName = 'Dataset' + formattedCounter  // Combine the prefix with the formatted counter</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># # Call the project feature to set projectId</div>
+          <div class="comment indention"># * callonce read('postproject.feature')</div>
+          <div class="comment indention"># # Retrieve the projectId</div>
+          <div class="comment indention"># * def projectId = karate.get('projectId')</div>
+          <div class="comment indention"># Request Payload for creating a Configuration with dynamic Name and ProjectId</div>
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def dynamicPayload =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-33">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-33" class="collapse collapsable-details">
+        <pre>{
+    &quot;Id&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;ProjectId&quot;: &quot;#(projectId.prjId)&quot;,
+    &quot;Name&quot;: &quot;#(positionName)&quot;,
+    &quot;Description&quot;: &quot;#(positionName)&quot;,
+    &quot;CustomTags&quot;: &quot;&quot;,
+    &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ApplicationName&quot;: 1,
+    &quot;System&quot;: &quot;&quot;,
+    &quot;FacadeInclination&quot;: 0,
+    &quot;OpeningType&quot;: 1,
+    &quot;OpeningDirection&quot;: 1,
+    &quot;OpeningWidth&quot;: 1000,
+    &quot;VentOuterWidth&quot;: 1230,
+    &quot;VentOuterHeight&quot;: 1480,
+    &quot;VentWeight&quot;: 70,
+    &quot;CalculateWeightWithGlass&quot;: false,
+    &quot;WeightIncGlassOrThickness&quot;: false,
+    &quot;GlassThickness&quot;: 14,
+    &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
+    &quot;IsWindowOpeningCalculationByAngle&quot;: 1,
+    &quot;RequiredOpeningStroke&quot;: 400,
+    &quot;OpeningAngle&quot;: 15,
+    &quot;WindLoad&quot;: 120,
+    &quot;SnowLoad&quot;: 0,
+    &quot;DrivePosition&quot;: 2,
+    &quot;InstallationPosition&quot;: 1,
+    &quot;ChainLengthConnectingRodHandle&quot;: 5,
+    &quot;LockingMechanism&quot;: 1,
+    &quot;Voltage&quot;: 1,
+    &quot;DriveType&quot;: 1,
+    &quot;TypeOfInstallation&quot;: 2,
+    &quot;CalculationTypeForVentilation&quot;: 1,
+    &quot;CalcVentilation&quot;: 1,
+    &quot;GeometricArea&quot;: 1,
+    &quot;SpecificExhaustDimension&quot;: 30,
+    &quot;BuildingDepth&quot;: 75,
+    &quot;RevealDepth&quot;: 0,
+    &quot;RevealDepthRectangleAngle1&quot;: 0,
+    &quot;RevealDepthRectangleAngle2&quot;: 0,
+    &quot;HeightOfProfile&quot;: 0,
+    &quot;HeightProfileRectangleAngle1&quot;: 0,
+    &quot;HeightProfileRectangleAngle2&quot;: 0,
+    &quot;AkippOrAtilt&quot;: 0,
+    &quot;AdrehOrAturn&quot;: 0,
+    &quot;Ageo&quot;: 0,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;ForceWithNegativeWind&quot;: 0
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url apiUrl + '/Configurations'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request dynamicPayload</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">0.686</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-34">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-34" class="collapse collapsable-details">
+        <pre>13:06:35.927 request:
+1 &gt; POST https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1275
+1 &gt; Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;Id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;ProjectId&quot;:&quot;4bf1dfc8-fd6d-4d3a-9337-7ee7425ebbdf&quot;,&quot;Name&quot;:&quot;Dataset5928&quot;,&quot;Description&quot;:&quot;Dataset5928&quot;,&quot;CustomTags&quot;:&quot;&quot;,&quot;CreatedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;ModifiedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;ApplicationName&quot;:1,&quot;System&quot;:&quot;&quot;,&quot;FacadeInclination&quot;:0,&quot;OpeningType&quot;:1,&quot;OpeningDirection&quot;:1,&quot;OpeningWidth&quot;:1000,&quot;VentOuterWidth&quot;:1230,&quot;VentOuterHeight&quot;:1480,&quot;VentWeight&quot;:70,&quot;CalculateWeightWithGlass&quot;:false,&quot;WeightIncGlassOrThickness&quot;:false,&quot;GlassThickness&quot;:14,&quot;ProfileWeightPerSerialMeter&quot;:2.5,&quot;IsWindowOpeningCalculationByAngle&quot;:1,&quot;RequiredOpeningStroke&quot;:400,&quot;OpeningAngle&quot;:15,&quot;WindLoad&quot;:120,&quot;SnowLoad&quot;:0,&quot;DrivePosition&quot;:2,&quot;InstallationPosition&quot;:1,&quot;ChainLengthConnectingRodHandle&quot;:5,&quot;LockingMechanism&quot;:1,&quot;Voltage&quot;:1,&quot;DriveType&quot;:1,&quot;TypeOfInstallation&quot;:2,&quot;CalculationTypeForVentilation&quot;:1,&quot;CalcVentilation&quot;:1,&quot;GeometricArea&quot;:1,&quot;SpecificExhaustDimension&quot;:30,&quot;BuildingDepth&quot;:75,&quot;RevealDepth&quot;:0,&quot;RevealDepthRectangleAngle1&quot;:0,&quot;RevealDepthRectangleAngle2&quot;:0,&quot;HeightOfProfile&quot;:0,&quot;HeightProfileRectangleAngle1&quot;:0,&quot;HeightProfileRectangleAngle2&quot;:0,&quot;AkippOrAtilt&quot;:0,&quot;AdrehOrAturn&quot;:0,&quot;Ageo&quot;:0,&quot;MinPullingForceMax&quot;:0,&quot;MinPushingForceMax&quot;:0,&quot;MinPullingForcePermanent&quot;:0,&quot;MinPushingForcePermanent&quot;:0,&quot;ForceWithNegativeWind&quot;:0}
+
+13:06:36.619 response time in milliseconds: 692
+1 &lt; 200
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 03 Dec 2024 07:36:35 GMT
+1 &lt; Server: Microsoft-IIS/10.0
+1 &lt; X-Powered-By: ASP.NET
+1 &lt; Content-Length: 2032
+1 &lt; Connection: keep-alive
+{
+  &quot;ProjectId&quot;: &quot;4bf1dfc8-fd6d-4d3a-9337-7ee7425ebbdf&quot;,
+  &quot;Name&quot;: &quot;Dataset5928&quot;,
+  &quot;Description&quot;: &quot;Dataset5928&quot;,
+  &quot;CustomTags&quot;: &quot;&quot;,
+  &quot;ApplicationName&quot;: 1,
+  &quot;OpeningType&quot;: 1,
+  &quot;OpeningDirection&quot;: 1,
+  &quot;CalculateWeightWithGlass&quot;: false,
+  &quot;WindLoad&quot;: 120,
+  &quot;IsWindowOpeningCalculationByAngle&quot;: 1,
+  &quot;VentOuterWidth&quot;: 1230,
+  &quot;VentOuterHeight&quot;: 1480,
+  &quot;WeightIncGlassOrThickness&quot;: false,
+  &quot;VentWeight&quot;: 77,
+  &quot;VentWeightExact&quot;: 77.26400000000001,
+  &quot;GlassThickness&quot;: 14,
+  &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
+  &quot;FacadeInclination&quot;: 0,
+  &quot;ChainLengthConnectingRodHandle&quot;: 5,
+  &quot;ChainLenghtConnectingRodHandle&quot;: 0,
+  &quot;RequiredOpeningStroke&quot;: 400,
+  &quot;OpeningWidth&quot;: 1000,
+  &quot;OpeningAngle&quot;: 15.532868337024489,
+  &quot;SpecificExhaustDimension&quot;: 30,
+  &quot;BuildingDepth&quot;: 75,
+  &quot;SnowLoad&quot;: 0,
+  &quot;DistanceHinge&quot;: 0,
+  &quot;RatedCurrent&quot;: 0,
+  &quot;DrivePosition&quot;: 2,
+  &quot;LockingMechanism&quot;: 1,
+  &quot;Voltage&quot;: 1,
+  &quot;DriveType&quot;: 1,
+  &quot;TypeOfInstallation&quot;: 2,
+  &quot;GeometricArea&quot;: 0,
+  &quot;CalculationTypeForVentilation&quot;: 1,
+  &quot;HeightOfProfile&quot;: 0,
+  &quot;Reveal&quot;: 0,
+  &quot;RevealDepth&quot;: 0,
+  &quot;HeightProfileRectangleAngle1&quot;: 0,
+  &quot;HeightProfileRectangleAngle2&quot;: 0,
+  &quot;RevealDepthRectangleAngle1&quot;: 0,
+  &quot;RevealDepthRectangleAngle2&quot;: 0,
+  &quot;RevealDepthRectangleAngle12&quot;: 0,
+  &quot;InstallationPosition&quot;: 0,
+  &quot;RecommendedDriveArticleNo&quot;: 0,
+  &quot;System&quot;: &quot;&quot;,
+  &quot;AkippOrAtilt&quot;: 1.084,
+  &quot;AdrehOrAturn&quot;: 1.8204,
+  &quot;Ageo&quot;: 1.084,
+  &quot;MinPullingForceMax&quot;: -206.4868442161654,
+  &quot;MinPushingForceMax&quot;: -206.4868442161654,
+  &quot;MinPullingForcePermanent&quot;: -104.11163259218097,
+  &quot;MinPushingForcePermanent&quot;: -104.11163259218097,
+  &quot;ForceWithNegativeWind&quot;: 109.53156767199486,
+  &quot;ForceWithNoWindMin&quot;: 0.30763693489047433,
+  &quot;ForceWithNegativeWindMin&quot;: 0,
+  &quot;ForceWithWindMin&quot;: -108.91629380221393,
+  &quot;Id&quot;: &quot;8184926d-04b1-4eec-ad33-06d4364c9d8b&quot;,
+  &quot;CreatedOn&quot;: &quot;2024-12-03T07:36:36.5343117+00:00&quot;,
+  &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+  &quot;ModifiedOn&quot;: &quot;2024-12-03T07:36:36.5343125+00:00&quot;,
+  &quot;ModifiedBy&quot;: &quot;&quot;
+}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Then passed">
+  <span class="keyword indention">&gt; Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">match response.Id != null</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def configId = response.Id</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def projId = response.ProjectId</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.log('Generated Config ID:', configId)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-35">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-35" class="collapse collapsable-details">
+        <pre>13:06:36.619 Generated Config ID: 8184926d-04b1-4eec-ad33-06d4364c9d8b 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.log('Generated Name:', dynamicPayload.Name)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-36">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-36" class="collapse collapsable-details">
+        <pre>13:06:36.619 Generated Name: Dataset5928 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.log('Generated Description:', dynamicPayload.Description)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-37">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-37" class="collapse collapsable-details">
+        <pre>13:06:36.619 Generated Description: Dataset5928 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.set('generatedData', { configId: configId, name: dynamicPayload.Name, description: dynamicPayload.Description })</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def configId = karate.get('configId')</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url apiUrl + '/Configurations'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-38">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-38" class="collapse collapsable-details">
+        <pre>{
+    &quot;Id&quot;: &quot;#(postResponse.configId)&quot;,
+    &quot;Name&quot;: &quot;Dataset18&quot;,
+    &quot;Description&quot;: &quot;#(postResponse.positionName)&quot;,
+    &quot;ProjectId&quot;: &quot;#(postResponse.projId)&quot;,
+    &quot;CustomTags&quot;: &quot;&quot;,
+    &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;System&quot;: &quot;&quot;,
+    &quot;FacadeInclination&quot;: 10,
+    &quot;OpeningType&quot;: 2,
+    &quot;OpeningDirection&quot;: 2,
+    &quot;OpeningWidth&quot;: 1000,
+    &quot;VentOuterWidth&quot;: 1230,
+    &quot;VentOuterHeight&quot;: 1480,
+    &quot;VentWeight&quot;: 0,
+    &quot;CalculateWeightWithGlass&quot;: #(!CalculateWeightWithGlass),
+    &quot;RequiredOpeningStroke&quot;: 400,
+    &quot;WindLoad&quot;: 120,
+    &quot;SnowLoad&quot;: 0,
+    &quot;IsWindowOpeningCalculationByAngle&quot;: 1,
+    &quot;GlassThickness&quot;: 14,
+    &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
+    &quot;DrivePosition&quot;: 1,
+    &quot;InstallationPosition&quot;: 0,
+    &quot;LockingMechanism&quot;: 1,
+    &quot;Voltage&quot;: 1,
+    &quot;DriveType&quot;: 1,
+    &quot;TypeOfInstallation&quot;: 2,
+    &quot;GeometricArea&quot;: 0,
+    &quot;CalcVentilation&quot;: 2,
+    &quot;SpecificExhaustDimension&quot;: 30,
+    &quot;BuildingDepth&quot;: 60,
+    &quot;CalculationTypeForVentilation&quot;: 2,
+    &quot;HeightOfProfile&quot;: 0,
+    &quot;HeightProfileRectangleAngle1&quot;: 75,
+    &quot;HeightProfileRectangleAngle2&quot;: 200,
+    &quot;RevealDepth&quot;: 0,
+    &quot;RevealDepthRectangleAngle1&quot;: 50,
+    &quot;RevealDepthRectangleAngle2&quot;: 1000,
+    &quot;ChainLengthConnectingRodHandle&quot;: 5,
+    &quot;ApplicationName&quot;: 1,
+    &quot;OpeningAngle&quot;: 10,
+    &quot;WeightIncGlassOrThickness&quot;: #(!WeightIncGlassOrThickness),
+    &quot;AkippOrAtilt&quot;: 0,
+    &quot;AdrehOrAturn&quot;: 0,
+    &quot;Ageo&quot;: 0,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;ForceWithNegativeWind&quot;: 0
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method put</span>
+
+  <span class="lead-duration duration">0.676</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-39">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-39" class="collapse collapsable-details">
+        <pre>13:06:36.619 request:
+1 &gt; PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1280
+1 &gt; Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;Id&quot;:&quot;8184926d-04b1-4eec-ad33-06d4364c9d8b&quot;,&quot;Name&quot;:&quot;Dataset18&quot;,&quot;Description&quot;:&quot;Dataset5928&quot;,&quot;ProjectId&quot;:&quot;4bf1dfc8-fd6d-4d3a-9337-7ee7425ebbdf&quot;,&quot;CustomTags&quot;:&quot;&quot;,&quot;CreatedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;ModifiedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;System&quot;:&quot;&quot;,&quot;FacadeInclination&quot;:10,&quot;OpeningType&quot;:2,&quot;OpeningDirection&quot;:2,&quot;OpeningWidth&quot;:1000,&quot;VentOuterWidth&quot;:1230,&quot;VentOuterHeight&quot;:1480,&quot;VentWeight&quot;:0,&quot;CalculateWeightWithGlass&quot;:false,&quot;RequiredOpeningStroke&quot;:400,&quot;WindLoad&quot;:120,&quot;SnowLoad&quot;:0,&quot;IsWindowOpeningCalculationByAngle&quot;:1,&quot;GlassThickness&quot;:14,&quot;ProfileWeightPerSerialMeter&quot;:2.5,&quot;DrivePosition&quot;:1,&quot;InstallationPosition&quot;:0,&quot;LockingMechanism&quot;:1,&quot;Voltage&quot;:1,&quot;DriveType&quot;:1,&quot;TypeOfInstallation&quot;:2,&quot;GeometricArea&quot;:0,&quot;CalcVentilation&quot;:2,&quot;SpecificExhaustDimension&quot;:30,&quot;BuildingDepth&quot;:60,&quot;CalculationTypeForVentilation&quot;:2,&quot;HeightOfProfile&quot;:0,&quot;HeightProfileRectangleAngle1&quot;:75,&quot;HeightProfileRectangleAngle2&quot;:200,&quot;RevealDepth&quot;:0,&quot;RevealDepthRectangleAngle1&quot;:50,&quot;RevealDepthRectangleAngle2&quot;:1000,&quot;ChainLengthConnectingRodHandle&quot;:5,&quot;ApplicationName&quot;:1,&quot;OpeningAngle&quot;:10,&quot;WeightIncGlassOrThickness&quot;:false,&quot;AkippOrAtilt&quot;:0,&quot;AdrehOrAturn&quot;:0,&quot;Ageo&quot;:0,&quot;MinPullingForceMax&quot;:0,&quot;MinPushingForceMax&quot;:0,&quot;MinPullingForcePermanent&quot;:0,&quot;MinPushingForcePermanent&quot;:0,&quot;ForceWithNegativeWind&quot;:0}
+
+13:06:37.295 response time in milliseconds: 676
+1 &lt; 200
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 03 Dec 2024 07:36:37 GMT
+1 &lt; Server: Microsoft-IIS/10.0
+1 &lt; X-Powered-By: ASP.NET
+1 &lt; Content-Length: 2084
+1 &lt; Connection: keep-alive
+{
+  &quot;ProjectId&quot;: &quot;4bf1dfc8-fd6d-4d3a-9337-7ee7425ebbdf&quot;,
+  &quot;Name&quot;: &quot;Dataset18&quot;,
+  &quot;Description&quot;: &quot;Dataset5928&quot;,
+  &quot;CustomTags&quot;: &quot;&quot;,
+  &quot;ApplicationName&quot;: 1,
+  &quot;OpeningType&quot;: 2,
+  &quot;OpeningDirection&quot;: 2,
+  &quot;CalculateWeightWithGlass&quot;: false,
+  &quot;WindLoad&quot;: 120,
+  &quot;IsWindowOpeningCalculationByAngle&quot;: 1,
+  &quot;VentOuterWidth&quot;: 1230,
+  &quot;VentOuterHeight&quot;: 1480,
+  &quot;WeightIncGlassOrThickness&quot;: false,
+  &quot;VentWeight&quot;: 77,
+  &quot;VentWeightExact&quot;: 77.26400000000001,
+  &quot;GlassThickness&quot;: 14,
+  &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
+  &quot;FacadeInclination&quot;: 10,
+  &quot;ChainLengthConnectingRodHandle&quot;: 5,
+  &quot;ChainLenghtConnectingRodHandle&quot;: 0,
+  &quot;RequiredOpeningStroke&quot;: 400,
+  &quot;OpeningWidth&quot;: 1000,
+  &quot;OpeningAngle&quot;: 15.532868337024489,
+  &quot;SpecificExhaustDimension&quot;: 30,
+  &quot;BuildingDepth&quot;: 60,
+  &quot;SnowLoad&quot;: 0,
+  &quot;DistanceHinge&quot;: 0,
+  &quot;RatedCurrent&quot;: 0,
+  &quot;DrivePosition&quot;: 1,
+  &quot;LockingMechanism&quot;: 1,
+  &quot;Voltage&quot;: 1,
+  &quot;DriveType&quot;: 1,
+  &quot;TypeOfInstallation&quot;: 2,
+  &quot;GeometricArea&quot;: 0,
+  &quot;CalculationTypeForVentilation&quot;: 2,
+  &quot;HeightOfProfile&quot;: 0,
+  &quot;Reveal&quot;: 0,
+  &quot;RevealDepth&quot;: 0,
+  &quot;HeightProfileRectangleAngle1&quot;: 75,
+  &quot;HeightProfileRectangleAngle2&quot;: 200,
+  &quot;RevealDepthRectangleAngle1&quot;: 50,
+  &quot;RevealDepthRectangleAngle2&quot;: 1000,
+  &quot;RevealDepthRectangleAngle12&quot;: 0,
+  &quot;InstallationPosition&quot;: 0,
+  &quot;RecommendedDriveArticleNo&quot;: 0,
+  &quot;System&quot;: &quot;&quot;,
+  &quot;AkippOrAtilt&quot;: 1.084,
+  &quot;AdrehOrAturn&quot;: 1.8204,
+  &quot;Ageo&quot;: 0.6165637649944986,
+  &quot;MinPullingForceMax&quot;: 39.21635469755029,
+  &quot;MinPushingForceMax&quot;: 147.12750748388888,
+  &quot;MinPullingForcePermanent&quot;: -66.74711192456053,
+  &quot;MinPushingForcePermanent&quot;: -66.74711192456053,
+  &quot;ForceWithNegativeWind&quot;: -172.71057854667134,
+  &quot;ForceWithNoWindMin&quot;: 37.93591244281374,
+  &quot;ForceWithNegativeWindMin&quot;: -71.25568259826139,
+  &quot;ForceWithWindMin&quot;: 39.21635469755029,
+  &quot;Id&quot;: &quot;8184926d-04b1-4eec-ad33-06d4364c9d8b&quot;,
+  &quot;CreatedOn&quot;: &quot;0001-01-01T00:00:00&quot;,
+  &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+  &quot;ModifiedOn&quot;: &quot;2024-12-03T07:36:37.2179788+00:00&quot;,
+  &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;
+}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def updatedConfigId = karate.jsonPath(response, '$.Id')</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundedOpeningAngle = roundAwayFromZero(response.OpeningAngle, 0)  // Round to nearest integer</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundedAgeo = roundAwayFromZero(response.Ageo, 2)  // Round to two decimal places</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundedRequiredOpeningStroke = roundAwayFromZero(response.RequiredOpeningStroke, 0)  // Round to nearest integer</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundedVentWeight = roundAwayFromZero(response.VentWeight, 0)  // Round to nearest integer</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Rounded Opening Angle:', roundedOpeningAngle)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-40">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-40" class="collapse collapsable-details">
+        <pre>13:06:37.295 Rounded Opening Angle: 16.0 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Rounded Ageo:', roundedAgeo)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-41">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-41" class="collapse collapsable-details">
+        <pre>13:06:37.295 Rounded Ageo: 0.62 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Rounded Required Opening Stroke:', roundedRequiredOpeningStroke)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-42">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-42" class="collapse collapsable-details">
+        <pre>13:06:37.295 Rounded Required Opening Stroke: 400.0 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Rounded Vent Weight:', roundedVentWeight)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-43">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-43" class="collapse collapsable-details">
+        <pre>13:06:37.295 Rounded Vent Weight: 77.0 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedOpeningAngle = 16</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedAgeo = 0.62</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedRequiredOpeningStroke = 400</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedVentWeight = 77</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match roundedOpeningAngle == expectedOpeningAngle</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match roundedAgeo == expectedAgeo</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match roundedRequiredOpeningStroke == expectedRequiredOpeningStroke</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match roundedVentWeight == expectedVentWeight</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url apiUrl + '/Config/' + updatedConfigId + '/Drive'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method GET</span>
+
+  <span class="lead-duration duration">0.845</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-44">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-44" class="collapse collapsable-details">
+        <pre>13:06:37.295 request:
+2 &gt; GET https://dev-drivetec-apis.schuecodigitalsolutions.com/Config/8184926d-04b1-4eec-ad33-06d4364c9d8b/Drive
+2 &gt; Host: dev-drivetec-apis.schuecodigitalsolutions.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+13:06:38.144 response time in milliseconds: 849
+2 &lt; 200
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Date: Tue, 03 Dec 2024 07:36:37 GMT
+2 &lt; Server: Microsoft-IIS/10.0
+2 &lt; X-Powered-By: ASP.NET
+2 &lt; transfer-encoding: chunked
+2 &lt; Connection: keep-alive
+[
+  {
+    &quot;Name&quot;: &quot;Chain actuator D2 L400&quot;,
+    &quot;Bezeichnung&quot;: &quot;Kettenantrieb D2 L400&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;Facade&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: false,
+    &quot;Type&quot;: 1,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: true,
+    &quot;BottomHungOutward&quot;: false,
+    &quot;SideHungInward&quot;: true,
+    &quot;SideHungOutward&quot;: false,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: true,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: false,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: true,
+    &quot;ITMainVentFrmMount&quot;: true,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: true,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: true,
+    &quot;ArticleNumber&quot;: 291754,
+    &quot;Stroke&quot;: 400,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: &quot;24 V DC&quot;,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: false,
+    &quot;RatedCurrent&quot;: 1,
+    &quot;BreakingCurrent&quot;: 1,
+    &quot;PullingForceMax&quot;: 250,
+    &quot;PushingForceMax&quot;: 200,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 133.33,
+    &quot;PullingForcePermanent&quot;: 250,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 147.13,
+    &quot;MinPullingForcePermanent&quot;: -66.75,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;Price&quot;: 252.38,
+    &quot;DriveLength&quot;: 430,
+    &quot;ChainDrive&quot;: 530,
+    &quot;ChainDrive2&quot;: 1020,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 1650,
+    &quot;MaxGeometricArea&quot;: 1,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 14,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;430 x 26 x 41&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt;&lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt;&lt;li&gt;Abschaltstrom: 1,0 A&lt;/li&gt;&lt;li&gt;Bemessungsstrom: 0,7 A&lt;/li&gt;&lt;li&gt;Bemessungsaufnahme: 17 W&lt;/li&gt;&lt;li&gt;Schutzart: IP 32&lt;/li&gt;&lt;li&gt;Zug-/Schubkraft: max. 250 N&lt;/li&gt;&lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt;&lt;li&gt;Anschlussleitung: Halogenfrei, grau 3 x 0,5 mm&sup2;, ~3 m&lt;/li&gt;&lt;li&gt;Max. Geschwindigkeit: 13,5 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt;&lt;li&gt;Rated voltage: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt;&lt;li&gt;Breaking current: 1.0 A&lt;/li&gt;&lt;li&gt;Rated current: 0.7 A&lt;/li&gt;&lt;li&gt;Rated consumption: 17 W&lt;/li&gt;&lt;li&gt;Protection rating: IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust: max. 250 N&lt;/li&gt;&lt;li&gt;Ambient temperature: -5&deg;C bis + 60&deg;C&lt;/li&gt;&lt;li&gt;Connecting cable: halogen-free, grey 3 x 0.5 mm&sup2;, ~3 m&lt;/li&gt;&lt;li&gt;Max. speed: 13.5 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt; &lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt; &lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt; &lt;li&gt;R&uuml;ckmeldung Endlage &bdquo;ZU&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt; &lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated, intelligent control electronics&lt;/li&gt; &lt;li&gt;Response for &ldquo;CLOSED&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: null,
+    &quot;Equipment&quot;: null,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt; &lt;li&gt;Programmierung von Sonderfunktionen&lt;/li&gt; &lt;li&gt;Programmierbare R&uuml;ckmeldung Endlage &bdquo;AUF&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieben in Antriebs-Verbundsystemen&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt; &lt;li&gt;Programming of special functions&lt;/li&gt; &lt;li&gt;Programmable response for &ldquo;OPEN&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: false,
+    &quot;ResultVentWeight&quot;: 77.26,
+    &quot;IsLsRsDrive&quot;: true,
+    &quot;ArticleNumberRs&quot;: 291755,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 250,
+    &quot;Thrust&quot;: 200,
+    &quot;Id&quot;: &quot;94015dd3-0c39-4d62-be4f-b1e2f8066f98&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  {
+    &quot;Name&quot;: &quot;Chain actuator D4 400&quot;,
+    &quot;Bezeichnung&quot;: &quot;Kettenantrieb D4 400&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;Facade&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: false,
+    &quot;Type&quot;: 1,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: true,
+    &quot;BottomHungOutward&quot;: false,
+    &quot;SideHungInward&quot;: true,
+    &quot;SideHungOutward&quot;: true,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: true,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: true,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: true,
+    &quot;ITMainVentFrmMount&quot;: true,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: true,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: true,
+    &quot;ArticleNumber&quot;: 291706,
+    &quot;Stroke&quot;: 400,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: &quot;24 V DC&quot;,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: false,
+    &quot;RatedCurrent&quot;: 1,
+    &quot;BreakingCurrent&quot;: 1,
+    &quot;PullingForceMax&quot;: 400,
+    &quot;PushingForceMax&quot;: 300,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 200,
+    &quot;PullingForcePermanent&quot;: 400,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 147.13,
+    &quot;MinPullingForcePermanent&quot;: -66.75,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;Price&quot;: 273.74,
+    &quot;DriveLength&quot;: 551,
+    &quot;ChainDrive&quot;: 651,
+    &quot;ChainDrive2&quot;: 1262,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 1850,
+    &quot;MaxGeometricArea&quot;: 1,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 14,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;551 x 24 x 35&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt;&lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt; &lt;li&gt;Abschaltstrom: 1,2 A&lt;/li&gt; &lt;li&gt;Bemessungsstrom: 0,9 A&lt;/li&gt; &lt;li&gt;Bemessungsaufnahme: 22 W&lt;/li&gt; &lt;li&gt;Schutzart: IP 32&lt;/li&gt; &lt;li&gt;Zug-/Schubkraft: max. 400 N&lt;/li&gt; &lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt; &lt;li&gt;Anschlussleitung: Halogenfrei, grau 5 x 0,5mm&sup2;, ~3m&lt;/li&gt; &lt;li&gt;Max. Geschwindigkeit: 13,5 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt;&lt;li&gt;Rated voltage: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt; &lt;li&gt;Breaking current: 1.2 A&lt;/li&gt;&lt;li&gt;Rated current: 0.9 A&lt;/li&gt;&lt;li&gt;Rated consumption: 22 W&lt;/li&gt;&lt;li&gt;Protection rating: IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust: max. 400 N&lt;/li&gt;&lt;li&gt;Ambient temperature: -5&deg; C to +60&deg; C&lt;/li&gt;&lt;li&gt;Connecting cable: halogen-free, grey, 5 x 0.5 mm&sup2;, ~ 3 m&lt;/li&gt;&lt;li&gt;Max. speed: 13,5 mm/s &lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt;&lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt; &lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt; &lt;li&gt;R&uuml;ckmeldung Endlage &bdquo;ZU&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt;&lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated intelligent control electronics&lt;/li&gt; &lt;li&gt;Response for &ldquo;CLOSED&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: &quot;&lt;ul&gt;&lt;li&gt;Zus&auml;tzlicher Universal-Steckersatz f&uuml;r Mehrfachbetrieb bis zu 4 Antrieben und 2 Verriegelungsantrieben&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Equipment&quot;: &quot;&lt;ul&gt;&lt;li&gt;Additional universal plug socket for multiplex operation of up to 4 drives and 2 interlocking drives&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programmierung von Sonderfunktionen&lt;/li&gt; &lt;li&gt;Programmierbare R&uuml;ckmeldung Endlage &bdquo;AUF&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieben in Antriebs-Verbundsystemen&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programming of special functions&lt;/li&gt; &lt;li&gt;Programmable response for &ldquo;OPEN&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: false,
+    &quot;ResultVentWeight&quot;: 77.26,
+    &quot;IsLsRsDrive&quot;: true,
+    &quot;ArticleNumberRs&quot;: 291705,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 400,
+    &quot;Thrust&quot;: 300,
+    &quot;Id&quot;: &quot;3d1279a9-fd09-4a49-8d1b-c747973b2872&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  {
+    &quot;Name&quot;: &quot;Chain actuator D6 400&quot;,
+    &quot;Bezeichnung&quot;: &quot;Kettenantrieb D6 400&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;Facade&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: true,
+    &quot;Type&quot;: 1,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: true,
+    &quot;BottomHungOutward&quot;: true,
+    &quot;SideHungInward&quot;: true,
+    &quot;SideHungOutward&quot;: true,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: true,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: true,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: false,
+    &quot;ITMainVentFrmMount&quot;: true,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: true,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: true,
+    &quot;ArticleNumber&quot;: 291715,
+    &quot;Stroke&quot;: 400,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: &quot;24 V DC&quot;,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: false,
+    &quot;RatedCurrent&quot;: 1,
+    &quot;BreakingCurrent&quot;: 1,
+    &quot;PullingForceMax&quot;: 600,
+    &quot;PushingForceMax&quot;: 600,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 400,
+    &quot;PullingForcePermanent&quot;: 600,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 147.13,
+    &quot;MinPullingForcePermanent&quot;: -66.75,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;Price&quot;: 360.35,
+    &quot;DriveLength&quot;: 591,
+    &quot;ChainDrive&quot;: 691,
+    &quot;ChainDrive2&quot;: 1342,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 1920,
+    &quot;MaxGeometricArea&quot;: 1,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 14,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;591 x 40 x 56&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt; &lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt; &lt;li&gt;Abschaltstrom: 1,2 A&lt;/li&gt; &lt;li&gt;Bemessungsstrom: 0,9 A&lt;/li&gt; &lt;li&gt;Bemessungsaufnahme: 22 W&lt;/li&gt; &lt;li&gt;Schutzart: IP 32&lt;/li&gt; &lt;li&gt;Zug-/Schubkraft: max. 600 N&lt;/li&gt; &lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt; &lt;li&gt;Anschlussleitung: Halogenfrei, grau 5 x 0,5mm&sup2;, ~3m&lt;/li&gt; &lt;li&gt;Max. Geschwindigkeit: 13,5 mm/s&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt; &lt;li&gt;Rated voltage: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt;&lt;li&gt;Breaking current: 1.2 A&lt;/li&gt;&lt;li&gt;Rated current: 0.9 A&lt;/li&gt;&lt;li&gt;Rated consumption: 22W&lt;/li&gt;&lt;li&gt;Protection rating: IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust: max. 600 N&lt;/li&gt;&lt;li&gt;Ambient temperature: -5&deg; C to +60&deg; C&lt;/li&gt;&lt;li&gt;Connecting cable: halogen-free, grey 3 x 0,5mm&sup2;, ~3m&lt;/li&gt;&lt;li&gt;Max. speed: 13,5 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt;&lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt; &lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt;&lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated intelligent control electronics&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: &quot;&lt;ul&gt;&lt;li&gt;Zus&auml;tzlicher Universal-Steckersatz f&uuml;r Mehrfachbetrieb bis zu 4 Antrieben und 2 Verriegelungsantrieben&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Equipment&quot;: &quot;&lt;ul&gt;&lt;li&gt;Additional universal plug socket for multiplex operation  of up to 4 drives and 2 interlocking drives&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programmierung von Sonderfunktionen&lt;/li&gt; &lt;li&gt;Programmierbare R&uuml;ckmeldung Endlage &bdquo;AUF&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieben in Antriebs-Verbundsystemen&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programming of special functions&lt;/li&gt; &lt;li&gt;Programmable response for &ldquo;OPEN&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: false,
+    &quot;ResultVentWeight&quot;: 77.26,
+    &quot;IsLsRsDrive&quot;: false,
+    &quot;ArticleNumberRs&quot;: 0,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 600,
+    &quot;Thrust&quot;: 600,
+    &quot;Id&quot;: &quot;6cfaf03b-807c-4298-8635-4bf804653a9e&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  {
+    &quot;Name&quot;: &quot;Chain actuator TWIN D2 L400&quot;,
+    &quot;Bezeichnung&quot;: &quot;Kettenantrieb TWIN D2 L400&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;Facade&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: false,
+    &quot;Type&quot;: 1,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: true,
+    &quot;BottomHungOutward&quot;: false,
+    &quot;SideHungInward&quot;: false,
+    &quot;SideHungOutward&quot;: false,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: true,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: false,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: true,
+    &quot;ITMainVentFrmMount&quot;: true,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: false,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: true,
+    &quot;ArticleNumber&quot;: 291773,
+    &quot;Stroke&quot;: 400,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: &quot;24 V DC&quot;,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: false,
+    &quot;RatedCurrent&quot;: 1,
+    &quot;BreakingCurrent&quot;: 2,
+    &quot;PullingForceMax&quot;: 500,
+    &quot;PushingForceMax&quot;: 400,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 266.67,
+    &quot;PullingForcePermanent&quot;: 500,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 147.13,
+    &quot;MinPullingForcePermanent&quot;: -66.75,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;Price&quot;: 503.83,
+    &quot;DriveLength&quot;: 830,
+    &quot;ChainDrive&quot;: 930,
+    &quot;ChainDrive2&quot;: 0,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 1650,
+    &quot;MaxGeometricArea&quot;: 1,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 14,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;830 x 26 x 41&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt;&lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt; &lt;li&gt;Abschaltstrom: 2,0 A&lt;/li&gt; &lt;li&gt;Bemessungsstrom: 1,4 A&lt;/li&gt; &lt;li&gt;Bemessungsaufnahme: 34 W&lt;/li&gt; &lt;li&gt;Schutzart: IP 32&lt;/li&gt; &lt;li&gt;Zug-/Schubkraft: max. 500 N&lt;/li&gt; &lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt; &lt;li&gt;Anschlussleitung: Halogenfrei, grau 3 x 0,5mm&sup2;, ~3m&lt;/li&gt; &lt;li&gt;Max. Geschwindigkeit: 12 mm/s&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt;&lt;li&gt;Rated voltage: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt;&lt;li&gt;Breaking current: 2.0 A&lt;/li&gt;&lt;li&gt;Rated current: 1.4 A&lt;/li&gt;&lt;li&gt;Rated consumption: 34 W&lt;/li&gt;&lt;li&gt;Protection rating: IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust: max. 500 N&lt;/li&gt;&lt;li&gt;Ambient temperature: -5&deg;C bis + 60&deg;C&lt;/li&gt;&lt;li&gt;Connecting cable: halogen-free, grey 3 x 0,5mm&sup2;, ~3m&lt;/li&gt;&lt;li&gt;Max. speed: 12 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt;&lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt; &lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt; &lt;li&gt;R&uuml;ckmeldung Endlage &bdquo;ZU&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt;&lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated intelligent control electronics&lt;/li&gt; &lt;li&gt;Response for \&quot;CLOSED\&quot; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: null,
+    &quot;Equipment&quot;: null,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programmierung von Sonderfunktionen&lt;/li&gt; &lt;li&gt;Programmierbare R&uuml;ckmeldung Endlage &bdquo;AUF&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieb in Antriebs-Verbundsystem&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt;&lt;li&gt;Programming of special functions&lt;/li&gt; &lt;li&gt;Programmable response for \&quot;OPEN\&quot; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: false,
+    &quot;ResultVentWeight&quot;: 77.26,
+    &quot;IsLsRsDrive&quot;: false,
+    &quot;ArticleNumberRs&quot;: 0,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 500,
+    &quot;Thrust&quot;: 400,
+    &quot;Id&quot;: &quot;bee855a0-ff9e-43a3-aef0-f3ffc5797b4f&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  {
+    &quot;Name&quot;: &quot;Chain actuator D2 L400&quot;,
+    &quot;Bezeichnung&quot;: &quot;Kettenantrieb D2 L400&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;Facade&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: false,
+    &quot;Type&quot;: 1,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: true,
+    &quot;BottomHungOutward&quot;: false,
+    &quot;SideHungInward&quot;: true,
+    &quot;SideHungOutward&quot;: false,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: true,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: false,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: true,
+    &quot;ITMainVentFrmMount&quot;: true,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: true,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: true,
+    &quot;ArticleNumber&quot;: 291754,
+    &quot;Stroke&quot;: 400,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: &quot;24 V DC&quot;,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: false,
+    &quot;RatedCurrent&quot;: 1,
+    &quot;BreakingCurrent&quot;: 1,
+    &quot;PullingForceMax&quot;: 250,
+    &quot;PushingForceMax&quot;: 200,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 133.33,
+    &quot;PullingForcePermanent&quot;: 250,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 147.13,
+    &quot;MinPullingForcePermanent&quot;: -66.75,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;Price&quot;: 504.76,
+    &quot;DriveLength&quot;: 430,
+    &quot;ChainDrive&quot;: 530,
+    &quot;ChainDrive2&quot;: 1020,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 1650,
+    &quot;MaxGeometricArea&quot;: 1,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 14,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;430 x 26 x 41&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt;&lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt;&lt;li&gt;Abschaltstrom: 1,0 A&lt;/li&gt;&lt;li&gt;Bemessungsstrom: 0,7 A&lt;/li&gt;&lt;li&gt;Bemessungsaufnahme: 17 W&lt;/li&gt;&lt;li&gt;Schutzart: IP 32&lt;/li&gt;&lt;li&gt;Zug-/Schubkraft: max. 250 N&lt;/li&gt;&lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt;&lt;li&gt;Anschlussleitung: Halogenfrei, grau 3 x 0,5 mm&sup2;, ~3 m&lt;/li&gt;&lt;li&gt;Max. Geschwindigkeit: 13,5 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt;&lt;li&gt;Rated voltage: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt;&lt;li&gt;Breaking current: 1.0 A&lt;/li&gt;&lt;li&gt;Rated current: 0.7 A&lt;/li&gt;&lt;li&gt;Rated consumption: 17 W&lt;/li&gt;&lt;li&gt;Protection rating: IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust: max. 250 N&lt;/li&gt;&lt;li&gt;Ambient temperature: -5&deg;C bis + 60&deg;C&lt;/li&gt;&lt;li&gt;Connecting cable: halogen-free, grey 3 x 0.5 mm&sup2;, ~3 m&lt;/li&gt;&lt;li&gt;Max. speed: 13.5 mm/s&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt; &lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt; &lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt; &lt;li&gt;R&uuml;ckmeldung Endlage &bdquo;ZU&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt; &lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated, intelligent control electronics&lt;/li&gt; &lt;li&gt;Response for &ldquo;CLOSED&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: null,
+    &quot;Equipment&quot;: null,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt; &lt;li&gt;Programmierung von Sonderfunktionen&lt;/li&gt; &lt;li&gt;Programmierbare R&uuml;ckmeldung Endlage &bdquo;AUF&ldquo; (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co Kontroller zur automatischen Konfiguration von Synchronlauf und Folgesteuerungen mit Verriegelungsantrieben in Antriebs-Verbundsystemen&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt; &lt;li&gt;Programming of special functions&lt;/li&gt; &lt;li&gt;Programmable response for &ldquo;OPEN&rdquo; end position (max. 24 V, 500 mA)&lt;/li&gt; &lt;li&gt;Sch&uuml;co controller for automatic configuration of synchronous running and sequence control with locking drives in composite drive systems&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: true,
+    &quot;ResultVentWeight&quot;: 77.26,
+    &quot;IsLsRsDrive&quot;: true,
+    &quot;ArticleNumberRs&quot;: 291755,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 250,
+    &quot;Thrust&quot;: 200,
+    &quot;Id&quot;: &quot;94015dd3-0c39-4d62-be4f-b1e2f8066f98&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  {
+    &quot;Name&quot;: &quot;Locking actuator EasyConnect ow&quot;,
+    &quot;Bezeichnung&quot;: &quot;Verriegelungsantrieb EasyConnect ow&quot;,
+    &quot;ConfigurationId&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Application&quot;: &quot;&quot;,
+    &quot;ApplicationFacade&quot;: true,
+    &quot;ApplicationSkylight&quot;: false,
+    &quot;Type&quot;: 5,
+    &quot;OpeningType&quot;: 0,
+    &quot;BottomHungInward&quot;: false,
+    &quot;BottomHungOutward&quot;: false,
+    &quot;SideHungInward&quot;: false,
+    &quot;SideHungOutward&quot;: true,
+    &quot;TopHungInward&quot;: false,
+    &quot;TopHungOutward&quot;: true,
+    &quot;ProjectedTopHungInward&quot;: false,
+    &quot;ProjectedTopHungOutward&quot;: true,
+    &quot;InstallationType&quot;: &quot;&quot;,
+    &quot;ITMainOutFrmMountWBracket&quot;: true,
+    &quot;ITMainFixOutFrmMount&quot;: false,
+    &quot;ITMainVentFrmMount&quot;: false,
+    &quot;ITSideMount50&quot;: false,
+    &quot;ITSideMount60&quot;: false,
+    &quot;ITSideMount70&quot;: false,
+    &quot;ITSideMount80&quot;: false,
+    &quot;ITSideMount67&quot;: false,
+    &quot;Feature&quot;: &quot;&quot;,
+    &quot;FeatureOpenClose&quot;: true,
+    &quot;FeatureLock&quot;: false,
+    &quot;ArticleNumber&quot;: 291589,
+    &quot;Stroke&quot;: 0,
+    &quot;Angle&quot;: 0,
+    &quot;Voltage&quot;: null,
+    &quot;Voltage24&quot;: true,
+    &quot;Voltage230&quot;: true,
+    &quot;RatedCurrent&quot;: 0,
+    &quot;BreakingCurrent&quot;: 0,
+    &quot;PullingForceMax&quot;: 0,
+    &quot;PushingForceMax&quot;: 0,
+    &quot;PullingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForceMaxWithNegativeWind&quot;: 0,
+    &quot;PushingForcePermanent&quot;: 0,
+    &quot;PullingForcePermanent&quot;: 0,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;Price&quot;: 0,
+    &quot;DriveLength&quot;: 0,
+    &quot;ChainDrive&quot;: 0,
+    &quot;ChainDrive2&quot;: 0,
+    &quot;MaxLengthMainClosingEdge1Drive&quot;: 0,
+    &quot;MaxGeometricArea&quot;: 0,
+    &quot;GeometricalSmokeExhaustion&quot;: 0,
+    &quot;TotalGlassThickness&quot;: 0,
+    &quot;Dimensions&quot;: 0,
+    &quot;DimensionsWxHxD&quot;: &quot;375 x 24 x 35&quot;,
+    &quot;TensileForce&quot;: 0,
+    &quot;LockingForce&quot;: 0,
+    &quot;Details_DE&quot;: &quot;&lt;ul&gt; &lt;li&gt;Bemessungsspannung: 24 V DC (19 V &hellip; 28 V)&lt;/li&gt; &lt;li&gt;Abschaltstrom: ~1,0 A&lt;/li&gt; &lt;li&gt;Bemessungsstrom: 0,6 A&lt;/li&gt; &lt;li&gt;Bemessungsaufnahme: 15 W&lt;/li&gt; &lt;li&gt;Schutzart: IP 32&lt;/li&gt;&lt;li&gt;Zug-/Schubkraft: max. 600 N&lt;/li&gt; &lt;li&gt;Umgebungstemperatur: -5&deg;C bis + 60&deg;C&lt;/li&gt; &lt;li&gt;Anschlussleitung: Halogenfrei, grau 5 x 0,5mm&sup2; , ~5m&lt;/li&gt; &lt;li&gt;Laufzeit: ~ 5s&lt;/li&gt;&lt;li&gt;Hub: ~ 18mm&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Details_EN&quot;: &quot;&lt;ul&gt; &lt;li&gt;Rated voltage : 24 V DC (19 V &hellip; 28 V&lt;/li&gt; &lt;li&gt;Breaking current : ~1,0 A&lt;/li&gt; &lt;li&gt;Rated current : 0,6 A&lt;/li&gt; &lt;li&gt;Rated consumption : 15 W&lt;/li&gt; &lt;li&gt;Protection rating : IP 32&lt;/li&gt;&lt;li&gt;Traction/ thrust : max. 600 N&lt;/li&gt; &lt;li&gt;Ambient temperature: -5&deg;C bis + 60&deg;C&lt;/li&gt; &lt;li&gt;Connecting cable: halogen-free, grey 5 x 0,5mm&sup2; , ~5m&lt;/li&gt; &lt;li&gt;Running time: ~ 5s&lt;/li&gt;&lt;li&gt;Stroke: ~ 18mm&lt;/li&gt; &lt;/ul&gt;&quot;,
+    &quot;Einsatz&quot;: &quot;&lt;ul&gt; &lt;li&gt;Anwendung: L&uuml;ftung, NRA&lt;/li&gt;&lt;li&gt;Integrierte intelligente Regelelektronik&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Use&quot;: &quot;&lt;ul&gt; &lt;li&gt;Application: ventilation, natural smoke ventilation&lt;/li&gt; &lt;li&gt;Integrated intelligent control electronics&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Ausstattung&quot;: &quot;&lt;ul&gt;&lt;li&gt;Laufrichtung einstellbar&lt;/li&gt;&lt;li&gt;Zus&auml;tzlicher Universal-Steckersatz&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Equipment&quot;: &quot;&lt;ul&gt;&lt;li&gt;Running direction adjustable&lt;/li&gt;&lt;li&gt;Additional universal plug socket&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Optionen&quot;: &quot;&lt;ul&gt; &lt;li&gt;Mitnehmer objekt-/profilspezifisch anpassbar&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;Options&quot;: &quot;&lt;ul&gt; &lt;li&gt;Coupling adapter customizable for project-/profile-specific demands&lt;/li&gt;&lt;/ul&gt;&quot;,
+    &quot;IsTwoPce&quot;: false,
+    &quot;ResultVentWeight&quot;: 0,
+    &quot;IsLsRsDrive&quot;: false,
+    &quot;ArticleNumberRs&quot;: 0,
+    &quot;TwoDrivesSideInstallation50&quot;: 0,
+    &quot;TwoDrivesSideInstallation60&quot;: 0,
+    &quot;TwoDrivesSideInstallation70&quot;: 0,
+    &quot;TwoDrivesSideInstallation80&quot;: 0,
+    &quot;OpeningSpeedmms&quot;: 0,
+    &quot;Traction&quot;: 0,
+    &quot;Thrust&quot;: 0,
+    &quot;Id&quot;: &quot;ebe9753c-e5d7-4140-afe0-9f98bf25df99&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;CreatedBy&quot;: &quot;&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-09-26T13:55:26.817Z&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  }
+]
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def actualRecommDrive = response.map(function(x) { return x.Name }).join(', ')</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedRecommDrive = 'Chain actuator D2 L400,Chain actuator D4 400,Chain actuator D6 400,Chain actuator TWIN D2 L400,Locking actuator EasyConnect ow'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def normalize =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-45">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-45" class="collapse collapsable-details">
+        <pre>function(value) {
+  return value.replace(/\s*,\s*/g, ',').trim(); // Remove spaces around commas
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def normalizedActualRecommDrive = normalize(actualRecommDrive)</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def normalizedExpectedRecommDrive = normalize(expectedRecommDrive)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Expected RecommDrive:', expectedRecommDrive)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-46">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-46" class="collapse collapsable-details">
+        <pre>13:06:38.144 Expected RecommDrive: Chain actuator D2 L400,Chain actuator D4 400,Chain actuator D6 400,Chain actuator TWIN D2 L400,Locking actuator EasyConnect ow 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Actual RecommDrive:', actualRecommDrive)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-47">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-47" class="collapse collapsable-details">
+        <pre>13:06:38.144 Actual RecommDrive: Chain actuator D2 L400, Chain actuator D4 400, Chain actuator D6 400, Chain actuator TWIN D2 L400, Chain actuator D2 L400, Locking actuator EasyConnect ow 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Normalized Actual RecommDrive:', normalizedActualRecommDrive)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-48">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-48" class="collapse collapsable-details">
+        <pre>13:06:38.144 Normalized Actual RecommDrive: Chain actuator D2 L400,Chain actuator D4 400,Chain actuator D6 400,Chain actuator TWIN D2 L400,Chain actuator D2 L400,Locking actuator EasyConnect ow 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Normalized Expected RecommDrive:', normalizedExpectedRecommDrive)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-49">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-49" class="collapse collapsable-details">
+        <pre>13:06:38.144 Normalized Expected RecommDrive: Chain actuator D2 L400,Chain actuator D4 400,Chain actuator D6 400,Chain actuator TWIN D2 L400,Locking actuator EasyConnect ow 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* failed">
+  <span class="keyword indention">*</span>
+  <span class="name">assert normalizedActualRecommDrive == normalizedExpectedRecommDrive</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-50">
+          <a>did</a>
+      </div>
+      <div id="msg-50" class="collapse collapsable-details  in ">
+        <pre>did not evaluate to 'true': normalizedActualRecommDrive == normalizedExpectedRecommDrive
+classpath:drivetecTestCases/features/UpdatePositions.feature:144</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-51">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-51" class="collapse collapsable-details">
+        <pre>13:06:38.144 classpath:drivetecTestCases/features/UpdatePositions.feature:144
+* assert normalizedActualRecommDrive == normalizedExpectedRecommDrive
+did not evaluate to 'true': normalizedActualRecommDrive == normalizedExpectedRecommDrive
+classpath:drivetecTestCases/features/UpdatePositions.feature:144
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def driveIds = response.map(function(y) { return y.Id })</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('All Drive IDs:', driveIds)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def firstDriveId = driveIds[0]</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('First Drive ID:', firstDriveId)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def payload =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-52">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-52" class="collapse collapsable-details">
+        <pre>[
+    {&quot;Id&quot;:&quot;configId&quot;,&quot;Header&quot;:&quot;configId&quot;,&quot;Value&quot;:&quot;#(updatedConfigId)&quot;},
+    {&quot;Id&quot;:&quot;driveId&quot;,&quot;Header&quot;:&quot;driveId&quot;,&quot;Value&quot;:&quot;#(firstDriveId)&quot;},
+    {&quot;Id&quot;:&quot;culture&quot;,&quot;Header&quot;:&quot;culture&quot;,&quot;Value&quot;:&quot;EN-US&quot;},
+    {&quot;Id&quot;:&quot;projectId&quot;,&quot;Header&quot;:&quot;projectId&quot;,&quot;Value&quot;:&quot;#(postResponse.projId)&quot;},
+    {&quot;Id&quot;:&quot;range-of-app&quot;,&quot;Header&quot;:&quot;Range of application&quot;,&quot;Value&quot;:&quot;Fa&ccedil;ade&quot;},
+    {&quot;Id&quot;:&quot;opening-type&quot;,&quot;Header&quot;:&quot;Opening type&quot;,&quot;Value&quot;:&quot;Bottom-hung vent&quot;},
+    {&quot;Id&quot;:&quot;opening-direction&quot;,&quot;Header&quot;:&quot;Opening direction&quot;,&quot;Value&quot;:&quot;Inward&quot;},
+    {&quot;Id&quot;:&quot;how-calc-weight&quot;,&quot;Header&quot;:&quot;Vent weight&quot;,&quot;Value&quot;:&quot;Weight including glass&quot;},
+    {&quot;Id&quot;:&quot;Chain-Length&quot;,&quot;Header&quot;:&quot;Chain- / connecting rod handle&quot;,&quot;Value&quot;:&quot;100%&quot;},
+    {&quot;Id&quot;:&quot;drive-position&quot;,&quot;Header&quot;:&quot;Drive position&quot;,&quot;Value&quot;:&quot;Side installation&quot;},
+    {&quot;Id&quot;:&quot;locking-mechanism&quot;,&quot;Header&quot;:&quot;Locking mechanism&quot;,&quot;Value&quot;:&quot;With&quot;},
+    {&quot;Id&quot;:&quot;voltage&quot;,&quot;Header&quot;:&quot;Voltage&quot;,&quot;Value&quot;:&quot;24 V&quot;},
+    {&quot;Id&quot;:&quot;drive-type&quot;,&quot;Header&quot;:&quot;Drive type&quot;,&quot;Value&quot;:&quot;Chain drive&quot;},
+    {&quot;Id&quot;:&quot;type-installation&quot;,&quot;Header&quot;:&quot;Type of installation&quot;,&quot;Value&quot;:&quot;Pivoting Outer Frame Installation&quot;},
+    {&quot;Id&quot;:&quot;calculation-type-for-ventilation-area&quot;,&quot;Header&quot;:&quot;Calculation type for ventilation area&quot;,&quot;Value&quot;:&quot;Method in accordance with ASR 3.6&quot;}
+]</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given skipped">
+  <span class="keyword indention">Given</span>
+  <span class="name">url apiUrl + '/api/Drives/DownloadPDFNew/Schuco'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">request payload</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">method POST</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Download URL for first driveId:', response.result)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+        </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
     </div>
   </div>
 </div>
