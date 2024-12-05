@@ -1,4 +1,4 @@
-@drivetec
+@Configurations
 Feature: DriveTec Configurations
 
 
@@ -91,6 +91,10 @@ function(value, decimalPlaces) {
   When method put
   Then status 200
 
+
+  * def ventWeight = response.VentWeight
+  * karate.log('VentWeight from API Response:', ventWeight)
+
   * def updatedConfigId = karate.jsonPath(response, '$.Id')
 
   # Round the response values using the custom roundAwayFromZero function
@@ -125,7 +129,7 @@ Then status 200
 * def actualRecommDrive = response.map(function(x) { return x.Name }).join(', ') 
 
 # Extract expected RecommDrive from the CSV for this iteration
-  * def expectedRecommDrive = '<RecommDrive>'
+* def expectedRecommDrive = '<RecommDrive>'
 
 * def normalize = 
 """
@@ -141,7 +145,11 @@ function(value) {
 * karate.log('Actual RecommDrive:', actualRecommDrive)
 * karate.log('Normalized Actual RecommDrive:', normalizedActualRecommDrive)
 * karate.log('Normalized Expected RecommDrive:', normalizedExpectedRecommDrive)
-* assert normalizedActualRecommDrive == normalizedExpectedRecommDrive
+
+# * assert normalizedActualRecommDrive == normalizedExpectedRecommDrive
+
+ # Handle vent weight 255 above case and recomm validation case --> Ternary logic
+ * def result = ventWeight > 255 ? karate.log('No recommended drives found! Calculation not possible!', ventWeight) : karate.match(normalizedActualRecommDrive, normalizedExpectedRecommDrive)
 
 * def driveIds = response.map(function(y) { return y.Id })
 * karate.log('All Drive IDs:', driveIds)

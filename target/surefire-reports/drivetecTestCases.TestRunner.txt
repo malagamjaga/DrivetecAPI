@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: drivetecTestCases.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 80.388 s <<< FAILURE! - in drivetecTestCases.TestRunner
-drivetecTestCases.TestRunner.testParallel  Time elapsed: 80.357 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: 
-did not evaluate to 'true': normalizedActualRecommDrive == normalizedExpectedRecommDrive
-classpath:drivetecTestCases/features/UpdatePositions.feature:144
-did not evaluate to 'true': normalizedActualRecommDrive == normalizedExpectedRecommDrive
-classpath:drivetecTestCases/features/UpdatePositions.feature:144 ==> expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
-	at drivetecTestCases.TestRunner.testParallel(TestRunner.java:28)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 269.73 s - in drivetecTestCases.TestRunner

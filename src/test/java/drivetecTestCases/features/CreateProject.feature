@@ -17,7 +17,6 @@
         "ModifiedBy": "579816e4-6653-4794-b435-a885f32e28d7"
     }
     """
-    
     Given url apiUrl + '/Projects'
     And request projectPayload
     When method post

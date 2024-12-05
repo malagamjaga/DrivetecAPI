@@ -61,7 +61,7 @@
                 <configuration>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
                     <systemPropertyVariables>
-                        <karate.options>--tags=@drivetec --plugin json:target/cucumber-html-reports/cucumber.json</karate.options>
+                        <karate.options>--plugin json:target/karate-reports/cucumber.json</karate.options>
                     </systemPropertyVariables>
                 </configuration>
             </plugin> 

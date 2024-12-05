@@ -1,5 +1,6 @@
-Feature: Delete Project
 @ProjDelete
+Feature: Delete Project
+
 Scenario: Delete Project post tests
 
     * def postResponse = karate.call('classpath:drivetecTestCases/features/CreateProject.feature')
