@@ -38,7 +38,8 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y allure
-
+        allure --version
+        
     # Step 5: Build and Test with Maven
     - name: Build and Test with Maven
       run: mvn clean test -Dkarate.options="--tags @Configurations"
