@@ -60,7 +60,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: target/allure-report
-        publish_branch: gh-pages
+        publish_branch: main
 
     # Step 9: Configure GitHub Pages (Optional)
     # Ensure that GitHub Pages is configured to serve content from the `gh-pages` branch
