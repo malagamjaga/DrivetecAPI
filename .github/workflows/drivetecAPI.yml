@@ -39,7 +39,7 @@ jobs:
 
     # Step 5: Generate Allure Report using Maven Allure plugin
     - name: Generate Allure Report
-      run: mvn allure:generate
+      run: mvn allure:report
 
     # Step 6: Upload Allure test results as an artifact
     - name: Upload Allure Report
