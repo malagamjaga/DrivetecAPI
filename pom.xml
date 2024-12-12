@@ -9,7 +9,7 @@
  
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <maven.compiler.version>3.13.0</maven.compiler.version>
         <maven.surefire.version>3.0.0</maven.surefire.version>
         <karate.version>1.5.0</karate.version>
@@ -17,12 +17,7 @@
     </properties>    
 
     <dependencies>    
-    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
-<dependency>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
-    <version>3.13.0</version>
-</dependency>
+
 
     <!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
 <dependency>
@@ -72,6 +67,16 @@
             </testResource>
         </testResources>
         <plugins>
+         <!-- Maven Compiler Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.version}</version>
+                <configuration>
+                    <source>${java.version}</source> <!-- Java version -->
+                    <target>${java.version}</target> <!-- Java version -->
+                </configuration>
+            </plugin>
         
              <!-- Maven Surefire Plugin -->
             <plugin>
