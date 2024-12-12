@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>drivetecTestCases</td>
-      <td>05 Dec 2024, 13:56</td>
+      <td>12 Dec 2024, 12:36</td>
     </tr>
   </tbody>
 </table>
@@ -94,12 +94,2582 @@ $(document).ready(function() {
 </div>
 
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
 <div class="container-fluid" id="report">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
 
-        <p>You have no failed scenarios in your Cucumber report</p>
+        <div class="elements">
 
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_4015535260.html">drivetecTestCases/features/UpdatePositions.feature</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_2925299356.html">@Configurations</a>
+</div>
+
+
+  <span class="lead-duration duration">2.008</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Drivetec Configurations Test</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details  in ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def datasetName = 'Dataset3'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>12:36:50.063 karate.env system property was: null 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Running test for dataset: ', datasetName)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>12:36:50.070 Running test for dataset:  Dataset3 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundAwayFromZero =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-5">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details">
+        <pre>function(value, decimalPlaces) {
+  
+  var num = Number(value);
+  if (isNaN(num)) {
+    return num;  // Return as is if it's not a valid number
+  }
+  
+  var factor = Math.pow(10, decimalPlaces);
+  var valueToRound = num * factor;
+  var roundedValue = (valueToRound % 1 == 0.5 || valueToRound % 1 == -0.5) ? 
+    (valueToRound &gt; 0 ? Math.floor(valueToRound) + 1 : Math.ceil(valueToRound) - 1) : 
+    Math.round(valueToRound);
+  
+  return roundedValue / factor;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def postResponse = karate.call('classpath:drivetecTestCases/features/CreatePositions.feature')</span>
+
+  <span class="lead-duration duration">0.683</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">drivetecTestCases/features/CreatePositions.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># This runs before each scenario and generates the ProjectId once</div>
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def projectId = karate.callSingle('classpath:drivetecTestCases/features/CreateProject.feature')</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.log('Using ProjectId: ', projectId)</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-6">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-6" class="collapse collapsable-details">
+        <pre>12:36:50.079 Using ProjectId:  {
+  &quot;result&quot;: {
+    &quot;projectId&quot;: &quot;prjId&quot;
+  },
+  &quot;projectPayload&quot;: {
+    &quot;Id&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;Name&quot;: &quot;AUT_TPJ383&quot;,
+    &quot;Address&quot;: &quot;Hyderabad, Telangana, India&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;
+  },
+  &quot;uniqueName&quot;: &quot;AUT_TPJ383&quot;,
+  &quot;responseHeaders&quot;: {
+    &quot;Content-Type&quot;: [
+      &quot;application/json; charset=utf-8&quot;
+    ],
+    &quot;Date&quot;: [
+      &quot;Thu, 12 Dec 2024 07:06:36 GMT&quot;
+    ],
+    &quot;Server&quot;: [
+      &quot;Microsoft-IIS/10.0&quot;
+    ],
+    &quot;X-Powered-By&quot;: [
+      &quot;ASP.NET&quot;
+    ],
+    &quot;Content-Length&quot;: [
+      &quot;328&quot;
+    ],
+    &quot;Connection&quot;: [
+      &quot;keep-alive&quot;
+    ],
+    &quot;Set-Cookie&quot;: [
+    ]
+  },
+  &quot;responseTime&quot;: 1067,
+  &quot;response&quot;: {
+    &quot;Name&quot;: &quot;AUT_TPJ383&quot;,
+    &quot;Description&quot;: &quot;&quot;,
+    &quot;Address&quot;: &quot;Hyderabad, Telangana, India&quot;,
+    &quot;Id&quot;: &quot;850527b7-e575-4484-889e-4fef54460326&quot;,
+    &quot;CreatedOn&quot;: &quot;2024-12-12T07:06:36.4815238+00:00&quot;,
+    &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ModifiedOn&quot;: &quot;2024-12-12T07:06:36.4815246+00:00&quot;,
+    &quot;ModifiedBy&quot;: &quot;&quot;
+  },
+  &quot;responseStatus&quot;: 200,
+  &quot;prjId&quot;: &quot;850527b7-e575-4484-889e-4fef54460326&quot;,
+  &quot;projectId&quot;: &quot;850527b7-e575-4484-889e-4fef54460326&quot;
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># Generate a unique name with &quot;Dataset&quot; prefix and a 4-digit number (0001, 0002, ...)</div>
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def counter = (java.lang.System.currentTimeMillis() % 10000) + 1  //Generate a number between 1 and 10000</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def formattedCounter = (counter.toString().length() &lt; 4) ? ('0000' + counter).substring(counter.toString().length()) : counter.toString()</span>
+
+  <span class="lead-duration duration">0.008</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def positionName = 'Dataset' + formattedCounter  // Combine the prefix with the formatted counter</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># # Call the project feature to set projectId</div>
+          <div class="comment indention"># * callonce read('postproject.feature')</div>
+          <div class="comment indention"># # Retrieve the projectId</div>
+          <div class="comment indention"># * def projectId = karate.get('projectId')</div>
+          <div class="comment indention"># Request Payload for creating a Configuration with dynamic Name and ProjectId</div>
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def dynamicPayload =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-7" class="collapse collapsable-details">
+        <pre>{
+    &quot;Id&quot;: &quot;00000000-0000-0000-0000-000000000000&quot;,
+    &quot;ProjectId&quot;: &quot;#(projectId.prjId)&quot;,
+    &quot;Name&quot;: &quot;#(positionName)&quot;,
+    &quot;Description&quot;: &quot;#(positionName)&quot;,
+    &quot;CustomTags&quot;: &quot;&quot;,
+    &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ApplicationName&quot;: 1,
+    &quot;System&quot;: &quot;&quot;,
+    &quot;FacadeInclination&quot;: 0,
+    &quot;OpeningType&quot;: 1,
+    &quot;OpeningDirection&quot;: 1,
+    &quot;OpeningWidth&quot;: 1000,
+    &quot;VentOuterWidth&quot;: 1230,
+    &quot;VentOuterHeight&quot;: 1480,
+    &quot;VentWeight&quot;: 70,
+    &quot;CalculateWeightWithGlass&quot;: false,
+    &quot;WeightIncGlassOrThickness&quot;: false,
+    &quot;GlassThickness&quot;: 14,
+    &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
+    &quot;IsWindowOpeningCalculationByAngle&quot;: 1,
+    &quot;RequiredOpeningStroke&quot;: 400,
+    &quot;OpeningAngle&quot;: 15,
+    &quot;WindLoad&quot;: 120,
+    &quot;SnowLoad&quot;: 0,
+    &quot;DrivePosition&quot;: 2,
+    &quot;InstallationPosition&quot;: 1,
+    &quot;ChainLengthConnectingRodHandle&quot;: 5,
+    &quot;LockingMechanism&quot;: 1,
+    &quot;Voltage&quot;: 1,
+    &quot;DriveType&quot;: 1,
+    &quot;TypeOfInstallation&quot;: 2,
+    &quot;CalculationTypeForVentilation&quot;: 1,
+    &quot;CalcVentilation&quot;: 1,
+    &quot;GeometricArea&quot;: 1,
+    &quot;SpecificExhaustDimension&quot;: 30,
+    &quot;BuildingDepth&quot;: 75,
+    &quot;RevealDepth&quot;: 0,
+    &quot;RevealDepthRectangleAngle1&quot;: 0,
+    &quot;RevealDepthRectangleAngle2&quot;: 0,
+    &quot;HeightOfProfile&quot;: 0,
+    &quot;HeightProfileRectangleAngle1&quot;: 0,
+    &quot;HeightProfileRectangleAngle2&quot;: 0,
+    &quot;AkippOrAtilt&quot;: 0,
+    &quot;AdrehOrAturn&quot;: 0,
+    &quot;Ageo&quot;: 0,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;ForceWithNegativeWind&quot;: 0
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url apiUrl + '/Configurations'</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request dynamicPayload</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">0.650</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-8">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-8" class="collapse collapsable-details">
+        <pre>12:36:50.104 request:
+1 &gt; POST https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1275
+1 &gt; Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;Id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;ProjectId&quot;:&quot;850527b7-e575-4484-889e-4fef54460326&quot;,&quot;Name&quot;:&quot;Dataset0080&quot;,&quot;Description&quot;:&quot;Dataset0080&quot;,&quot;CustomTags&quot;:&quot;&quot;,&quot;CreatedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;ModifiedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;ApplicationName&quot;:1,&quot;System&quot;:&quot;&quot;,&quot;FacadeInclination&quot;:0,&quot;OpeningType&quot;:1,&quot;OpeningDirection&quot;:1,&quot;OpeningWidth&quot;:1000,&quot;VentOuterWidth&quot;:1230,&quot;VentOuterHeight&quot;:1480,&quot;VentWeight&quot;:70,&quot;CalculateWeightWithGlass&quot;:false,&quot;WeightIncGlassOrThickness&quot;:false,&quot;GlassThickness&quot;:14,&quot;ProfileWeightPerSerialMeter&quot;:2.5,&quot;IsWindowOpeningCalculationByAngle&quot;:1,&quot;RequiredOpeningStroke&quot;:400,&quot;OpeningAngle&quot;:15,&quot;WindLoad&quot;:120,&quot;SnowLoad&quot;:0,&quot;DrivePosition&quot;:2,&quot;InstallationPosition&quot;:1,&quot;ChainLengthConnectingRodHandle&quot;:5,&quot;LockingMechanism&quot;:1,&quot;Voltage&quot;:1,&quot;DriveType&quot;:1,&quot;TypeOfInstallation&quot;:2,&quot;CalculationTypeForVentilation&quot;:1,&quot;CalcVentilation&quot;:1,&quot;GeometricArea&quot;:1,&quot;SpecificExhaustDimension&quot;:30,&quot;BuildingDepth&quot;:75,&quot;RevealDepth&quot;:0,&quot;RevealDepthRectangleAngle1&quot;:0,&quot;RevealDepthRectangleAngle2&quot;:0,&quot;HeightOfProfile&quot;:0,&quot;HeightProfileRectangleAngle1&quot;:0,&quot;HeightProfileRectangleAngle2&quot;:0,&quot;AkippOrAtilt&quot;:0,&quot;AdrehOrAturn&quot;:0,&quot;Ageo&quot;:0,&quot;MinPullingForceMax&quot;:0,&quot;MinPushingForceMax&quot;:0,&quot;MinPullingForcePermanent&quot;:0,&quot;MinPushingForcePermanent&quot;:0,&quot;ForceWithNegativeWind&quot;:0}
+
+12:36:50.740 response time in milliseconds: 636
+1 &lt; 200
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Thu, 12 Dec 2024 07:06:44 GMT
+1 &lt; Server: Microsoft-IIS/10.0
+1 &lt; X-Powered-By: ASP.NET
+1 &lt; Content-Length: 2031
+1 &lt; Connection: keep-alive
+{
+  &quot;ProjectId&quot;: &quot;850527b7-e575-4484-889e-4fef54460326&quot;,
+  &quot;Name&quot;: &quot;Dataset0080&quot;,
+  &quot;Description&quot;: &quot;Dataset0080&quot;,
+  &quot;CustomTags&quot;: &quot;&quot;,
+  &quot;ApplicationName&quot;: 1,
+  &quot;OpeningType&quot;: 1,
+  &quot;OpeningDirection&quot;: 1,
+  &quot;CalculateWeightWithGlass&quot;: false,
+  &quot;WindLoad&quot;: 120,
+  &quot;IsWindowOpeningCalculationByAngle&quot;: 1,
+  &quot;VentOuterWidth&quot;: 1230,
+  &quot;VentOuterHeight&quot;: 1480,
+  &quot;WeightIncGlassOrThickness&quot;: false,
+  &quot;VentWeight&quot;: 77,
+  &quot;VentWeightExact&quot;: 77.26400000000001,
+  &quot;GlassThickness&quot;: 14,
+  &quot;ProfileWeightPerSerialMeter&quot;: 2.5,
+  &quot;FacadeInclination&quot;: 0,
+  &quot;ChainLengthConnectingRodHandle&quot;: 5,
+  &quot;ChainLenghtConnectingRodHandle&quot;: 0,
+  &quot;RequiredOpeningStroke&quot;: 400,
+  &quot;OpeningWidth&quot;: 1000,
+  &quot;OpeningAngle&quot;: 15.532868337024489,
+  &quot;SpecificExhaustDimension&quot;: 30,
+  &quot;BuildingDepth&quot;: 75,
+  &quot;SnowLoad&quot;: 0,
+  &quot;DistanceHinge&quot;: 0,
+  &quot;RatedCurrent&quot;: 0,
+  &quot;DrivePosition&quot;: 2,
+  &quot;LockingMechanism&quot;: 1,
+  &quot;Voltage&quot;: 1,
+  &quot;DriveType&quot;: 1,
+  &quot;TypeOfInstallation&quot;: 2,
+  &quot;GeometricArea&quot;: 0,
+  &quot;CalculationTypeForVentilation&quot;: 1,
+  &quot;HeightOfProfile&quot;: 0,
+  &quot;Reveal&quot;: 0,
+  &quot;RevealDepth&quot;: 0,
+  &quot;HeightProfileRectangleAngle1&quot;: 0,
+  &quot;HeightProfileRectangleAngle2&quot;: 0,
+  &quot;RevealDepthRectangleAngle1&quot;: 0,
+  &quot;RevealDepthRectangleAngle2&quot;: 0,
+  &quot;RevealDepthRectangleAngle12&quot;: 0,
+  &quot;InstallationPosition&quot;: 0,
+  &quot;RecommendedDriveArticleNo&quot;: 0,
+  &quot;System&quot;: &quot;&quot;,
+  &quot;AkippOrAtilt&quot;: 1.084,
+  &quot;AdrehOrAturn&quot;: 1.8204,
+  &quot;Ageo&quot;: 1.084,
+  &quot;MinPullingForceMax&quot;: -206.4868442161654,
+  &quot;MinPushingForceMax&quot;: -206.4868442161654,
+  &quot;MinPullingForcePermanent&quot;: -104.11163259218097,
+  &quot;MinPushingForcePermanent&quot;: -104.11163259218097,
+  &quot;ForceWithNegativeWind&quot;: 109.53156767199486,
+  &quot;ForceWithNoWindMin&quot;: 0.30763693489047433,
+  &quot;ForceWithNegativeWindMin&quot;: 0,
+  &quot;ForceWithWindMin&quot;: -108.91629380221393,
+  &quot;Id&quot;: &quot;794d4c24-cd10-4fe8-a3e9-92c2c180c611&quot;,
+  &quot;CreatedOn&quot;: &quot;2024-12-12T07:06:45.6226929+00:00&quot;,
+  &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+  &quot;ModifiedOn&quot;: &quot;2024-12-12T07:06:45.622694+00:00&quot;,
+  &quot;ModifiedBy&quot;: &quot;&quot;
+}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Then passed">
+  <span class="keyword indention">&gt; Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">match response.Id != null</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def configId = response.Id</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def projId = response.ProjectId</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.log('Generated Config ID:', configId)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-9">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-9" class="collapse collapsable-details">
+        <pre>12:36:50.740 Generated Config ID: 794d4c24-cd10-4fe8-a3e9-92c2c180c611 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.log('Generated Name:', dynamicPayload.Name)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-10">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-10" class="collapse collapsable-details">
+        <pre>12:36:50.740 Generated Name: Dataset0080 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.log('Generated Description:', dynamicPayload.Description)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-11">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-11" class="collapse collapsable-details">
+        <pre>12:36:50.740 Generated Description: Dataset0080 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">karate.set('generatedData', { configId: configId, name: dynamicPayload.Name, description: dynamicPayload.Description })</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def configId = karate.get('configId')</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url apiUrl + '/Configurations'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Content-Type = 'application/json'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-12">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-12" class="collapse collapsable-details">
+        <pre>{
+    &quot;Id&quot;: &quot;#(postResponse.configId)&quot;,
+    &quot;Name&quot;: &quot;Dataset3&quot;,
+    &quot;Description&quot;: &quot;#(postResponse.positionName)&quot;,
+    &quot;ProjectId&quot;: &quot;#(postResponse.projId)&quot;,
+    &quot;CustomTags&quot;: &quot;&quot;,
+    &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+    &quot;System&quot;: &quot;&quot;,
+    &quot;FacadeInclination&quot;: 0,
+    &quot;OpeningType&quot;: 1,
+    &quot;OpeningDirection&quot;: 1,
+    &quot;OpeningWidth&quot;: 1000,
+    &quot;VentOuterWidth&quot;: 1000,
+    &quot;VentOuterHeight&quot;: 1500,
+    &quot;VentWeight&quot;: 0,
+    &quot;CalculateWeightWithGlass&quot;: #(!CalculateWeightWithGlass),
+    &quot;RequiredOpeningStroke&quot;: 747,
+    &quot;WindLoad&quot;: 120,
+    &quot;SnowLoad&quot;: 0,
+    &quot;IsWindowOpeningCalculationByAngle&quot;: 1,
+    &quot;GlassThickness&quot;: 50,
+    &quot;ProfileWeightPerSerialMeter&quot;: 15,
+    &quot;DrivePosition&quot;: 1,
+    &quot;InstallationPosition&quot;: 0,
+    &quot;LockingMechanism&quot;: 1,
+    &quot;Voltage&quot;: 1,
+    &quot;DriveType&quot;: 1,
+    &quot;TypeOfInstallation&quot;: 2,
+    &quot;GeometricArea&quot;: 0,
+    &quot;CalcVentilation&quot;: 2,
+    &quot;SpecificExhaustDimension&quot;: 45,
+    &quot;BuildingDepth&quot;: 90,
+    &quot;CalculationTypeForVentilation&quot;: 2,
+    &quot;HeightOfProfile&quot;: 30,
+    &quot;HeightProfileRectangleAngle1&quot;: 35,
+    &quot;HeightProfileRectangleAngle2&quot;: 2,
+    &quot;RevealDepth&quot;: 200,
+    &quot;RevealDepthRectangleAngle1&quot;: 150,
+    &quot;RevealDepthRectangleAngle2&quot;: 1000,
+    &quot;ChainLengthConnectingRodHandle&quot;: 5,
+    &quot;ApplicationName&quot;: 1,
+    &quot;OpeningAngle&quot;: 28.83669047331989,
+    &quot;WeightIncGlassOrThickness&quot;: #(!WeightIncGlassOrThickness),
+    &quot;AkippOrAtilt&quot;: 0,
+    &quot;AdrehOrAturn&quot;: 0,
+    &quot;Ageo&quot;: 0,
+    &quot;MinPullingForceMax&quot;: 0,
+    &quot;MinPushingForceMax&quot;: 0,
+    &quot;MinPullingForcePermanent&quot;: 0,
+    &quot;MinPushingForcePermanent&quot;: 0,
+    &quot;ForceWithNegativeWind&quot;: 0
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method put</span>
+
+  <span class="lead-duration duration">0.631</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-13">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-13" class="collapse collapsable-details">
+        <pre>12:36:50.756 request:
+1 &gt; PUT https://dev-drivetec-apis.schuecodigitalsolutions.com/Configurations
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1294
+1 &gt; Host: dev-drivetec-apis.schuecodigitalsolutions.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;Id&quot;:&quot;794d4c24-cd10-4fe8-a3e9-92c2c180c611&quot;,&quot;Name&quot;:&quot;Dataset3&quot;,&quot;Description&quot;:&quot;Dataset0080&quot;,&quot;ProjectId&quot;:&quot;850527b7-e575-4484-889e-4fef54460326&quot;,&quot;CustomTags&quot;:&quot;&quot;,&quot;CreatedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;ModifiedBy&quot;:&quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,&quot;System&quot;:&quot;&quot;,&quot;FacadeInclination&quot;:0,&quot;OpeningType&quot;:1,&quot;OpeningDirection&quot;:1,&quot;OpeningWidth&quot;:1000,&quot;VentOuterWidth&quot;:1000,&quot;VentOuterHeight&quot;:1500,&quot;VentWeight&quot;:0,&quot;CalculateWeightWithGlass&quot;:false,&quot;RequiredOpeningStroke&quot;:747,&quot;WindLoad&quot;:120,&quot;SnowLoad&quot;:0,&quot;IsWindowOpeningCalculationByAngle&quot;:1,&quot;GlassThickness&quot;:50,&quot;ProfileWeightPerSerialMeter&quot;:15,&quot;DrivePosition&quot;:1,&quot;InstallationPosition&quot;:0,&quot;LockingMechanism&quot;:1,&quot;Voltage&quot;:1,&quot;DriveType&quot;:1,&quot;TypeOfInstallation&quot;:2,&quot;GeometricArea&quot;:0,&quot;CalcVentilation&quot;:2,&quot;SpecificExhaustDimension&quot;:45,&quot;BuildingDepth&quot;:90,&quot;CalculationTypeForVentilation&quot;:2,&quot;HeightOfProfile&quot;:30,&quot;HeightProfileRectangleAngle1&quot;:35,&quot;HeightProfileRectangleAngle2&quot;:2,&quot;RevealDepth&quot;:200,&quot;RevealDepthRectangleAngle1&quot;:150,&quot;RevealDepthRectangleAngle2&quot;:1000,&quot;ChainLengthConnectingRodHandle&quot;:5,&quot;ApplicationName&quot;:1,&quot;OpeningAngle&quot;:28.83669047331989,&quot;WeightIncGlassOrThickness&quot;:false,&quot;AkippOrAtilt&quot;:0,&quot;AdrehOrAturn&quot;:0,&quot;Ageo&quot;:0,&quot;MinPullingForceMax&quot;:0,&quot;MinPushingForceMax&quot;:0,&quot;MinPullingForcePermanent&quot;:0,&quot;MinPushingForcePermanent&quot;:0,&quot;ForceWithNegativeWind&quot;:0}
+
+12:36:51.388 response time in milliseconds: 632
+1 &lt; 200
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Thu, 12 Dec 2024 07:06:46 GMT
+1 &lt; Server: Microsoft-IIS/10.0
+1 &lt; X-Powered-By: ASP.NET
+1 &lt; transfer-encoding: chunked
+1 &lt; Connection: keep-alive
+{
+  &quot;ProjectId&quot;: &quot;850527b7-e575-4484-889e-4fef54460326&quot;,
+  &quot;Name&quot;: &quot;Dataset3&quot;,
+  &quot;Description&quot;: &quot;Dataset0080&quot;,
+  &quot;CustomTags&quot;: &quot;&quot;,
+  &quot;ApplicationName&quot;: 1,
+  &quot;OpeningType&quot;: 1,
+  &quot;OpeningDirection&quot;: 1,
+  &quot;CalculateWeightWithGlass&quot;: false,
+  &quot;WindLoad&quot;: 120,
+  &quot;IsWindowOpeningCalculationByAngle&quot;: 1,
+  &quot;VentOuterWidth&quot;: 1000,
+  &quot;VentOuterHeight&quot;: 1500,
+  &quot;WeightIncGlassOrThickness&quot;: false,
+  &quot;VentWeight&quot;: 263,
+  &quot;VentWeightExact&quot;: 262.5,
+  &quot;GlassThickness&quot;: 50,
+  &quot;ProfileWeightPerSerialMeter&quot;: 15,
+  &quot;FacadeInclination&quot;: 0,
+  &quot;ChainLengthConnectingRodHandle&quot;: 5,
+  &quot;ChainLenghtConnectingRodHandle&quot;: 0,
+  &quot;RequiredOpeningStroke&quot;: 747,
+  &quot;OpeningWidth&quot;: 1000,
+  &quot;OpeningAngle&quot;: 28.83669047331989,
+  &quot;SpecificExhaustDimension&quot;: 45,
+  &quot;BuildingDepth&quot;: 90,
+  &quot;SnowLoad&quot;: 0,
+  &quot;DistanceHinge&quot;: 0,
+  &quot;RatedCurrent&quot;: 0,
+  &quot;DrivePosition&quot;: 1,
+  &quot;LockingMechanism&quot;: 1,
+  &quot;Voltage&quot;: 1,
+  &quot;DriveType&quot;: 1,
+  &quot;TypeOfInstallation&quot;: 2,
+  &quot;GeometricArea&quot;: 0,
+  &quot;CalculationTypeForVentilation&quot;: 2,
+  &quot;HeightOfProfile&quot;: 30,
+  &quot;Reveal&quot;: 0,
+  &quot;RevealDepth&quot;: 200,
+  &quot;HeightProfileRectangleAngle1&quot;: 35,
+  &quot;HeightProfileRectangleAngle2&quot;: 2,
+  &quot;RevealDepthRectangleAngle1&quot;: 150,
+  &quot;RevealDepthRectangleAngle2&quot;: 1000,
+  &quot;RevealDepthRectangleAngle12&quot;: 0,
+  &quot;InstallationPosition&quot;: 0,
+  &quot;RecommendedDriveArticleNo&quot;: 0,
+  &quot;System&quot;: &quot;&quot;,
+  &quot;AkippOrAtilt&quot;: 1.8675,
+  &quot;AdrehOrAturn&quot;: 1.5,
+  &quot;Ageo&quot;: 0.5438978083248298,
+  &quot;MinPullingForceMax&quot;: -88.95476411990188,
+  &quot;MinPushingForceMax&quot;: -724.0514688010999,
+  &quot;MinPullingForcePermanent&quot;: -652.679442987619,
+  &quot;MinPushingForcePermanent&quot;: -652.679442987619,
+  &quot;ForceWithNegativeWind&quot;: -581.3074171741382,
+  &quot;ForceWithNoWindMin&quot;: 1.0451788078374082,
+  &quot;ForceWithNegativeWindMin&quot;: 91.04512173557669,
+  &quot;ForceWithWindMin&quot;: -88.95476411990188,
+  &quot;Id&quot;: &quot;794d4c24-cd10-4fe8-a3e9-92c2c180c611&quot;,
+  &quot;CreatedOn&quot;: &quot;0001-01-01T00:00:00&quot;,
+  &quot;CreatedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;,
+  &quot;ModifiedOn&quot;: &quot;2024-12-12T07:06:46.2643279+00:00&quot;,
+  &quot;ModifiedBy&quot;: &quot;579816e4-6653-4794-b435-a885f32e28d7&quot;
+}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def ventWeight = response.VentWeight</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('VentWeight from API Response:', ventWeight)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-14">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-14" class="collapse collapsable-details">
+        <pre>12:36:51.388 VentWeight from API Response: 263 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def updatedConfigId = karate.jsonPath(response, '$.Id')</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundedOpeningAngle = roundAwayFromZero(response.OpeningAngle, 0)  // Round to nearest integer</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundedAgeo = roundAwayFromZero(response.Ageo, 2)  // Round to two decimal places</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundedRequiredOpeningStroke = roundAwayFromZero(response.RequiredOpeningStroke, 0)  // Round to nearest integer</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def roundedVentWeight = roundAwayFromZero(response.VentWeight, 0)  // Round to nearest integer</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Rounded Opening Angle:', roundedOpeningAngle)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-15">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-15" class="collapse collapsable-details">
+        <pre>12:36:51.388 Rounded Opening Angle: 29.0 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Rounded Ageo:', roundedAgeo)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-16">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-16" class="collapse collapsable-details">
+        <pre>12:36:51.388 Rounded Ageo: 0.54 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Rounded Required Opening Stroke:', roundedRequiredOpeningStroke)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-17">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-17" class="collapse collapsable-details">
+        <pre>12:36:51.388 Rounded Required Opening Stroke: 747.0 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Rounded Vent Weight:', roundedVentWeight)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-18">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-18" class="collapse collapsable-details">
+        <pre>12:36:51.388 Rounded Vent Weight: 263.0 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedOpeningAngle = 29</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedAgeo = 0.54</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedRequiredOpeningStroke = 747</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def expectedVentWeight = 263</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match roundedOpeningAngle == expectedOpeningAngle</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match roundedAgeo == expectedAgeo</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match roundedRequiredOpeningStroke == expectedRequiredOpeningStroke</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match roundedVentWeight == expectedVentWeight</span>
+
+  <span class="lead-duration duration">0.009</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* failed">
+  <span class="keyword indention">*</span>
+  <span class="name">if (ventWeight &gt; 255) karate.fail('No recommended drives found! Calculation not possible because VentWeight is greater than 255.')</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-19">
+          <a>No</a>
+      </div>
+      <div id="msg-19" class="collapse collapsable-details  in ">
+        <pre>No recommended drives found! Calculation not possible because VentWeight is greater than 255.
+classpath:drivetecTestCases/features/UpdatePositions.feature:123</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-20">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-20" class="collapse collapsable-details">
+        <pre>12:36:51.404 classpath:drivetecTestCases/features/UpdatePositions.feature:123
+* if (ventWeight &gt; 255) karate.fail('No recommended drives found! Calculation not possible because VentWeight is greater than 255.')
+No recommended drives found! Calculation not possible because VentWeight is greater than 255.
+classpath:drivetecTestCases/features/UpdatePositions.feature:123
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given skipped">
+  <span class="keyword indention">Given</span>
+  <span class="name">url apiUrl + '/Config/' + updatedConfigId + '/Drive'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">method GET</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def normalizeData =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-21">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-21" class="collapse collapsable-details">
+        <pre>function(value) {
+  return value.replace(/\s+/g, ' ').trim();  // Replace multiple spaces with one and trim extra spaces
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def compareLists =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-22">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-22" class="collapse collapsable-details">
+        <pre>function(actual, expected) {
+  var sortedActual = actual.split(',').map(normalizeData).sort().join(',');
+  var sortedExpected = expected.split(',').map(normalizeData).sort().join(',');
+  
+  if (sortedActual !== sortedExpected) {
+    karate.log('Comparison failed! Actual:', sortedActual, 'Expected:', sortedExpected);
+  }
+  
+  return sortedActual == sortedExpected;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def actualRecommDrive = response.map(function(x) { return x.Name }).join(', ')</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def normalizedActualRecommDrive = normalizeData(actualRecommDrive)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def normalizedExpectedRecommDrive = normalizeData('No Recomm Drives')</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Normalized Actual RecommDrive:', normalizedActualRecommDrive)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Normalized Expected RecommDrive:', normalizedExpectedRecommDrive)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def isMatch = compareLists(normalizedActualRecommDrive, normalizedExpectedRecommDrive)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">assert isMatch</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def driveIds = response.map(function(y) { return y.Id })</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('All Drive IDs:', driveIds)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def firstDriveId = driveIds[0]</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('First Drive ID:', firstDriveId)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">def payload =</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-23">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-23" class="collapse collapsable-details">
+        <pre>[
+    {&quot;Id&quot;:&quot;configId&quot;,&quot;Header&quot;:&quot;configId&quot;,&quot;Value&quot;:&quot;#(updatedConfigId)&quot;},
+    {&quot;Id&quot;:&quot;driveId&quot;,&quot;Header&quot;:&quot;driveId&quot;,&quot;Value&quot;:&quot;#(firstDriveId)&quot;},
+    {&quot;Id&quot;:&quot;culture&quot;,&quot;Header&quot;:&quot;culture&quot;,&quot;Value&quot;:&quot;EN-US&quot;},
+    {&quot;Id&quot;:&quot;projectId&quot;,&quot;Header&quot;:&quot;projectId&quot;,&quot;Value&quot;:&quot;#(postResponse.projId)&quot;},
+    {&quot;Id&quot;:&quot;range-of-app&quot;,&quot;Header&quot;:&quot;Range of application&quot;,&quot;Value&quot;:&quot;Fa&ccedil;ade&quot;},
+    {&quot;Id&quot;:&quot;opening-type&quot;,&quot;Header&quot;:&quot;Opening type&quot;,&quot;Value&quot;:&quot;Bottom-hung vent&quot;},
+    {&quot;Id&quot;:&quot;opening-direction&quot;,&quot;Header&quot;:&quot;Opening direction&quot;,&quot;Value&quot;:&quot;Inward&quot;},
+    {&quot;Id&quot;:&quot;how-calc-weight&quot;,&quot;Header&quot;:&quot;Vent weight&quot;,&quot;Value&quot;:&quot;Weight including glass&quot;},
+    {&quot;Id&quot;:&quot;Chain-Length&quot;,&quot;Header&quot;:&quot;Chain- / connecting rod handle&quot;,&quot;Value&quot;:&quot;100%&quot;},
+    {&quot;Id&quot;:&quot;drive-position&quot;,&quot;Header&quot;:&quot;Drive position&quot;,&quot;Value&quot;:&quot;Side installation&quot;},
+    {&quot;Id&quot;:&quot;locking-mechanism&quot;,&quot;Header&quot;:&quot;Locking mechanism&quot;,&quot;Value&quot;:&quot;With&quot;},
+    {&quot;Id&quot;:&quot;voltage&quot;,&quot;Header&quot;:&quot;Voltage&quot;,&quot;Value&quot;:&quot;24 V&quot;},
+    {&quot;Id&quot;:&quot;drive-type&quot;,&quot;Header&quot;:&quot;Drive type&quot;,&quot;Value&quot;:&quot;Chain drive&quot;},
+    {&quot;Id&quot;:&quot;type-installation&quot;,&quot;Header&quot;:&quot;Type of installation&quot;,&quot;Value&quot;:&quot;Pivoting Outer Frame Installation&quot;},
+    {&quot;Id&quot;:&quot;calculation-type-for-ventilation-area&quot;,&quot;Header&quot;:&quot;Calculation type for ventilation area&quot;,&quot;Value&quot;:&quot;Method in accordance with ASR 3.6&quot;}
+]</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given skipped">
+  <span class="keyword indention">Given</span>
+  <span class="name">url apiUrl + '/api/Drives/DownloadPDFNew/Schuco'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">request payload</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">method POST</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* skipped">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.log('Download URL for first driveId:', response.result)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+        </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
     </div>
   </div>
 </div>

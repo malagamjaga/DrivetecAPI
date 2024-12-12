@@ -13,6 +13,7 @@
         <maven.compiler.version>3.11.0</maven.compiler.version>
         <maven.surefire.version>3.0.0</maven.surefire.version>
         <karate.version>1.5.0</karate.version>
+        <allure.version>2.29.1</allure.version>
     </properties>    
 
     <dependencies>    
@@ -23,6 +24,7 @@
     <version>5.8.2</version>
 </dependency>
 
+
          
         <dependency>
             <groupId>io.karatelabs</groupId>
@@ -31,6 +33,25 @@
             <scope>test</scope>
         </dependency>
         	
+        <dependency>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-cucumber7-jvm</artifactId>
+        <version>${allure.version}</version>
+        <scope>test</scope>
+    </dependency>
+
+    <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.18.0</version>
+        </dependency>
+
+<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-karate -->
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-karate</artifactId>
+    <version>${allure.version}</version>
+</dependency>
 
     </dependencies>
 
@@ -44,27 +65,29 @@
             </testResource>
         </testResources>
         <plugins>
+             <!-- Maven Surefire Plugin -->
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven.compiler.version}</version>
-                <configuration>
-                    <encoding>UTF-8</encoding>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                </configuration>
-            </plugin>
-              <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven.surefire.version}</version>
                 <configuration>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
                     <systemPropertyVariables>
-                        <karate.options>--plugin json:target/karate-reports/cucumber.json</karate.options>
+                         <!-- Runtime options -->
+                        <karate.options>--tags @Configurations</karate.options>
+                        <resultsDirectory>target/allure-results</resultsDirectory>
+                        <reportDirectory>target/allure-report</reportDirectory>
                     </systemPropertyVariables>
                 </configuration>
-            </plugin> 
+            </plugin>
+
+            <!-- Allure Maven Plugin -->
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.15.2</version>
+            </plugin>
+
         </plugins>        
     </build>       
     

@@ -1,0 +1,162 @@
+# Created at 2024-12-12T12:12:36.492
+Exiting self fork JVM. Received SHUTDOWN command from Maven shutdown hook.
+Thread dump before exiting the process (16564@LAPTOP-161TDLD5):
+"main" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@17.0.12/sun.nio.ch.Net.poll(Native Method)
+        at java.base@17.0.12/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:186)
+        at java.base@17.0.12/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:553)
+        at java.base@17.0.12/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+        at java.base@17.0.12/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+        at java.base@17.0.12/java.net.Socket.connect(Socket.java:633)
+        at app//org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+        at app//org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+        at app//org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+        at app//org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+        at app//org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+        at app//org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+        at app//org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+        at app//org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+        at app//org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+        at app//org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+        at app//com.intuit.karate.http.ApacheHttpClient.invoke(ApacheHttpClient.java:292)
+        at app//com.intuit.karate.core.ScenarioEngine.httpInvokeOnce(ScenarioEngine.java:590)
+        at app//com.intuit.karate.core.ScenarioEngine.httpInvoke(ScenarioEngine.java:560)
+        at app//com.intuit.karate.core.ScenarioEngine.method(ScenarioEngine.java:552)
+        at app//com.intuit.karate.ScenarioActions.method(ScenarioActions.java:248)
+        at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base@17.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base@17.0.12/java.lang.reflect.Method.invoke(Method.java:568)
+        at app//com.intuit.karate.core.StepRuntime.execute(StepRuntime.java:286)
+        at app//com.intuit.karate.core.ScenarioRuntime.execute(ScenarioRuntime.java:448)
+        at app//com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:399)
+        at app//com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:193)
+        at app//com.intuit.karate.core.FeatureRuntime$$Lambda$510/0x0000012f01230eb0.accept(Unknown Source)
+        at java.base@17.0.12/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$175/0x0000012f010715e0.accept(Unknown Source)
+        at java.base@17.0.12/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+        at app//com.intuit.karate.core.ScenarioIterator.tryAdvance(ScenarioIterator.java:162)
+        at java.base@17.0.12/java.util.Spliterator.forEachRemaining(Spliterator.java:332)
+        at java.base@17.0.12/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+        at java.base@17.0.12/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+        at java.base@17.0.12/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+        at java.base@17.0.12/java.util.Spliterators$1Adapter.forEachRemaining(Spliterators.java:706)
+        at app//com.intuit.karate.core.FeatureRuntime.run(FeatureRuntime.java:182)
+        at app//com.intuit.karate.core.ScenarioEngine.callFeature(ScenarioEngine.java:2006)
+        at app//com.intuit.karate.core.ScenarioEngine.call(ScenarioEngine.java:1914)
+        at app//com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:210)
+        at app//com.intuit.karate.core.ScenarioBridge.callSingle(ScenarioBridge.java:158)
+        at java.base@17.0.12/java.lang.invoke.LambdaForm$DMH/0x0000012f01024000.invokeVirtual(LambdaForm$DMH)
+        at java.base@17.0.12/java.lang.invoke.LambdaForm$MH/0x0000012f0143d000.invoke(LambdaForm$MH)
+        at java.base@17.0.12/java.lang.invoke.LambdaForm$MH/0x0000012f0143d400.invokeExact_MT(LambdaForm$MH)
+        at app//com.oracle.truffle.host.HostMethodDesc$SingleMethod$MHBase.invokeHandle(HostMethodDesc.java:371)
+        at app//com.oracle.truffle.host.GuestToHostCodeCache$GuestToHostInvokeHandle.executeImpl(GuestToHostCodeCache.java:88)
+        at app//com.oracle.truffle.host.GuestToHostRootNode.execute(GuestToHostRootNode.java:80)
+        at app//com.oracle.truffle.api.impl.DefaultCallTarget.callDirectOrIndirect(DefaultCallTarget.java:85)
+        at app//com.oracle.truffle.api.impl.DefaultRuntimeAccessor$DefaultRuntimeSupport.callInlined(DefaultRuntimeAccessor.java:179)
+        at app//com.oracle.truffle.host.GuestToHostRootNode.guestToHostCall(GuestToHostRootNode.java:102)
+        at app//com.oracle.truffle.host.HostMethodDesc$SingleMethod$MHBase.invokeGuestToHost(HostMethodDesc.java:407)
+        at app//com.oracle.truffle.host.HostExecuteNode.doInvoke(HostExecuteNode.java:877)
+        at app//com.oracle.truffle.host.HostExecuteNode.doOverloadedCached(HostExecuteNode.java:291)
+        at app//com.oracle.truffle.host.HostExecuteNodeGen$Inlined.executeAndSpecialize(HostExecuteNodeGen.java:506)
+        at app//com.oracle.truffle.host.HostExecuteNodeGen$Inlined.execute(HostExecuteNodeGen.java:363)
+        at app//com.oracle.truffle.host.HostObject.invokeMember(HostObject.java:465)
+        at app//com.oracle.truffle.host.HostObjectGen$InteropLibraryExports$Cached.invokeMemberNode_AndSpecialize(HostObjectGen.java:7156)
+        at app//com.oracle.truffle.host.HostObjectGen$InteropLibraryExports$Cached.invokeMember(HostObjectGen.java:7142)
+        at app//com.oracle.truffle.api.interop.InteropLibrary$Asserts.invokeMember(InteropLibrary.java:3595)
+        at app//com.oracle.truffle.api.interop.InteropLibraryGen$CachedDispatch.invokeMember(InteropLibraryGen.java:8549)
+        at app//com.oracle.truffle.js.nodes.function.JSFunctionCallNode$ForeignInvokeNode.executeCall(JSFunctionCallNode.java:1579)
+        at app//com.oracle.truffle.js.nodes.function.JSFunctionCallNode.executeAndSpecialize(JSFunctionCallNode.java:313)
+        at app//com.oracle.truffle.js.nodes.function.JSFunctionCallNode.executeCall(JSFunctionCallNode.java:258)
+        at app//com.oracle.truffle.js.nodes.function.JSFunctionCallNode$InvokeNode.execute(JSFunctionCallNode.java:746)
+        at app//com.oracle.truffle.js.nodes.access.JSWriteCurrentFrameSlotNodeGen.execute_generic4(JSWriteCurrentFrameSlotNodeGen.java:158)
+        at app//com.oracle.truffle.js.nodes.access.JSWriteCurrentFrameSlotNodeGen.execute(JSWriteCurrentFrameSlotNodeGen.java:76)
+        at app//com.oracle.truffle.js.nodes.access.JSWriteCurrentFrameSlotNodeGen.executeVoid(JSWriteCurrentFrameSlotNodeGen.java:364)
+        at app//com.oracle.truffle.js.nodes.binary.DualNode.execute(DualNode.java:118)
+        at app//com.oracle.truffle.js.nodes.function.FunctionBodyNode.execute(FunctionBodyNode.java:73)
+        at app//com.oracle.truffle.js.nodes.function.FunctionRootNode.executeInRealm(FunctionRootNode.java:156)
+        at app//com.oracle.truffle.js.runtime.JavaScriptRealmBoundaryRootNode.execute(JavaScriptRealmBoundaryRootNode.java:96)
+        at app//com.oracle.truffle.api.impl.DefaultCallTarget.callDirectOrIndirect(DefaultCallTarget.java:85)
+        at app//com.oracle.truffle.api.impl.DefaultDirectCallNode.call(DefaultDirectCallNode.java:59)
+        at app//com.oracle.truffle.js.lang.JavaScriptLanguage$ParsedProgramRoot.execute(JavaScriptLanguage.java:249)
+        at app//com.oracle.truffle.api.impl.DefaultCallTarget.callDirectOrIndirect(DefaultCallTarget.java:85)
+        at app//com.oracle.truffle.api.impl.DefaultCallTarget.call(DefaultCallTarget.java:102)
+        at app//com.oracle.truffle.polyglot.PolyglotContextImpl.eval(PolyglotContextImpl.java:1683)
+        at app//com.oracle.truffle.polyglot.PolyglotContextDispatch.eval(PolyglotContextDispatch.java:60)
+        at app//org.graalvm.polyglot.Context.eval(Context.java:402)
+        at app//org.graalvm.polyglot.Context.eval(Context.java:428)
+        at app//com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+        at app//com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+        at app//com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+        at app//com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2204)
+        at app//com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2123)
+        at app//com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1317)
+        at app//com.intuit.karate.core.ScenarioEngine.assign(ScenarioEngine.java:1347)
+        at app//com.intuit.karate.ScenarioActions.def(ScenarioActions.java:176)
+        at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base@17.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base@17.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base@17.0.12/java.lang.reflect.Method.invoke(Method.java:568)
+        at app//com.intuit.karate.core.StepRuntime.execute(StepRuntime.java:286)
+        at app//com.intuit.karate.core.ScenarioRuntime.execute(ScenarioRuntime.java:448)
+        at app//com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:399)
+        at app//com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:193)
+        at app//com.intuit.karate.core.FeatureRuntime$$Lambda$510/0x0000012f01230eb0.accept(Unknown Source)
+        at java.base@17.0.12/java.util.stream.StreamSpliterators$WrappingSpliterator$$Lambda$175/0x0000012f010715e0.accept(Unknown Source)
+
+"Reference Handler" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@17.0.12/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+        at java.base@17.0.12/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+        at java.base@17.0.12/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+"Finalizer" 
+   java.lang.Thread.State: WAITING
+        at java.base@17.0.12/java.lang.Object.wait(Native Method)
+        at java.base@17.0.12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+        at java.base@17.0.12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+        at java.base@17.0.12/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+"Signal Dispatcher" 
+   java.lang.Thread.State: RUNNABLE
+
+"Attach Listener" 
+   java.lang.Thread.State: RUNNABLE
+
+"Notification Thread" 
+   java.lang.Thread.State: RUNNABLE
+
+"Common-Cleaner" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@17.0.12/java.lang.Object.wait(Native Method)
+        at java.base@17.0.12/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+        at java.base@17.0.12/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+        at java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+        at java.base@17.0.12/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+"surefire-forkedjvm-stream-flusher" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+        at java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+        at java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+        at java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+        at java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+        at java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+        at java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+        at java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+
+"surefire-forkedjvm-command-thread" 
+   java.lang.Thread.State: RUNNABLE
+        at java.management@17.0.12/sun.management.ThreadImpl.getThreadInfo1(Native Method)
+        at java.management@17.0.12/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:197)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.generateThreadDump(ForkedBooter.java:579)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.access$600(ForkedBooter.java:79)
+        at app//org.apache.maven.surefire.booter.ForkedBooter$4.update(ForkedBooter.java:315)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.callListeners(CommandReader.java:357)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.exitByConfiguration(CommandReader.java:367)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:330)
+        at java.base@17.0.12/java.lang.Thread.run(Thread.java:842)
+
+
+

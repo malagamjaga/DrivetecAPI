@@ -120,36 +120,52 @@ And match roundedAgeo == expectedAgeo
 And match roundedRequiredOpeningStroke == expectedRequiredOpeningStroke
 And match roundedVentWeight == expectedVentWeight
 
-# GET request 
+* if (ventWeight > 255) karate.fail('No recommended drives found! Calculation not possible because VentWeight is greater than 255.')
+
+# GET request >> Recomm Drives
 Given url apiUrl + '/Config/' + updatedConfigId + '/Drive'
 When method GET
 Then status 200
 
-# Extract `RecommDrive` values from the API response
-* def actualRecommDrive = response.map(function(x) { return x.Name }).join(', ') 
-
-# Extract expected RecommDrive from the CSV for this iteration
-* def expectedRecommDrive = '<RecommDrive>'
-
-* def normalize = 
+# Function to normalize and clean the data (remove spaces and other invisible characters)
+* def normalizeData = 
 """
 function(value) {
-  return value.replace(/\s*,\s*/g, ',').trim(); // Remove spaces around commas
+  return value.replace(/\s+/g, ' ').trim();  // Replace multiple spaces with one and trim extra spaces
 }
 """
-* def normalizedActualRecommDrive = normalize(actualRecommDrive)
-* def normalizedExpectedRecommDrive = normalize(expectedRecommDrive)
 
-# Assert API `RecommDrive` values match expected values from CSV
-* karate.log('Expected RecommDrive:', expectedRecommDrive)
-* karate.log('Actual RecommDrive:', actualRecommDrive)
+# Function to compare two lists (ignoring spaces and order)
+* def compareLists = 
+"""
+function(actual, expected) {
+  var sortedActual = actual.split(',').map(normalizeData).sort().join(',');
+  var sortedExpected = expected.split(',').map(normalizeData).sort().join(',');
+  
+  if (sortedActual !== sortedExpected) {
+    karate.log('Comparison failed! Actual:', sortedActual, 'Expected:', sortedExpected);
+  }
+  
+  return sortedActual == sortedExpected;
+}
+"""
+
+# Extract actual RecommDrive values
+* def actualRecommDrive = response.map(function(x) { return x.Name }).join(', ') 
+
+# Normalize the actual and expected values
+* def normalizedActualRecommDrive = normalizeData(actualRecommDrive)
+* def normalizedExpectedRecommDrive = normalizeData('<RecommDrive>') 
+
+# Log the normalized values for debugging
 * karate.log('Normalized Actual RecommDrive:', normalizedActualRecommDrive)
 * karate.log('Normalized Expected RecommDrive:', normalizedExpectedRecommDrive)
 
-# * assert normalizedActualRecommDrive == normalizedExpectedRecommDrive
+# Compare the lists (sorted and normalized)
+* def isMatch = compareLists(normalizedActualRecommDrive, normalizedExpectedRecommDrive)
 
- # Handle vent weight 255 above case and recomm validation case --> Ternary logic
- * def result = ventWeight > 255 ? karate.log('No recommended drives found! Calculation not possible!', ventWeight) : karate.match(normalizedActualRecommDrive, normalizedExpectedRecommDrive)
+# Assert the result
+* assert isMatch
 
 * def driveIds = response.map(function(y) { return y.Id })
 * karate.log('All Drive IDs:', driveIds)
@@ -187,6 +203,5 @@ function(value) {
 # Log all download results
 * karate.log('Download URL for first driveId:', response.result)
 
-
 Examples:
-  | read('classpath:drivetecTestCases/features/configurations.csv') |
+  | read('classpath:drivetecTestCases/features/sampleconfigurations.csv') |

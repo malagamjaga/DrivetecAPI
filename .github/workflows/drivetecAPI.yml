@@ -33,14 +33,34 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-maven-
 
-    # Step 4: Install dependencies and run tests with Maven
-    - name: Build and Test with Maven
-      run: mvn test -Dkarate.options="--tags @drivetec"
+    # Step 4: Install Allure Commandline
+    - name: Install Allure Commandline
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y allure
 
-    # Step 5: Upload test results to GitHub Actions
-    - name: Upload Karate Test Report
+    # Step 5: Build and Test with Maven
+    - name: Build and Test with Maven
+      run: mvn clean test -Dkarate.options="--tags @Configurations"
+
+    # Step 6: Generate Allure Report
+    - name: Generate Allure Report
+      run: allure generate target/allure-results --clean -o target/allure-report
+
+    # Step 7: Upload Allure test results as an artifact
+    - name: Upload Allure Report
       uses: actions/upload-artifact@v3
       with:
-        name: karate-test-report
-        path: target/cucumber-html-reports
-        
+        name: allure-test-report
+        path: target/allure-report
+
+    # Step 8: Deploy Allure Report to GitHub Pages
+    - name: Deploy Allure Report to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: target/allure-report
+        publish_branch: gh-pages
+
+    # Step 9: Configure GitHub Pages (Optional)
+    # Ensure that GitHub Pages is configured to serve content from the `gh-pages` branch

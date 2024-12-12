@@ -22,7 +22,9 @@ class TestRunner {
     void testParallel() {
         Results results = Runner.path("classpath:drivetecTestCases")
                 .outputCucumberJson(true)
+                .reportDir("target/allure-results")
                 .parallel(1);
+                
         //assertEquals(0, results.getFailCount(), results.getErrorMessages());
         generateReport(results.getReportDir());
         assertTrue(results.getFailCount() == 0, results.getErrorMessages());
